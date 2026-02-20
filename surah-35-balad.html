@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surah Al-Balad | The City</title>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@300;400;600&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #ffffff; --text-color: #2d3748; --primary-accent: #2b6cb0; 
+            --border-color: #e2e8f0; --tag-bg: #e6fffa; --tag-text: #2c7a7b;
+            --context-color: #d69e2e; --sufi-color: #38a169; --wisdom-color: #805ad5; --plain-color: #718096; 
+        }
+        body { font-family: 'Inter', sans-serif; background: var(--bg-color); color: var(--text-color); margin: 0; padding: 0; line-height: 1.6; }
+        .nav-bar { padding: 1rem 2rem; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; background: white; z-index: 100; box-shadow: 0 2px 4px rgba(0,0,0,0.05); flex-wrap: wrap; gap: 1rem;}
+        .nav-controls { display: flex; gap: 1.5rem; align-items: center; }
+        .nav-link { text-decoration: none; color: var(--primary-accent); font-weight: 600; display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem;}
+        .nav-link:hover { text-decoration: underline; }
+        .home-btn { background: var(--primary-accent); color: white; padding: 0.5rem 1rem; border-radius: 6px; }
+        .home-btn:hover { background: #2c5282; color: white; text-decoration: none; }
+        header { text-align: center; padding: 3rem 1rem 2rem; background: linear-gradient(180deg, #f7fafc 0%, #ffffff 100%); }
+        h1 { font-family: 'Merriweather', serif; font-size: 2.8rem; margin: 0; color: #1a202c; }
+        .meta { color: #718096; text-transform: uppercase; letter-spacing: 2px; font-size: 0.85rem; margin-top: 1rem; font-weight: 700; }
+        .intro-text { max-width: 650px; margin: 1.5rem auto 0; font-style: italic; color: #4a5568; }
+        .container { max-width: 900px; margin: 0 auto; padding: 0 1rem 4rem; }
+        .verse-card { background: white; border: 1px solid var(--border-color); border-radius: 12px; padding: 2rem; margin-bottom: 2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.02); }
+        .verse-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; border-bottom: 1px solid #edf2f7; padding-bottom: 0.8rem; }
+        .verse-number { background: var(--primary-accent); color: white; padding: 0.2rem 0.8rem; border-radius: 20px; font-size: 0.85rem; font-weight: 700; }
+        .arabic { font-family: 'Amiri', serif; font-size: 2.4rem; text-align: right; color: #2d3748; margin-bottom: 1.5rem; line-height: 2.2; }
+        .translation { font-family: 'Merriweather', serif; font-size: 1.2rem; color: #1a202c; margin-bottom: 2rem; border-left: 4px solid var(--primary-accent); padding-left: 1rem; }
+        .insights { display: grid; grid-template-columns: 1fr; gap: 1rem; }
+        .insight-box { background: #fff; padding: 1.2rem; border-radius: 8px; border: 1px solid #e2e8f0; border-left-width: 4px; }
+        .insight-box.plain { border-left-color: var(--plain-color); background: #f7fafc; }
+        .insight-box.context { border-left-color: var(--context-color); }
+        .insight-box.sufi { border-left-color: var(--sufi-color); }
+        .insight-box.hikam { border-left-color: var(--wisdom-color); }
+        .label { display: block; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1.2px; font-weight: 700; margin-bottom: 0.5rem; }
+        .plain .label { color: var(--plain-color); }
+        .context .label { color: var(--context-color); }
+        .sufi .label { color: var(--sufi-color); }
+        .hikam .label { color: var(--wisdom-color); }
+        .content { font-size: 0.95rem; color: #4a5568; }
+        .tags { margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; padding-top: 1rem; border-top: 1px solid #edf2f7; }
+        .tag { background: var(--tag-bg); color: var(--tag-text); padding: 0.2rem 0.7rem; border-radius: 99px; font-size: 0.75rem; font-weight: 600; }
+    </style>
+</head>
+<body>
+
+<div class="nav-bar">
+    <div class="nav-controls">
+        <a href="index.html" class="nav-link home-btn">⌂ Dashboard</a>
+        <a href="surah-34-qaf.html" class="nav-link">← Prev</a>
+        <a href="surah-36-tariq.html" class="nav-link">Next →</a>
+    </div>
+    <span style="font-weight: 600; color: #718096; font-size: 0.9rem;">Mushaf: #90 | Chronological: #35</span>
+</div>
+
+<header>
+    <h1>Surah Al-Balad</h1>
+    <div class="meta">The City • Makkah • 20 Verses</div>
+    <div class="intro-text">
+        The Steep Path of the Soul. A profound psychological dissection of human existence. It establishes that life is inherently a state of exhausting struggle (Kabad). The ego tries to escape this by buying status, but true elevation requires the steep, agonizing climb of radical charity and selfless mercy.
+    </div>
+</header>
+
+<div class="container">
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 1</span></div>
+        <div class="arabic">لَآ أُقْسِمُ بِهَـٰذَا ٱلْبَلَدِ</div>
+        <div class="translation">"I swear by this city, Makkah -"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God swears an undeniable oath by the sacred, highly revered city of Makkah.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">Makkah was the heart of Arabia, universally recognized as a sanctuary of peace where bloodshed was forbidden. God swears by this physical center of gravity to draw attention to the ultimate spiritual center of gravity: the human being living within it.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Prophetic History</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 2</span></div>
+        <div class="arabic">وَأَنتَ حِلٌّۢ بِهَـٰذَا ٱلْبَلَدِ</div>
+        <div class="translation">"And you, [O Muhammad], are free of restriction in this city -"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">And you, O Prophet, are a resident of this city, yet they treat you as if your blood is lawful to spill.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">"Hillun" carries a tragic double meaning. It means "you are a lawful resident here," but it also exposes the hypocrisy of the Quraish: they considered Makkah a holy sanctuary where even hunting an animal was a sin, yet they made it "lawful" (Hillun) to persecute, torture, and attempt to assassinate the Prophet ﷺ.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">A profound lesson in spiritual isolation. The Prophet ﷺ was physically inside his hometown, yet he was a complete stranger and an outcast because his heart belonged to the Heavens. The true seeker will often feel like a foreigner in their own city when their soul awakens to God.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Test</span><span class="tag">Steadfastness</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 3</span></div>
+        <div class="arabic">وَوَالِدٍۢ وَمَا وَلَدَ</div>
+        <div class="translation">"And [by] the father and that which was born [of him],"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">An oath by the parent and the offspring they produce.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">Scholars interpret this as an oath by the Prophet Abraham (the father) and his descendants (the Arabs of Makkah), or Adam and the entirety of human existence. It establishes the biological chain of humanity that populates the "city."</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Human Nature</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 4</span></div>
+        <div class="arabic">لَقَدْ خَلَقْنَا ٱلْإِنسَـٰنَ فِى كَبَدٍ</div>
+        <div class="translation">"We have certainly created man into hardship."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">This is the object of the oaths: God explicitly designed the human condition to be a state of continuous, exhausting struggle and toil.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">"Kabad" means severe, friction-filled struggle. You struggled in the darkness of the womb, you struggle to earn a living, you struggle against illness, and you will struggle in the throes of death. The ego's greatest illusion is the belief that it can achieve a frictionless, perfectly comfortable life in the Dunya. Embrace the struggle; it is the anvil upon which your soul is forged.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"Do not be surprised by the occurrence of sorrows as long as you are in this world, for it only manifests what is strictly in accordance with its nature." Pain is not a glitch in the matrix; it is the operating system. When you stop fighting the reality of "Kabad," you finally find peace within it.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Human Nature</span><span class="tag">Test</span><span class="tag">Steadfastness</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 5</span></div>
+        <div class="arabic">أَيَحْسَبُ أَن لَّن يَقْدِرَ عَلَيْهِ أَحَدٌۭ</div>
+        <div class="translation">"Does he think that never will anyone overcome him?"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Despite this inherent weakness, does the arrogant human actually believe that no one has power over him?</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">This addresses the physical brutes of Quraish (like Abu Al-Ashaddayn, a man famous for his massive strength). They used their physical power to abuse the weak Muslims, completely deluded into thinking their muscles made them invincible against divine judgment.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Arrogance</span><span class="tag">Human Nature</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 6</span></div>
+        <div class="arabic">يَقُولُ أَهْلَكْتُ مَالًۭا لُّبَدًا</div>
+        <div class="translation">"He says, 'I have spent wealth in abundance.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">He boasts, "I have blown through massive piles of cash!"</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The elite would spend huge amounts of money funding wars against the Prophet ﷺ or throwing massive, wasteful feasts just to build their own worldly reputations. Notice the word "Ahlaktu" (I destroyed/wasted). Deep down, the soul knows that spending money strictly for ego is not an investment; it is the literal destruction of wealth.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The ego seeks to escape the "Kabad" (struggle) of life by buying an identity. It believes that liquidating wealth to impress society will fill the void in the heart. But buying applause only buys heavier chains.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Wealth</span><span class="tag">Arrogance</span><span class="tag">Human Nature</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 7</span></div>
+        <div class="arabic">أَيَحْسَبُ أَن لَّمْ يَرَهُۥٓ أَحَدٌ</div>
+        <div class="translation">"Does he think that no one has seen him?"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Does he seriously think that God didn't see the dark intentions hidden behind his "generous" spending?</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">He spent the money specifically *so* that people would see him. But he entirely forgot the only Witness that actually matters. God doesn't just see the coins leaving the hand; He sees the pride infecting the heart.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Accountability</span><span class="tag">The Unseen</span><span class="tag">Attributes of Allah</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 8</span></div>
+        <div class="arabic">أَلَمْ نَجْعَل لَّهُۥ عَيْنَيْنِ</div>
+        <div class="translation">"Have We not made for him two eyes?"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Did We not physically design and give him the two eyes he uses to see the world?</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">God begins listing the biological miracles He installed in the human body for free, contrasting His supreme generosity with the human's arrogant boasting about spending a little money (v. 6).</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Humility</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 9</span></div>
+        <div class="arabic">وَلِسَانًۭا وَشَفَتَيْنِ</div>
+        <div class="translation">"And a tongue and two lips?"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">And did We not grant him the tongue and lips he uses to speak, boast, and articulate his thoughts?</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">You use the tongue God manufactured to articulate your denial of God. The very instrument of your rebellion is a loan from the King. Lips are also the gates of the mouth; God gave you two doors to keep your tongue locked away, yet you constantly leave them open to boast.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Spiritual Practice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 10</span></div>
+        <div class="arabic">وَهَدَيْنَـٰهُ ٱلنَّجْدَيْنِ</div>
+        <div class="translation">"And have shown him the two ways?"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">And did We not clearly point out to him the two distinct paths of life: the path of good and the path of evil?</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"Najdayn" refers to two elevated, highly visible roads. God did not hide the truth in obscurity. The path of salvation and the path of destruction are both brightly lit. The failure of the human is not a lack of vision (he has two eyes); it is a lack of willpower.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Free Will</span><span class="tag">Knowledge & Signs</span><span class="tag">Human Nature</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 11</span></div>
+        <div class="arabic">فَلَا ٱقْتَحَمَ ٱلْعَقَبَةَ</div>
+        <div class="translation">"But he has not broken through the difficult pass."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Yet, despite all his boasting and wealth, he completely failed to aggressively push through the steep, uphill obstacle to achieve true goodness.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">"Iqtahama" is a violent, aggressive word. It means to throw yourself into a brutal, terrifying obstacle. True religion is not a casual, comfortable hobby. Overcoming the greed of the ego (the Aqabah) requires a violent, breathless, internal struggle against your own selfishness.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Spiritual Practice</span><span class="tag">Test</span><span class="tag">Human Nature</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 12</span></div>
+        <div class="arabic">وَمَآ أَدْرَىٰكَ مَا ٱلْعَقَبَةُ</div>
+        <div class="translation">"And what can make you know what is [breaking through] the difficult pass?"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">And what will make you realize the magnitude of what this uphill climb actually requires?</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The pagan elite thought "success" was funding tribal wars. God shatters their paradigm. The true mountain you must climb is not on a battlefield of swords; it is on the battlefield of sociology and economics.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Social Ethics</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 13</span></div>
+        <div class="arabic">فَكُّ رَقَبَةٍ</div>
+        <div class="translation">"It is the freeing of a slave,"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The steep climb is taking your beloved wealth and using it to buy a human being's freedom from slavery.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">Slavery was the economic engine of the ancient world. Slaves were intensely expensive. To "free a neck" (Fakku Raqabah) meant spending massive capital with zero return on investment, simply to grant dignity to another human. It was the ultimate blow to capitalist greed.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">You cannot break the chains of your own ego until you spend your wealth to break the chains off another human being. Liberation is reciprocal.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Social Ethics</span><span class="tag">Wealth</span><span class="tag">Charity</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 14</span></div>
+        <div class="arabic">أَوْ إِطْعَامٌۭ فِى يَوْمٍۢ ذِى مَسْغَبَةٍۢ</div>
+        <div class="translation">"Or feeding on a day of severe hunger,"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Or giving away your food during a time of famine and severe economic depression, when you yourself are terrified of starving.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">It is easy to give away surplus food when your fridge is full. The "Steep Path" (Aqabah) is feeding someone else when the economy has collapsed (Masghabah) and your own Nafs is screaming in panic, "Save it for yourself!" True charity only begins when it hurts to give.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Charity</span><span class="tag">Test</span><span class="tag">Social Ethics</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 15</span></div>
+        <div class="arabic">يَتِيمًۭا ذَا مَقْرَبَةٍ</div>
+        <div class="translation">"An orphan of near relationship,"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Specifically, using that food to feed a vulnerable orphan who is also a close relative.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">Islam radically prioritizes the structure of charity. It is a tragedy when people donate thousands to distant international charities for the ego boost, while ignoring their own orphaned nephews and nieces struggling in silence. Fix your immediate radius first.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Charity</span><span class="tag">Social Ethics</span><span class="tag">Commands</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 16</span></div>
+        <div class="arabic">أَوْ مِسْكِينًۭا ذَا مَتْرَبَةٍۢ</div>
+        <div class="translation">"Or a needy person in misery"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Or lifting up a destitute, homeless person whose extreme poverty has literally left them covered in the dirt of the street.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"Dha Matrabah" means "clinging to the dust." The elite boast about their gold (v. 6), refusing to look at the man in the dust. The irony of the arrogant ego is that it refuses to touch the man in the dust, completely forgetting that its own origin (v. 3-4) and its own grave are made of that exact same dust.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Social Ethics</span><span class="tag">Charity</span><span class="tag">Humility</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 17</span></div>
+        <div class="arabic">ثُمَّ كَانَ مِنَ ٱلَّذِينَ ءَامَنُوا۟ وَتَوَاصَوْا۟ بِٱلصَّبْرِ وَتَوَاصَوْا۟ بِٱلْمَرْحَمَةِ</div>
+        <div class="translation">"And then being among those who believed and advised one another to patience and advised one another to compassion."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">And alongside all these social actions, he must have pure faith in God, and constantly advise his community to hold on to patience and spread deep mercy.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">Action without faith is empty humanitarianism; faith without action is religious hypocrisy. You must have both. Furthermore, you cannot survive the "Steep Path" alone. "Tawasaw" means a mutual, continuous exchange of encouragement. You must build a community that injects patience into your spine and mercy into your heart when the climb exhausts you.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Spiritual Practice</span><span class="tag">Social Ethics</span><span class="tag">Steadfastness</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 18</span></div>
+        <div class="arabic">أُو۟لَـٰٓئِكَ أَصْحَـٰبُ ٱلْمَيْمَنَةِ</div>
+        <div class="translation">"Those are the companions of the right."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The people who embrace the struggle, free the slaves, and feed the poor will be the Companions of the Right Hand (the Blessed).</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">They gave up the "comfort" of their wealth in the Dunya, so God grants them the ultimate, eternal comfort of Paradise. The right hand signifies success, honor, and receiving the book of deeds with joy.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Hope</span><span class="tag">Jannah</span><span class="tag">Accountability</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 19</span></div>
+        <div class="arabic">وَٱلَّذِينَ كَفَرُوا۟ بِـَٔايَـٰتِنَا هُمْ أَصْحَـٰبُ ٱلْمَشْـَٔمَةِ</div>
+        <div class="translation">"But they who disbelieved in Our signs - those are the companions of the left."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Conversely, those who arrogantly rejected Our signs and avoided the steep path of charity are the wretched Companions of the Left Hand.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">"Mash'amah" is associated with the left side, which in ancient Arab culture symbolized disaster, bad omens, and utter ruin. They chose the "easy" path of greed, which inevitably terminates at the cliff of disaster.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Warning</span><span class="tag">Punishment</span><span class="tag">Accountability</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 20</span></div>
+        <div class="arabic">عَلَيْهِمْ نَارٌۭ مُّؤْصَدَةٌۢ</div>
+        <div class="translation">"Over them will be fire closed in."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Upon them will be a blazing Fire, locked tight and sealed shut over them like a vault.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">They "sealed" their wallets (v. 6) and closed the doors of their hearts to the starving orphan and the man in the dust (v. 14-16). Divine Justice is a perfect mirror: because they sealed off their mercy in the Dunya, God seals the doors of the Fire over them, cutting them off from His Mercy in the Akhirah.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Hell</span><span class="tag">Divine Justice</span><span class="tag">Punishment</span></div>
+    </div>
+
+</div>
+
+</body>
+</html>
