@@ -1,0 +1,767 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surah An-Najm | The Star</title>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@300;400;600&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #ffffff; --text-color: #2d3748; --primary-accent: #2b6cb0; 
+            --border-color: #e2e8f0; --tag-bg: #e6fffa; --tag-text: #2c7a7b;
+            --context-color: #d69e2e; --sufi-color: #38a169; --wisdom-color: #805ad5; --plain-color: #718096; 
+        }
+        body { font-family: 'Inter', sans-serif; background: var(--bg-color); color: var(--text-color); margin: 0; padding: 0; line-height: 1.6; }
+        
+        .nav-bar { padding: 1rem 2rem; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; background: white; z-index: 100; box-shadow: 0 2px 4px rgba(0,0,0,0.05); flex-wrap: wrap; gap: 1rem;}
+        .nav-controls { display: flex; gap: 1.5rem; align-items: center; }
+        .nav-link { text-decoration: none; color: var(--primary-accent); font-weight: 600; display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem;}
+        .nav-link:hover { text-decoration: underline; }
+        .home-btn { background: var(--primary-accent); color: white; padding: 0.5rem 1rem; border-radius: 6px; }
+        .home-btn:hover { background: #2c5282; color: white; text-decoration: none; }
+
+        header { text-align: center; padding: 3rem 1rem 2rem; background: linear-gradient(180deg, #f7fafc 0%, #ffffff 100%); }
+        h1 { font-family: 'Merriweather', serif; font-size: 2.8rem; margin: 0; color: #1a202c; }
+        .meta { color: #718096; text-transform: uppercase; letter-spacing: 2px; font-size: 0.85rem; margin-top: 1rem; font-weight: 700; }
+        .intro-text { max-width: 650px; margin: 1.5rem auto 0; font-style: italic; color: #4a5568; }
+        .container { max-width: 900px; margin: 0 auto; padding: 0 1rem 4rem; }
+        .verse-card { background: white; border: 1px solid var(--border-color); border-radius: 12px; padding: 2rem; margin-bottom: 2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.02); }
+        .verse-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; border-bottom: 1px solid #edf2f7; padding-bottom: 0.8rem; }
+        .verse-number { background: var(--primary-accent); color: white; padding: 0.2rem 0.8rem; border-radius: 20px; font-size: 0.85rem; font-weight: 700; }
+        .arabic { font-family: 'Amiri', serif; font-size: 2.4rem; text-align: right; color: #2d3748; margin-bottom: 1.5rem; line-height: 2.2; }
+        .translation { font-family: 'Merriweather', serif; font-size: 1.2rem; color: #1a202c; margin-bottom: 2rem; border-left: 4px solid var(--primary-accent); padding-left: 1rem; }
+        .insights { display: grid; grid-template-columns: 1fr; gap: 1rem; }
+        .insight-box { background: #fff; padding: 1.2rem; border-radius: 8px; border: 1px solid #e2e8f0; border-left-width: 4px; }
+        .insight-box.plain { border-left-color: var(--plain-color); background: #f7fafc; }
+        .insight-box.context { border-left-color: var(--context-color); }
+        .insight-box.sufi { border-left-color: var(--sufi-color); }
+        .insight-box.hikam { border-left-color: var(--wisdom-color); }
+        .label { display: block; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1.2px; font-weight: 700; margin-bottom: 0.5rem; }
+        .plain .label { color: var(--plain-color); }
+        .context .label { color: var(--context-color); }
+        .sufi .label { color: var(--sufi-color); }
+        .hikam .label { color: var(--wisdom-color); }
+        .content { font-size: 0.95rem; color: #4a5568; }
+        .tags { margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; padding-top: 1rem; border-top: 1px solid #edf2f7; }
+        .tag { background: var(--tag-bg); color: var(--tag-text); padding: 0.2rem 0.7rem; border-radius: 99px; font-size: 0.75rem; font-weight: 600; }
+    </style>
+</head>
+<body>
+
+<div class="nav-bar">
+    <div class="nav-controls">
+        <a href="index.html" class="nav-link home-btn">⌂ Dashboard</a>
+        <a href="surah-22-ikhlas.html" class="nav-link">← Prev</a>
+        <a href="surah-24-abasa.html" class="nav-link">Next →</a>
+    </div>
+    <span style="font-weight: 600; color: #718096; font-size: 0.9rem;">Mushaf: #53 | Chronological: #23</span>
+</div>
+
+<header>
+    <h1>Surah An-Najm</h1>
+    <div class="meta">The Star • Makkah • 62 Verses</div>
+    <div class="intro-text">
+        The Zenith of Revelation. This is the first Surah the Prophet ﷺ recited openly at the Kaaba. It vividly details his breathtaking encounter with Jibreel and his ascension to the boundary of the cosmos, defending his sanity and the absolute purity of the revelation.
+    </div>
+</header>
+
+<div class="container">
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 1</span></div>
+        <div class="arabic">وَٱلنَّجْمِ إِذَا هَوَىٰ</div>
+        <div class="translation">"By the star when it descends,"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">An oath sworn by the star as it sets or falls through the sky.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">Arabs relied heavily on stars for navigation in the featureless desert. Allah swears by the cosmic guides to introduce the ultimate human guide. Some scholars say "An-Najm" specifically refers to the Pleiades cluster, while others say it refers to the Quran itself, which descended in parts ("Nujum").</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The "star" represents the human intellect. Just as the stars must set and fade when the sun rises, human logic and ego must "descend" and submit when the sun of Divine Revelation appears.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Attributes of Allah</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 2</span></div>
+        <div class="arabic">مَا ضَلَّ صَاحِبُكُمْ وَمَا غَوَىٰ</div>
+        <div class="translation">"Your companion has not strayed, nor has he erred,"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Muhammad has not lost his way in ignorance, nor has he purposely chosen a wrong path.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">Allah deliberately uses the word "Sahibukum" (Your companion). He is reminding the Quraish: "You have known him his entire life. He grew up among you as the Trustworthy one. He is your close companion; how can you suddenly call him a madman?"</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">There are two ways to fail: "Dalal" (straying out of ignorance) and "Ghawa" (knowing the truth but acting upon desire). The Prophet ﷺ is declared absolutely pure of both intellectual error and moral corruption. He is the perfect vessel.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Knowledge & Signs</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 3</span></div>
+        <div class="arabic">وَمَا يَنطِقُ عَنِ ٱلْهَوَىٰٓ</div>
+        <div class="translation">"Nor does he speak from [his own] inclination."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">When he speaks about the religion, he is not speaking out of his own ego, desire, or imagination.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">To speak from "Hawa" (desire) is the disease of the Nafs. Because the Prophet's heart was entirely emptied of worldly desire, his tongue became a pure, unpolluted instrument for the Divine Will.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Spiritual Practice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 4</span></div>
+        <div class="arabic">إِنْ هُوَ إِلَّا وَحْىٌۭ يُوحَىٰ</div>
+        <div class="translation">"It is not but a revelation revealed,"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Everything he recites to you is strictly divine inspiration sent down directly to him from God.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">This verse elevates the Sunnah (the Prophet's teachings and actions) alongside the Quran, as both are rooted in divine guidance, utterly severing the Quraish's claim that he was making it up to gain political power.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Knowledge & Signs</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 5</span></div>
+        <div class="arabic">عَلَّمَهُۥ شَدِيدُ ٱلْقُوَىٰ</div>
+        <div class="translation">"Taught to him by one intense in strength -"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">He was taught this Quran by an immensely powerful angel (Jibreel).</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The pagans claimed a human blacksmith or a devil was teaching him. Allah clarifies his teacher is Jibreel (Gabriel), the chief of angels, who possesses such physical and spiritual strength that he overturned entire cities (like Sodom) with the tip of his wing.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Knowledge & Signs</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 6</span></div>
+        <div class="arabic">ذُو مِرَّةٍۢ فَٱسْتَوَىٰ</div>
+        <div class="translation">"One of soundness. And he rose to [his] true form"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">An angel possessing stunning physical beauty and perfection. And he appeared to the Prophet in his true, majestic angelic form.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">Normally, Jibreel appeared to the Prophet ﷺ in the form of a human man. But twice in his life, the Prophet ﷺ saw Jibreel in his actual, un-veiled angelic form. This was the first time, early in the revelation.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Prophetic History</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 7</span></div>
+        <div class="arabic">وَهُوَ بِٱلْأُفُقِ ٱلْأَعْلَىٰ</div>
+        <div class="translation">"While he was in the higher horizon."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Jibreel appeared filling the highest part of the sky.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The Prophet ﷺ looked up and saw Jibreel sitting on a throne between the heaven and the earth, with 600 wings, so massive that his form blocked out the entire horizon from the east to the west. The sheer magnitude of this sight caused the Prophet ﷺ to fall to the ground.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Prophetic History</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 8</span></div>
+        <div class="arabic">ثُمَّ دَنَا فَتَدَلَّىٰ</div>
+        <div class="translation">"Then he approached and descended"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Then the angel drew very close, coming down toward the Prophet.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The physical closeness mirrors spiritual intimacy. The Divine realm does not leave the seeker stranded; when the seeker's heart is ready, the realm of the Unseen actively descends and draws near to comfort and instruct them.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Spiritual Practice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 9</span></div>
+        <div class="arabic">فَكَانَ قَابَ قَوْسَيْنِ أَوْ أَدْنَىٰ</div>
+        <div class="translation">"And was at a distance of two bow lengths or nearer."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">He came so intimately close that they were only a few feet apart (the length of two bows), or even closer.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">In ancient Arab culture, when two leaders made an unbreakable covenant, they would place their two bows together, overlapping them to signify that they were now one force. The distance signifies unparalleled spiritual intimacy and transmission.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">Proximity to the Divine (Qurb) is not measured in physical miles, but in the lifting of veils. The Prophet ﷺ reached a station of nearness that no other human or angel has ever achieved.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">The Unseen</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 10</span></div>
+        <div class="arabic">فَأَوْحَىٰٓ إِلَىٰ عَبْدِهِۦ مَآ أَوْحَىٰ</div>
+        <div class="translation">"And he revealed to His Servant what he revealed."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">And God (through Jibreel) revealed to His servant massive, profound truths.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">Notice Allah calls him "His Servant" ('Abdihi) at the peak of his spiritual ascension. The highest rank a human can achieve is not mastery, but perfect, total servitude to the Creator. The intentional ambiguity ("what he revealed") highlights that some spiritual secrets are too immense for human language to contain.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Humility</span><span class="tag">The Unseen</span><span class="tag">Knowledge & Signs</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 11</span></div>
+        <div class="arabic">مَا كَذَبَ ٱلْفُؤَادُ مَا رَأَىٰٓ</div>
+        <div class="translation">"The heart did not lie [about] what it saw."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The Prophet's heart fully processed and validated what his physical eyes were seeing; it was not a hallucination.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">The physical eye can be tricked by mirages, but the spiritual heart (Fu'ad) recognizes the Truth instantly. His internal state of purity perfectly aligned with the external manifestation of the angel.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Human Nature</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 12</span></div>
+        <div class="arabic">أَفَتُمَـٰرُونَهُۥ عَلَىٰ مَا يَرَىٰ</div>
+        <div class="translation">"So will you dispute with him over what he saw?"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">How can you arrogant people argue with him about a reality he witnessed with his own eyes?</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The Quraish, who had never seen an angel, sat in their comfortable homes trying to debate the physics of revelation. Allah dismisses their debate: you cannot debate a man's direct, witnessed experience using your blind theories.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Arrogance</span><span class="tag">Knowledge & Signs</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 13</span></div>
+        <div class="arabic">وَلَقَدْ رَءَاهُ نَزْلَةً أُخْرَىٰ</div>
+        <div class="translation">"And he certainly saw him in another descent"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">And the Prophet ﷺ actually saw Jibreel in his true angelic form a second time.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The first sighting was on Earth at the horizon. This second sighting occurred during the miraculous Night Journey (Al-Mi'raj), when the Prophet ﷺ was taken physically up through the seven heavens.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Prophetic History</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 14</span></div>
+        <div class="arabic">عِندَ سِدْرَةِ ٱلْمُنتَهَىٰ</div>
+        <div class="translation">"At the Lote Tree of the Utmost Boundary -"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">He saw him at the Sidrat al-Muntaha, a massive tree marking the absolute edge of the cosmos.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">This tree is in the 7th heaven. It is called the "Utmost Boundary" because whatever comes up from the earth stops here, and whatever comes down from God stops here before being distributed. No angel or prophet had ever passed this boundary—until Muhammad ﷺ.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">There is a limit to created intellect. The Lote Tree represents the boundary where science, logic, and angelic knowledge completely halt. Beyond it is the realm of the pure Essence of God, accessible only through Divine invitation.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Prophetic History</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 15</span></div>
+        <div class="arabic">عِندَهَا جَنَّةُ ٱلْمَأْوَىٰٓ</div>
+        <div class="translation">"Near it is the Garden of Refuge -"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Right next to this boundary tree is Jannah, the eternal Paradise.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">It is called the Garden of "Refuge" because it is the final, secure resting place for the souls of the righteous martyrs and believers. The Prophet ﷺ saw the literal location of our future home.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Jannah</span><span class="tag">The Unseen</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 16</span></div>
+        <div class="arabic">إِذْ يَغْشَى ٱلسِّدْرَةَ مَا يَغْشَىٰ</div>
+        <div class="translation">"When there covered the Lote Tree that which covered [it]."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">When the Tree was enveloped by something incredibly magnificent and indescribable.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The Prophet ﷺ described the tree being covered in colors he had never seen before, golden moths, and the overwhelming Light of God. It was so breathtakingly beautiful that human vocabulary fails, so Allah simply calls it "that which covered it."</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Attributes of Allah</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 17</span></div>
+        <div class="arabic">مَا زَاغَ ٱلْبَصَرُ وَمَا طَغَىٰ</div>
+        <div class="translation">"The sight [of the Prophet] did not swerve, nor did it transgress [its limit]."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Despite all these mind-bending sights, the Prophet's eyes did not dart around in distraction, nor did he stare inappropriately.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">This highlights the supreme Adab (spiritual etiquette) of the Prophet ﷺ. If we saw Paradise, our eyes would wildly scan the treasures. But the Prophet ﷺ was so focused on the Creator that he was entirely undistracted by the glittering creation surrounding him. He kept his eyes lowered in awe.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"Do not let the beauty of the gifts distract you from the Giver." The perfection of the Prophet's state is that he was in the presence of the ultimate cosmic wonders, yet his heart remained fixed solely on the Lord of the wonders.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Humility</span><span class="tag">Spiritual Practice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 18</span></div>
+        <div class="arabic">لَقَدْ رَأَىٰ مِنْ ءَايَـٰتِ رَبِّهِ ٱلْكُبْرَىٰٓ</div>
+        <div class="translation">"He certainly saw of the greatest signs of his Lord."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">On that journey, he witnessed the absolute greatest, most massive miracles of God's dominion.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">He saw Jibreel, the Tree, Heaven, Hell, and the vastness of the Unseen. This fortified his heart with such absolute certainty that when he returned to Makkah to face torture, the threats of the Quraish meant nothing to him.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Knowledge & Signs</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 19</span></div>
+        <div class="arabic">أَفَرَءَيْتُمُ ٱللَّـٰتَ وَٱلْعُزَّىٰ</div>
+        <div class="translation">"So have you considered al-Lat and al-'Uzza?"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Allah violently shifts the scene: After hearing of the majesty of the cosmos, look at your pathetic stone idols, Al-Lat and Al-Uzza.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">These were the highest, most venerated idols of the Arabs. Al-Lat was in Ta'if, and Al-Uzza (meaning "The Mighty") was a sacred tree near Makkah. The contrast is intended to be deeply humiliating: Muhammad saw the boundary of the universe, and you worship a rock you carved yesterday.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Arrogance</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 20</span></div>
+        <div class="arabic">وَمَنَوٰةَ ٱلثَّالِثَةَ ٱلْأُخْرَىٰ</div>
+        <div class="translation">"And Manat, the third - the other one?"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">And what about Manat, the third, lesser idol you worship?</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">Manat was worshipped by the tribes of Madinah (Aws and Khazraj) as the goddess of fate/destiny. Allah lists their "holy trinity" of idols to strip them of their perceived divinity.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 21</span></div>
+        <div class="arabic">أَلَكُمُ ٱلذَّكَرُ وَلَهُ ٱلْأُنثَىٰ</div>
+        <div class="translation">"Is the male for you and for Him the female?"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Allah points out their hypocrisy: You claim these female idols are the "daughters of God," while you yourselves hate having daughters and only want sons.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The pagan Arabs practiced female infanticide because they viewed daughters as a disgrace, yet they assigned "daughters" to the Creator. Allah uses their own toxic cultural logic against them to show the absurdity of their theology.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Human Nature</span><span class="tag">Arrogance</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 22</span></div>
+        <div class="arabic">تِلْكَ إِذًۭا قِسْمَةٌ ضِيزَىٰٓ</div>
+        <div class="translation">"That, then, is an unjust division."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">If you give yourselves what you prefer (sons) and give God what you despise (daughters), that is a horribly crooked and unfair distribution!</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">The ego always keeps the best for itself and offers the leftovers to God. You give your prime youth to building wealth, and your exhausted old age to prayer. This is the "unjust division" of the modern soul.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Human Nature</span><span class="tag">Divine Justice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 23</span></div>
+        <div class="arabic">إِنْ هِىَ إِلَّآ أَسْمَآءٌۭ سَمَّيْتُمُوهَآ أَنتُمْ وَءَابَآؤُكُم مَّآ أَنزَلَ ٱللَّهُ بِهَا مِن سُلْطَـٰنٍ ۚ إِن يَتَّبِعُونَ إِلَّا ٱلظَّنَّ وَمَا تَهْوَى ٱلْأَنفُسُ ۖ وَلَقَدْ جَآءَهُم مِّن رَّبِّهِمُ ٱلْهُدَىٰٓ</div>
+        <div class="translation">"They are not but [mere] names you have named them - you and your forefathers - for which Allah has sent down no authority. They follow not except assumption and what [their] souls desire, and there has already come to them from their Lord guidance."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">These idols are completely fake. You and your ancestors just invented names for rocks. You have zero proof. You are just blindly following rumors and what your egos desire, even though clear guidance has arrived.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">We all build modern "idols" (fame, money, career) and invent prestigious names for them ("Success", "Security"). But they have no true authority or power over our souls. Following these societal illusions is just chasing shadows born of the ego's desire.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Human Nature</span><span class="tag">Arrogance</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 24</span></div>
+        <div class="arabic">أَمْ لِلْإِنسَـٰنِ مَا تَمَنَّىٰ</div>
+        <div class="translation">"Or is there for man whatever he wishes?"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Does the human being think he will automatically get whatever his heart desires and fantasizes about?</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"Relieve yourself of the burden of management." The ego believes the universe exists to fulfill its wish-list. True peace comes when you realize the world operates on His decree, not your wishes.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Human Nature</span><span class="tag">Humility</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 25</span></div>
+        <div class="arabic">فَلِلَّهِ ٱلْءَاخِرَةُ وَٱلْأُولَىٰ</div>
+        <div class="translation">"Rather, to Allah belongs the Hereafter and the first [life]."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">No, your wishes don't run the world. Allah completely owns both the Next Life and this current life.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">If you want something in this life (Al-Ula) or the next (Al-Akhirah), you must ask the Owner. Do not beg the idols of the world for what only the King of the worlds possesses.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">The Unseen</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 26</span></div>
+        <div class="arabic">۞ وَكَم مِّن مَّلَكٍۢ فِى ٱلسَّمَـٰوَٰتِ لَا تُغْنِى شَفَـٰعَتُهُمْ شَيْـًٔا إِلَّا مِنۢ بَعْدِ أَن يَأْذَنَ ٱللَّهُ لِمَن يَشَآءُ وَيَرْضَىٰ</div>
+        <div class="translation">"And how many angels there are in the heavens whose intercession will not avail at all except [only] after Allah has permitted [it] to whom He wills and approves."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Even the massive, pure angels in heaven cannot intercede or save anyone unless Allah specifically gives them permission and is pleased with the person being saved.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The pagans argued, "We worship the idols so they can intercede for us with God." Allah destroys this: If the actual, powerful angels in heaven cannot intercede without My permission, how could your helpless stones do it?</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Divine Justice</span><span class="tag">Attributes of Allah</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 27</span></div>
+        <div class="arabic">إِنَّ ٱلَّذِينَ لَا يُؤْمِنُونَ بِٱلْءَاخِرَةِ لَيُسَمُّونَ ٱلْمَلَـٰٓئِكَةَ تَسْمِيَةَ ٱلْأُنثَىٰ</div>
+        <div class="translation">"Indeed, those who do not believe in the Hereafter name the angels female names,"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Those who reject the Day of Judgment are the ones disrespectfully labeling the angels as females (daughters of God).</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">When the heart loses fear of accountability (the Hereafter), the tongue becomes bold and speaks carelessly about divine realities it doesn't understand.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Accountability</span><span class="tag">Arrogance</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 28</span></div>
+        <div class="arabic">وَمَا لَهُم بِهِۦ مِنْ عِلْمٍ ۖ إِن يَتَّبِعُونَ إِلَّا ٱلظَّنَّ ۖ وَإِنَّ ٱلظَّنَّ لَا يُغْنِى مِنَ ٱلْحَقِّ شَيْـًٔا</div>
+        <div class="translation">"And they have thereof no knowledge. They follow not except assumption, and indeed, assumption avails not against the truth at all."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">They have absolutely no proof for this. They are just guessing and assuming. And guessing is completely useless when compared to objective Truth.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">Faith must be built on the rock of certainty (Yaqeen), not the shifting sands of assumption (Zann). The ego loves assumption because it can mold it; Truth is heavy because it demands submission.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Human Nature</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 29</span></div>
+        <div class="arabic">فَأَعْرِضْ عَن مَّن تَوَلَّىٰ عَن ذِكْرِنَا وَلَمْ يُرِدْ إِلَّا ٱلْحَيَوٰةَ ٱلدُّنْيَا</div>
+        <div class="translation">"So turn away from whoever turns his back on Our message and desires not except the worldly life."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Therefore, ignore and walk away from anyone who rejects Our reminder and only cares about this temporary world.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The Prophet ﷺ felt deep sorrow when his people rejected him. Allah commands him: Protect your own peace. If someone's entire existence is limited to eating, drinking, and acquiring wealth (the Dunya), debating them is a waste of your spiritual energy.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">A critical rule for the seeker: You absorb the energy of your company. If you associate closely with those who are obsessed with the Dunya, their obsession will infect your heart. "Turn away" is an act of spiritual self-preservation.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Commands</span><span class="tag">Spiritual Practice</span><span class="tag">Human Nature</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 30</span></div>
+        <div class="arabic">ذَٰلِكَ مَبْلَغُهُم مِّنَ ٱلْعِلْمِ ۚ إِنَّ رَبَّكَ هُوَ أَعْلَمُ بِمَن ضَلَّ عَن سَبِيلِهِۦ وَهُوَ أَعْلَمُ بِمَنِ ٱهْتَدَىٰ</div>
+        <div class="translation">"That is their sum of knowledge. Indeed, your Lord is most knowing of who strays from His way, and He is most knowing of who is guided."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The Dunya is the absolute limit of their intelligence. God knows exactly who is lost and who is on the right path.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"Do not be impressed by the intellect of a man who builds a palace on earth but neglects his palace in heaven." Their "genius" in business or politics is a shallow intelligence if it terminates at the grave. True intellect (Aql) prepares for the Eternal.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Attributes of Allah</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 31</span></div>
+        <div class="arabic">وَلِلَّهِ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ لِيَجْزِىَ ٱلَّذِينَ أَسَـَٔاو۟ا۟ بِمَا عَمِلُوا۟ وَيَجْزِىَ ٱلَّذِينَ أَحْسَنُوا۟ بِٱلْحُسْنَى</div>
+        <div class="translation">"And to Allah belongs whatever is in the heavens and whatever is in the earth - that He may recompense those who do evil with [the penalty of] what they have done and reward those who do good with the best [reward] -"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God owns everything in existence. His ultimate purpose is justice: punishing the evil-doers for their crimes and rewarding the good-doers with absolute excellence (Paradise).</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The entire cosmos (heavens and earth) is designed as a theater of moral consequence. It is not an accident. Every action is recorded, and the scales will balance perfectly.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">Divine Justice</span><span class="tag">Accountability</span></div>
+    </div>
+
+  <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 32</span></div>
+        <div class="arabic">ٱلَّذِينَ يَجْتَنِبُونَ كَبَـٰٓئِرَ ٱلْإِثْمِ وَٱلْفَوَٰحِشَ إِلَّا ٱللَّمَمَ ۚ إِنَّ رَبَّكَ وَٰسِعُ ٱلْمَغْفِرَةِ ۚ هُوَ أَعْلَمُ بِكُمْ إِذْ أَنشَأَكُم مِّنَ ٱلْأَرْضِ وَإِذْ أَنتُمْ أَجِنَّةٌۭ فِى بُطُونِ أُمَّهَـٰتِكُمْ ۖ فَلَا تُزَكُّوٓا۟ أَنفُسَكُمْ ۖ هُوَ أَعْلَمُ بِمَنِ ٱتَّقَىٰٓ</div>
+        <div class="translation">"Those who avoid the major sins and immoralities, only [committing] slight ones. Indeed, your Lord is vast in forgiveness. He was most knowing of you when He produced you from the earth and when you were fetuses in the wombs of your mothers. So do not claim yourselves to be pure; He is most knowing of who fears Him."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God loves those who strive to avoid major sins and shameful acts, forgiving their minor slips. Do not arrogantly claim you are entirely pure; God has known your flaws since you were formed in the womb.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The Jews of Madinah used to boast about their purity, saying, "Our children die without sin, and we are clean." And some early Muslims praised themselves too highly. Allah forbids self-sanctification (claiming perfection). True piety is known only to God.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The ego loves to be the hero of its own story. "Do not claim yourselves to be pure" is the axe that cuts the root of spiritual pride. The moment you think you have conquered your ego is the moment your ego has conquered you.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"A sin that produces humility is better than an obedience that produces pride." Acknowledging your minor sins (Al-Lamam) invites His vast forgiveness; claiming absolute purity invites His strict justice.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Humility</span><span class="tag">Attributes of Allah</span><span class="tag">Sin</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 33</span></div>
+        <div class="arabic">أَفَرَءَيْتَ ٱلَّذِى تَوَلَّىٰ</div>
+        <div class="translation">"Have you seen he who turned away,"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Have you considered the person who turns his back on the truth after initially listening to it?</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">This specifically refers to Al-Walid bin Al-Mughirah. He had listened to the Prophet ﷺ and almost accepted Islam. But a pagan friend mocked him, saying, "Did you abandon the religion of the elders? Return to our faith, pay me some money, and I will carry your sins for you on Judgment Day!" So Al-Walid turned away from Islam.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">The heart often recognizes the truth, but the fear of social mockery forces it to turn away (Tawalla). The ego prefers the applause of a dying society over the approval of the Eternal God.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Human Nature</span><span class="tag">Prophetic History</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 34</span></div>
+        <div class="arabic">وَأَعْطَىٰ قَلِيلًۭا وَأَكْدَىٰٓ</div>
+        <div class="translation">"And gave a little and [then] refrained?"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">He gave a tiny bit of wealth (to the man who promised to bear his sins) and then became stingy and stopped giving.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">"Akda" literally means to dig a well and suddenly hit solid, impenetrable rock, stopping all progress. Al-Walid gave his friend a fraction of the money he promised, and then his inherent greed hit a "rock," and he refused to pay the rest.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">This describes the conditional worshipper. They give a little effort, perform a few prayers, but the moment the spiritual path requires real sacrifice or deep charity, they hit the bedrock of their ego (Akda) and turn back to their comfort zone.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Human Nature</span><span class="tag">Wealth</span><span class="tag">Spiritual Practice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 35</span></div>
+        <div class="arabic">أَعِندَهُۥ عِلْمُ ٱلْغَيْبِ فَهُوَ يَرَىٰٓ</div>
+        <div class="translation">"Does he have knowledge of the unseen, so he sees?"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Does he actually possess access to the Unseen to guarantee that this man can truly carry his sins on Judgment Day?</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">The ego makes foolish, catastrophic deals based on false security. You cannot purchase salvation from another human being; you must build your reality directly with the Divine. Trading the Hereafter for a verbal promise from a mortal is the height of blindness.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Knowledge & Signs</span><span class="tag">Arrogance</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 36</span></div>
+        <div class="arabic">أَمْ لَمْ يُنَبَّأْ بِمَا فِى صُحُفِ مُوسَىٰ</div>
+        <div class="translation">"Or has he not been informed of what was in the scriptures of Moses"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Has he not heard the ancient, foundational truths revealed long ago to the Prophet Moses?</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The core tenets of individual accountability are not new concepts invented by Muhammad ﷺ; they form the bedrock of all previous Abrahamic revelations. The Arabs respected the ancient prophets, so Allah appeals to that shared history.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Knowledge & Signs</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 37</span></div>
+        <div class="arabic">وَإِبْرَٰهِيمَ ٱلَّذِى وَفَّىٰٓ</div>
+        <div class="translation">"And [of] Abraham, who fulfilled [his obligations] -"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">And the scriptures of Abraham, who perfectly fulfilled every single command God gave him.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">Look at the contrast. Al-Walid "gave a little and stopped" (v. 34). Abraham was commanded to leave his home, jump into a fire, and sacrifice his beloved son, and he completely fulfilled (Waffa) it all without hitting a rock. Total surrender is the path of the Patriarchs.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Steadfastness</span><span class="tag">Spiritual Practice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 38</span></div>
+        <div class="arabic">أَلَّا تَزِرُ وَازِرَةٌۭ وِزْرَ أُخْرَىٰ</div>
+        <div class="translation">"That no bearer of burdens will bear the burden of another"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">This is the ancient law: No soul can carry the sins or the guilt of another soul on Judgment Day.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">Absolute individual accountability destroys the illusion of vicarious atonement. You enter the world alone, you die alone, and you will answer for your own deeds alone. No priest, no friend, and no parent can shoulder your spiritual debt.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Accountability</span><span class="tag">Divine Justice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 39</span></div>
+        <div class="arabic">وَأَن لَّيْسَ لِلْإِنسَـٰنِ إِلَّا مَا سَعَىٰ</div>
+        <div class="translation">"And that there is not for man except that [good] for which he strives"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">A human being will only reap the rewards of what they personally worked, struggled, and sweated for.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">Spiritual ranks are not inherited by bloodlines or bought with cash. They are earned through the sweat of Mujahada (spiritual exertion) in the depths of the night. You cannot outsource your spiritual growth. "Sa'y" implies active, breathless running toward a goal.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Spiritual Practice</span><span class="tag">Accountability</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 40</span></div>
+        <div class="arabic">وَأَنَّ سَعْيَهُۥ سَوْفَ يُرَىٰ</div>
+        <div class="translation">"And that his effort is going to be seen -"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Every single effort and struggle will be made completely visible on the Day of Judgment.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">Nothing is lost to the void. The secret tears shed in repentance, the hidden charities given in the dark, and the silent patience in the face of hardship will be brilliantly displayed for the entire cosmos to witness.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Accountability</span><span class="tag">Hope</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 41</span></div>
+        <div class="arabic">ثُمَّ يُجْزَىٰهُ ٱلْجَزَآءَ ٱلْأَوْفَىٰ</div>
+        <div class="translation">"Then he will be recompensed for it with the fullest recompense"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">After his effort is seen, he will be paid back with the most complete, perfect, and multiplied reward.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">The Dunya rarely gives you the "fullest" return on your investment; effort goes unappreciated and businesses fail. Only the Divine Market guarantees that a single grain of sincere effort yields a mountain of eternal reward.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Divine Justice</span><span class="tag">Hope</span><span class="tag">Jannah</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 42</span></div>
+        <div class="arabic">وَأَنَّ إِلَىٰ رَبِّكَ ٱلْمُنتَهَىٰ</div>
+        <div class="translation">"And that to your Lord is the finality"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">All journeys, all timelines, all causes, and all existence ultimately terminate and return back to your Lord.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">Everything in creation is in a state of transit. If your goal is anything other than the Creator, you will eventually reach a dead end. Make Him your "Muntaha" (ultimate destination) consciously now, before death forces the return involuntarily later.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">The Unseen</span><span class="tag">Spiritual Practice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 43</span></div>
+        <div class="arabic">وَأَنَّهُۥ هُوَ أَضْحَكَ وَأَبْكَىٰ</div>
+        <div class="translation">"And that it is He who makes [one] laugh and weep"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">He is the Creator of human emotion; He decrees the joy that brings laughter and the grief that brings tears.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"Do not despair over a hardship, for He who makes you weep today is the only One who can make you laugh tomorrow." Both expansion (joy) and contraction (sorrow) are ropes He uses to pull you closer to Him. The tears of repentance are the precursors to the laughter of Paradise.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">Human Nature</span><span class="tag">Hope</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 44</span></div>
+        <div class="arabic">وَأَنَّهُۥ هُوَ أَمَاتَ وَأَحْيَا</div>
+        <div class="translation">"And that it is He who causes death and gives life"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">He alone controls the extraction of the soul (death) and the breathing of the soul (life).</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">This strips the idols and worldly kings of any perceived ultimate power. The absolute dread of mankind (death) and the ultimate miracle of existence (life) are entirely monopolized by the One God. You cannot bribe the Angel of Death.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">Knowledge & Signs</span><span class="tag">The Unseen</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 45</span></div>
+        <div class="arabic">وَأَنَّهُۥ خَلَقَ ٱلزَّوْجَيْنِ ٱلذَّكَرَ وَٱلْأُنثَىٰ</div>
+        <div class="translation">"And that He creates the two mates - the male and female -"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">He intricately designed the biological reality of pairs, male and female, across the species.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">Duality (pairs) is the fundamental signature of the creation. Singularity (Ahad) is the fundamental signature of the Creator. Do not seek perfect permanence in the paired creation; seek it in the Unpaired Creator.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Attributes of Allah</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 46</span></div>
+        <div class="arabic">مِن نُّطْفَةٍ إِذَا تُمْنَىٰ</div>
+        <div class="translation">"From a sperm-drop when it is emitted"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">This immensely complex male/female design is engineered from a single, microscopic drop of fluid.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">A profound lesson in humility. The arrogant tyrant walking the earth in silk robes, demanding to be worshipped, was, just years prior, a drop of fluid. How can the drop rebel against the Ocean that formed it?</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Humility</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 47</span></div>
+        <div class="arabic">وَأَنَّ عَلَيْهِ ٱلنَّشْأَةَ ٱلْأُخْرَىٰ</div>
+        <div class="translation">"And that [incumbent] upon Him is the next creation"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Just as He easily created you the first time from a drop, it is His promise and duty to resurrect you a second time from the dust.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The pagans found physical resurrection illogical. Allah points to human embryology to dismantle their logic: He who writes the complex code of a human from a single fluid drop can effortlessly reassemble the code from scattered bones. The second creation is easier than the first.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Knowledge & Signs</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 48</span></div>
+        <div class="arabic">وَأَنَّهُۥ هُوَ أَغْنَىٰ وَأَقْنَىٰ</div>
+        <div class="translation">"And that it is He who enriches and suffices"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">He is the One who gives abundant wealth (Aghna) and He is the One who gives the property that people acquire and hold onto for satisfaction (Aqna).</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">"Aghna" represents external wealth; "Aqna" represents internal contentment. A billionaire without contentment is still desperately poor. Only Allah can give you the gold *and* the psychological satisfaction required to actually enjoy it without anxiety.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">Wealth</span><span class="tag">Human Nature</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 49</span></div>
+        <div class="arabic">وَأَنَّهُۥ هُوَ رَبُّ ٱلشِّعْرَىٰ</div>
+        <div class="translation">"And that it is He who is the Lord of Sirius"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">He is the Creator and Master of Sirius, the brightest star in the night sky.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">Many Arab tribes literally worshipped the star Sirius (Ash-Shi'ra), believing its appearance dictated the rains and their fortunes. Allah shatters this by declaring Himself the "Rabb" (Lord/Master) of the very cosmic body they pray to. Do not worship the creation; worship the Lord of the creation.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Attributes of Allah</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 50</span></div>
+        <div class="arabic">وَأَنَّهُۥٓ أَهْلَكَ عَادًا ٱلْأُولَىٰ</div>
+        <div class="translation">"And that He destroyed the first [people of] 'Aad"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">It was He who completely annihilated the ancient, powerful civilization of 'Aad.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">Power without piety is a countdown to destruction. The 'Aad were physical giants who built lofty pillars, but before the majesty of Divine Justice, they fell like hollow, uprooted palm trunks.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Divine Justice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 51</span></div>
+        <div class="arabic">وَثَمُودَا۟ فَمَآ أَبْقَىٰ</div>
+        <div class="translation">"And Thamud - and He did not spare [them] -"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">And He destroyed the tribe of Thamud, leaving absolutely no survivors of their arrogance.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">They carved impenetrable fortresses into mountains to escape death. But safety is an illusion when the Creator decrees the end. A single sonic blast (a shriek) from the heavens ruptured their hearts inside their "safe" rock homes.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Punishment</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 52</span></div>
+        <div class="arabic">وَقَوْمَ نُوحٍۢ مِّن قَبْلُ ۖ إِنَّهُمْ كَانُوا۟ هُمْ أَظْلَمَ وَأَطْغَىٰ</div>
+        <div class="translation">"And the people of Noah before. Indeed, it was they who were [even] more unjust and oppressing."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">And long before them, He drowned the people of Noah, who were even more intensely cruel and rebellious against the truth.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The flood of Noah is the ultimate cleansing of the earth's ego. When the collective heart of society becomes completely submerged in "Tughyan" (transgression and oppression), only the flood of Divine intervention can purify the land.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Human Nature</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 53</span></div>
+        <div class="arabic">وَٱلْمُؤْتَفِكَةَ أَهْوَىٰ</div>
+        <div class="translation">"And the overturned towns He hurled down"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">And the cities of Sodom (the people of Lot), He lifted up into the sky and violently slammed them upside down.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">Jibreel (the same angel mentioned at the start of the Surah) lifted their cities with the tip of his wing until the angels in heaven could hear their dogs barking, and then flipped them over, burying their immoral legacy forever.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Punishment</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 54</span></div>
+        <div class="arabic">فَغَشَّىٰهَا مَا غَشَّىٰ</div>
+        <div class="translation">"And covered them by that which He covered."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">And then He rained down upon them stones of baked clay, completely covering and erasing them from existence.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">Notice the profound linguistic parallel: In verse 16, the Lote Tree was "covered" by the breathtaking beauty of God's Light. Here, the tyrants are "covered" by the terrifying darkness of God's Wrath. You will inevitably be covered by His decree; you choose which covering you receive through your actions.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Divine Justice</span><span class="tag">The Unseen</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 55</span></div>
+        <div class="arabic">فَبِأَىِّ ءَالَآءِ رَبِّكَ تَتَمَارَىٰ</div>
+        <div class="translation">"Then which of the favors of your Lord do you doubt?"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">With all these historical facts, clear warnings, and current blessings, which of God's powers can you possibly still argue against?</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">Doubt (Mira') is a disease of an intellect that has disconnected from the heart. When the heart witnesses the overwhelming signs (creation, provision, justice), doubt evaporates into certainty. The ego argues; the soul submits.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Human Nature</span><span class="tag">Arrogance</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 56</span></div>
+        <div class="arabic">هَـٰذَا نَذِيرٌۭ مِّنَ ٱلنُّذُرِ ٱلْأُولَىٰٓ</div>
+        <div class="translation">"This [Prophet] is a warner like the former warners."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Muhammad ﷺ is not bringing a strange, new concept; he is a Warner in the exact same lineage as the ancient Prophets.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The Quraish claimed his message of monotheism and resurrection was an unprecedented anomaly. Allah confirms his message is the identical, universal truth preached since the dawn of humanity. The problem is not the message; the problem is their historical amnesia.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Knowledge & Signs</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 57</span></div>
+        <div class="arabic">أَزِفَتِ ٱلْءَازِفَةُ</div>
+        <div class="translation">"The Approaching Day has approached."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The terrifying, imminent Day of Judgment is right at your doorstep.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"Azifa" indicates something moving swiftly and secretly closer. Every breath you take is a physical step pulling the Approaching Day nearer. Time is collapsing, and the opportunity for repentance is slipping through your fingers.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Warning</span><span class="tag">Accountability</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 58</span></div>
+        <div class="arabic">لَيْسَ لَهَا مِن دُونِ ٱللَّهِ كَاشِفَةٌ</div>
+        <div class="translation">"Of it, [from those] besides Allah, there is no remover."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">When this Day strikes, absolutely no one—no idol, no king, no angel—can stop it, delay it, or lift its terror except God.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">If only Allah can remove the ultimate cosmic terror, why do you rely on your boss or your bank account to remove your daily financial terror? Direct your reliance entirely to the true Source of all relief.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">The Unseen</span><span class="tag">Spiritual Practice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 59</span></div>
+        <div class="arabic">أَفَمِنْ هَـٰذَا ٱلْحَدِيثِ تَعْجَبُونَ</div>
+        <div class="translation">"Then at this statement do you marvel?"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Are you still looking at this Quran with arrogant skepticism and dismissive wonder?</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The Quraish would listen to the majestic verses of the Quran and scoff, treating it as an amusing fairy tale or a strange piece of poetry, rather than a life-or-death reality requiring immediate action.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Arrogance</span><span class="tag">Knowledge & Signs</span><span class="tag">Human Nature</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 60</span></div>
+        <div class="arabic">وَتَضْحَكُونَ وَلَا تَبْكُونَ</div>
+        <div class="translation">"And you laugh and do not weep"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">And you mock and laugh at the warnings, instead of weeping over your own impending doom?</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">The Prophet ﷺ said, "If you truly knew what I know, you would laugh little and weep much." Constant, thoughtless laughter is the symptom of a heart anesthetized by the Dunya. Weeping in the night is the symptom of a heart awakened to the Akhirah.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Human Nature</span><span class="tag">Spiritual Practice</span><span class="tag">Warning</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 61</span></div>
+        <div class="arabic">وَأَنتُمْ سَامِدُونَ</div>
+        <div class="translation">"While you are proudly sporting?"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">While you waste your time in idle amusement, singing, and proudly distracting yourselves, completely heedless of the reality crashing down on you?</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">"Samidun" describes a state of arrogant, distracted play. The ego uses entertainment to avoid the terrifying silence of self-reflection. Break the cycle of endless distraction; sit in the silence and face your Lord.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Arrogance</span><span class="tag">Human Nature</span><span class="tag">Test</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 62</span></div>
+        <div class="arabic">فَٱسْجُدُوا۟ لِلَّهِ وَٱعْبُدُوا۟ ۩</div>
+        <div class="translation">"So prostrate to Allah and worship [Him]."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The ultimate command: Fall to the ground in prostration right now, and dedicate your worship entirely to God!</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">This is a physical command (Sajdah of Tilawah). When the Prophet ﷺ reached this verse in the courtyard of the Kaaba, the majesty of the recitation completely overwhelmed the crowd. The Muslims prostrated, and miraculously, the psychological weight of the words forced every single pagan leader in the courtyard to involuntarily fall to their knees and prostrate as well.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">You began the Surah learning about the highest ascension in the cosmos (the Prophet ﷺ at the Lote Tree). You end the Surah with the lowest physical descent (putting your forehead in the dirt). You cannot reach the heights of Divine proximity until you embrace the lowest state of absolute humility.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"The closest a servant is to his Lord is when he is in prostration." The ego stands tall; the soul bows down. True ascension is an internal descent.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Commands</span><span class="tag">Spiritual Practice</span><span class="tag">Humility</span></div>
+    </div>
+
+</div>
+
+</body>
+</html>
