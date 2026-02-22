@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surah Al-Jinn | The Jinn</title>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@300;400;600&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #ffffff; --text-color: #2d3748; --primary-accent: #2b6cb0; 
+            --border-color: #e2e8f0; --tag-bg: #e6fffa; --tag-text: #2c7a7b;
+            --context-color: #d69e2e; --sufi-color: #38a169; --wisdom-color: #805ad5; --plain-color: #718096; 
+        }
+        body { font-family: 'Inter', sans-serif; background: var(--bg-color); color: var(--text-color); margin: 0; padding: 0; line-height: 1.6; }
+        .nav-bar { padding: 1rem 2rem; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; background: white; z-index: 100; box-shadow: 0 2px 4px rgba(0,0,0,0.05); flex-wrap: wrap; gap: 1rem;}
+        .nav-controls { display: flex; gap: 1.5rem; align-items: center; }
+        .nav-link { text-decoration: none; color: var(--primary-accent); font-weight: 600; display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem;}
+        .nav-link:hover { text-decoration: underline; }
+        .home-btn { background: var(--primary-accent); color: white; padding: 0.5rem 1rem; border-radius: 6px; }
+        .home-btn:hover { background: #2c5282; color: white; text-decoration: none; }
+        header { text-align: center; padding: 3rem 1rem 2rem; background: linear-gradient(180deg, #f7fafc 0%, #ffffff 100%); }
+        h1 { font-family: 'Merriweather', serif; font-size: 2.8rem; margin: 0; color: #1a202c; }
+        .meta { color: #718096; text-transform: uppercase; letter-spacing: 2px; font-size: 0.85rem; margin-top: 1rem; font-weight: 700; }
+        .intro-text { max-width: 650px; margin: 1.5rem auto 0; font-style: italic; color: #4a5568; }
+        .container { max-width: 900px; margin: 0 auto; padding: 0 1rem 4rem; }
+        .verse-card { background: white; border: 1px solid var(--border-color); border-radius: 12px; padding: 2rem; margin-bottom: 2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.02); }
+        .verse-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; border-bottom: 1px solid #edf2f7; padding-bottom: 0.8rem; }
+        .verse-number { background: var(--primary-accent); color: white; padding: 0.2rem 0.8rem; border-radius: 20px; font-size: 0.85rem; font-weight: 700; }
+        .arabic { font-family: 'Amiri', serif; font-size: 2.4rem; text-align: right; color: #2d3748; margin-bottom: 1.5rem; line-height: 2.2; }
+        .translation { font-family: 'Merriweather', serif; font-size: 1.2rem; color: #1a202c; margin-bottom: 2rem; border-left: 4px solid var(--primary-accent); padding-left: 1rem; }
+        .insights { display: grid; grid-template-columns: 1fr; gap: 1rem; }
+        .insight-box { background: #fff; padding: 1.2rem; border-radius: 8px; border: 1px solid #e2e8f0; border-left-width: 4px; }
+        .insight-box.plain { border-left-color: var(--plain-color); background: #f7fafc; }
+        .insight-box.context { border-left-color: var(--context-color); }
+        .insight-box.sufi { border-left-color: var(--sufi-color); }
+        .insight-box.hikam { border-left-color: var(--wisdom-color); }
+        .label { display: block; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1.2px; font-weight: 700; margin-bottom: 0.5rem; }
+        .plain .label { color: var(--plain-color); }
+        .context .label { color: var(--context-color); }
+        .sufi .label { color: var(--sufi-color); }
+        .hikam .label { color: var(--wisdom-color); }
+        .content { font-size: 0.95rem; color: #4a5568; }
+        .tags { margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; padding-top: 1rem; border-top: 1px solid #edf2f7; }
+        .tag { background: var(--tag-bg); color: var(--tag-text); padding: 0.2rem 0.7rem; border-radius: 99px; font-size: 0.75rem; font-weight: 600; }
+    </style>
+</head>
+<body>
+
+<div class="nav-bar">
+    <div class="nav-controls">
+        <a href="index.html" class="nav-link home-btn">⌂ Dashboard</a>
+        <a href="surah-39-araf.html" class="nav-link">← Prev</a>
+        <a href="surah-41-yaseen.html" class="nav-link">Next →</a>
+    </div>
+    <span style="font-weight: 600; color: #718096; font-size: 0.9rem;">Mushaf: #72 | Chronological: #40</span>
+</div>
+
+<header>
+    <h1>Surah Al-Jinn</h1>
+    <div class="meta">The Jinn • Makkah • 28 Verses</div>
+    <div class="intro-text">
+        The Unseen Witnesses. A profound revelation establishing that the message of the Qur'an extends beyond humanity. It records the theology, internal divisions, and ultimate submission of the Jinn, shattering the pagan myths regarding these unseen beings.
+    </div>
+</header>
+
+<div class="container">
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 1</span></div>
+        <div class="arabic">قُلْ أُوحِىَ إِلَىَّ أَنَّهُ ٱسْتَمَعَ نَفَرٌ مِّنَ ٱلْجِنِّ فَقَالُوٓا۟ إِنَّا سَمِعْنَا قُرْءَانًا عَجَبًا</div>
+        <div class="translation">"Say, [O Muhammad], 'It has been revealed to me that a group of the jinn listened and said, "Indeed, we have heard an amazing Qur'an."'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The Prophet ﷺ is commanded to announce that God revealed to him an unseen event: A company of Jinn overheard his recitation and returned to their people, declaring they had heard a text of absolute wonder and majesty.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">According to Ibn Abbas, the Prophet ﷺ was at the valley of Nakhlah leading his companions in the Fajr (dawn) prayer. He did not see the Jinn. They were actively searching the earth to find out why they had been blocked from heaven (detailed in v. 8), heard the recitation, recognized its divine origin, and listened in complete silence.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Knowledge & Signs</span><span class="tag">Prophetic History</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 2</span></div>
+        <div class="arabic">يَهْدِىٓ إِلَى ٱلرُّشْدِ فَـَٔامَنَّا بِهِۦ ۖ وَلَن نُّشْرِكَ بِرَبِّنَآ أَحَدًا</div>
+        <div class="translation">"'It guides to the right course, and we have believed in it. And we will never associate with our Lord anyone.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The Jinn declared: "This recitation directs to perfect guidance (Ar-Rushd). Therefore, we have placed our faith in it, and we declare that we shall never again ascribe partners to our Lord."</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">Observe the purity of their spiritual reflex. Upon recognizing "Ar-Rushd" (the path of maturity and rectitude), they did not hesitate or debate. The immediate consequence of true listening (Sima') is the establishment of strict monotheism (Tawheed) and the permanent severance of idolatry.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Spiritual Practice</span><span class="tag">The Unseen</span><span class="tag">Attributes of Allah</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 3</span></div>
+        <div class="arabic">وَأَنَّهُۥ تَعَٰلَىٰ جَدُّ رَبِّنَا مَا ٱتَّخَذَ صَٰحِبَةً وَلَا وَلَدًا</div>
+        <div class="translation">"'And that He - exalted is the majesty of our Lord - has not taken a wife or a son.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">They continued outlining their new theology: "The supreme majesty and grandeur of our Lord is far exalted above taking a spouse or having offspring."</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">"Jadd" signifies majesty, sovereignty, and supreme independence. The Jinn immediately practice "Tanzih" (purification of the Divine Concept). Ascribing a wife or a child implies biological need, succession, and human limitation. To recognize the true Lord is to elevate Him completely above the frailties of creation.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">Knowledge & Signs</span><span class="tag">The Unseen</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 4</span></div>
+        <div class="arabic">وَأَنَّهُۥ كَانَ يَقُولُ سَفِيهُنَا عَلَى ٱللَّهِ شَطَطًا</div>
+        <div class="translation">"'And that our foolish one has been saying about Allah an excessive transgression.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"We now realize that the foolish among us (referring to Iblis or their own ignorant members) had been speaking outrageous lies and absolute deviations concerning Allah."</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">"Safiihunā" (our foolish one) refers specifically to Iblis (Satan), the progenitor of the rebellious Jinn, who first propagated the lie that God had partners. "Shatat" refers to crossing the extreme limits of falsehood. The enlightened Jinn publicly disown the historical theology of their own species.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Sin</span><span class="tag">The Unseen</span><span class="tag">Accountability</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 5</span></div>
+        <div class="arabic">وَأَنَّا ظَنَنَّآ أَن لَّن تَقُولَ ٱلْإِنسُ وَٱلْجِنُّ عَلَى ٱللَّهِ كَذِبًا</div>
+        <div class="translation">"'And we had thought that mankind and the jinn would never speak about Allah a lie.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"We were deceived because we naively assumed that neither humans nor Jinn would ever dare to invent a deliberate lie against the Creator."</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">The Jinn confess their prior intellectual laziness. They followed the religion of their ancestors under the assumption that the sheer magnitude of God would prevent anyone from lying about Him. The lesson is paramount: faith inherited strictly through cultural assumption, without critical verification, leaves the soul highly vulnerable to systemic deception.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Human Nature</span><span class="tag">The Unseen</span><span class="tag">Arrogance</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 6</span></div>
+        <div class="arabic">وَأَنَّهُۥ كَانَ رِجَالٌ مِّنَ ٱلْإِنسِ يَعُوذُونَ بِرِجَالٍ مِّنَ ٱلْجِنِّ فَزَادُوهُمْ رَهَقًا</div>
+        <div class="translation">"'And there were men from mankind who sought refuge in men from the jinn, so they [only] increased them in burden and terror.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"There was a practice where human beings would seek the protection of the Jinn. But instead of granting safety, the Jinn only increased the humans in fear, sin, and oppression."</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">In pre-Islamic Arabia, when travelers camped in a desolate valley at night, they would announce: "I seek refuge in the master (Jinn) of this valley from the foolish among his people." By appealing to the Jinn instead of God out of fear, the humans inflated the ego of the Jinn, causing the Jinn to oppress and terrorize them further ("Rahaqa"). Seeking protection outside of God always amplifies vulnerability.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Sin</span><span class="tag">Human Nature</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 7</span></div>
+        <div class="arabic">وَأَنَّهُمْ ظَنُّوا۟ كَمَا ظَنَنتُمْ أَن لَّن يَبْعَثَ ٱللَّهُ أَحَدًا</div>
+        <div class="translation">"'And they had thought, just as you thought, that Allah would never send anyone [as a messenger].'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"And the humans mistakenly believed, exactly as you [Jinn] mistakenly believed, that Allah would never resurrect anyone from the dead or send another Prophet."</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">Denial of the Resurrection is the shared psychological disease of both humans and Jinn. When the intellect severs accountability (the Hereafter), it justifies tyranny in the present. The Jinn are marveling at how identical the spiritual blindness of the two species had become.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Accountability</span><span class="tag">Warning</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 8</span></div>
+        <div class="arabic">وَأَنَّا لَمَسْنَا ٱلسَّمَآءَ فَوَجَدْنَٰهَا مُلِئَتْ حَرَسًا شَدِيدًا وَشُهُبًا</div>
+        <div class="translation">"'And we have sought [to reach] the heaven but found it filled with powerful guards and burning flames.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"We attempted to probe the lower heaven to eavesdrop as we used to, but we found it heavily fortified with stern angelic guards and piercing, burning meteors."</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">Before the Prophethood of Muhammad ﷺ, the Jinn would ascend and eavesdrop on the angels discussing the decrees of the future. They would then pass fragments of this truth, mixed with lies, to human fortune-tellers. Upon the initiation of the Prophet's mission, the heavens were militarily sealed by God to protect the purity of the Revelation. The meteor showers physically barred their ascent.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Knowledge & Signs</span><span class="tag">Attributes of Allah</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 9</span></div>
+        <div class="arabic">وَأَنَّا كُنَّا نَقْعُدُ مِنْهَا مَقَٰعِدَ لِلسَّمْعِ ۖ فَمَن يَسْتَمِعِ ٱلْـَٔانَ يَجِدْ لَهُۥ شِهَابًا رَّصَدًا</div>
+        <div class="translation">"'And we used to sit therein in positions for hearing, but whoever listens now will find a burning flame lying in wait for him.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"We previously had regular stations in the sky where we would sit to secretly listen. But now, anyone who attempts to listen will immediately find a flaming projectile ambushing him."</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">The cessation of their eavesdropping marks a cosmic shift. The era of fortune-telling, astrology, and reliance on the unseen whispers of the Jinn was violently terminated. The sealing of the heavens signifies that the only permitted, pure channel of Unseen knowledge is now the Book held in the hands of the Prophet ﷺ.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Divine Justice</span><span class="tag">Warning</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 10</span></div>
+        <div class="arabic">وَأَنَّا لَا نَدْرِىٓ أَشَرٌّ أُرِيدَ بِمَن فِى ٱلْأَرْضِ أَمْ أَرَادَ بِهِمْ رَبُّهُمْ رَشَدًا</div>
+        <div class="translation">"'And we do not know whether evil is intended for those on earth or whether their Lord intends for them a right course.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"Because we are blocked from the heavens, we do not know if this sudden fortification means God intends to bring disaster upon the earth, or if He intends to guide its people to the right path."</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">Observe the profound adab (etiquette) of the believing Jinn in their phrasing. They attribute the "right course" directly to the Lord ("their Lord intends"). But when speaking of "evil," they use the passive voice ("whether evil is intended"), refusing to explicitly attribute the intent of evil or harm to the Divine. True reverence separates the Source of Perfection from the attribution of malice.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Attributes of Allah</span><span class="tag">Spiritual Practice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 11</span></div>
+        <div class="arabic">وَأَنَّا مِنَّا ٱلصَّٰلِحُونَ وَمِنَّا دُونَ ذَٰلِكَ ۖ كُنَّا طَرَآئِقَ قِدَدًا</div>
+        <div class="translation">"'And among us are the righteous, and among us are [others] not so; we were [of] divided ways.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"And indeed, among our species are those who are righteous, and those who are less than that. We are fundamentally divided into diverse sects and differing paths."</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The Quran shatters the human myth that all Jinn are inherently evil demons. The Jinn explicitly clarify their sociological structure: they possess free will exactly like humans. They have their own righteous individuals, sinners, theological sects, and differing ideologies ("Tariqah Qidadā").</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Free Will</span><span class="tag">Social Ethics</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 12</span></div>
+        <div class="arabic">وَأَنَّا ظَنَنَّآ أَن لَّن نُّعْجِزَ ٱللَّهَ فِى ٱلْأَرْضِ وَلَن نُّعْجِزَهُۥ هَرَبًا</div>
+        <div class="translation">"'And we have become certain that we will never cause failure to Allah upon earth, nor can we escape Him by flight.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"And we are now absolutely convinced that we can never overpower Allah or evade His decree on the earth, nor can we outrun Him by fleeing into the sky."</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">Despite their supernatural speed, their ability to fly, and their invisibility, the believing Jinn acknowledge absolute ontological helplessness. True faith is the recognition that no spatial dimension—neither the depths of the earth nor the heights of the cosmos—offers a sanctuary from the jurisdiction of the Creator.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Attributes of Allah</span><span class="tag">Accountability</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 13</span></div>
+        <div class="arabic">وَأَنَّا لَمَّا سَمِعْنَا ٱلْهُدَىٰٓ ءَامَنَّا بِهِۦ ۖ فَمَن يُؤْمِنۢ بِرَبِّهِۦ فَلَا يَخَافُ بَخْسًا وَلَا رَهَقًا</div>
+        <div class="translation">"'And when we heard the guidance, we believed in it. And whoever believes in his Lord will not fear deprivation or burden.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"So the moment we heard the Qur'an's guidance, we immediately believed in it. For whoever truly believes in his Lord needs not fear that his good deeds will be diminished, nor that he will be burdened with injustice."</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The ultimate psychological reward of Iman (faith) is the total eradication of existential anxiety. "Bakhs" is the fear that your good deeds will be undervalued or ignored, and "Rahaq" is the fear of being unjustly punished. The believer operates with total peace, knowing the Divine Scale is fundamentally rigged toward Mercy and absolute Justice.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Spiritual Practice</span><span class="tag">Hope</span><span class="tag">Divine Justice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 14</span></div>
+        <div class="arabic">وَأَنَّا مِنَّا ٱلْمُسْلِمُونَ وَمِنَّا ٱلْقَٰسِطُونَ ۖ فَمَنْ أَسْلَمَ فَأُو۟لَٰٓئِكَ تَحَرَّوْا۟ رَشَدًا</div>
+        <div class="translation">"'And among us are Muslims [in submission to Allah], and among us are the unjust. And whoever has become Muslim - those have sought out the right course.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"And indeed, among us are those who have fully submitted to God (Muslims), and among us are those who deviate into injustice. So whoever submits—they have actively and successfully pursued the path of truth and rectitude."</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">"Al-Qasitūn" literally refers to those who deviate from justice and truth. The Jinn clearly define the binary of existence for beings of free will: you are either in a state of "Islam" (voluntary submission to the Creator's design) or a state of deviation. Submission is not passive; "Taharraw" indicates an active, deliberate, and rigorous seeking of the truth.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Free Will</span><span class="tag">Spiritual Practice</span></div>
+    </div>
+
+  <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 15</span></div>
+        <div class="arabic">وَأَمَّا ٱلْقَٰسِطُونَ فَكَانُوا۟ لِجَهَنَّمَ حَطَبًۭا</div>
+        <div class="translation">"But as for the unjust deviators, they will be firewood for Hell."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The Jinn complete their theological statement: While the submitters find guidance (v. 14), those who deliberately deviate from justice and truth will literally become the fuel that feeds the fire of Hell.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">"Al-Qasitun" (the deviators) is derived from a root meaning to swerve away from the target of justice. Because they used their free will to kindle the fires of corruption and arrogance on earth, divine justice dictates that their very bodies become the "Hatab" (kindling/firewood) in the Hereafter.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Punishment</span><span class="tag">Hell</span><span class="tag">Divine Justice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 16</span></div>
+        <div class="arabic">وَأَلَّوِ ٱسْتَقَٰمُوا۟ عَلَى ٱلطَّرِيقَةِ لَأَسْقَيْنَٰهُم مَّآءً غَدَقًۭا</div>
+        <div class="translation">"And [Allah revealed] that if they had remained steadfast on the right path, We would have certainly given them abundant water to drink,"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God reveals a universal law: If the people (or Jinn) had remained firmly established upon the straight path of truth, God would have showered them with abundant water and immense worldly provision.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"Istiqamah" (steadfastness) is the spiritual anchor that unlocks physical and spiritual provision. "Maa'an Ghadaqan" (abundant water) represents both the literal sustenance of the earth and the pure, flowing water of divine knowledge. The material economy is deeply, fundamentally tethered to the moral and spiritual economy of the inhabitants.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Wealth</span><span class="tag">Steadfastness</span><span class="tag">Hope</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 17</span></div>
+        <div class="arabic">لِّنَفْتِنَهُمْ فِيهِ ۚ وَمَن يُعْرِضْ عَن ذِكْرِ رَبِّهِۦ يَسْلُكْهُ عَذَابًا صَعَدًۭا</div>
+        <div class="translation">"That We might test them therein. And whoever turns entirely away from the remembrance of his Lord, He will thrust him into a severe, escalating punishment."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God gives this abundance specifically to test them, to see if they will be grateful or arrogant. And whoever abandons the remembrance of their Master will be forced into an increasingly harsh and crushing punishment.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">Abundance is a heavier test (Fitnah) than poverty. In poverty, the soul naturally calls out to God in need; in extreme wealth, the ego easily falls asleep in self-sufficiency. "Sa'ada" translates to a punishment that continuously mounts and escalates—a perfect reflection of the ego's endless, escalating greed when it turns away from the contentment of Dhikr (remembrance).</div></div>
+        </div>
+        <div class="tags"><span class="tag">Test</span><span class="tag">Warning</span><span class="tag">Spiritual Practice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 18</span></div>
+        <div class="arabic">وَأَنَّ ٱلْمَسَٰجِدَ لِلَّهِ فَلَا تَدْعُوا۟ مَعَ ٱللَّهِ أَحَدًۭا</div>
+        <div class="translation">"And [He revealed] that the places of prostration belong exclusively to Allah, so do not invoke anyone along with Allah."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The mosques, and all places where you bow down, belong to God alone. Therefore, it is strictly forbidden to pray to, call upon, or associate anyone else with Him in those places.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">"Masajid" refers both to physical buildings of worship (Mosques) and the physical limbs of the human body used during prostration (forehead, hands, knees, toes). Since God created the limbs and the earth upon which they rest, directing that prostration to an idol, a saint, or a Jinn is the ultimate violation of cosmic property rights.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Commands</span><span class="tag">Spiritual Practice</span><span class="tag">Attributes of Allah</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 19</span></div>
+        <div class="arabic">وَأَنَّهُۥ لَمَّا قَامَ عَبْدُ ٱللَّهِ يَدْعُوهُ كَادُوا۟ يَكُونُونَ عَلَيْهِ لِبَدًۭا</div>
+        <div class="translation">"And that when the Servant of Allah stood up calling upon Him, they almost gathered around him in a dense, compacted mass."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">When the Servant of God (Prophet Muhammad) stood up in prayer to call upon Him, the Jinn crowded around him so tightly in amazement that they were almost stacked on top of one another.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The Prophet ﷺ is granted the highest title of honor: "Abdullah" (The Servant of Allah). When a soul reaches absolute, perfected servanthood, it becomes a center of spiritual gravity. The unseen beings (Jinn) crowded over him ("Libada" - compacted like a thick mane) not because of physical wealth, but because they were magnetically drawn to the pure light of the Quran emitting from his heart.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Prophetic History</span><span class="tag">Spiritual Practice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 20</span></div>
+        <div class="arabic">قُلْ إِنَّمَآ أَدْعُوا۟ رَبِّى وَلَآ أُشْرِكُ بِهِۦٓ أَحَدًۭا</div>
+        <div class="translation">"Say, [O Muhammad], 'I only call upon my Lord, and I absolutely do not associate anyone with Him.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The Prophet is commanded to clarify his mission to the terrified and amazed observers: "I am not performing magic, nor am I calling upon spirits. I am exclusively praying to my Master, associating absolutely no partners with Him."</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">The core of the prophetic message is unapologetic transparency. Faced with the hostility of the polytheist Quraish and the amazement of the Jinn, the Prophet does not alter his message to appease either. Pure Tawheed (Oneness) requires the tongue to reflect the singular dedication of the heart, regardless of who is listening in the dark.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Spiritual Practice</span><span class="tag">Commands</span><span class="tag">Prophetic History</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 21</span></div>
+        <div class="arabic">قُلْ إِنِّى لَآ أَمْلِكُ لَكُمْ ضَرًّۭا وَلَا رَشَدًۭا</div>
+        <div class="translation">"Say, 'Indeed, I do not possess for you the power of harm or right guidance.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"Tell them: I am only a human. I do not have independent control to bring disaster upon you, nor do I have the power to magically force right guidance into your hearts."</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The Meccans demanded the Prophet ﷺ physically hurt his enemies with miracles or mechanically force them into faith. God commands the Prophet to publicly strip himself of all divine attributes. A Prophet is a transmitter, not the Source. Recognizing the absolute powerlessness of creation is the prerequisite to recognizing the absolute Omnipotence of the Creator.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Humility</span><span class="tag">Prophetic History</span><span class="tag">Free Will</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 22</span></div>
+        <div class="arabic">قُلْ إِنِّى لَن يُجِيرَنِى مِنَ ٱللَّهِ أَحَدٌۭ وَلَنْ أَجِدَ مِن دُونِهِۦ مُلْتَحَدًا</div>
+        <div class="translation">"Say, 'Indeed, no one can ever protect me from Allah [if I disobey], nor will I find any refuge other than Him.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"Declare clearly: If I were to disobey God, absolutely no one on earth or in the heavens could protect me from His judgment, and I would find no safe sanctuary anywhere except in Him."</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">"Multahada" is a place of refuge or a hiding spot. If the most beloved of all creation—the Seal of the Prophets—acknowledges that he possesses zero sanctuary from God's law, it annihilates the arrogance of any ordinary sinner who believes their wealth, status, or lineage will offer them a loophole on the Day of Judgment.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Accountability</span><span class="tag">Humility</span><span class="tag">Warning</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 23</span></div>
+        <div class="arabic">إِلَّا بَلَٰغًۭا مِّنَ ٱللَّهِ وَرِسَٰلَٰتِهِۦ ۚ وَمَن يَعْصِ ٱللَّهَ وَرَسُولَهُۥ فَإِنَّ لَهُۥ نَارَ جَهَنَّمَ خَٰلِدِينَ فِيهَآ أَبَدًا</div>
+        <div class="translation">"'[My duty is] only notification from Allah and [conveying] His messages.' And whoever disobeys Allah and His Messenger - indeed, for him is the fire of Hell; they will abide therein eternally, forever."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"My only protection and my only duty is to perfectly deliver the messages sent by God. As for anyone who hears this and actively disobeys God and His Messenger—their destination is the Fire of Hell, remaining in it forever."</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">The Prophet defines the strict parameters of his mandate: "Balagh" (clear delivery). He is entirely free from the anxiety of outcomes. The responsibility of the caller is simply to speak the truth; the responsibility of the hearer is to obey. Disobedience to the Messenger is fundamentally disobedience to the Sender, warranting eternal severance from Divine Mercy.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Warning</span><span class="tag">Hell</span><span class="tag">Accountability</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 24</span></div>
+        <div class="arabic">حَتَّىٰٓ إِذَا رَأَوْا۟ مَا يُوعَدُونَ فَسَيَعْلَمُونَ مَنْ أَضْعَفُ نَاصِرًۭا وَأَقَلُّ عَدَدًۭا</div>
+        <div class="translation">"[They will continue] until, when they clearly see that which they are promised, they will intimately know who is weaker in helpers and fewer in number."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The arrogant disbelievers will continue to mock the believers for being weak and small in number. But when the promised Day of Judgment arrives, they will finally see with their own eyes who is truly helpless and entirely lacking in supporters.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">In Mecca, the pagan leaders constantly boasted about their wealth, their massive alliances, and their military numbers, looking down at the handful of impoverished Muslims. God suspends the final tally until the Akhirah. On that Day, the alliances of the Dunya will dissolve, and the elite will find themselves standing completely alone, proving their earthly arithmetic was entirely backwards.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Accountability</span><span class="tag">The Unseen</span><span class="tag">Divine Justice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 25</span></div>
+        <div class="arabic">قُلْ إِنْ أَدْرِىٓ أَقَرِيبٌۭ مَّا تُوعَدُونَ أَمْ يَجْعَلُ لَهُۥ رَبِّىٓ أَمَدًۭا</div>
+        <div class="translation">"Say, 'I do not know if what you are promised is near, or if my Lord will grant for it a distant term.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">When they mockingly ask when this punishment will happen, the Prophet is instructed to reply: "I do not know if this promised threat is happening tomorrow, or if my Lord has set a distant, delayed date for it."</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The admission of "I do not know" (In Adri) regarding the Hour is the pinnacle of prophetic sincerity. The ego demands certainty of timing to calculate exactly how long it can procrastinate repentance. God conceals the timing specifically to enforce perpetual spiritual vigilance (Muraqabah). You must live every day as if the "near" promise is today.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Knowledge & Signs</span><span class="tag">Prophetic History</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 26</span></div>
+        <div class="arabic">عَٰلِمُ ٱلْغَيْبِ فَلَا يُظْهِرُ عَلَىٰ غَيْبِهِۦٓ أَحَدًا</div>
+        <div class="translation">"[He is the] Knower of the Unseen, and He does not disclose His Unseen to absolutely anyone."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Allah is the sole, absolute Knower of the unseen reality and the future. He does not open up His hidden knowledge to just anyone who desires it.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"Al-Ghaib" is the locked vault of Divine Knowledge. No fortune-teller, astrologer, or Jinn has the key. To claim knowledge of the unseen independently of God's revelation is to claim a partnership in His exclusive Divine attributes, which is the root of all spiritual fraud.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">The Unseen</span><span class="tag">Knowledge & Signs</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 27</span></div>
+        <div class="arabic">إِلَّا مَنِ ٱرْتَضَىٰ مِن رَّسُولٍۢ فَإِنَّهُۥ يَسْلُكُ مِنۢ بَيْنِ يَدَيْهِ وَمِنْ خَلْفِهِۦ رَصَدًۭا</div>
+        <div class="translation">"Except whom He has approved of messengers; then indeed, He dispatches before him and behind him angelic observers."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The only exception is a chosen Messenger whom God officially approves. When God grants a Messenger a glimpse of the Unseen (Revelation), He deploys strict angelic guards marching in front of and behind the Prophet to protect the transmission.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">This directly links back to Verses 8 and 9. The Jinn used to steal fragments of knowledge from the sky. But when God sends actual "Wahy" (Revelation) down to a human Prophet, He institutes a supreme, impenetrable security detail ("Rasad") of angels. The message arrives to the earth utterly pristine, completely uncorrupted by demonic interference.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Prophetic History</span><span class="tag">Knowledge & Signs</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 28</span></div>
+        <div class="arabic">لِّيَعْلَمَ أَن قَدْ أَبْلَغُوا۟ رِسَٰلَٰتِ رَبِّهِمْ وَأَحَاطَ بِمَا لَدَيْهِمْ وَأَحْصَىٰ كُلَّ شَىْءٍ عَدَدًۢا</div>
+        <div class="translation">"That He may make evident that they have truly conveyed the messages of their Lord. And He fully encompasses whatever is with them, and He has precisely enumerated all things in number."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God surrounds the Prophet with these guards to ensure and prove that the divine messages are delivered to humanity flawlessly. God's absolute knowledge perfectly surrounds everything they do, and He has meticulously counted and recorded every single atom in existence.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The Surah closes by emphasizing the terrifying, majestic precision of the Creator. "Ahsa kulla shay'in 'adada" (He has enumerated all things in number). Not a leaf falls, not a Jinn whispers, and not a human breathes except that it is perfectly calculated by the Divine Math. The heart that understands this stops trying to outsmart the system and simply surrenders to the Master of the numbers.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">Knowledge & Signs</span><span class="tag">The Unseen</span></div>
+    </div>
