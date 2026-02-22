@@ -12,9 +12,15 @@
             --context-color: #d69e2e; --sufi-color: #38a169; --wisdom-color: #805ad5; --plain-color: #718096; 
         }
         body { font-family: 'Inter', sans-serif; background: var(--bg-color); color: var(--text-color); margin: 0; padding: 0; line-height: 1.6; }
-        .nav-bar { padding: 1rem 2rem; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; background: white; z-index: 100; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
-        .nav-link { text-decoration: none; color: var(--primary-accent); font-weight: 600; display: flex; align-items: center; gap: 0.5rem; }
+        
+        /* Updated Navigation Bar */
+        .nav-bar { padding: 1rem 2rem; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; background: white; z-index: 100; box-shadow: 0 2px 4px rgba(0,0,0,0.05); flex-wrap: wrap; gap: 1rem;}
+        .nav-controls { display: flex; gap: 1.5rem; align-items: center; }
+        .nav-link { text-decoration: none; color: var(--primary-accent); font-weight: 600; display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem;}
         .nav-link:hover { text-decoration: underline; }
+        .home-btn { background: var(--primary-accent); color: white; padding: 0.5rem 1rem; border-radius: 6px; }
+        .home-btn:hover { background: #2c5282; color: white; text-decoration: none; }
+
         header { text-align: center; padding: 3rem 1rem 2rem; background: linear-gradient(180deg, #f7fafc 0%, #ffffff 100%); }
         h1 { font-family: 'Merriweather', serif; font-size: 2.8rem; margin: 0; color: #1a202c; }
         .meta { color: #718096; text-transform: uppercase; letter-spacing: 2px; font-size: 0.85rem; margin-top: 1rem; font-weight: 700; }
@@ -44,11 +50,14 @@
 <body>
 
 <div class="nav-bar">
-    <a href="surah-4-muddathir.html" class="nav-link">← Previous Surah</a>
-    <span style="font-weight: 600; color: #718096;">Chronological Order: #5</span>
-    <a href="surah-6-lahab.html" class="nav-link">Next Surah →</a>
+    <div class="nav-controls">
+        <a href="index.html" class="nav-link home-btn">⌂ Dashboard</a>
+        <a href="surah-4-muddathir.html" class="nav-link">← Prev</a>
+        <a href="surah-6-lahab.html" class="nav-link">Next →</a>
+    </div>
+    <span style="font-weight: 600; color: #718096; font-size: 0.9rem;">Mushaf: #1 | Chronological: #5</span>
 </div>
-
+    
 <header>
     <h1>Surah Al-Fatiha</h1>
     <div class="meta">The Opening • Makkah • 7 Verses</div>
@@ -130,4 +139,27 @@
         <div class="translation">"Guide us to the straight path -"</div>
         <div class="insights">
             <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Show us, lead us, and keep us firm on the clear, direct path of truth.</div></div>
-            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">This is the ultimate supplication. Allah taught us how to praise Him first, so that when we ask our most critical request—guidance—the door is already open.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">The straight path is not a destination you reach and sit down. It is a continuous, dynamic state of walking toward the Divine without veering left into excess or right into negligence. You need this guidance every single day.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"He commanded you to ask not because He does not know your need, but to manifest your poverty before His richness."</div></div>
+        </div>
+        <div class="tags"><span class="tag">Spiritual Practice</span><span class="tag">Knowledge & Signs</span><span class="tag">Hope</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 7</span></div>
+        <div class="arabic">صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ</div>
+        <div class="translation">"The path of those upon whom You have bestowed favor, not of those who have evoked [Your] anger or of those who are astray."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The path of the Prophets and righteous people You blessed; not the path of those who knew the truth but arrogantly rejected it (anger), nor those who were ignorant and lost their way (astray).</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The "favored" are defined elsewhere in the Quran as the Prophets, the steadfast affirmers of truth, the martyrs, and the righteous. The verse explicitly warns against two historical failures: intellectual arrogance and spiritual ignorance.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">Companionship (Suhbah) is essential. Notice it says "the path of *those*." You cannot walk this path alone based on intellect. You must follow the spiritual masters and righteous predecessors who have already traversed it.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"Do not keep company with anyone whose state does not elevate you, and whose speech does not direct you to God." Following the favored ones is the ultimate protection from going astray.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Spiritual Practice</span><span class="tag">Divine Justice</span></div>
+    </div>
+
+</div>
+
+</body>
+</html>
