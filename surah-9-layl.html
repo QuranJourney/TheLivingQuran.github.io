@@ -12,9 +12,15 @@
             --context-color: #d69e2e; --sufi-color: #38a169; --wisdom-color: #805ad5; --plain-color: #718096; 
         }
         body { font-family: 'Inter', sans-serif; background: var(--bg-color); color: var(--text-color); margin: 0; padding: 0; line-height: 1.6; }
-        .nav-bar { padding: 1rem 2rem; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; background: white; z-index: 100; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
-        .nav-link { text-decoration: none; color: var(--primary-accent); font-weight: 600; display: flex; align-items: center; gap: 0.5rem; }
+        
+        /* Updated Navigation Bar */
+        .nav-bar { padding: 1rem 2rem; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; background: white; z-index: 100; box-shadow: 0 2px 4px rgba(0,0,0,0.05); flex-wrap: wrap; gap: 1rem;}
+        .nav-controls { display: flex; gap: 1.5rem; align-items: center; }
+        .nav-link { text-decoration: none; color: var(--primary-accent); font-weight: 600; display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem;}
         .nav-link:hover { text-decoration: underline; }
+        .home-btn { background: var(--primary-accent); color: white; padding: 0.5rem 1rem; border-radius: 6px; }
+        .home-btn:hover { background: #2c5282; color: white; text-decoration: none; }
+
         header { text-align: center; padding: 3rem 1rem 2rem; background: linear-gradient(180deg, #f7fafc 0%, #ffffff 100%); }
         h1 { font-family: 'Merriweather', serif; font-size: 2.8rem; margin: 0; color: #1a202c; }
         .meta { color: #718096; text-transform: uppercase; letter-spacing: 2px; font-size: 0.85rem; margin-top: 1rem; font-weight: 700; }
@@ -44,9 +50,12 @@
 <body>
 
 <div class="nav-bar">
-    <a href="surah-8-ala.html" class="nav-link">← Previous Surah</a>
-    <span style="font-weight: 600; color: #718096;">Mushaf: #92 | Chronological: #9</span>
-    <a href="surah-10-fajr.html" class="nav-link">Next Surah →</a>
+    <div class="nav-controls">
+        <a href="index.html" class="nav-link home-btn">⌂ Dashboard</a>
+        <a href="surah-8-ala.html" class="nav-link">← Prev</a>
+        <a href="surah-10-fajr.html" class="nav-link">Next →</a>
+    </div>
+    <span style="font-weight: 600; color: #718096; font-size: 0.9rem;">Mushaf: #92 | Chronological: #9</span>
 </div>
 
 <header>
@@ -134,4 +143,171 @@
         <div class="arabic">فَسَنُيَسِّرُهُۥ لِلْيُسْرَىٰ</div>
         <div class="translation">"We will ease him toward ease."</div>
         <div class="insights">
-            <div class
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Because of those three things (giving, fearing, believing), Allah makes the path of goodness, virtue, and ultimate salvation incredibly easy for him.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">When the heart aligns with God's generosity, the friction of life vanishes. Acts of worship that are exhausting for the hypocrite become a source of rest and deep joy (Yusra) for the believer. Grace accelerates grace.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Hope</span><span class="tag">Spiritual Practice</span><span class="tag">Attributes of Allah</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 8</span></div>
+        <div class="arabic">وَأَمَّا مَنۢ بَخِلَ وَٱسْتَغْنَىٰ</div>
+        <div class="translation">"But as for he who withholds and considers himself free of need,"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Conversely, the person who is stingy with his wealth and thinks he is totally self-sufficient without God...</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">This perfectly describes Umayyah ibn Khalaf (and Abu Jahl). They hoarded their wealth, tortured the weak, and felt their tribal status made them "free of need" (Istighna) from any divine accountability.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"The source of every disobedience, indifference, and passion is satisfaction with one's self." Feeling self-sufficient (Istighna) is the veil that blocks the heart from tasting the sweetness of reliance on God.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Human Nature</span><span class="tag">Arrogance</span><span class="tag">Charity</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 9</span></div>
+        <div class="arabic">وَكَذَّبَ بِٱلْحُسْنَىٰ</div>
+        <div class="translation">"And denies the best [reward],"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">And he flatly rejects the truth of the Afterlife and its reward.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">Stinginess is born from lack of faith. If you truly believed that giving a dollar today would yield an eternal palace tomorrow, you would give everything. Denying the reward is what causes the hand to clench.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Knowledge & Signs</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 10</span></div>
+        <div class="arabic">فَسَنُيَسِّرُهُۥ لِلْعُسْرَىٰ</div>
+        <div class="translation">"We will ease him toward difficulty."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Because of his hoarding, arrogance, and denial, Allah will make the path of evil, misery, and destruction "easy" for him to slide down.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"Fear His abundant giving to you while you continually disobey Him; it may be a progressive leading to destruction (Istidraj)." God makes the sin "easy" to commit as a form of divine abandonment.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Divine Justice</span><span class="tag">Punishment</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 11</span></div>
+        <div class="arabic">وَمَا يُغْنِى عَنْهُ مَالُهُۥٓ إِذَا تَرَدَّىٰٓ</div>
+        <div class="translation">"And what will his wealth avail him when he falls?"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">When he tumbles into the grave (or into Hellfire), how will his hoarded money help him?</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">"Taradda" means to fall from a high place into an abyss. Umayyah built his high status on wealth. When he was killed at Badr and cast into a dry well, all the gold in Makkah could not save his body, let alone his soul.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">You spend your entire life building a parachute made of paper money, only to realize it cannot hold your weight when the drop comes. True wealth is what you send ahead, not what you leave behind.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Accountability</span><span class="tag">Human Nature</span><span class="tag">The Unseen</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 12</span></div>
+        <div class="arabic">إِنَّ عَلَيْنَا لَلْهُدَىٰ</div>
+        <div class="translation">"Indeed, [incumbent] upon Us is guidance."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Allah takes it upon Himself to clearly show humanity the right path from the wrong path.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">Allah provides the map and the light. But He does not force you to walk. The responsibility of guidance is His, but the responsibility of choosing it is yours.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">Knowledge & Signs</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 13</span></div>
+        <div class="arabic">وَإِنَّ لَنَا لَلْءَاخِرَةَ وَٱلْأُولَىٰ</div>
+        <div class="translation">"And indeed, to Us belongs the Hereafter and the first [life]."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Allah has absolute ownership over the Next Life and this present life.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">If you want the Dunya (this life), you must ask its Owner. If you want the Akhirah (the next), you must ask its Owner. Do not beg the creation for what only the Creator possesses.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">Humility</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 14</span></div>
+        <div class="arabic">فَأَنذَرْتُكُمْ نَارًا تَلَظَّىٰ</div>
+        <div class="translation">"So I have warned you of a Fire which is blazing."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Allah says: Because I have guided you and shown you the truth, I have clearly warned you of a roaring, intense Hellfire.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The Prophet ﷺ used to say: "I have been given the responsibility to warn you of a Fire! I have been given the responsibility to warn you of a Fire!" He preached this with such intensity that his voice could be heard in the marketplace.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Hell</span><span class="tag">Commands</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 15</span></div>
+        <div class="arabic">لَا يَصْلَىٰهَآ إِلَّا ٱلْأَشْقَى</div>
+        <div class="translation">"None will [enter to] burn therein except the most wretched one."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Only the absolute most miserable, wretched person will be thrown into it.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">The Fire is not arbitrary. It is reserved specifically for the "most wretched"—the one who actively chased darkness when the Light was placed right in front of them.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Divine Justice</span><span class="tag">Hell</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 16</span></div>
+        <div class="arabic">ٱلَّذِى كَذَّبَ وَتَوَلَّىٰ</div>
+        <div class="translation">"[He] who had denied and turned away."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Who is this wretched one? The one who called the truth a lie (Kadhdhaba) and turned his back on obedience (Tawalla).</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">Denial is the disease of the intellect; turning away is the disease of the limbs. When the mind and body unite in rebellion, the soul perishes.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Human Nature</span><span class="tag">Arrogance</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 17</span></div>
+        <div class="arabic">وَسَيُجَنَّبُهَا ٱلْأَتْقَى</div>
+        <div class="translation">"But the righteous one will avoid it -"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">And the one who is deeply God-conscious (Al-Atqa) will be kept completely away from that Fire.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">Scholars uniformly agree that "Al-Atqa" (the most righteous/fearful of God) in this specific verse refers directly to Abu Bakr As-Siddiq (RA) because of his unmatched generosity and faith in the early days of Makkah.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Spiritual Practice</span><span class="tag">Prophetic History</span><span class="tag">Jannah</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 18</span></div>
+        <div class="arabic">ٱلَّذِى يُؤْتِى مَالَهُۥ يَتَزَكَّىٰ</div>
+        <div class="translation">"[He] who gives [from] his wealth to purify himself"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Who is this righteous one? The one who gives his money specifically for the purpose of purifying his own soul.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">Notice the motive. He doesn't give to look powerful or generous to others. He gives to "purify himself" (Yatazakka). He views wealth as a spiritual toxin if hoarded, and a spiritual medicine if spent for God.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Charity</span><span class="tag">Spiritual Practice</span><span class="tag">Humility</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 19</span></div>
+        <div class="arabic">وَمَا لِأَحَدٍ عِندَهُۥ مِن نِّعْمَةٍ تُجْزَىٰٓ</div>
+        <div class="translation">"And not [giving] for anyone who has [done him] a favor to be rewarded"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">He is not giving this money to pay back a debt or return a favor to someone who helped him in the past.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">When Abu Bakr spent his massive fortune buying and freeing slaves, the pagans gossiped: "He must owe Bilal a favor, and he is paying it back." Allah reveals this verse to shut down the rumor, confirming Abu Bakr owed them absolutely nothing.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">The highest level of giving is unconditional. If you give expecting gratitude or a return favor, you are trading, not offering charity.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Charity</span><span class="tag">Spiritual Practice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 20</span></div>
+        <div class="arabic">إِلَّا ٱبْتِغَآءَ وَجْهِ رَبِّهِ ٱلْأَعْلَىٰ</div>
+        <div class="translation">"But only seeking the countenance of his Lord, Most High."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">His one and only motive in giving is to seek the Face (Pleasure) of his Lord, the Most High.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">This is the pinnacle of Ikhlas. To do an action purely for the "Face" of God means you desire nothing but to be in His presence. You are unconcerned with Heaven or Hell; you are obsessed only with the Creator of Heaven and Hell.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">Spiritual Practice</span><span class="tag">Humility</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 21</span></div>
+        <div class="arabic">وَلَسَوْفَ يَرْضَىٰ</div>
+        <div class="translation">"And he is going to be satisfied."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">And Allah promises: this person will soon be completely and utterly satisfied with what God gives him.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">A divine guarantee of Jannah to Abu Bakr (RA) while he was still walking the earth.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"He gives you the capacity to be content (Rida) with His decree, which is the highest paradise in this world before the next." He sought only the Face of God, so God guarantees him absolute satisfaction. The heart that rests in Him will never be restless again.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Hope</span><span class="tag">Jannah</span><span class="tag">Attributes of Allah</span></div>
+    </div>
+
+</div>
+
+</body>
+</html>
