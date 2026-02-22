@@ -12,9 +12,15 @@
             --context-color: #d69e2e; --sufi-color: #38a169; --wisdom-color: #805ad5; --plain-color: #718096; 
         }
         body { font-family: 'Inter', sans-serif; background: var(--bg-color); color: var(--text-color); margin: 0; padding: 0; line-height: 1.6; }
-        .nav-bar { padding: 1rem 2rem; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; background: white; z-index: 100; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
-        .nav-link { text-decoration: none; color: var(--primary-accent); font-weight: 600; display: flex; align-items: center; gap: 0.5rem; }
+        
+        /* Updated Navigation Bar */
+        .nav-bar { padding: 1rem 2rem; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; background: white; z-index: 100; box-shadow: 0 2px 4px rgba(0,0,0,0.05); flex-wrap: wrap; gap: 1rem;}
+        .nav-controls { display: flex; gap: 1.5rem; align-items: center; }
+        .nav-link { text-decoration: none; color: var(--primary-accent); font-weight: 600; display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem;}
         .nav-link:hover { text-decoration: underline; }
+        .home-btn { background: var(--primary-accent); color: white; padding: 0.5rem 1rem; border-radius: 6px; }
+        .home-btn:hover { background: #2c5282; color: white; text-decoration: none; }
+
         header { text-align: center; padding: 3rem 1rem 2rem; background: linear-gradient(180deg, #f7fafc 0%, #ffffff 100%); }
         h1 { font-family: 'Merriweather', serif; font-size: 2.8rem; margin: 0; color: #1a202c; }
         .meta { color: #718096; text-transform: uppercase; letter-spacing: 2px; font-size: 0.85rem; margin-top: 1rem; font-weight: 700; }
@@ -44,9 +50,12 @@
 <body>
 
 <div class="nav-bar">
-    <a href="surah-7-takwir.html" class="nav-link">← Previous Surah</a>
-    <span style="font-weight: 600; color: #718096;">Mushaf: #87 | Chronological: #8</span>
-    <a href="surah-9-layl.html" class="nav-link">Next Surah →</a>
+    <div class="nav-controls">
+        <a href="index.html" class="nav-link home-btn">⌂ Dashboard</a>
+        <a href="surah-7-takwir.html" class="nav-link">← Prev</a>
+        <a href="surah-9-layl.html" class="nav-link">Next →</a>
+    </div>
+    <span style="font-weight: 600; color: #718096; font-size: 0.9rem;">Mushaf: #87 | Chronological: #8</span>
 </div>
 
 <header>
@@ -229,4 +238,58 @@
         <div class="translation">"And mentions the name of his Lord and prays."</div>
         <div class="insights">
             <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">And the one who remembers God's name frequently and establishes the physical prayer.</div></div>
-            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">Chronologically mapping to Eid: First you give charity to purify (v. 14), then you remember Allah with Takbir (v. 15), then you perform the Eid prayer (v. 15).</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">Notice the order. Purity (Tazkiyah) comes first, then Remembrance (Dhikr), then Prayer (Salah). If you pray with an impure heart full of the world, the prayer is an empty ritual. The remembrance of His Name is the key that opens the door to true prayer.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Spiritual Practice</span><span class="tag">Commands</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 16</span></div>
+        <div class="arabic">بَلْ تُؤْثِرُونَ ٱلْحَيَوٰةَ ٱلدُّنْيَا</div>
+        <div class="translation">"But you prefer the worldly life,"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Allah diagnoses the core problem: despite knowing all this, human beings consistently choose the immediate, lower life over the Next.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">Addressed to the pagans of Makkah, but applicable to all humanity. The Dunya is called "Dunya" because it comes from a root meaning "low" and "immediate."</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">This is the root of all human tragedy. We trade diamonds for dust because the dust is in our hands today, and the diamonds are promised tomorrow. The ego is obsessed with immediate gratification.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Human Nature</span><span class="tag">Knowledge & Signs</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 17</span></div>
+        <div class="arabic">وَٱلْءَاخِرَةُ خَيْرٌۭ وَأَبْقَىٰٓ</div>
+        <div class="translation">"While the Hereafter is better and more enduring."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Why do you prefer this world, when the Afterlife is superior in quality (better) and superior in quantity (lasts forever)?</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"How can you choose what is perishing over what remains?" It is an intellectual failure as much as a spiritual one. The wise merchant always invests in the permanent market, not the collapsing one.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Hope</span><span class="tag">Knowledge & Signs</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 18</span></div>
+        <div class="arabic">إِنَّ هَـٰذَا لَفِى ٱلصُّحُفِ ٱلْأُولَىٰ</div>
+        <div class="translation">"Indeed, this is in the former scriptures,"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The message taught in this Surah (purification, prayer, and preferring the Hereafter) is not a new invention; it is the exact same message found in the ancient texts.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">This validates the Prophet ﷺ against claims that he was inventing a new religion. The core spiritual truths of Islam are identical to the original truths given to the earliest prophets.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Prophetic History</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 19</span></div>
+        <div class="arabic">صُحُفِ إِبْرَٰهِيمَ وَمُوسَىٰ</div>
+        <div class="translation">"The scriptures of Abraham and Moses."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Specifically, these truths were written in the sacred scrolls given to the Patriarch Abraham and the Prophet Moses.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">The path of Ibrahim (Hanifiyyah) is the path of pure, unadulterated monotheism and detachment from the world (he was willing to sacrifice his son). The path of Musa is the struggle against tyranny (Pharaoh/Ego). The Quran is the perfection and summary of both spiritual paths.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Knowledge & Signs</span></div>
+    </div>
+
+</div>
+
+</body>
+</html>
