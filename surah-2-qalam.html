@@ -11,38 +11,52 @@
             --border-color: #e2e8f0; --tag-bg: #e6fffa; --tag-text: #2c7a7b;
             --context-color: #d69e2e; --sufi-color: #38a169; --wisdom-color: #805ad5; --plain-color: #718096; 
         }
-        body { font-family: 'Inter', sans-serif; background: var(--bg-color); color: var(--text-color); margin: 0; padding: 0; line-height: 1.8; }
-        .nav-bar { padding: 1rem 2rem; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; background: white; z-index: 100; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
-        .nav-link { text-decoration: none; color: var(--primary-accent); font-weight: 600; display: flex; align-items: center; gap: 0.5rem; }
+        body { font-family: 'Inter', sans-serif; background: var(--bg-color); color: var(--text-color); margin: 0; padding: 0; line-height: 1.6; }
+        
+        /* Updated Navigation Bar */
+        .nav-bar { padding: 1rem 2rem; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; background: white; z-index: 100; box-shadow: 0 2px 4px rgba(0,0,0,0.05); flex-wrap: wrap; gap: 1rem;}
+        .nav-controls { display: flex; gap: 1.5rem; align-items: center; }
+        .nav-link { text-decoration: none; color: var(--primary-accent); font-weight: 600; display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem;}
         .nav-link:hover { text-decoration: underline; }
-        header { text-align: center; padding: 4rem 1rem 3rem; background: linear-gradient(180deg, #f7fafc 0%, #ffffff 100%); }
-        h1 { font-family: 'Merriweather', serif; font-size: 3rem; margin: 0; color: #1a202c; }
-        .meta { color: #718096; text-transform: uppercase; letter-spacing: 2px; font-size: 0.9rem; margin-top: 1rem; font-weight: 700; }
-        .intro-text { max-width: 600px; margin: 2rem auto 0; font-style: italic; color: #4a5568; }
+        .home-btn { background: var(--primary-accent); color: white; padding: 0.5rem 1rem; border-radius: 6px; }
+        .home-btn:hover { background: #2c5282; color: white; text-decoration: none; }
+
+        header { text-align: center; padding: 3rem 1rem 2rem; background: linear-gradient(180deg, #f7fafc 0%, #ffffff 100%); }
+        h1 { font-family: 'Merriweather', serif; font-size: 2.8rem; margin: 0; color: #1a202c; }
+        .meta { color: #718096; text-transform: uppercase; letter-spacing: 2px; font-size: 0.85rem; margin-top: 1rem; font-weight: 700; }
+        .intro-text { max-width: 650px; margin: 1.5rem auto 0; font-style: italic; color: #4a5568; }
         .container { max-width: 900px; margin: 0 auto; padding: 0 1rem 4rem; }
-        .verse-card { background: white; border: 1px solid var(--border-color); border-radius: 12px; padding: 3rem; margin-bottom: 3rem; box-shadow: 0 4px 6px rgba(0,0,0,0.02); }
-        .verse-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; border-bottom: 1px solid #edf2f7; padding-bottom: 1rem; }
+        .verse-card { background: white; border: 1px solid var(--border-color); border-radius: 12px; padding: 2rem; margin-bottom: 2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.02); }
+        .verse-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; border-bottom: 1px solid #edf2f7; padding-bottom: 0.8rem; }
         .verse-number { background: var(--primary-accent); color: white; padding: 0.2rem 0.8rem; border-radius: 20px; font-size: 0.85rem; font-weight: 700; }
-        .arabic { font-family: 'Amiri', serif; font-size: 2.6rem; text-align: right; color: #2d3748; margin-bottom: 2rem; line-height: 2.2; }
-        .translation { font-family: 'Merriweather', serif; font-size: 1.3rem; color: #1a202c; margin-bottom: 2.5rem; border-left: 5px solid var(--primary-accent); padding-left: 1.5rem; }
-        .insights { display: grid; grid-template-columns: 1fr; gap: 1.5rem; }
-        .insight-box { background: #fff; padding: 1.5rem; border-radius: 8px; border: 1px solid #e2e8f0; border-left-width: 5px; }
+        .arabic { font-family: 'Amiri', serif; font-size: 2.4rem; text-align: right; color: #2d3748; margin-bottom: 1.5rem; line-height: 2.2; }
+        .translation { font-family: 'Merriweather', serif; font-size: 1.2rem; color: #1a202c; margin-bottom: 2rem; border-left: 4px solid var(--primary-accent); padding-left: 1rem; }
+        .insights { display: grid; grid-template-columns: 1fr; gap: 1rem; }
+        .insight-box { background: #fff; padding: 1.2rem; border-radius: 8px; border: 1px solid #e2e8f0; border-left-width: 4px; }
         .insight-box.plain { border-left-color: var(--plain-color); background: #f7fafc; }
         .insight-box.context { border-left-color: var(--context-color); }
         .insight-box.sufi { border-left-color: var(--sufi-color); }
         .insight-box.hikam { border-left-color: var(--wisdom-color); }
-        .label { display: block; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1.2px; font-weight: 700; margin-bottom: 0.8rem; }
+        .label { display: block; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1.2px; font-weight: 700; margin-bottom: 0.5rem; }
         .plain .label { color: var(--plain-color); }
         .context .label { color: var(--context-color); }
         .sufi .label { color: var(--sufi-color); }
         .hikam .label { color: var(--wisdom-color); }
-        .content { font-size: 1.05rem; color: #4a5568; }
-        .tags { margin-top: 2rem; display: flex; flex-wrap: wrap; gap: 0.5rem; padding-top: 1.5rem; border-top: 1px solid #edf2f7; }
-        .tag { background: var(--tag-bg); color: var(--tag-text); padding: 0.3rem 0.9rem; border-radius: 99px; font-size: 0.8rem; font-weight: 600; }
-        .section-divider { text-align: center; margin: 4rem 0; font-family: 'Merriweather', serif; font-size: 1.8rem; color: var(--primary-accent); border-bottom: 2px dashed var(--border-color); padding-bottom: 1rem; }
+        .content { font-size: 0.95rem; color: #4a5568; }
+        .tags { margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; padding-top: 1rem; border-top: 1px solid #edf2f7; }
+        .tag { background: var(--tag-bg); color: var(--tag-text); padding: 0.2rem 0.7rem; border-radius: 99px; font-size: 0.75rem; font-weight: 600; }
     </style>
 </head>
 <body>
+
+<div class="nav-bar">
+    <div class="nav-controls">
+        <a href="index.html" class="nav-link home-btn">⌂ Dashboard</a>
+        <a href="surah-1-alaq.html" class="nav-link">← Prev</a>
+        <a href="surah-3-muzzammil.html" class="nav-link">Next →</a>
+    </div>
+    <span style="font-weight: 600; color: #718096; font-size: 0.9rem;">Mushaf: #89 | Chronological: #10</span>
+</div>
 
 <div class="nav-bar">
     <a href="surah-1-alaq.html" class="nav-link">← Previous Surah</a>
@@ -50,12 +64,6 @@
     <a href="surah-3-muzzammil.html" class="nav-link">Next Surah →</a>
 </div>
 
-<header>
-    <h1>Surah Al-Qalam</h1>
-    <div class="meta">The Pen • Makkah • 52 Verses</div>
-    <div class="intro-text">
-        Revealed when the elite of Makkah launched a psychological war against the Prophet ﷺ. This Surah defends His Beloved, defines great character, dissects arrogance, and warns through the Parable of the Garden.
-    </div>
 </header>
 
 <div class="container">
