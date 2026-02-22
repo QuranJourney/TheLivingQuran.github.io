@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surah An-Naml | The Ant</title>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@300;400;600&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #ffffff; --text-color: #2d3748; --primary-accent: #2b6cb0; 
+            --border-color: #e2e8f0; --tag-bg: #e6fffa; --tag-text: #2c7a7b;
+            --context-color: #d69e2e; --sufi-color: #38a169; --wisdom-color: #805ad5; --plain-color: #718096; 
+        }
+        body { font-family: 'Inter', sans-serif; background: var(--bg-color); color: var(--text-color); margin: 0; padding: 0; line-height: 1.6; }
+        .nav-bar { padding: 1rem 2rem; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; background: white; z-index: 100; box-shadow: 0 2px 4px rgba(0,0,0,0.05); flex-wrap: wrap; gap: 1rem;}
+        .nav-controls { display: flex; gap: 1.5rem; align-items: center; }
+        .nav-link { text-decoration: none; color: var(--primary-accent); font-weight: 600; display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem;}
+        .nav-link:hover { text-decoration: underline; }
+        .home-btn { background: var(--primary-accent); color: white; padding: 0.5rem 1rem; border-radius: 6px; }
+        .home-btn:hover { background: #2c5282; color: white; text-decoration: none; }
+        header { text-align: center; padding: 3rem 1rem 2rem; background: linear-gradient(180deg, #f7fafc 0%, #ffffff 100%); }
+        h1 { font-family: 'Merriweather', serif; font-size: 2.8rem; margin: 0; color: #1a202c; }
+        .meta { color: #718096; text-transform: uppercase; letter-spacing: 2px; font-size: 0.85rem; margin-top: 1rem; font-weight: 700; }
+        .intro-text { max-width: 650px; margin: 1.5rem auto 0; font-style: italic; color: #4a5568; }
+        .container { max-width: 900px; margin: 0 auto; padding: 0 1rem 4rem; }
+        .verse-card { background: white; border: 1px solid var(--border-color); border-radius: 12px; padding: 2rem; margin-bottom: 2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.02); }
+        .verse-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; border-bottom: 1px solid #edf2f7; padding-bottom: 0.8rem; }
+        .verse-number { background: var(--primary-accent); color: white; padding: 0.2rem 0.8rem; border-radius: 20px; font-size: 0.85rem; font-weight: 700; }
+        .arabic { font-family: 'Amiri', serif; font-size: 2.4rem; text-align: right; color: #2d3748; margin-bottom: 1.5rem; line-height: 2.2; }
+        .translation { font-family: 'Merriweather', serif; font-size: 1.2rem; color: #1a202c; margin-bottom: 2rem; border-left: 4px solid var(--primary-accent); padding-left: 1rem; }
+        .insights { display: grid; grid-template-columns: 1fr; gap: 1rem; }
+        .insight-box { background: #fff; padding: 1.2rem; border-radius: 8px; border: 1px solid #e2e8f0; border-left-width: 4px; }
+        .insight-box.plain { border-left-color: var(--plain-color); background: #f7fafc; }
+        .insight-box.context { border-left-color: var(--context-color); }
+        .insight-box.sufi { border-left-color: var(--sufi-color); }
+        .insight-box.hikam { border-left-color: var(--wisdom-color); }
+        .label { display: block; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1.2px; font-weight: 700; margin-bottom: 0.5rem; }
+        .plain .label { color: var(--plain-color); }
+        .context .label { color: var(--context-color); }
+        .sufi .label { color: var(--sufi-color); }
+        .hikam .label { color: var(--wisdom-color); }
+        .content { font-size: 0.95rem; color: #4a5568; }
+        .tags { margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; padding-top: 1rem; border-top: 1px solid #edf2f7; }
+        .tag { background: var(--tag-bg); color: var(--tag-text); padding: 0.2rem 0.7rem; border-radius: 99px; font-size: 0.75rem; font-weight: 600; }
+    </style>
+</head>
+<body>
+
+<div class="nav-bar">
+    <div class="nav-controls">
+        <a href="index.html" class="nav-link home-btn">⌂ Dashboard</a>
+        <a href="surah-47-shuara.html" class="nav-link">← Prev</a>
+        <a href="surah-49-qasas.html" class="nav-link">Next →</a>
+    </div>
+    <span style="font-weight: 600; color: #718096; font-size: 0.9rem;">Mushaf: #27 | Chronological: #48</span>
+</div>
+
+<header>
+    <h1>Surah An-Naml</h1>
+    <div class="meta">The Ant • Makkah • 93 Verses</div>
+    <div class="intro-text">
+        The Dominion of Knowledge. This Surah explores the intersection of absolute worldly power and profound spiritual humility, featuring the legendary empire of Solomon, the wisdom of a tiny ant, and the diplomatic clash with the Queen of Sheba.
+    </div>
+</header>
+
+<div class="container">
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 1</span></div>
+        <div class="arabic">طسٓ ۚ تِلْكَ ءَايَـٰتُ ٱلْقُرْءَانِ وَكِتَابٍۢ مُّبِينٍ</div>
+        <div class="translation">"Ta, Seen. These are the verses of the Qur'an and a clear Book"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The Surah opens with two disconnected letters, declaring immediately that what follows are the verses of the Qur'an, a Book that makes all truths perfectly clear.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The pairing of "Qur'an" (that which is recited aloud) and "Kitab" (that which is written down) establishes the dual nature of its preservation. It is protected perfectly in the oral tradition of the reciters and simultaneously secured in the physical text of the manuscript.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">The Unseen</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 2</span></div>
+        <div class="arabic">هُدًۭى وَبُشْرَىٰ لِلْمُؤْمِنِينَ</div>
+        <div class="translation">"As guidance and good tidings for the believers"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">This Book functions as a precise map of guidance and a source of joyous, beautiful news specifically for those who choose to believe.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"Hudan" (Guidance) protects the intellect from wandering in darkness; "Bushra" (Good tidings) protects the emotional heart from sinking into despair. The Book addresses both the mind and the soul. However, this dual benefit is strictly conditional: it only activates "lil-Mu'mineen" (for the believers). To the arrogant, it appears as a threat.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Hope</span><span class="tag">Spiritual Practice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 3</span></div>
+        <div class="arabic">ٱلَّذِينَ يُقِيمُونَ ٱلصَّلَوٰةَ وَيُؤْتُونَ ٱلزَّكَوٰةَ وَهُم بِٱلْـَٔاخِرَةِ هُمْ يُوقِنُونَ</div>
+        <div class="translation">"Who establish prayer and give zakah, and of the Hereafter they are certain [in faith]."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">These true believers are defined by three things: they consistently perform their daily prayers, they pay the obligatory charity to the poor, and they possess absolute, unshakeable certainty that the Day of Judgment is coming.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The golden triad of Islamic identity. "Salah" repairs the vertical relationship between the servant and the Creator. "Zakah" repairs the horizontal relationship between the wealthy and the poor. But "Yooqinoon" (absolute certainty in the Hereafter) is the invisible engine that powers both. Without the certainty of an eternal audit, prayer becomes a chore and charity becomes a tax.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Spiritual Practice</span><span class="tag">Social Ethics</span><span class="tag">The Unseen</span></div>
+    </div>
+
+    <div class="verse-card" style="border-left: 6px solid #e53e3e; background: #fff5f5;">
+        <div class="verse-header"><span class="verse-number">Verse 4</span></div>
+        <div class="arabic">إِنَّ ٱلَّذِينَ لَا يُؤْمِنُونَ بِٱلْـَٔاخِرَةِ زَيَّنَّا لَهُمْ أَعْمَـٰلَهُمْ فَهُمْ يَعْمَهُونَ</div>
+        <div class="translation">"Indeed, for those who do not believe in the Hereafter, We have made pleasing to them their deeds, so they wander blindly."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">On the other hand, for those who entirely reject the Hereafter, God allows their evil and selfish actions to look beautiful and justified in their own eyes, leaving them to wander through life completely blind to the truth.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">"Zayyanna" (We have made pleasing/adorned). This is the terrifying punishment of "Istidraj" (gradual ruin). When a soul repeatedly rejects the accountability of the Hereafter, God removes the internal alarm system of guilt. The sinner begins to view their own corruption as brilliance and their own greed as success. "Ya'mahoon" describes the aimless, chaotic wandering of a blind animal in the desert.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Warning</span><span class="tag">Sin</span><span class="tag">Human Nature</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 5</span></div>
+        <div class="arabic">أُو۟لَـٰٓئِكَ ٱلَّذِينَ لَهُمْ سُوٓءُ ٱلْعَذَابِ وَهُمْ فِى ٱلْـَٔاخِرَةِ هُمُ ٱلْأَخْسَرُونَ</div>
+        <div class="translation">"Those are the ones for whom there will be the worst of punishment, and in the Hereafter they are the greatest losers."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Because they chose to wander blindly, they will face the most severe punishment, and when the next life begins, they will realize they have lost absolutely everything.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"Al-Akhsaroon" (the greatest losers). True loss is not bankruptcy in the Dunya; it is arriving in the Akhirah having spent the entirety of your biological life investing in an illusion. They thought they were winning the world (because their deeds were "made pleasing" to them), but they were actively purchasing their own damnation.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Punishment</span><span class="tag">Hell</span><span class="tag">Accountability</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 6</span></div>
+        <div class="arabic">وَإِنَّكَ لَتُلَقَّى ٱلْقُرْءَانَ مِن لَّدُنْ حَكِيمٍ عَلِيمٍ</div>
+        <div class="translation">"And indeed, [O Muhammad], you receive the Qur'an from one Wise and Knowing."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God reassures the Prophet ﷺ directly: "Rest assured, you are receiving this Qur'an directly from the absolute presence of the Most Wise, the All-Knowing God."</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">"Min ladun" (from the immediate, intimate presence). The Qur'an is not merely an inspired philosophy; it is a direct download from the Source. "Hakeem" guarantees that every command in the Book is perfectly balanced for human flourishing; "Aleem" guarantees that the Book perfectly encompasses the knowledge of the past, present, and future.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">Knowledge & Signs</span><span class="tag">The Unseen</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 7</span></div>
+        <div class="arabic">إِذْ قَالَ مُوسَىٰ لِأَهْلِهِۦٓ إِنِّىٓ ءَانَسْتُ نَارًۭا سَـَٔاتِيكُم مِّنْهَا بِخَبَرٍ أَوْ ءَاتِيكُم بِشِهَابٍ قَبَسٍۢ لَّعَلَّكُمْ تَصْطَلُونَ</div>
+        <div class="translation">"[Mention] when Moses said to his family, 'Indeed, I have perceived a fire. I will bring you from there information or will bring you a burning torch that you may warm yourselves.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The Surah introduces Moses, but with a specific focus on his search for knowledge. Lost in the cold desert, he saw a fire and told his family: "I see a fire! Let me go. I will either bring back information on which way to travel, or at least bring a flaming branch so we can get warm."</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">Surah An-Naml is the "Surah of Knowledge." Notice Moses's priorities here compared to other Surahs: he asks for "Khabar" (information/news) *before* he asks for "Qabas" (a torch for warmth). His intellectual desperation (being lost) superseded his biological desperation (being cold). Because he sought direction, God granted him Prophethood.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Knowledge & Signs</span><span class="tag">Human Nature</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 8</span></div>
+        <div class="arabic">فَلَمَّا جَآءَهَا نُودِىَ أَنۢ بُورِكَ مَن فِى ٱلنَّارِ وَمَنْ حَوْلَهَا وَسُبْحَـٰنَ ٱللَّهِ رَبِّ ٱلْعَـٰلَمِينَ</div>
+        <div class="translation">"But when he came to it, he was called, 'Blessed is whoever is at the fire and whoever is around it. And exalted is Allah, Lord of the worlds."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">When Moses approached the glowing bush, a majestic voice called out: "Blessed and holy is the one inside this fire, and blessed are those around it! And absolute glory belongs to God, the Master of the universe!"</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"Boorika man fin-nar" (Blessed is whoever is at the fire). The light Moses saw was not an earthly combustion; it was the "Noor" (Light) of Divine manifestation. The one "around it" refers to Moses himself, and the angels attending the perimeter. God instantly transitions Moses from seeking physical warmth to witnessing the unapproachable, terrifying glory ("SubhanAllah") of the Creator.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Attributes of Allah</span><span class="tag">Prophetic History</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 9</span></div>
+        <div class="arabic">يَـٰمُوسَىٰٓ إِنَّهُۥٓ أَنَا ٱللَّهُ ٱلْعَزِيزُ ٱلْحَكِيمُ</div>
+        <div class="translation">"O Moses, indeed it is I - Allah, the Exalted in Might, the Wise."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"O Moses! Understand this clearly: It is I, Allah, the Almighty who cannot be defeated, and the infinitely Wise!"</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The Divine introduction. God uses the Attributes "Al-'Aziz" (Mighty) and "Al-Hakeem" (Wise). Moses is a wanted fugitive facing the greatest military empire on earth. God establishes that He possesses the Power ('Aziz) to crush Pharaoh, and the Wisdom (Hakeem) to orchestrate the exact method of liberation. The terrified fugitive is instantly heavily armed by these two Names.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">The Unseen</span><span class="tag">Prophetic History</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 10</span></div>
+        <div class="arabic">وَأَلْقِ عَصَاكَ ۚ فَلَمَّا رَءَاهَا تَهْتَزُّ كَأَنَّهَا جَآنٌّۭ وَلَّىٰ مُدْبِرًۭا وَلَمْ يُعَقِّبْ ۚ يَـٰمُوسَىٰ لَا تَخَفْ إِنِّى لَا يَخَافُ لَدَىَّ ٱلْمُرْسَلُونَ</div>
+        <div class="translation">"And [he was told], 'Throw down your staff.' But when he saw it writhing as if it were a snake, he turned in flight and did not return. [Allah said], 'O Moses, fear not. Indeed, in My presence the messengers do not fear."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"Throw down your stick!" When Moses threw it, it turned into a fast-moving, terrifying snake. Moses panicked, turned around, and ran away as fast as he could without looking back. God called out: "Moses! Do not be afraid! True Messengers have absolutely nothing to fear when they are standing in My presence."</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"La yakhafu ladayya al-mursaloon" (In My presence the messengers do not fear). Fear is generated by the possibility of harm. When you are "Ladayya" (intimately in My presence), you are entirely enveloped by the Sovereign who controls the thing you fear. To fear the snake while standing before the Creator of the snake is a temporary lapse in awareness that God immediately corrects.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Human Nature</span><span class="tag">Prophetic History</span><span class="tag">Hope</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 11</span></div>
+        <div class="arabic">إِلَّا مَن ظَلَمَ ثُمَّ بَدَّلَ حُسْنًۢا بَعْدَ سُوٓءٍۢ فَإِنِّى غَفُورٌۭ رَّحِيمٌۭ</div>
+        <div class="translation">"Otherwise, he who wrongs, then substitutes good after evil - indeed, I am Forgiving and Merciful."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"The only one who should feel fear is the one who commits a sin. But even then, if that person replaces their bad deed with sincere good deeds, they will find that I am intensely Forgiving and Merciful."</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">This is a profound, subtle comfort to Moses. Moses was terrified of returning to Egypt because he had committed manslaughter (a "wrong"). God indirectly absolves his anxiety: If a person makes a mistake, but then immediately replaces it with repentance and righteous action (as Moses did in exile), the sin is entirely overridden by "Ghafurun Raheem."</div></div>
+        </div>
+        <div class="tags"><span class="tag">Repentance</span><span class="tag">Hope</span><span class="tag">Attributes of Allah</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 12</span></div>
+        <div class="arabic">وَأَدْخِلْ يَدَكَ فِى جَيْبِكَ تَخْرُجْ بَيْضَآءَ مِنْ غَيْرِ سُوٓءٍۢ ۖ فِى تِسْعِ ءَايَـٰتٍ إِلَىٰ فِرْعَوْنَ وَقَوْمِهِۦٓ ۚ إِنَّهُمْ كَانُوا۟ قَوْمًۭا فَـٰسِقِينَ</div>
+        <div class="translation">"And put your hand into the opening of your garment; it will come out white without disease. [These are] among the nine signs [you will take] to Pharaoh and his people. Indeed, they have been a defiantly disobedient people.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"Now, slip your hand inside your shirt collar. When you pull it out, it will be shining a brilliant, flawless white. These two miracles are part of nine massive signs you will use to confront Pharaoh and his elite, because they are a deeply corrupt and rebellious nation."</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The "nine signs" (including the staff, the hand, the locusts, the frogs, the blood, etc.) were a calculated escalation of Divine pressure. God did not destroy Egypt with a single blow; He dismantled their arrogance methodically, proving His dominion over their biology, their agriculture, and their river, providing them nine distinct opportunities to surrender before the sea collapsed on them.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Commands</span><span class="tag">Prophetic History</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 13</span></div>
+        <div class="arabic">فَلَمَّا جَآءَتْهُمْ ءَايَـٰتُنَا مُبْصِرَةًۭ قَالُوا۟ هَـٰذَا سِحْرٌۭ مُّبِينٌۭ</div>
+        <div class="translation">"But when Our signs came to them, enlightening, they said, 'This is obvious magic.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">But when Moses delivered these clear, eye-opening miracles directly to them, they arrogantly dismissed them, saying, "This is nothing but obvious, cheap magic tricks!"</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"Mubsiratan" (enlightening/visible). The signs were not subtle; they possessed an undeniable, objective brilliance designed to force the eye to see. But physical vision ("Basar") is useless if the internal vision ("Basiirah") is blind. By labeling divine physics as "Sihr" (magic), they protected their ego from the terrifying requirement to submit.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Arrogance</span><span class="tag">Knowledge & Signs</span></div>
+    </div>
+
+    <div class="verse-card" style="border-left: 6px solid #e53e3e; background: #fff5f5;">
+        <div class="verse-header"><span class="verse-number">Verse 14</span></div>
+        <div class="arabic">وَجَحَدُوا۟ بِهَا وَٱسْتَيْقَنَتْهَآ أَنفُسُهُمْ ظُلْمًۭا وَعُلُوًّۭا ۚ فَٱنظُرْ كَيْفَ كَانَ عَـٰقِبَةُ ٱلْمُفْسِدِينَ</div>
+        <div class="translation">"And they rejected them, while their [inner] souls were convinced thereof, out of injustice and haughtiness. So see how was the end of the corrupters."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">They openly rejected the miracles, even though deep down inside, they were absolutely convinced they were real! They denied the truth purely out of toxic pride and a desire to maintain their oppressive power. Look at how horrific their final destruction was!</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">"Jahadu" means to deny something verbally while knowing internally it is true. "Istayaqanatha" indicates absolute, airtight certainty. This verse defines the apex of Kufr (disbelief). Pharaoh did not doubt Moses; Pharaoh *knew* Moses was telling the truth. His rejection was not a failure of intellect, but a failure of character ("Uluwwan" - haughtiness). He chose damnation in the Hereafter over surrendering his throne in the Dunya.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Arrogance</span><span class="tag">Sin</span><span class="tag">Accountability</span></div>
+    </div>
+
+    <div class="verse-card" style="border-left: 6px solid #2b6cb0; background: #ebf8ff;">
+        <div class="verse-header"><span class="verse-number">Verse 15</span></div>
+        <div class="arabic">وَلَقَدْ ءَاتَيْنَا دَاوُۥدَ وَسُلَيْمَـٰنَ عِلْمًۭا ۖ وَقَالَا ٱلْحَمْدُ لِلَّهِ ٱلَّذِى فَضَّلَنَا عَلَىٰ كَثِيرٍۢ مِّنْ عِبَادِهِ ٱلْمُؤْمِنِينَ</div>
+        <div class="translation">"And We had certainly given to David and Solomon knowledge, and they said, 'Praise [is due] to Allah, who has favored us over many of His believing servants.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The narrative shifts to the glorious kingdom: We granted immense, profound knowledge to Prophets David and Solomon. Their immediate reaction to this power was deep gratitude: "All praise belongs to Allah, who has honored us with this gift above many of His faithful servants!"</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The absolute contrast to Pharaoh. Pharaoh was given a fraction of power and claimed "I am your Lord." David and Solomon were given a global, inter-species empire (humans, jinn, animals), yet their immediate reflex was "Alhamdulillah" (All Praise is to Allah). The true metric of a king is not the size of his army, but the depth of his humility before the True King.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Humility</span><span class="tag">Knowledge & Signs</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 16</span></div>
+        <div class="arabic">وَوَرِثَ سُلَيْمَـٰنُ دَاوُۥدَ ۖ وَقَالَ يَـٰٓأَيُّهَا ٱلنَّاسُ عُلِّمْنَا مَنطِقَ ٱلطَّيْرِ وَأُوتِينَا مِن كُلِّ شَىْءٍ ۖ إِنَّ هَـٰذَا لَهُوَ ٱلْفَضْلُ ٱلْمُبِينُ</div>
+        <div class="translation">"And Solomon inherited David. He said, 'O people, we have been taught the language of birds, and we have been given from all things. Indeed, this is evident bounty.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Solomon inherited his father David's kingdom and Prophethood. Solomon announced to his kingdom: "O people! God has taught us how to understand and speak the language of birds, and He has granted us every possible kind of blessing and power! This is undeniably a massive, clear favor from Him."</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"Waritha Sulayman" (Solomon inherited). Prophets do not leave behind gold or silver as inheritance; they leave behind 'Ilm (knowledge) and Nubuwwah (Prophethood). Solomon publicly acknowledges his supernatural capabilities ("language of birds"), not as a boast of his own genius, but to publicly accredit the "Fadl al-Mubeen" (evident bounty) of God, ensuring the masses worship the Giver, not the gifted.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Prophetic History</span><span class="tag">Wealth</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 17</span></div>
+        <div class="arabic">وَحُشِرَ لِسُلَيْمَـٰنَ جُنُودُهُۥ مِنَ ٱلْجِنِّ وَٱلْإِنسِ وَٱلطَّيْرِ فَهُمْ يُوزَعُونَ</div>
+        <div class="translation">"And gathered for Solomon were his soldiers of the jinn and men and birds, and they were [marching] in rows."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Solomon commanded the most incredible army in human history. His military forces were perfectly assembled and marched in highly disciplined, organized rows, consisting of human infantry, powerful jinn, and squadrons of birds.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">"Yooza'oon" means to be kept in strict check, arranged in perfectly disciplined ranks to prevent chaos. Commanding humans requires leadership; commanding jinn requires supernatural authority; commanding birds requires cross-species linguistics. The empire of Solomon represents the absolute apex of earthly dominion ever granted to a human being, flawlessly managed by Divine wisdom.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Wealth</span><span class="tag">The Unseen</span></div>
+    </div>
+
+    <div class="verse-card" style="border-left: 6px solid #d69e2e; background: #fffaf0;">
+        <div class="verse-header"><span class="verse-number">Verse 18</span></div>
+        <div class="arabic">حَتَّىٰٓ إِذَا أَتَوْا۟ عَلَىٰ وَادِ ٱلنَّمْلِ قَالَتْ نَمْلَةٌۭ يَـٰٓأَيُّهَا ٱلنَّمْلُ ٱدْخُلُوا۟ مَسَـٰكِنَكُمْ لَا يَحْطِمَنَّكُمْ سُلَيْمَـٰنُ وَجُنُودُهُۥ وَهُمْ لَا يَشْعُرُونَ</div>
+        <div class="translation">"Until, when they came upon the valley of the ants, an ant said, 'O ants, enter your dwellings that you not be crushed by Solomon and his soldiers while they perceive not.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">As this massive, earth-shaking army marched, they approached a valley filled with ants. A single female ant sensed the danger and shouted: "O ants! Hurry and get inside your underground homes, so that Solomon and his massive army do not accidentally crush you without even realizing it!"</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">A breathtaking demonstration of justice. The tiny ant recognized the immense power of the King ("Solomon and his soldiers"), but it also recognized the King's moral perfection. It did not say "they will crush us out of cruelty"; it added the crucial disclaimer "Wahum la yash'uroon" (while they perceive not). Even insects in the kingdom of a just ruler know that the ruler would never execute harm intentionally.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Social Ethics</span><span class="tag">Prophetic History</span></div>
+    </div>
+
+    <div class="verse-card" style="border-left: 6px solid #805ad5; background: #faf5ff;">
+        <div class="verse-header"><span class="verse-number">Verse 19</span></div>
+        <div class="arabic">فَتَبَسَّمَ ضَاحِكًۭا مِّن قَوْلِهَا وَقَالَ رَبِّ أَوْزِعْنِىٓ أَنْ أَشْكُرَ نِعْمَتَكَ ٱلَّتِىٓ أَنْعَمْتَ عَلَىَّ وَعَلَىٰ وَٰلِدَىَّ وَأَنْ أَعْمَلَ صَـٰلِحًۭا تَرْضَىٰهُ وَأَدْخِلْنِى بِرَحْمَتِكَ فِى عِبَادِكَ ٱلصَّـٰلِحِينَ</div>
+        <div class="translation">"So [Solomon] smiled, amused at her speech, and said, 'My Lord, enable me to be grateful for Your favor which You have bestowed upon me and upon my parents and to do righteousness of which You approve. And admit me by Your mercy into [the ranks of] Your righteous servants.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Solomon, hearing the tiny voice from the ground, smiled and laughed in amusement. He immediately halted the army and prayed: "My Master! Force my heart to be constantly grateful for these incredible blessings You have given me and my parents. Guide me to do good deeds that make You happy. And when I die, envelope me in Your mercy and place me among Your righteous servants."</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The defining contrast of the Surah. Pharaoh demanded to be worshipped by humans; Solomon smiled affectionately at the warning of a microscopic insect. "Awzi'ni" means to compel or marshal. Solomon begs God to literally force his heart into a state of gratitude, terrified that his unprecedented power might breed arrogance. The man who commands demons begs God to accept him simply as a "righteous servant."</div></div>
+        </div>
+        <div class="tags"><span class="tag">Humility</span><span class="tag">Spiritual Practice</span><span class="tag">Prophetic History</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 20</span></div>
+        <div class="arabic">وَتَفَقَّدَ ٱلطَّيْرَ فَقَالَ مَا لِىَ لَآ أَرَى ٱلْهُدْهُدَ أَمْ كَانَ مِنَ ٱلْغَآئِبِينَ</div>
+        <div class="translation">"And he took attendance of the birds and said, 'Why do I not see the hoopoe - or is he among the absent?'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">As the Supreme Commander, Solomon inspected his troops. While reviewing the bird squadron, he noticed someone missing and asked: "Why can't I see the Hoopoe bird? Is he hiding, or is he actually absent without permission?"</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">"Tafaqqada" (he took attendance/investigated). A masterclass in executive leadership. Despite commanding millions of humans and jinn, Solomon's administrative grip was so flawless that he immediately noticed the absence of a single, small bird (the Hoopoe, known for its ability to detect underground water). True leadership requires meticulous attention to the micro details of the state.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Social Ethics</span><span class="tag">Accountability</span><span class="tag">Prophetic History</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 21</span></div>
+        <div class="arabic">لَأُعَذِّبَنَّهُۥ عَذَابًا شَدِيدًا أَوْ لَأَا۟ذْبَحَنَّهُۥٓ أَوْ لَيَأْتِيَنِّى بِسُلْطَـٰنٍۢ مُّبِينٍۢ</div>
+        <div class="translation">"'I will surely punish him with a severe punishment or slaughter him unless he brings me clear authorization.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Solomon declared strict military discipline: "I will absolutely punish him severely, or even execute him for desertion, unless he returns with a completely valid, legally acceptable excuse for his absence!"</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">Compassion (smiling at the ant) does not negate justice (punishing the deserter). Solomon maintains absolute military discipline to prevent chaos in the ranks. However, his justice is tempered by reason ("Sultanin Mubeen" - clear authorization). He does not execute blindly; he leaves the door open for the accused to provide a legitimate defense, modeling the perfect balance of Jalal (Rigor) and Jamal (Mercy).</div></div>
+        </div>
+        <div class="tags"><span class="tag">Divine Justice</span><span class="tag">Social Ethics</span><span class="tag">Accountability</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 22</span></div>
+        <div class="arabic">فَمَكَثَ غَيْرَ بَعِيدٍۢ فَقَالَ أَحَطتُ بِمَا لَمْ تُحِطْ بِهِۦ وَجِئْتُكَ مِن سَبَإٍۭ بِنَبَإٍۢ يَقِينٍ</div>
+        <div class="translation">"But the hoopoe stayed not long and said, 'I have encompassed [in knowledge] that which you have not encompassed, and I have come to you from Sheba with certain news.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The Hoopoe returned shortly after. Unintimidated by the King's anger, the bird confidently stated: "I have just discovered massive, vital intelligence that you know absolutely nothing about! I bring you guaranteed, undeniable news from the distant kingdom of Sheba (Yemen)!"</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">"Ahattu bima lam tuhit bihi" (I have encompassed what you have not). A staggering theological moment. A tiny bird looks at the most powerful, knowledgeable human king in history and boldly declares: "I know something you do not." God uses the Hoopoe to establish the boundary of human intellect. No matter how vast Solomon's empire was, his knowledge was finite. Absolute, all-encompassing knowledge belongs only to the Creator.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Humility</span><span class="tag">Prophetic History</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 23</span></div>
+        <div class="arabic">إِنِّى وَجَدتُّ ٱمْرَأَةًۭ تَمْلِكُهُمْ وَأُوتِيَتْ مِن كُلِّ شَىْءٍۢ وَلَهَا عَرْشٌ عَظِيمٌ</div>
+        <div class="translation">"'Indeed, I found [there] a woman ruling them, and she has been given of all things, and she has a great throne.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The Hoopoe delivered his intelligence report: "I flew over a wealthy nation ruled by a powerful Queen. She commands a highly advanced civilization, possesses immense economic wealth, and sits upon a magnificent, colossal throne."</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The Hoopoe details the geopolitical reality of the Kingdom of Saba (Sheba in modern-day Yemen), ruled by Queen Bilqis. The bird acknowledges her immense worldly power and the breathtaking architecture of her "Arsh 'Adheem" (great throne), setting the stage for the ultimate clash of civilizations.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Wealth</span><span class="tag">Knowledge & Signs</span><span class="tag">Social Ethics</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 24</span></div>
+        <div class="arabic">وَجَدتُّهَا وَقَوْمَهَا يَسْجُدُونَ لِلشَّمْسِ مِن دُونِ ٱللَّهِ وَزَيَّنَ لَهُمُ ٱلشَّيْطَـٰنُ أَعْمَـٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ فَهُمْ لَا يَهْتَدُونَ</div>
+        <div class="translation">"'I found her and her people prostrating to the sun instead of Allah, and Satan has made their deeds pleasing to them and averted them from [His] way, so they are not guided,'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"But here is the tragedy: I saw her and her entire nation bowing down and worshipping the sun instead of God! Satan has completely brainwashed them, making their idolatry look beautiful to them, blocking them from the right path, so they are totally lost in darkness."</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">The Hoopoe acts as a theologian. The bird is not impressed by the gold of the throne; it is utterly horrified by the Shirk of the Queen. The animal kingdom innately possesses Tawheed (belief in One God). The bird is disturbed that a creature endowed with an intellect would prostrate to a ball of gas (the sun) rather than the Creator of the sun. The bird recognizes that Satan's primary weapon is "Tazyeen" (beautifying the sin).</div></div>
+        </div>
+        <div class="tags"><span class="tag">Sin</span><span class="tag">Warning</span><span class="tag">The Unseen</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 25</span></div>
+        <div class="arabic">أَلَّا يَسْجُدُوا۟ لِلَّهِ ٱلَّذِى يُخْرِجُ ٱلْخَبْءَ فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ وَيَعْلَمُ مَا تُخْفُونَ وَمَا تُعْلِنُونَ</div>
+        <div class="translation">"[And] so they do not prostrate to Allah, who brings forth what is hidden within the heavens and the earth and knows what you conceal and what you declare -"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"Satan tricked them so they wouldn't bow to the True God—the God who easily uncovers and brings out all the hidden secrets in the skies (like rain) and the earth (like plants), and Who knows exactly what you hide in your hearts and what you say out loud!"</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The Hoopoe delivers a flawless theological argument. "Al-Khab'a" means the deeply hidden things (seeds beneath the soil, water beneath the desert, secrets beneath the chest). The bird marvels at human foolishness: why worship the sun, which is merely a visible tool, when you should worship the Sovereign who controls both the visible and the deeply invisible mechanics of reality?</div></div>
+        </div>
+        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">The Unseen</span><span class="tag">Knowledge & Signs</span></div>
+    </div>
+
+    <div class="verse-card" style="border-left: 6px solid #2b6cb0; background: #ebf8ff;">
+        <div class="verse-header"><span class="verse-number">Verse 26 ۩ (Sajdah)</span></div>
+        <div class="arabic">ٱللَّهُ لَآ إِلَـٰهَ إِلَّا هُوَ رَبُّ ٱلْعَرْشِ ٱلْعَظِيمِ ۩</div>
+        <div class="translation">"Allah - there is no deity except Him, Lord of the Great Throne."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The bird concludes its passionate speech: "Allah is the only one worthy of worship. There is no other god! He is the Master of the Supreme, Massive Throne of the universe!" (It is highly recommended to physically prostrate to God upon reading this verse).</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The Hoopoe brilliantly contrasts the two thrones. In Verse 23, the bird described the Queen's throne as "Arsh 'Adheem" (a great throne) in worldly terms. Here, the bird immediately corrects the scale by attributing the true "Arsh al-'Adheem" to God. The throne of Sheba is made of gold and wood; the Throne of Allah encompasses the heavens and the earth. The bird humbles the Queen's empire before the King's empire.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Spiritual Practice</span><span class="tag">Attributes of Allah</span><span class="tag">Humility</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 27</span></div>
+        <div class="arabic">قَالَ سَنَنظُرُ أَصَدَقْتَ أَمْ كُنتَ مِنَ ٱلْكَـٰذِبِينَ</div>
+        <div class="translation">"[Solomon] said, 'We will see whether you were truthful or were of the liars.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Solomon listened carefully, withholding judgment. He replied: "We will investigate this immediately to see if you are telling the truth, or if you are just lying to escape punishment."</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"Sanandhuru" (We will look/investigate). Solomon demonstrates the perfect emotional regulation of a just ruler. He does not execute the bird in a rage, nor does he blindly believe the sensational intelligence report. He relies on "Tathabbut" (verification). A leader must never act on unverified news, no matter how eloquent the speaker is. Truth must always be audited.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Social Ethics</span><span class="tag">Accountability</span><span class="tag">Steadfastness</span></div>
+    </div>
+
+</div>
+
+</body>
+</html>
