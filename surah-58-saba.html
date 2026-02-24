@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surah Saba | Sheba</title>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@300;400;600&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #ffffff; --text-color: #2d3748; --primary-accent: #2b6cb0; 
+            --border-color: #e2e8f0; --tag-bg: #e6fffa; --tag-text: #2c7a7b;
+            --context-color: #d69e2e; --sufi-color: #38a169; --wisdom-color: #805ad5; --plain-color: #718096; 
+        }
+        body { font-family: 'Inter', sans-serif; background: var(--bg-color); color: var(--text-color); margin: 0; padding: 0; line-height: 1.6; }
+        .nav-bar { padding: 1rem 2rem; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; background: white; z-index: 100; box-shadow: 0 2px 4px rgba(0,0,0,0.05); flex-wrap: wrap; gap: 1rem;}
+        .nav-controls { display: flex; gap: 1.5rem; align-items: center; }
+        .nav-link { text-decoration: none; color: var(--primary-accent); font-weight: 600; display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem;}
+        .nav-link:hover { text-decoration: underline; }
+        .home-btn { background: var(--primary-accent); color: white; padding: 0.5rem 1rem; border-radius: 6px; }
+        .home-btn:hover { background: #2c5282; color: white; text-decoration: none; }
+        header { text-align: center; padding: 3rem 1rem 2rem; background: linear-gradient(180deg, #f7fafc 0%, #ffffff 100%); }
+        h1 { font-family: 'Merriweather', serif; font-size: 2.8rem; margin: 0; color: #1a202c; }
+        .meta { color: #718096; text-transform: uppercase; letter-spacing: 2px; font-size: 0.85rem; margin-top: 1rem; font-weight: 700; }
+        .intro-text { max-width: 650px; margin: 1.5rem auto 0; font-style: italic; color: #4a5568; }
+        .container { max-width: 900px; margin: 0 auto; padding: 0 1rem 4rem; }
+        .verse-card { background: white; border: 1px solid var(--border-color); border-radius: 12px; padding: 2rem; margin-bottom: 2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.02); }
+        .verse-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; border-bottom: 1px solid #edf2f7; padding-bottom: 0.8rem; }
+        .verse-number { background: var(--primary-accent); color: white; padding: 0.2rem 0.8rem; border-radius: 20px; font-size: 0.85rem; font-weight: 700; }
+        .arabic { font-family: 'Amiri', serif; font-size: 2.4rem; text-align: right; color: #2d3748; margin-bottom: 1.5rem; line-height: 2.2; }
+        .translation { font-family: 'Merriweather', serif; font-size: 1.2rem; color: #1a202c; margin-bottom: 2rem; border-left: 4px solid var(--primary-accent); padding-left: 1rem; }
+        .insights { display: grid; grid-template-columns: 1fr; gap: 1rem; }
+        .insight-box { background: #fff; padding: 1.2rem; border-radius: 8px; border: 1px solid #e2e8f0; border-left-width: 4px; }
+        .insight-box.plain { border-left-color: var(--plain-color); background: #f7fafc; }
+        .insight-box.context { border-left-color: var(--context-color); }
+        .insight-box.sufi { border-left-color: var(--sufi-color); }
+        .insight-box.hikam { border-left-color: var(--wisdom-color); }
+        .label { display: block; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1.2px; font-weight: 700; margin-bottom: 0.5rem; }
+        .plain .label { color: var(--plain-color); }
+        .context .label { color: var(--context-color); }
+        .sufi .label { color: var(--sufi-color); }
+        .hikam .label { color: var(--wisdom-color); }
+        .content { font-size: 0.95rem; color: #4a5568; }
+        .tags { margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; padding-top: 1rem; border-top: 1px solid #edf2f7; }
+        .tag { background: var(--tag-bg); color: var(--tag-text); padding: 0.2rem 0.7rem; border-radius: 99px; font-size: 0.75rem; font-weight: 600; }
+    </style>
+</head>
+<body>
+
+<div class="nav-bar">
+    <div class="nav-controls">
+        <a href="index.html" class="nav-link home-btn">⌂ Dashboard</a>
+        <a href="surah-57-luqman" class="nav-link">← Prev</a>
+        <a href="surah-59-zumar" class="nav-link">Next →</a>
+    </div>
+    <span style="font-weight: 600; color: #718096; font-size: 0.9rem;">Mushaf: #34 | Chronological: #58</span>
+</div>
+
+<header>
+    <h1>Surah Saba</h1>
+    <div class="meta">Sheba • Makkah • 54 Verses</div>
+    <div class="intro-text">
+        The Kingdom of Gratitude. A profound exploration of power and wealth, contrasting the deeply thankful empires of David and Solomon with the arrogant, self-destructing civilization of Saba (Sheba).
+    </div>
+</header>
+
+<div class="container">
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 1</span></div>
+        <div class="arabic">ٱلْحَمْدُ لِلَّهِ ٱلَّذِى لَهُۥ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ وَلَهُ ٱلْحَمْدُ فِى ٱلْـَٔاخِرَةِ ۚ وَهُوَ ٱلْحَكِيمُ ٱلْخَبِيرُ</div>
+        <div class="translation">"All praise belongs to Allah, to whom belongs whatever is in the heavens and whatever is in the earth; and to Him belongs all praise in the Hereafter. And He is the Wise, the Acquainted."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"The Surah opens with absolute gratitude: All perfect praise belongs entirely to God because He legally owns and controls every single thing in the universe. Not only is He praised here on earth, but all praise in the eternal life to come also belongs to Him alone. He acts with perfect wisdom and is intimately aware of everything."</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">This Surah is one of the five Surahs in the Qur'an that begin directly with "Alhamdulillah" (the others being Al-Fatihah, Al-An'am, Al-Kahf, and Fatir). It sets the immediate theological tone: God is not merely the Creator; He is the active, managing Owner. True praise ("Hamd") is the logical response of a sane intellect acknowledging that it exists entirely on the property of the King.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">Spiritual Practice</span><span class="tag">The Unseen</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 2</span></div>
+        <div class="arabic">يَعْلَمُ مَا يَلِجُ فِى ٱلْأَرْضِ وَمَا يَخْرُجُ مِنْهَا وَمَا يَنزِلُ مِنَ ٱلسَّمَآءِ وَمَا يَعْرُجُ فِيهَا ۚ وَهُوَ ٱلرَّحِيمُ ٱلْغَفُورُ</div>
+        <div class="translation">"He knows exactly what penetrates into the earth and what emerges from it, and what descends from the heaven and what ascends into it. And He is the Merciful, the Forgiving."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"His knowledge is staggeringly detailed. He knows every single drop of rain and seed that sinks into the soil, every plant and insect that comes out of it, every angel and blessing that comes down from the sky, and every prayer and soul that travels up to it. Despite knowing all our hidden flaws, He is intensely merciful and forgiving."</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The Divine Omniscience. "Ma ya'ruju feeha" (what ascends into it). This includes the invisible, weightless ascent of human deeds. Every secret tear you shed in the dark, every silent prayer you make, and every intention you harbor physically ascends through the atmosphere directly to His Throne. Because He tracks the trajectory of every atom, your unseen spiritual struggles are never wasted.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">Knowledge & Signs</span><span class="tag">The Unseen</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 3</span></div>
+        <div class="arabic">وَقَالَ ٱلَّذِينَ كَفَرُوا۟ لَا تَأْتِينَا ٱلسَّاعَةُ ۖ قُلْ بَلَىٰ وَرَبِّى لَتَأْتِيَنَّكُمْ عَـٰلِمِ ٱلْغَيْبِ ۖ لَا يَعْزُبُ عَنْهُ مِثْقَالُ ذَرَّةٍۢ فِى ٱلسَّمَـٰوَٰتِ وَلَا فِى ٱلْأَرْضِ وَلَآ أَصْغَرُ مِن ذَٰلِكَ وَلَآ أَكْبَرُ إِلَّا فِى كِتَـٰبٍۢ مُّبِينٍۢ</div>
+        <div class="translation">"But those who disbelieve say, 'The Hour will never come to us.' Say, 'Yes, by my Lord, it will absolutely come to you. [He is] the Knower of the unseen.' Not absent from Him is an atom's weight within the heavens or within the earth or [what is] smaller than that or larger, except that it is in a clear register."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"The arrogant rejecters confidently brag: 'Judgment Day will never happen to us!' Tell them: 'No! I swear by my Master, the One who knows all hidden things, it will absolutely crash down upon you! God does not miss a single thing—not even an atom hiding in outer space or deep underground. Everything smaller or larger than an atom is perfectly recorded in a clear Book.'"</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"Mithqala dharratin" (an atom's weight). The pagan elite believed that even if God existed, He was a "clockmaker" who did not care about the microscopic details of human lives. God shatters this delusion. The Divine Audit is sub-atomic. If the Creator possesses the bandwidth to track an electron in a distant galaxy, He certainly tracks the fraction of an ounce of pride hiding in your chest.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Accountability</span><span class="tag">Warning</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 4</span></div>
+        <div class="arabic">لِّيَجْزِىَ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ ۚ أُو۟لَـٰٓئِكَ لَهُم مَّغْفِرَةٌۭ وَرِزْقٌۭ كَرِيمٌۭ</div>
+        <div class="translation">"That He may reward those who believe and do righteous deeds. Those will have forgiveness and a noble provision."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"Why must the Hour come? So that God can fairly and beautifully reward those who kept their faith and actually put in the effort to do good deeds. Those sincere people are guaranteed two things: total forgiveness for their mistakes, and a rich, generous, and honorable life in Heaven."</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The necessity of the Resurrection. If there is no "Sa'ah" (Hour), then the tyrant who murders millions and dies comfortably in his sleep achieves the exact same biological end as the Prophet who suffers his entire life for the truth. A universe without a Day of Judgment is a universe built upon supreme injustice. The Hour must exist ("liyajziya" - so that He may reward) to balance the scales.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Divine Justice</span><span class="tag">Hope</span><span class="tag">Jannah</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 5</span></div>
+        <div class="arabic">وَٱلَّذِينَ سَعَوْا۟ فِىٓ ءَايَـٰتِنَا مُعَـٰجِزِينَ أُو۟لَـٰٓئِكَ لَهُمْ عَذَابٌۭ مِّن رِّجْزٍ أَلِيمٌۭ</div>
+        <div class="translation">"But those who aggressively strive against Our verses [seeking] to cause failure - those will have a punishment of an agonizing, painful torment."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"On the other hand, those who constantly dedicate their energy to fighting against God's signs, trying to silence the truth and outrun God's justice—they will be slammed with a filthy, excruciatingly painful punishment."</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">"Sa'aw... mu'ajizeen" (they strive... trying to cause failure). This is not passive disbelief; this is the active, exhausting deployment of resources to extinguish the Light. The tragic irony is that they expend tremendous energy running away from God, only to discover that the very track they are running on was designed by God, leading them directly into His courtroom.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Warning</span><span class="tag">Arrogance</span><span class="tag">Hell</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 6</span></div>
+        <div class="arabic">وَيَرَى ٱلَّذِينَ أُوتُوا۟ ٱلْعِلْمَ ٱلَّذِىٓ أُنزِلَ إِلَيْكَ مِن رَّبِّكَ هُوَ ٱلْحَقَّ وَيَهْدِىٓ إِلَىٰ صِرَٰطِ ٱلْعَزِيزِ ٱلْحَمِيدِ</div>
+        <div class="translation">"And those who have been given knowledge clearly see that what is revealed to you from your Lord is the absolute truth, and it guides to the path of the Exalted in Might, the Praiseworthy."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"While the arrogant mock it, the sincere scholars and people who actually possess deep knowledge recognize instantly that this Qur'an is the undeniable truth. They clearly see that it is a perfect map guiding humanity straight to the Almighty, Praiseworthy God."</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"Wa yara" (And they see). True knowledge ('Ilm) in Islam is not the accumulation of data; it is the acquisition of spiritual sight. The intellect purified by humility acts like a high-powered telescope, allowing the believer to "see" the Divine architecture within the verses of the Qur'an. To the blind ego, the Book is just ink on paper; to the sighted heart, it is a blazing path of light.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Spiritual Practice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 7</span></div>
+        <div class="arabic">وَقَالَ ٱلَّذِينَ كَفَرُوا۟ هَلْ نَدُلُّكُمْ عَلَىٰ رَجُلٍۢ يُنَبِّئُكُمْ إِذَا مُزِّقْتُمْ كُلَّ مُمَزَّقٍ إِنَّكُمْ لَفِى خَلْقٍۢ جَدِيدٍ</div>
+        <div class="translation">"And those who disbelieve say [in mockery], 'Shall we point you to a man who will inform you that when you have been torn to pieces in absolute disintegration, you will indeed be in a new creation?'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"The pagan leaders would stand in the streets and sarcastically yell to the crowds: 'Hey! Want us to show you a crazy man? He claims that after you die, rot in the ground, and your bones turn into dust, you will somehow be physically rebuilt and brought back to life!'"</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The mockery of the Quraish elite. They utilized public humiliation to deter the masses from listening to the Prophet ﷺ. "Muzziqtum kulla mumazzaq" (torn to every piece). They focused entirely on the undeniable biological reality of decay, using the visual disintegration of a corpse to argue that reversing the process was mathematically and scientifically absurd.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Arrogance</span><span class="tag">Prophetic History</span><span class="tag">Warning</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 8</span></div>
+        <div class="arabic">أَفْتَرَىٰ عَلَى ٱللَّهِ كَذِبًا أَم بِهِۦ جِنَّةٌۢ ۗ بَلِ ٱلَّذِينَ لَا يُؤْمِنُونَ بِٱلْـَٔاخِرَةِ فِى ٱلْعَذَابِ وَٱلضَّلَـٰلِ ٱلْبَعِيدِ</div>
+        <div class="translation">"'Has he invented a lie about Allah, or is there a madness in him?' Rather, they who do not believe in the Hereafter will be in the punishment and are in extreme error."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"They continued mocking: 'Did he just invent this massive lie about God, or is he actually insane?' God steps in to answer: 'He is neither a liar nor a madman. The reality is that the people who refuse to believe in the Hereafter are the ones suffering from extreme delusion, and they are marching straight into the punishment.'"</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The projection of the diseased ego. The disbelievers accused the Prophet ﷺ of "Jinnah" (madness) because his message broke the rules of their materialistic matrix. God flips the diagnosis: "Dalal al-ba'eed" (extreme error/delusion). True insanity is not believing in the resurrection; true insanity is observing the flawless, intricate engineering of the human eye and the stars, and concluding it is all a pointless, accidental joke with no accountability.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Warning</span><span class="tag">Arrogance</span><span class="tag">Accountability</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 9</span></div>
+        <div class="arabic">أَفَلَمْ يَرَوْا۟ إِلَىٰ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُم مِّنَ ٱلسَّمَآءِ وَٱلْأَرْضِ ۚ إِن نَّشَأْ نَخْسِفْ بِهِمُ ٱلْأَرْضَ أَوْ نُسْقِطْ عَلَيْهِمْ كِسَفًۭا مِّنَ ٱلسَّمَآءِ ۚ إِنَّ فِى ذَٰلِكَ لَـَٔايَةًۭ لِّكُلِّ عَبْدٍۢ مُّنِيبٍۢ</div>
+        <div class="translation">"Have they not observed what is before them and what is behind them of the heaven and the earth? If We willed, We could cause the earth to swallow them or cause fragments from the sky to fall upon them. Indeed in that is a sign for every servant who constantly turns back [to Allah]."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"Are they so arrogant they don't look around? Can't they see the massive sky above them and the earth beneath them? If God wanted to, He could easily command the ground to split open and swallow them alive, or command giant flaming rocks from the sky to crush them. The fact that the universe holds together peacefully is a massive sign for any servant who humbly turns to God."</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">God exposes their vulnerability. They mock the Prophet while standing on a planet that God controls, under a roof (the sky) that God suspends. The threat of "Khasf" (the earth swallowing them, like Qarun) or "Kisafan" (fragments falling from the sky, like Sodom) serves as a terrifying reality check. You are not safe because you are powerful; you are safe purely because God is currently patient.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Divine Justice</span><span class="tag">Warning</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 10</span></div>
+        <div class="arabic">۞ وَلَقَدْ ءَاتَيْنَا دَاوُۥدَ مِنَّا فَضْلًۭا ۖ يَـٰجِبَالُ أَوِّبِى مَعَهُۥ وَٱلطَّيْرَ ۖ وَأَلَنَّا لَهُ ٱلْحَدِيدَ</div>
+        <div class="translation">"And We certainly gave David from Us immense bounty. [We said], 'O mountains, echo his praises [of Allah], and the birds [as well].' And We made iron soft and pliable for him."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"We gave Prophet David massive, incredible blessings. When he would sing the praises of God, We commanded the giant mountains and the flocks of birds to literally echo his beautiful voice and pray alongside him! And We gave him a physical miracle: We made hard iron as soft as clay in his bare hands."</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The symphony of the cosmos. David (Dawud) was a king, yet his heart was so profoundly connected to God that his "Dhikr" (remembrance) achieved critical spiritual mass. God removed the veil from the inanimate world ("O mountains, echo his praises"), revealing that the entire universe is in a constant state of prayer. "Alanna lahu al-hadeed" (We softened iron for him). When a human heart becomes soft in the hands of God, God makes the hardest elements of the earth soft in the hands of the human.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Knowledge & Signs</span><span class="tag">Spiritual Practice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 11</span></div>
+        <div class="arabic">أَنِ ٱعْمَلْ سَـٰبِغَـٰتٍۢ وَقَدِّرْ فِى ٱلسَّرْدِ ۖ وَٱعْمَلُوا۟ صَـٰلِحًا ۖ إِنِّى بِمَا تَعْمَلُونَ بَصِيرٌۭ</div>
+        <div class="translation">"[Commanding him], 'Make full coats of mail and calculate precisely the links.' And [saying], 'Do righteous deeds; indeed, I am Seeing of what you do.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"We commanded him: 'Use this softened iron to forge full-body chainmail armor, and carefully measure and link the metal rings perfectly so the soldiers are safe.' And We commanded David and his people: 'Use your skills to do good, righteous deeds, because I am watching exactly how you use the power I gave you.'"</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">The sanctification of manual labor and engineering. God did not just soften the iron for David to play with; He commanded him to mathematically optimize it ("qaddir fis-sard" - calculate the links) to invent interlocking chainmail armor, which saved lives in battle. The Qur'an elevates excellent craftsmanship to the level of worship. If you invent a technology that protects human life and combine it with "Amal Salih" (righteous character), your factory floor becomes a prayer mat.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Wealth</span><span class="tag">Commands</span><span class="tag">Spiritual Practice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 12</span></div>
+        <div class="arabic">وَلِسُلَيْمَـٰنَ ٱلرِّيحَ غُدُوُّهَا شَهْرٌۭ وَرَوَاحُهَا شَهْرٌۭ ۖ وَأَسَلْنَا لَهُۥ عَيْنَ ٱلْقِطْرِ ۖ وَمِنَ ٱلْجِنِّ مَن يَعْمَلُ بَيْنَ يَدَيْهِ بِإِذْنِ رَبِّهِۦ ۖ وَمَن يَزِغْ مِنْهُمْ عَنْ أَمْرِنَا نُذِقْهُ مِنْ عَذَابِ ٱلسَّعِيرِ</div>
+        <div class="translation">"And to Solomon [We subjected] the wind - its morning journey was that of a month, and its afternoon journey was that of a month. And We made a spring of molten copper flow for him. And among the jinn were those who worked for him by the permission of his Lord. And whoever deviated among them from Our command - We will make him taste of the punishment of the Blazing Fire."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"And We gave his son, Solomon, even greater power! We forced the wind to act as his transport, allowing him to travel a month's journey in a single morning, and another month's journey in the afternoon! We made a miraculous spring of liquid copper flow from the ground for him. And We commanded the Jinn (unseen spirits) to act as his massive labor force. If any Jinn dared to disobey Solomon's orders, We promised to burn them in the blazing Fire."</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The apex of human technological and supernatural dominion. Solomon (Sulayman) was granted an empire unlike anything before or since. He possessed supersonic travel (the wind), limitless industrial resources (the flowing spring of copper), and a tireless, supernatural workforce (the Jinn). God specifically notes that the Jinn worked "bi-idhni Rabbihi" (by the permission of his Lord), ensuring humanity understands that Solomon's power was a delegated Divine loan, not personal magic.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Knowledge & Signs</span><span class="tag">The Unseen</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 13</span></div>
+        <div class="arabic">يَعْمَلُونَ لَهُۥ مَا يَشَآءُ مِن مَّحَـٰرِيبَ وَتَمَـٰثِيلَ وَجِفَانٍۢ كَٱلْجَوَابِ وَقُدُورٍۢ رَّاسِيَـٰتٍۢ ۚ ٱعْمَلُوٓا۟ ءَالَ دَاوُۥدَ شُكْرًۭا ۚ وَقَلِيلٌۭ مِّنْ عِبَادِىَ ٱلشَّكُورُ</div>
+        <div class="translation">"They made for him whatever he willed of elevated fortresses, statues, basins like vast reservoirs, and heavy, stationary cauldrons. [We said], 'Work, O family of David, in gratitude.' And few of My servants are truly deeply grateful."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"The Jinn built unbelievable mega-structures for Solomon: massive towering palaces, incredible art and statues, giant pools the size of small lakes, and massive cooking pots that were too heavy to move! God told them: 'O family of David! Use all this massive wealth to work hard and show your gratitude to Me.' Sadly, very few of God's servants actually express true, deep gratitude."</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">The true definition of Shukr (Gratitude). God did not command the family of David to merely *say* "Alhamdulillah." He commanded: "I'maloo... shukran" (WORK in gratitude). True gratitude is an active verb. If God gives you the wealth and power of an empire, your gratitude must physically manifest in how generously you deploy that wealth to serve His creation. To possess extreme wealth and merely utter thanks with the tongue while hoarding the gold is the definition of ingratitude.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Wealth</span><span class="tag">Spiritual Practice</span><span class="tag">Commands</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 14</span></div>
+        <div class="arabic">فَلَمَّا قَضَيْنَا عَلَيْهِ ٱلْمَوْتَ مَا دَلَّهُمْ عَلَىٰ مَوْتِهِۦٓ إِلَّا دَآبَّةُ ٱلْأَرْضِ تَأْكُلُ مِنسَأَتَهُۥ ۖ فَلَمَّا خَرَّ تَبَيَّنَتِ ٱلْجِنُّ أَن لَّوْ كَانُوا۟ يَعْلَمُونَ ٱلْغَيْبَ مَا لَبِثُوا۟ فِى ٱلْعَذَابِ ٱلْمُهِينِ</div>
+        <div class="translation">"And when We decreed death for him [Solomon], nothing indicated his death to them except a creature of the earth [a termite] eating his staff. But when he fell, it became perfectly clear to the jinn that if they had actually known the unseen, they would not have remained in the humiliating, grueling punishment [of hard labor]."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"But even the greatest king must die. When God decreed Solomon's death, he died while leaning on his wooden walking stick. The Jinn kept doing their grueling, exhausting hard labor for an entire year, terrified because they thought he was still alive! It wasn't until a tiny termite ate through his stick, causing his body to crash to the floor, that the Jinn realized he was dead. This proved to everyone that Jinn do not possess the power to see the future or the unseen; if they did, they wouldn't have been slaving away for a dead man!"</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The ultimate humiliation of supernatural arrogance. The Jinn possessed immense physical power, yet God humiliated them using the weakest creature on earth: a microscopic termite ("dabbat al-ard"). By blinding the Jinn to the death of the king standing directly in front of them, God permanently shattered the myth that Jinn (or fortune-tellers) have access to the "Ghayb" (Unseen). The supreme king (Solomon) dies quietly, the supernatural spirits labor in ignorance, and a tiny bug executes the Divine timeline. Only God holds the keys.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">The Unseen</span><span class="tag">Knowledge & Signs</span></div>
+    </div>
+
+</div>
+
+<div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 15</span></div>
+        <div class="arabic">لَقَدْ كَانَ لِسَبَإٍۢ فِى مَسْكَنِهِمْ ءَايَةٌۭ ۖ جَنَّتَانِ عَن يَمِينٍۢ وَشِمَالٍۢ ۖ كُلُوا۟ مِن رِّزْقِ رَبِّكُمْ وَٱشْكُرُوا۟ لَهُۥ ۚ بَلْدَةٌۭ طَيِّبَةٌۭ وَرَبٌّ غَفُورٌۭ</div>
+        <div class="translation">"There was certainly for [the tribe of] Saba in their dwelling place a massive sign: two lush gardens on the right and on the left. [They were told], 'Eat from the provisions of your Lord and be grateful to Him. A good, pure land, and a deeply Forgiving Lord.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"Now look at the opposite example: the wealthy tribe of Sheba in Yemen. Their entire homeland was a massive miracle! They had incredibly lush, beautiful farms covering the land from right to left. God simply told them: 'Enjoy all this wonderful food I provided for you, and just be grateful to Me. You have a beautiful country, and I am a Forgiving Master.'"</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"Baldatun tayyibatun wa Rabbun Ghafoor" (A pure land and a Forgiving Lord). This is the ultimate, divine equation for civilizational success. A "pure land" refers to physical and economic prosperity, while a "Forgiving Lord" refers to spiritual safety. When a society anchors its economy purely in "Shukr" (gratitude), God guarantees both worldly stability and eternal salvation. It was paradise on earth, requiring zero exhausting labor.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Wealth</span><span class="tag">Spiritual Practice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 16</span></div>
+        <div class="arabic">فَأَعْرَضُوا۟ فَأَرْسَلْنَا عَلَيْهِمْ سَيْلَ ٱلْعَرِمِ وَبَدَّلْنَـٰهُم بِجَنَّتَيْهِمْ جَنَّتَيْنِ ذَوَاتَىْ أُكُلٍ خَمْطٍۢ وَأَثْلٍۢ وَشَىْءٍۢ مِّن سِدْرٍۢ قَلِيلٍۢ</div>
+        <div class="translation">"But they turned away [in arrogance], so We sent upon them the flood of the dam, and We replaced their two lush gardens with gardens of bitter fruit, tamarisks, and a few sparse lote trees."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"But they became wildly arrogant and turned their backs on God. So We completely destroyed their massive dam, wiping out their city in a devastating flood. We instantly replaced their beautiful, sweet fruit orchards with thorny bushes, bitter, inedible plants, and a few pathetic, sparse trees."</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">"Sayl al-'Arim" (The Flood of the Dam). The civilization of Sheba was engineered around the famous Marib Dam, a marvel of ancient hydrology that captured monsoon rains and irrigated the valley. When their hearts became ungrateful, God weaponized their own infrastructure against them. The water that sustained their economy became the instrument of their annihilation. Ingratitude instantly downgrades a civilization from a paradise to a wasteland.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Divine Justice</span><span class="tag">Arrogance</span><span class="tag">Punishment</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 17</span></div>
+        <div class="arabic">ذَٰلِكَ جَزَيْنَـٰهُم بِمَا كَفَرُوا۟ ۖ وَهَلْ نُجَـٰزِىٓ إِلَّا ٱلْكَفُورَ</div>
+        <div class="translation">"By that We entirely repaid them because they disbelieved. And do We [ever] so severely recompense anyone except the profoundly ungrateful?"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"That terrifying destruction was their exact payback because they completely rejected the truth and refused to be thankful. And does God ever hand out such an absolute, devastating punishment to anyone except those who are deeply, deeply ungrateful?"</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The theological definition of "Kufr". While Kufr often means "disbelief" in a theological sense, its root meaning is "to cover up," specifically covering up a blessing with ingratitude. "Al-Kafoor" is the one whose ungratefulness has become chronic and systemic. God explicitly states that the annihilation of an empire is not random; it is the mathematical, guaranteed recompense for chronic ingratitude.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Divine Justice</span><span class="tag">Warning</span><span class="tag">Accountability</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 18</span></div>
+        <div class="arabic">وَجَعَلْنَا بَيْنَهُمْ وَبَيْنَ ٱلْقُرَى ٱلَّتِى بَـٰرَكْنَا فِيهَا قُرًۭى ظَـٰهِرَةًۭ وَقَدَّرْنَا فِيهَا ٱلسَّيْرَ ۖ سِيرُوا۟ فِيهَا لَيَالِىَ وَأَيَّامًا ءَامِنِينَ</div>
+        <div class="translation">"And We placed between them and the cities which We had blessed [many] visible, connected cities. And We meticulously measured the distances of journeys between them, [saying], 'Travel between them by night or by day in absolute safety.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"Before the flood, We had given them a perfect, thriving economy! We built a continuous chain of safe, highly visible towns connecting Yemen all the way up to Syria. The distance between the towns was perfectly measured so a traveler would never run out of water or get lost. We told them: 'Travel through these towns safely, day or night, without any fear of robbers or starvation!'"</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"Layaliya wa ayyaman aamineen" (nights and days in safety). God highlights the peak of their geopolitical blessing: perfectly secure, subsidized trade routes. The greatest blessing a society can possess after faith is "Amn" (security). A merchant could travel from Yemen to the Levant without carrying water or weapons, moving safely from one visible town to the next. It was an economic miracle designed to foster massive gratitude.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Wealth</span><span class="tag">Knowledge & Signs</span><span class="tag">Prophetic History</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 19</span></div>
+        <div class="arabic">فَقَالُوا۟ رَبَّنَا بَـٰعِدْ بَيْنَ أَسْفَارِنَا وَظَلَمُوٓا۟ أَنفُسَهُمْ فَجَعَلْنَـٰهُمْ أَحَادِيثَ وَمَزَّقْنَـٰهُمْ كُلَّ مُمَزَّقٍ ۚ إِنَّ فِى ذَٰلِكَ لَـَٔايَـٰتٍۢ لِّكُلِّ صَبَّارٍۢ شَكُورٍۢ</div>
+        <div class="translation">"But they said, 'Our Lord, aggressively lengthen the distance between our journeys,' and they wronged themselves. So We made them into mere historical tales and entirely scattered them in total dispersion. Indeed in that are massive signs for everyone who is intensely patient and deeply grateful."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"But they got greedy! The rich elite complained, 'God, make the spaces between the towns longer and more dangerous!' They wanted to monopolize trade and destroy the poor. By doing this, they destroyed themselves. So We shattered their empire, scattering their refugees all over the world, reducing them to nothing but a myth people tell stories about. There are massive lessons here for anyone who is patient and grateful."</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">"Ba'id bayna asfarina" (Lengthen the distance between our journeys). This is the toxic cry of unchecked, predatory capitalism. The safe, continuous towns meant anyone—even the poor—could travel and trade. The elite of Sheba hated this equality. They prayed for the destruction of the small towns so that travel would become a dangerous, expensive luxury that only their massive, armed caravans could survive, ensuring a total monopoly. Because they asked for the destruction of the community, God granted their prayer and destroyed their entire civilization.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Wealth</span><span class="tag">Arrogance</span><span class="tag">Social Ethics</span><span class="tag">Divine Justice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 20</span></div>
+        <div class="arabic">وَلَقَدْ صَدَّقَ عَلَيْهِمْ إِبْلِيسُ ظَنَّهُۥ فَٱتَّبَعُوهُ إِلَّا فَرِيقًۭا مِّنَ ٱلْمُؤْمِنِينَ</div>
+        <div class="translation">"And Satan certainly proved his terrible assumption true regarding them; so they blindly followed him, except for a specific group of sincere believers."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"Satan assumed he could easily trick humans into being ungrateful and arrogant, and the people of Sheba proved his terrible assumption to be 100% correct! They blindly followed his whispers into destruction, except for a small, loyal group of true believers who held onto their faith."</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">"Saddaqa 'alayhim Iblees zhannahu" (Iblis verified his assumption). When Satan was exiled from Heaven, he promised God: "I will come at them from all sides, and You will not find most of them grateful" (Al-A'raf 7:17). Satan banked everything on human ingratitude. By hoarding wealth and destroying the poor, the people of Sheba literally validated Satan's ancient thesis, acting as the perfect psychological puppets for the Devil.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Sin</span><span class="tag">Human Nature</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 21</span></div>
+        <div class="arabic">وَمَا كَانَ لَهُۥ عَلَيْهِم مِّن سُلْطَـٰنٍ إِلَّا لِنَعْلَمَ مَن يُؤْمِنُ بِٱلْـَٔاخِرَةِ مِمَّنْ هُوَ مِنْهَا فِى شَكٍّۢ ۗ وَرَبُّكَ عَلَىٰ كُلِّ شَىْءٍ حَفِيظٌۭ</div>
+        <div class="translation">"And he [Satan] had absolutely no authority or power over them except so that We might make evident who truly believes in the Hereafter from who is in deep doubt about it. And your Lord is the ultimate Guardian over all things."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"Make no mistake: Satan had no actual power or authority to force them to sin. He only whispered to them. God allowed this purely as a test, to clearly separate and expose the people who genuinely believe in Judgment Day from the people who are faking it and filled with doubt. God perfectly watches and guards over everything."</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"Ma kana lahu... min sultan" (He had no authority). The Qur'an completely shatters the Hollywood myth of demonic possession or forced coercion. Satan is not a rival god; he is merely an external stimulus. He possesses zero "Sultan" (jurisdiction/power) over the human will. He only acts as a chemical reagent, dropped into the beaker of the Dunya, to force a reaction that scientifically separates the pure gold of faith from the cheap slag of doubt.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Free Will</span><span class="tag">Test</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 22</span></div>
+        <div class="arabic">قُلِ ٱدْعُوا۟ ٱلَّذِينَ زَعَمْتُم مِّن دُونِ ٱللَّهِ ۖ لَا يَمْلِكُونَ مِثْقَالَ ذَرَّةٍۢ فِى ٱلسَّمَـٰوَٰتِ وَلَا فِى ٱلْأَرْضِ وَمَا لَهُمْ فِيهِمَا مِن شِرْكٍۢ وَمَا لَهُۥ مِنْهُم مِّن ظَهِيرٍۢ</div>
+        <div class="translation">"Say, [O Muhammad], 'Invoke those you proudly claim [as deities] besides Allah.' They do not possess an atom's weight [of ability] in the heavens or on the earth, and they do not have any share of partnership in them, nor is there for Him any assistant from among them."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"Challenge the idolaters: 'Go ahead, call out to the fake gods and statues you pray to instead of Allah!' They don't own a single atom anywhere in the sky or on earth! They didn't even help God build a tiny fraction of the universe, and God does not use any of them as an assistant or a helper!"</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The absolute, four-tiered destruction of Shirk. A pagan worships an idol for one of four reasons: 1) The idol owns something independently. 2) The idol is a 50/50 partner with God. 3) The idol is a subordinate assistant to God. 4) The idol is a powerful intercessor. Verse 22 violently eliminates the first three logic pillars: Idols own absolutely zero atoms ("Mithqala tharratin"); they hold zero shares ("Shirk"); they provide zero assistance ("Zhaheer"). Verse 23 will eliminate the fourth.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Attributes of Allah</span><span class="tag">Arrogance</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 23</span></div>
+        <div class="arabic">وَلَا تَنفَعُ ٱلشَّفَـٰعَةُ عِندَهُۥٓ إِلَّا لِمَنْ أَذِنَ لَهُۥ ۚ حَتَّىٰٓ إِذَا فُزِّعَ عَن قُلُوبِهِمْ قَالُوا۟ مَاذَا قَالَ رَبُّكُمْ ۖ قَالُوا۟ ٱلْحَقَّ ۖ وَهُوَ ٱلْعَلِىُّ ٱلْكَبِيرُ</div>
+        <div class="translation">"And absolute intercession does not benefit with Him except for one whom He permits. [And those wait] until, when terror is completely removed from their hearts, they will say [to one another], 'What has your Lord said?' They will say, 'The absolute truth.' And He is the Most High, the Grand."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"And even if you think these idols or angels will act as lawyers to defend you on Judgment Day—intercession is useless unless God specifically gives them permission to speak! In fact, the angels themselves are so terrified of God's majesty that when the shock finally leaves their hearts, they ask each other, 'What did our Lord just command?' And they reply, 'Only the absolute Truth!' He alone is the Highest, the Greatest."</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The dismantling of the final pillar of Shirk: the "Wasta" (middleman/lawyer). The Meccans worshipped angels, assuming the angels would forcefully intercede for them like a corrupt lawyer. God reveals that the angels are not rebel lawyers; they are paralyzed by the "Faza'" (terror/awe) of the Divine Majesty. If the angels themselves are trembling and waiting for permission to speak, how can you rely on them to override God's decree?</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Accountability</span><span class="tag">Attributes of Allah</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 24</span></div>
+        <div class="arabic">قُلْ مَن يَرْزُقُكُم مِّنَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۖ قُلِ ٱللَّهُ ۖ وَإِنَّآ أَوْ إِيَّاكُمْ لَعَلَىٰ هُدًى أَوْ فِى ضَلَـٰلٍۢ مُّبِينٍۢ</div>
+        <div class="translation">"Say, 'Who actively provides for you from the heavens and the earth?' Say, 'Allah. And indeed, we or you are either upon direct guidance or in obvious, clear error.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"Ask them directly: 'Who actually sends you rain from the sky and grows food from the earth?' And before they can stammer, you answer it: 'Allah does! Since we believe differently, it is mathematically impossible for both of us to be right. Either we are clearly guided, or you are clearly guided, but one of us is completely, obviously lost!'"</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"Inna aw iyyakum" (Indeed, we or you). The Prophet ﷺ is taught the ultimate etiquette of debate (Adab al-Jidal). He does not scream, "You are all going to Hell!" Instead, he establishes the undeniable premise (God provides the rain), and then poses a perfectly objective, logical ultimatum: since our theologies are diametrically opposed, they cannot both be true. He invites their intellect to solve the equation.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Social Ethics</span><span class="tag">Attributes of Allah</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 25</span></div>
+        <div class="arabic">قُل لَّا تُسْـَٔلُونَ عَمَّآ أَجْرَمْنَا وَلَا نُسْـَٔلُ عَمَّا تَعْمَلُونَ</div>
+        <div class="translation">"Say, 'You will not be interrogated about what crimes we committed, nor will we be asked about what you do.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"Tell them: 'On Judgment Day, God is not going to cross-examine you about any mistakes or crimes we made, and we are not going to be held accountable for the terrible things you do. Everyone is responsible for their own actions.'"</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">A masterstroke of rhetorical humility. Notice the precise choice of verbs. When speaking about himself and the Muslims, the Prophet ﷺ uses the word "Ajramna" (our crimes/mistakes). But when speaking about the pagans, he uses the much softer "Ta'maloon" (what you do). By artificially assigning the harsh word "crime" to himself, he lowers his ego to disarm their defensiveness, paving the way for pure, un-triggered reflection.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Accountability</span><span class="tag">Social Ethics</span><span class="tag">Humility</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 26</span></div>
+        <div class="arabic">قُلْ يَجْمَعُ بَيْنَنَا رَبُّنَا ثُمَّ يَفْتَحُ بَيْنَنَا بِٱلْحَقِّ وَهُوَ ٱلْفَتَّاحُ ٱلْعَلِيمُ</div>
+        <div class="translation">"Say, 'Our Lord will bring us all together; then He will judge and decisively open the matter between us in pure truth. And He is the Supreme Judge, the Knowing.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"Tell them: 'Let's stop arguing. Eventually, our Lord is going to gather every single one of us together on Judgment Day, and He will permanently settle the debate between us with absolute justice and truth. He is the Ultimate Judge who opens all locked doors, and He knows everything.'"</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">"Al-Fattah" (The Opener/The Supreme Judge). When intellectual debate reaches a permanent stalemate, the believer does not resort to violence or despair. They gracefully defer the case to the Supreme Court of the Akhirah. "Yaftahu" means to open a locked door or issue a final, binding legal verdict. Only the All-Knowing ("Al-'Aleem") possesses the bandwidth to open the locked hearts and clearly separate the truth from the falsehood.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">Accountability</span><span class="tag">The Unseen</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 27</span></div>
+        <div class="arabic">قُلْ أَرُونِىَ ٱلَّذِينَ أَلْحَقْتُم بِهِۦ شُرَكَآءَ ۖ كَلَّا ۚ بَلْ هُوَ ٱللَّهُ ٱلْعَزِيزُ ٱلْحَكِيمُ</div>
+        <div class="translation">"Say, 'Show me those you attached to Him as partners. No! Rather, He alone is Allah, the Exalted in Might, the Wise.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"Challenge them one last time: 'Show me these fake statues and idols you dare to attach to God as His equals! Stop! That is impossible. The reality is that He alone is Allah—the Undefeatable, Almighty, and perfectly Wise.'"</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"Kalla" (No!/Absolutely not!). The Prophet ﷺ issues a devastating academic challenge ("Show me the partners"), but before they can even attempt to answer, the Divine Voice interrupts with "Kalla". The concept of God having a partner is so fundamentally illogical and mathematically bankrupt that the Qur'an violently shuts down the premise before the sentence finishes. He is "Al-'Aziz" (The Mighty)—power does not share its throne.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Attributes of Allah</span><span class="tag">Arrogance</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 28</span></div>
+        <div class="arabic">وَمَآ أَرْسَلْنَـٰكَ إِلَّا كَآفَّةًۭ لِّلنَّاسِ بَشِيرًۭا وَنَذِيرًۭا وَلَـٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ</div>
+        <div class="translation">"And We have not sent you except comprehensively to all of mankind as a bringer of incredible good tidings and a clear warner. But most of the people simply do not know."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"O Muhammad, We did not send you just for the Arabs in Mecca. We have officially sent you to the entire human race—every nation on earth—to give them the beautiful good news of Heaven and warn them about the Fire! But sadly, the vast majority of people are completely ignorant of your true mission."</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">"Kaffatan lin-nas" (comprehensively to all mankind). A paradigm shift in Prophetic history. Previous prophets (like Moses or Jesus) were deployed to specific tribes, geographies, or time periods. The mission of Muhammad ﷺ is structurally different; it is universal and eternal. He is the final broadcast, encompassing every race and century until the end of time.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Hope</span><span class="tag">Warning</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 29</span></div>
+        <div class="arabic">وَيَقُولُونَ مَتَىٰ هَـٰذَا ٱلْوَعْدُ إِن كُنتُمْ صَـٰدِقِينَ</div>
+        <div class="translation">"And they say, 'When is this promise going to be fulfilled, if you should be truthful?'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"Instead of listening to your warnings, they arrogantly mock you and ask: 'So when exactly is this so-called Day of Judgment going to happen? Give us the exact date, if you are actually telling the truth!'"</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">The defense mechanism of the ego. Instead of debating the *reality* of the Day of Judgment, the disbelievers attack the *schedule*. By demanding a specific date and time, they attempt to drag the unseen (Ghayb) into the laboratory of the Dunya. It is an arrogant deflection to avoid preparing for the inevitable.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Arrogance</span><span class="tag">Warning</span><span class="tag">Accountability</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 30</span></div>
+        <div class="arabic">قُل لَّكُم مِّيعَادُ يَوْمٍۢ لَّا تَسْتَـْٔخِرُونَ عَنْهُ سَاعَةًۭ وَلَا تَسْتَقْدِمُونَ</div>
+        <div class="translation">"Say, 'For you is the absolute appointment of a Day [when] you will not remain thereafter an hour, nor will you precede it.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"Answer them with terrifying certainty: 'You have a highly specific, unbreakable appointment booked for a Day. When that exact microsecond arrives, you cannot delay it by a single hour, nor can you speed it up. It will hit you exactly on schedule!'"</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">"Mi'aadu Yawm" (The appointment of a Day). God refuses to satisfy their curiosity about the specific date, focusing instead on the absolute, terrifying precision of the deadline. "La tasta'khiroon" (you cannot delay). When the Angel of Death arrives, all the wealth of the Dunya cannot purchase an additional 60 seconds of oxygen. The schedule is locked. Therefore, the obsession should be with the preparation, not the calendar.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Accountability</span><span class="tag">Divine Justice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 31</span></div>
+        <div class="arabic">وَقَالَ ٱلَّذِينَ كَفَرُوا۟ لَن نُّؤْمِنَ بِهَـٰذَا ٱلْقُرْءَانِ وَلَا بِٱلَّذِى بَيْنَ يَدَيْهِ ۗ وَلَوْ تَرَىٰٓ إِذِ ٱلظَّـٰلِمُونَ مَوْقُوفُونَ عِندَ رَبِّهِمْ يَرْجِعُ بَعْضُهُمْ إِلَى بَعْضٍ ٱلْقَوْلَ يَقُولُ ٱلَّذِينَ ٱسْتُضْعِفُوا۟ لِلَّذِينَ ٱسْتَكْبَرُوا۟ لَوْلَآ أَنتُمْ لَكُنَّا مُؤْمِنِينَ</div>
+        <div class="translation">"And those who disbelieve stubbornly say, 'We will never believe in this Qur'an, nor in any book that came before it.' But if you could only see when the wrongdoers are made to stand before their Lord, throwing the blame back and forth at one another! Those who were oppressed will scream at those who were arrogant, 'If it were not for you, we would certainly have been believers!'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"The arrogant elite swear they will never believe in God's books. But wait until you see the terrifying scene on Judgment Day! The weak, everyday people who blindly followed the corrupt elite will point fingers and scream at their leaders: 'It is all your fault! You brainwashed us! If you hadn't manipulated us, we would have believed in God and been saved!'"</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The Qur'an sets up a devastating courtroom confrontation. "Mustad'afoon" (the oppressed/weak masses) vs. "Mustakbiroon" (the arrogant elite/billionaires). In the Dunya, the masses idolized the elite, copying their fashion, their politics, and their disbelief. In the Akhirah, that hero-worship violently shatters into hatred. The masses attempt to use their "weakness" as a legal loophole, blaming the elite for their spiritual failure.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Accountability</span><span class="tag">Warning</span><span class="tag">Social Ethics</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 32</span></div>
+        <div class="arabic">قَالَ ٱلَّذِينَ ٱسْتَكْبَرُوا۟ لِلَّذِينَ ٱسْتُضْعِفُوٓا۟ أَنَحْنُ صَدَدْنَـٰكُمْ عَنِ ٱلْهُدَىٰ بَعْدَ إِذْ جَآءَكُم ۖ بَلْ كُنتُم مُّجْرِمِينَ</div>
+        <div class="translation">"Those who were arrogant will reply to those who were oppressed, 'Did we forcefully block you from guidance after it had clearly reached you? No! Rather, you yourselves were willing criminals.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"The wealthy elite will laugh in their faces and reply: 'Are you kidding? Did we hold a sword to your neck and force you to reject the truth after the Prophet brought it to you? Absolutely not! You loved our sins and you chose to follow us because you yourselves were corrupt criminals!'"</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">The elite brutally dismantle the victim mentality of the masses. "Anahnu sadadnakum?" (Did we block you?). The elite admit they offered a toxic lifestyle, but they rightly point out that the masses possessed Free Will. You cannot blame the marketer if you willingly purchased the poison. The masses loved the "Lahw" (entertainment) provided by the elite, and thus, both are legally guilty. "Blind following" is not an acceptable excuse in the Divine Court.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Free Will</span><span class="tag">Accountability</span><span class="tag">Arrogance</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 33</span></div>
+        <div class="arabic">وَقَالَ ٱلَّذِينَ ٱسْتُضْعِفُوا۟ لِلَّذِينَ ٱسْتَكْبَرُوا۟ بَلْ مَكْرُ ٱلَّيْلِ وَٱلنَّهَارِ إِذْ تَأْمُرُونَنَآ أَن نَّكْفُرَ بِٱللَّهِ وَنَجْعَلَ لَهُۥٓ أَندَادًۭا ۚ وَأَسَرُّوا۟ ٱلنَّدَامَةَ لَمَّا رَأَوُا۟ ٱلْعَذَابَ وَجَعَلْنَا ٱلْأَغْلَـٰلَ فِىٓ أَعْنَاقِ ٱلَّذِينَ كَفَرُوا۟ ۚ هَلْ يُجْزَوْنَ إِلَّا مَا كَانُوا۟ يَعْمَلُونَ</div>
+        <div class="translation">"And those who were oppressed will scream back at those who were arrogant, 'No! Rather, it was your non-stop, deceptive plotting by night and day, when you ordered us to disbelieve in Allah and to set up equals to Him.' And they will both try to conceal their deep regret when they see the punishment. And We will place heavy shackles on the necks of those who disbelieved. Will they be recompensed except for exactly what they used to do?"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"The masses scream back: 'Liar! It was your 24/7 propaganda and brainwashing! You controlled the society and constantly pressured us to reject God!' In the end, when they both see the terrifying Fire, they will suddenly go silent, completely paralyzed by deep, crushing regret. Heavy iron chains will be locked around their necks. God is perfectly fair—they are only being punished for the exact crimes they committed."</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">"Makr al-layli wan-nahar" (Plotting of night and day). The masses correctly identify the psychological warfare of the elite: systemic, relentless conditioning via media and culture to normalize Shirk (worshipping money, status, and false gods). However, the debate ends abruptly. "Asarru an-nadamah" (They hid their regret). The sheer visual horror of the punishment instantly vaporizes their argument. They realize that blaming each other does not lower the temperature of the Fire. Both the influencer and the follower wear the same chains.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Accountability</span><span class="tag">Hell</span><span class="tag">Divine Justice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 34</span></div>
+        <div class="arabic">وَمَآ أَرْسَلْنَا فِى قَرْيَةٍۢ مِّن نَّذِيرٍ إِلَّا قَالَ مُتْرَفُوهَآ إِنَّا بِمَآ أُرْسِلْتُم بِهِۦ كَـٰفِرُونَ</div>
+        <div class="translation">"And We did not send any warner into a city except that its wealthy, luxurious elite said, 'Indeed, we completely reject the message you have been sent with.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"This is a historical fact: Every single time God sent a Prophet to warn a city, the very first people to violently reject the message were the ultra-rich, spoiled billionaires who loved their luxury."</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The sociology of disbelief. "Mutrafooha" refers to the elite who are utterly submerged in luxury and excess. A Prophet brings a message of equality, charity (Zakah), and strict accountability. This directly threatens the economic monopolies and arrogant lifestyles of the elite. Therefore, the "Mutrafoon" historically act as the primary immune system of the corrupt society, aggressively attacking the Prophet to protect their bank accounts.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Wealth</span><span class="tag">Arrogance</span><span class="tag">Prophetic History</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 35</span></div>
+        <div class="arabic">وَقَالُوا۟ نَحْنُ أَكْثَرُ أَمْوَٰلًۭا وَأَوْلَـٰدًۭا وَمَا نَحْنُ بِمُعَذَّبِينَ</div>
+        <div class="translation">"And they arrogantly boasted, 'We possess more wealth and more children than you, and we will absolutely never be punished!'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"These wealthy elites bragged to the poor believers: 'Look at our massive bank accounts and our huge, powerful families! God obviously loves us more than you, which means we will never be punished!'"</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">The ultimate delusion of materialism. The elite confuse "Provision" (Rizq) with "Validation" (Rida). They incorrectly assume that because God allows them to accumulate millions of dollars in the Dunya, He must approve of their theology. They believe their wealth acts as an impenetrable shield against Divine Justice ("we will not be punished"). God is about to obliterate this economic heresy.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Wealth</span><span class="tag">Arrogance</span><span class="tag">Test</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 36</span></div>
+        <div class="arabic">قُلْ إِنَّ رَبِّى يَبْسُطُ ٱلرِّزْقَ لِمَن يَشَآءُ وَيَقْدِرُ وَلَـٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ</div>
+        <div class="translation">"Say, 'Indeed, my Lord freely expands the provision for whomever He wills, and He strictly restricts it, but the vast majority of people simply do not understand.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"Tell them: 'Money is not proof of God's love! My Lord expands wealth for some as a test, and limits it for others as a test. It is simply a tool He distributes exactly how He wants, but most people are too ignorant to realize this.'"</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The decoupling of wealth and worth. "Yabsutu" (He expands) and "Yaqdiru" (He restricts). The distribution of GDP has absolutely zero correlation with spiritual superiority. God often grants immense wealth to the most corrupt pharaohs, and grants poverty to His most beloved Prophets. The size of your house does not indicate the size of your standing in the Heavens.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Wealth</span><span class="tag">Attributes of Allah</span><span class="tag">Knowledge & Signs</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 37</span></div>
+        <div class="arabic">وَمَآ أَمْوَٰلُكُمْ وَلَآ أَوْلَـٰدُكُم بِٱلَّتِى تُقَرِّبُكُمْ عِندَنَا زُلْفَىٰٓ إِلَّا مَنْ ءَامَنَ وَعَمِلَ صَـٰلِحًۭا فَأُو۟لَـٰٓئِكَ لَهُمْ جَزَآءُ ٱلضِّعْفِ بِمَا عَمِلُوا۟ وَهُمْ فِى ٱلْغُرُفَـٰتِ ءَامِنُونَ</div>
+        <div class="translation">"And it is not your wealth or your children that bring you closer to Us in rank, but only those who believe and do righteous deeds. For them there will be a multiplied double reward for what they did, and they will reside safely in the elevated, peaceful mansions."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"God makes the rule absolute: Your cash and your genetics do not buy you a ticket closer to God! The only thing that brings you close to Him is pure faith combined with excellent, good deeds. If you do that, God will double and multiply your rewards, and you will live in high, secure, luxurious mansions in Paradise forever!"</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">"Zulfa" (closeness/proximity to God). God completely invalidates the currency of the Dunya in the Akhirah. A billion dollars cannot purchase a single millimeter of closeness to the Throne. However, the verse has a beautiful exception ("Illa" - except): If you *use* that wealth and those children to do righteous deeds (like giving massive charity or raising pious kids), then your wealth becomes the very vehicle that elevates you into the "Ghurafat" (the elite penthouses of Jannah).</div></div>
+        </div>
+        <div class="tags"><span class="tag">Jannah</span><span class="tag">Wealth</span><span class="tag">Spiritual Practice</span><span class="tag">Divine Justice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 38</span></div>
+        <div class="arabic">وَٱلَّذِينَ يَسْعَوْنَ فِىٓ ءَايَـٰتِنَا مُعَـٰجِزِينَ أُو۟لَـٰٓئِكَ فِى ٱلْعَذَابِ مُحْضَرُونَ</div>
+        <div class="translation">"But those who actively strive against Our verses to cause failure - those will be forcefully brought into the punishment."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"But those elites who use their money and power to fight against God's religion, trying to destroy it—they will be violently arrested and dragged directly into the agonizing punishment."</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">A terrifying contrast to Verse 37. Those who used their energy to do good are "Aaminoon" (secure/safe) in elevated mansions. Those who used their energy ("Yas'awna") to wage war on the truth are "Muhdaroon" (forcefully arrested and presented) in the Fire. Your energy will be spent; you only choose the destination it buys.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Warning</span><span class="tag">Arrogance</span><span class="tag">Hell</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 39</span></div>
+        <div class="arabic">قُلْ إِنَّ رَبِّى يَبْسُطُ ٱلرِّزْقَ لِمَن يَشَآءُ مِنْ عِبَادِهِۦ وَيَقْدِرُ لَهُۥ ۚ وَمَآ أَنفَقْتُم مِّن شَىْءٍۢ فَهُوَ يُخْلِفُهُۥ ۖ وَهُوَ خَيْرُ ٱلرَّٰزِقِينَ</div>
+        <div class="translation">"Say, 'Indeed, my Lord expands the provision for whomever He wills of His servants and restricts it for him. But whatever thing you spend [in His cause] - He will immediately replace it. And He is the absolute best of providers.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"Tell them again: God controls the flow of money entirely. But here is His ultimate guarantee: Whatever money you give away in charity to help others, God will absolutely reimburse you and replace it! You cannot lose! He is the greatest and most generous Provider in existence."</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The divine mathematics of Sadaqah (Charity). "Fahuwa yukhlifuhu" (He will replace it). This is an ironclad cosmic guarantee. The ego hoards wealth out of a biological fear of poverty (a fear whispered by Satan). God shatters this fear by guaranteeing a 100% reimbursement rate on any capital deployed for His sake. Giving charity does not decrease your wealth; it merely transfers it into a Divine account that yields infinite returns.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Wealth</span><span class="tag">Hope</span><span class="tag">Attributes of Allah</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 40</span></div>
+        <div class="arabic">وَيَوْمَ يَحْشُرُهُمْ جَمِيعًۭا ثُمَّ يَقُولُ لِلْمَلَـٰٓئِكَةِ أَهَـٰٓؤُلَآءِ إِيَّاكُمْ كَانُوا۟ يَعْبُدُونَ</div>
+        <div class="translation">"And [mention] the Day when He will gather them all together; then He will say to the angels, 'Did these people used to worship you?'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"And picture the terrifying Day of Judgment when God gathers the entire human race together. In front of everyone, God will turn to the massive Angels and ask them directly: 'Did these idolaters actually worship you instead of Me?'"</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The public humiliation of Shirk. The Arab pagans often claimed they did not worship stone, but rather the "Angels" (whom they claimed were the daughters of God), hoping the angels would act as their lawyers. God forces the "lawyers" to take the witness stand and publicly disown their supposed clients, entirely destroying the pagans' defense strategy in front of billions of souls.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Accountability</span><span class="tag">The Unseen</span><span class="tag">Divine Justice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 41</span></div>
+        <div class="arabic">قَالُوا۟ سُبْحَـٰنَكَ أَنتَ وَلِيُّنَا مِن دُونِهِم ۖ بَلْ كَانُوا۟ يَعْبُدُونَ ٱلْجِنَّ ۖ أَكْثَرُهُم بِهِم مُّؤْمِنُونَ</div>
+        <div class="translation">"They will urgently reply, 'Exalted are You! You are our sole ally and Master, not them! Rather, they used to worship the jinn; most of them were true believers in them.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"The Angels will instantly respond in absolute shock: 'Glory to You, O God! We have nothing to do with them! You alone are our Master and Ally! These people were actually worshipping evil spirits (Jinn) and demons, and most of them blindly trusted those devils!'"</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"Anta waliyyuna" (You are our Ally/Protector). The angels instantly sever all association with the polytheists, affirming their absolute loyalty to the Creator. They expose the dark reality of idolatry: The pagans thought they were worshipping beings of light (Angels), but Satan had manipulated the matrix. When you worship anything other than God, you are ultimately, structurally, submitting to the whispering of the Jinn (demons) who engineered the idol in the first place.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Attributes of Allah</span><span class="tag">Accountability</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 42</span></div>
+        <div class="arabic">فَٱلْيَوْمَ لَا يَمْلِكُ بَعْضُكُمْ لِبَعْضٍۢ نَّفْعًۭا وَلَا ضَرًّۭا وَنَقُولُ لِلَّذِينَ ظَلَمُوا۟ ذُوقُوا۟ عَذَابَ ٱلنَّارِ ٱلَّتِى كُنتُم بِهَا تُكَذِّبُونَ</div>
+        <div class="translation">"So today, none of you possesses the power to benefit or harm one another. And We will say to those who committed injustice, 'Taste the severe punishment of the Fire which you used to constantly deny.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"So on this Day, all your fake alliances are broken! No leader can save his follower, and no follower can help his leader. And We will officially declare to the arrogant oppressors: 'Now, feel and taste the agonizing reality of the Fire that you spent your whole lives laughing at and denying!'"</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The final, crushing verdict. "La yamliku ba'dukum liba'din" (You do not possess power for each other). The complete evaporation of worldly influence. In the Dunya, the elite utilized their wealth to buy immunity and benefit their friends. In the Akhirah, the currency of influence is reduced to zero. The command "Dhooqoo" (Taste) shifts the Fire from an academic debate into a terrifying, undeniable physical sensation.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Hell</span><span class="tag">Divine Justice</span><span class="tag">Warning</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 43</span></div>
+        <div class="arabic">وَإِذَا تُتْلَىٰ عَلَيْهِمْ ءَايَـٰتُنَا بَيِّنَـٰتٍۢ قَالُوا۟ مَا هَـٰذَآ إِلَّا رَجُلٌۭ يُرِيدُ أَن يَصُدَّكُمْ عَمَّا كَانَ يَعْبُدُ ءَابَآؤُكُمْ وَقَالُوا۟ مَا هَـٰذَآ إِلَّآ إِفْكٌۭ مُّفْتَرًۭى ۚ وَقَالَ ٱلَّذِينَ كَفَرُوا۟ لِلْحَقِّ لَمَّا جَآءَهُمْ إِنْ هَـٰذَآ إِلَّا سِحْرٌۭ مُّبِينٌۭ</div>
+        <div class="translation">"And when Our brilliantly clear verses are recited to them, they say, 'This is nothing but a man who wants to block you from what your fathers used to worship.' And they say, 'This [Qur'an] is nothing but an invented lie.' And those who disbelieve say of the absolute truth when it reaches them, 'This is obviously just magic.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"When the Prophet recites God's perfect words to the elite, they panic and tell the crowds: 'Don't listen to him! He just wants to destroy the traditions of our ancestors!' They call the Qur'an a fabricated lie, and when they witness its undeniable power, they dismiss it as cheap magic."</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The elite deploy three distinct layers of propaganda to neutralize the Prophet's message. First, a political attack: "He is attacking our ancestors and traditions." Second, a literary attack: "The text is forged." Third, a supernatural attack: "Its undeniable psychological impact on the youth is just dark magic." They throw every possible accusation at the wall, hoping the masses will be too frightened to listen.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Arrogance</span><span class="tag">Warning</span><span class="tag">Prophetic History</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 44</span></div>
+        <div class="arabic">وَمَآ ءَاتَيْنَـٰهُم مِّن كُتُبٍۢ يَدْرُسُونَهَا ۖ وَمَآ أَرْسَلْنَآ إِلَيْهِمْ قَبْلَكَ مِن نَّذِيرٍۢ</div>
+        <div class="translation">"And We had not given them any previous scriptures which they could study, nor did We send to them any warner before you."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"Their arrogance makes no sense. God hadn't given the Arabs any holy books to study before this, nor had He sent them any Prophet before Muhammad. So where are they getting the theological authority to call him a liar?"</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">The exposure of unearned arrogance. A scholar might reject a new theory based on years of studying prior texts ("yadrusoonaha"). But the Quraish were an unlettered nation with zero history of Divine Revelation. Their rejection of the Qur'an was not an intellectual critique; it was an emotional tantrum designed purely to protect their social status.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Arrogance</span><span class="tag">Prophetic History</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 45</span></div>
+        <div class="arabic">وَكَذَّبَ ٱلَّذِينَ مِن قَبْلِهِمْ وَمَا بَلَغُوا۟ مِعْشَارَ مَآ ءَاتَيْنَـٰهُمْ فَكَذَّبُوا۟ رُسُلِى ۖ فَكَيْفَ كَانَ نَكِيرِ</div>
+        <div class="translation">"And those nations before them also denied the truth. These current people have not even achieved one-tenth of the power and wealth We gave to those ancestors. Yet they arrogantly rejected My messengers, so look at how devastating My absolute rejection of them was!"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"Tell the Meccans to look at history. The ancient empires before them rejected their Prophets too. And honestly, the Meccans haven't even achieved 10% of the massive wealth and military power those old empires had! Yet, when those superpowers rejected God, God completely wiped them off the map. How terrible was His wrath!"</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">"Mi'shara ma ataynahum" (One-tenth of what We gave them). A devastating reality check for the Quraish. They thought their merchant caravans made them invincible. God reminds them that civilizations like 'Aad and Thamud possessed empires 100 times larger, yet God crushed them effortlessly. If God can easily dismantle the Roman or Persian superpowers, a small desert town defying the Creator is mathematically suicidal.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Divine Justice</span><span class="tag">Prophetic History</span><span class="tag">Warning</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 46</span></div>
+        <div class="arabic">۞ قُلْ إِنَّمَآ أَعِظُكُم بِوَٰحِدَةٍ ۖ أَن تَقُومُوا۟ لِلَّهِ مَثْنَىٰ وَفُرَٰدَىٰ ثُمَّ تَتَفَكَّرُوا۟ ۚ مَا بِصَاحِبِكُم مِّن جِنَّةٍ ۚ إِنْ هُوَ إِلَّا نَذِيرٌۭ لَّكُم بَيْنَ يَدَىْ عَذَابٍۢ شَدِيدٍۢ</div>
+        <div class="translation">"Say, 'I advise you to do only one single thing: stand up before God, in pairs or entirely alone, and then think deeply. There is absolutely no madness in your companion. He is simply a clear warner sent to you just before the arrival of a massive, terrifying punishment.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"O Prophet, tell them: 'I only ask you to do one thing. Step away from the noisy crowds, stand before God either with just one trusted friend or totally alone, and really think about this. You know me! I am not crazy. I am simply trying to warn you about a horrific disaster before it hits you!'"</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The ultimate psychological detox. "Mathna wa furada" (in pairs or alone). Groupthink and mob mentality are the death of the intellect. When the Quraish gathered in crowds, tribal pride forced them to mock the Prophet. God commands them to physically isolate themselves from the societal noise. Only in the silence of solitude, or in the quiet company of a single sincere friend, can the "Tafakkur" (deep reflection) required to recognize truth actually activate.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Spiritual Practice</span><span class="tag">Commands</span><span class="tag">Prophetic History</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 47</span></div>
+        <div class="arabic">قُلْ مَا سَأَلْتُكُم مِّنْ أَجْرٍۢ فَهُوَ لَكُمْ ۖ إِنْ أَجْرِىَ إِلَّا عَلَى ٱللَّهِ ۖ وَهُوَ عَلَىٰ كُلِّ شَىْءٍۢ شَهِيدٌۭ</div>
+        <div class="translation">"Say, 'Whatever reward I might have asked of you is entirely yours. My true reward comes exclusively from Allah, and He is a perfect Witness over all things.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"Tell them: 'I am not preaching to get rich. I don't want your money! If I ever asked you for a reward, keep it for yourselves. My paycheck comes directly from God alone, and He is watching everything I do and everything you do.'"</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">The purity of Prophetic intention. "Ajriya illa 'ala Allah" (My reward is only upon Allah). The ultimate proof of a true reformer is their financial independence from the people they are trying to reform. If a leader demands your wealth in exchange for salvation, they are a politician, not a Prophet. By completely severing any economic reliance on the Quraish, the Prophet ﷺ proves his message is a selfless act of love, not a business transaction.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Wealth</span><span class="tag">Humility</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 48</span></div>
+        <div class="arabic">قُلْ إِنَّ رَبِّى يَقْذِفُ بِٱلْحَقِّ عَلَّـٰمُ ٱلْغُيُوبِ</div>
+        <div class="translation">"Say, 'Indeed, my Lord forcefully hurls the truth [against falsehood]; He is the absolute Knower of all unseen realities.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"Tell them confidently: 'My Lord aggressively throws the pure truth right at the lies to shatter them! He is the Supreme Knower of every hidden secret in the universe.'"</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">"Yaqdhifu bil-haqq" (He hurls/projects the truth). This verb implies a violent, unstoppable, ballistic projection. Truth is not passive; it is a divine projectile designed to shatter the fragile glass of falsehood. Because God is "Allam al-Ghuyoob" (Knower of the Unseen), the truth He hurls is mathematically perfect, inevitably striking the exact weak point of the enemy's arguments.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Attributes of Allah</span><span class="tag">The Unseen</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 49</span></div>
+        <div class="arabic">قُلْ جَآءَ ٱلْحَقُّ وَمَا يُبْدِئُ ٱلْبَـٰطِلُ وَمَا يُعِيدُ</div>
+        <div class="translation">"Say, 'The absolute Truth has arrived, and falsehood has no power to originate anything, nor can it bring anything back to life.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"Say to them: 'The undeniable truth of Islam is here. And all your fake idols and false religions are dead. A lie cannot create life, and a lie cannot save you or bring you back after you die.'"</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The utter impotence of "Batil" (Falsehood). A lie only possesses power when it is not confronted by the truth. Once the "Haqq" (Truth) steps into the room, falsehood instantly loses its structural integrity. It cannot "originate" a solid argument, and once it is destroyed, it cannot "regenerate" itself. The idols are permanently defeated.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Arrogance</span><span class="tag">Divine Justice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 50</span></div>
+        <div class="arabic">قُلْ إِن ضَلَلْتُ فَإِنَّمَآ أَضِلُّ عَلَىٰ نَفْسِى ۖ وَإِنِ ٱهْتَدَيْتُ فَبِمَا يُوحِىٓ إِلَىَّ رَبِّىٓ ۚ إِنَّهُۥ سَمِيعٌۭ قَرِيبٌۭ</div>
+        <div class="translation">"Say, 'If I happen to go astray, the harm of that error falls entirely upon my own soul. But if I am rightly guided, it is purely because of what my Lord reveals to me. He is All-Hearing, intricately Near.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"Tell them with total humility: 'If I am wrong, the punishment will fall on my own shoulders alone. But if I am right and guided, it isn't because I am a genius; it is entirely because my Lord sent this revelation to me. God hears everything we say, and He is very close to us.'"</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">The absolute zenith of intellectual humility. The Prophet ﷺ does not claim intrinsic, independent perfection. He establishes the rule: Any human failing is from the self ("ala nafsee"), but any profound guidance or light is strictly an external gift channeled through the "Wahy" (Revelation) of the Lord. The ego takes the blame; the Creator takes the credit.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Humility</span><span class="tag">Prophetic History</span><span class="tag">Attributes of Allah</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 51</span></div>
+        <div class="arabic">وَلَوْ تَرَىٰٓ إِذْ فَزِعُوا۟ فَلَا فَوْتَ وَأُخِذُوا۟ مِن مَّكَانٍۢ قَرِيبٍۢ</div>
+        <div class="translation">"And if you could only see when they are struck with pure terror on Judgment Day! There will be no escape for them, and they will be violently seized from a place very close by."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"If you could just witness the terrifying moment when these arrogant people finally see the punishment! They will be absolutely paralyzed with fear. There will be nowhere to run, nowhere to hide, and they will be instantly grabbed and arrested right where they stand."</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">"Fazi'oo" (struck with paralyzing terror). The scene violently shifts from the debates in Mecca to the sudden, inescapable reality of the Akhirah. In the Dunya, they believed they could outrun God's justice using their wealth or castles. God shatters that illusion: "Ukhithoo min makanin qareeb" (seized from a nearby place). You do not need to be chased down; the Angels will seize your soul right from beneath your own feet.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Accountability</span><span class="tag">Warning</span><span class="tag">The Unseen</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 52</span></div>
+        <div class="arabic">وَقَالُوٓا۟ ءَامَنَّا بِهِۦ وَأَنَّىٰ لَهُمُ ٱلتَّنَاوُشُ مِن مَّكَانٍۭ بَعِيدٍۢ</div>
+        <div class="translation">"In that panic, they will scream, 'We finally believe in it!' But how can they possibly reach [faith] from a place so incredibly far away?"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"While they are being dragged away, they will desperately scream: 'Wait! We believe in the Qur'an now!' But it is utterly useless. How can they grab onto faith now, when the time for believing was left so far behind them on earth?"</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The tragedy of expired faith. "At-tanawush" refers to reaching out and trying to grasp something just out of reach. When the veil is lifted, the disbelievers frantically try to "grab" Iman (faith) to save themselves. But God states they are in a "makanin ba'eed" (a distant place). The jurisdiction of faith is the Dunya; once you cross the border of Death, you are geographically and legally too far away to execute a valid declaration of faith.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Accountability</span><span class="tag">Hell</span><span class="tag">Arrogance</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 53</span></div>
+        <div class="arabic">وَقَدْ كَفَرُوا۟ بِهِۦ مِن قَبْلُ ۖ وَيَقْذِفُونَ بِٱلْغَيْبِ مِن مَّكَانٍۭ بَعِيدٍۢ</div>
+        <div class="translation">"Especially since they aggressively disbelieved in it before, and used to throw blind insults and guesses at the unseen from a very distant place."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"It is totally unfair for them to claim faith now! Back on earth, when they actually had the chance, they proudly rejected it. They used to just sit back and throw blind, arrogant guesses and insults at the Prophets, completely dismissing the unseen truths of God."</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"Yaqdhifoona bil-ghayb" (throwing guesses at the unseen). In the Dunya, they treated theology like a careless game, casually throwing out baseless theories—"It's magic," "It's a lie," "There is no Resurrection"—without any intellectual rigor. Because they treated the most serious reality in the universe with distant, arrogant carelessness, God treats their sudden "conversion" with identical distant rejection.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Accountability</span><span class="tag">Warning</span><span class="tag">Sin</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 54</span></div>
+        <div class="arabic">وَحِيلَ بَيْنَهُمْ وَبَيْنَ مَا يَشْتَهُونَ كَمَا فُعِلَ بِأَشْيَاعِهِم مِّن قَبْلُ ۚ إِنَّهُمْ كَانُوا۟ فِى شَكٍّۢ مُّرِيبٍۭ</div>
+        <div class="translation">"And a massive, impenetrable barrier will be placed between them and whatever they desire, just as it was done to their predecessors in the past. Indeed, they lived their lives trapped in paralyzing, suspicious doubt."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"And so, a massive, permanent wall is slammed down, totally separating them from everything they desperately want—whether it's their lost wealth, a chance to go back, or God's mercy. This exact same punishment happened to all the arrogant empires before them. They threw away their lives because they chose to live in stubborn, toxic doubt."</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The absolute, devastating conclusion of Surah Saba. "Hila baynahum wa bayna ma yashtahoon" (A barrier is placed between them and what they desire). In the Dunya, the elite worshipped their own desires (wealth, status, lust). In the Akhirah, the ultimate punishment is not merely the fire; it is the eternal, structural separation from the objects of their love. They die starving for what they worshipped, permanently locked in the grave of their own "Shakk" (doubt).</div></div>
+        </div>
+        <div class="tags"><span class="tag">Divine Justice</span><span class="tag">Hell</span><span class="tag">The Unseen</span><span class="tag">Warning</span></div>
+    </div>
+
+</div>
+
+</body>
+</html>
