@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surah Ash-Shura | Consultation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@300;400;600&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #ffffff; --text-color: #2d3748; --primary-accent: #2b6cb0; 
+            --border-color: #e2e8f0; --tag-bg: #e6fffa; --tag-text: #2c7a7b;
+            --context-color: #d69e2e; --sufi-color: #38a169; --wisdom-color: #805ad5; --plain-color: #718096; 
+        }
+        body { font-family: 'Inter', sans-serif; background: var(--bg-color); color: var(--text-color); margin: 0; padding: 0; line-height: 1.6; }
+        .nav-bar { padding: 1rem 2rem; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; background: white; z-index: 100; box-shadow: 0 2px 4px rgba(0,0,0,0.05); flex-wrap: wrap; gap: 1rem;}
+        .nav-controls { display: flex; gap: 1.5rem; align-items: center; }
+        .nav-link { text-decoration: none; color: var(--primary-accent); font-weight: 600; display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem;}
+        .nav-link:hover { text-decoration: underline; }
+        .home-btn { background: var(--primary-accent); color: white; padding: 0.5rem 1rem; border-radius: 6px; }
+        .home-btn:hover { background: #2c5282; color: white; text-decoration: none; }
+        header { text-align: center; padding: 3rem 1rem 2rem; background: linear-gradient(180deg, #f7fafc 0%, #ffffff 100%); }
+        h1 { font-family: 'Merriweather', serif; font-size: 2.8rem; margin: 0; color: #1a202c; }
+        .meta { color: #718096; text-transform: uppercase; letter-spacing: 2px; font-size: 0.85rem; margin-top: 1rem; font-weight: 700; }
+        .intro-text { max-width: 650px; margin: 1.5rem auto 0; font-style: italic; color: #4a5568; }
+        .container { max-width: 900px; margin: 0 auto; padding: 0 1rem 4rem; }
+        .verse-card { background: white; border: 1px solid var(--border-color); border-radius: 12px; padding: 2rem; margin-bottom: 2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.02); }
+        .verse-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; border-bottom: 1px solid #edf2f7; padding-bottom: 0.8rem; }
+        .verse-number { background: var(--primary-accent); color: white; padding: 0.2rem 0.8rem; border-radius: 20px; font-size: 0.85rem; font-weight: 700; }
+        .arabic { font-family: 'Amiri', serif; font-size: 2.4rem; text-align: right; color: #2d3748; margin-bottom: 1.5rem; line-height: 2.2; }
+        .translation { font-family: 'Merriweather', serif; font-size: 1.2rem; color: #1a202c; margin-bottom: 2rem; border-left: 4px solid var(--primary-accent); padding-left: 1rem; }
+        .insights { display: grid; grid-template-columns: 1fr; gap: 1rem; }
+        .insight-box { background: #fff; padding: 1.2rem; border-radius: 8px; border: 1px solid #e2e8f0; border-left-width: 4px; }
+        .insight-box.plain { border-left-color: var(--plain-color); background: #f7fafc; }
+        .insight-box.context { border-left-color: var(--context-color); }
+        .insight-box.sufi { border-left-color: var(--sufi-color); }
+        .insight-box.hikam { border-left-color: var(--wisdom-color); }
+        .label { display: block; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1.2px; font-weight: 700; margin-bottom: 0.5rem; }
+        .plain .label { color: var(--plain-color); }
+        .context .label { color: var(--context-color); }
+        .sufi .label { color: var(--sufi-color); }
+        .hikam .label { color: var(--wisdom-color); }
+        .content { font-size: 0.95rem; color: #4a5568; }
+        .tags { margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; padding-top: 1rem; border-top: 1px solid #edf2f7; }
+        .tag { background: var(--tag-bg); color: var(--tag-text); padding: 0.2rem 0.7rem; border-radius: 99px; font-size: 0.75rem; font-weight: 600; }
+    </style>
+</head>
+<body>
+
+<div class="nav-bar">
+    <div class="nav-controls">
+        <a href="index.html" class="nav-link home-btn">⌂ Dashboard</a>
+        <a href="surah-61-fussilat.html" class="nav-link">← Prev</a>
+        <a href="surah-63-zukhruf.html" class="nav-link">Next →</a>
+    </div>
+    <span style="font-weight: 600; color: #718096; font-size: 0.9rem;">Mushaf: #42 | Chronological: #62</span>
+</div>
+
+<header>
+    <h1>Surah Ash-Shura</h1>
+    <div class="meta">Consultation • Makkah • 53 Verses</div>
+    <div class="intro-text">
+        A profound, awe-inspiring exploration of the mechanics of Divine Revelation. It establishes the unbroken unity of the Prophetic message across history and introduces the foundational principle of "Mutual Consultation" for human governance.
+    </div>
+</header>
+
+<div class="container">
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 1</span></div>
+        <div class="arabic">حمٓ</div>
+        <div class="translation">"Ha, Meem."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God opens this powerful Meccan Surah with two disconnected letters. They serve as an acoustic shockwave, grabbing the attention of the Arab poets and immediately establishing the divine, un-copyable origin of the Qur'an.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">The Unseen</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 2</span></div>
+        <div class="arabic">عٓسٓقٓ</div>
+        <div class="translation">"Ayn, Seen, Qaaf."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">A highly unusual continuation! A second set of isolated letters. This creates an atmosphere of immense mystery and awe, preparing the listener's heart for the heavy reality of the "Wahy" (Revelation) that is about to be discussed.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">The Unseen</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 3</span></div>
+        <div class="arabic">كَذَٰلِكَ يُوحِىٓ إِلَيْكَ وَإِلَى ٱلَّذِينَ مِن قَبْلِكَ ٱللَّهُ ٱلْعَزِيزُ ٱلْحَكِيمُ</div>
+        <div class="translation">"Exactly thus does Allah profoundly reveal to you, [O Muhammad], and to those completely before you - the Exalted in absolute Might, the Perfectly Wise."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God completely dismantles the idea that Islam is a "new" religion. "The exact same way I am downloading this massive revelation into your heart, Muhammad, is the exact same way I communicated with Moses, Abraham, and Noah. It is one continuous, unbroken chain of communication from the Almighty King."</div></div>
+        </div>
+        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Knowledge & Signs</span><span class="tag">Truth</span></div>
+    </div>
+
+    <div class="verse-card" style="border-left: 6px solid #e53e3e; background: #fff5f5;">
+        <div class="verse-header"><span class="verse-number">Verse 4</span></div>
+        <div class="arabic">لَهُۥ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۖ وَهُوَ ٱلْعَلِىُّ ٱلْعَظِيمُ</div>
+        <div class="translation">"To Him exclusively belongs absolutely whatever is in the heavens and whatever is in the earth, and He is the Most High, the Supreme, the Magnificent."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Why should you listen to this Revelation? Because the One speaking doesn't just hold a political office; He holds the title deed to the entire cosmos! He is physically, spiritually, and literally above absolutely everything that exists.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">Truth</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 5</span></div>
+        <div class="arabic">تَكَادُ ٱلسَّمَـٰوَٰتُ يَتَفَطَّرْنَ مِن فَوْقِهِنَّ ۚ وَٱلْمَلَـٰٓئِكَةُ يُسَبِّحُونَ بِحَمْدِ رَبِّهِمْ وَيَسْتَغْفِرُونَ لِمَن فِى ٱلْأَرْضِ ۗ أَلَآ إِنَّ ٱللَّهَ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ</div>
+        <div class="translation">"The massive heavens almost violently tear apart from directly above them [out of awe of His Majesty]! While the angels continuously glorify the praise of their Lord and desperately ask forgiveness for those on the earth. Unquestionably, it is Allah who is the Profoundly Forgiving, the Intensely Merciful."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">One of the most terrifying and beautiful verses in the Qur'an. Human beings commit sins on earth with absolute casualness. Yet, the sheer, crushing weight of God's majesty is so intense that the physical fabric of the highest heavens almost literally tears apart from awe! And look at the Angels: terrified by God's majesty, they look down at humans sinning and panic for us! The Angels are constantly begging God to forgive humanity before His wrath drops.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">"Yatafattarna min fawqihinna" (Tear apart from above them). The "weight" here is the Wahy (Revelation) and the sheer density of the angelic host. The Prophet ﷺ famously said: "The heaven creaks, and it has every right to creak; there is not a space of four fingers in it except that an angel is placing his forehead on it in prostration to Allah." The physical universe struggles to contain the spiritual density of God's presence, yet humans, with their tiny hearts, arrogantly think they can handle disobeying Him.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Attributes of Allah</span><span class="tag">Hope</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 6</span></div>
+        <div class="arabic">وَٱلَّذِينَ ٱتَّخَذُوا۟ مِن دُونِهِۦٓ أَوْلِيَآءَ ٱللَّهُ حَفِيظٌ عَلَيْهِمْ وَمَآ أَنتَ عَلَيْهِم بِوَكِيلٍۢ</div>
+        <div class="translation">"And those who arrogantly take protectors [allies/idols] other than Him - Allah is the absolute Guardian watching over them, and you [O Muhammad] are absolutely not over them a manager."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God relieves the anxiety of the Prophet ﷺ. "If they want to ignore My majesty and worship politicians, money, or statues, let them! I am meticulously recording every single action they take. You are a messenger, not a babysitter. Your job is to deliver the mail, not force them to read it."</div></div>
+        </div>
+        <div class="tags"><span class="tag">Steadfastness</span><span class="tag">Accountability</span><span class="tag">Free Will</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 7</span></div>
+        <div class="arabic">وَكَذَٰلِكَ أَوْحَيْنَآ إِلَيْكَ قُرْءَانًا عَرَبِيًّۭا لِّتُنذِرَ أُمَّ ٱلْقُرَىٰ وَمَنْ حَوْلَهَا وَتُنذِرَ يَوْمَ ٱلْجَمْعِ لَا رَيْبَ فِيهِ ۚ فَرِيقٌۭ فِى ٱلْجَنَّةِ وَفَرِيقٌۭ فِى ٱلسَّعِيرِ</div>
+        <div class="translation">"And exactly thus We have powerfully revealed to you an Arabic Qur'an so that you may passionately warn the Mother of Cities [Mecca] and absolutely whoever is around it, and warn of the terrifying Day of Gathering, about which there is absolutely no doubt. A massive faction will be in Paradise, and a massive faction will be in the blazing Fire."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The mission is localized but universally expanding. "I gave you the Qur'an in your own language so you can immediately warn your hometown (Mecca), and from there, the entire globe! Warn them about the ultimate Day of Gathering. On that day, there are only two addresses in the universe: Heaven or Hell. There is no middle ground."</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Warning</span><span class="tag">The Unseen</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 8</span></div>
+        <div class="arabic">وَلَوْ شَآءَ ٱللَّهُ لَجَعَلَهُمْ أُمَّةًۭ وَٰحِدَةًۭ وَلَـٰكِن يُدْخِلُ مَن يَشَآءُ فِى رَحْمَتِهِۦ ۚ وَٱلظَّـٰلِمُونَ مَا لَهُم مِّن وَلِىٍّۢ وَلَا نَصِيرٍ</div>
+        <div class="translation">"And had Allah strictly willed, He could have effortlessly made them one single [believing] community. But He beautifully admits whomever He wills into His mercy. And the violently unjust oppressors absolutely do not have any protector nor any helper."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God completely explains the existence of multiple religions and beliefs! "If I wanted to, I could have biologically programmed humans like angels—unable to sin, unified in one single religion. But then there would be no free will, no love, and no test! I gave you the freedom to choose. Those who seek truth are enveloped in My mercy, while the arrogant oppressors are completely abandoned."</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"Walakin yudkhilu man yasha'u fi rahmatihi" (But He admits whom He wills into His mercy). Guidance is not a mathematical right you earn; it is a "Rahmah" (mercy) you are gifted. If human beings were forced into belief, their worship would have no spiritual value. By allowing disbelief to exist, God validates the heavy, immense value of the believer's choice to submit.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Free Will</span><span class="tag">Divine Justice</span><span class="tag">Hope</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 9</span></div>
+        <div class="arabic">أَمِ ٱتَّخَذُوا۟ مِن دُونِهِۦٓ أَوْلِيَآءَ ۖ فَٱللَّهُ هُوَ ٱلْوَلِىُّ وَهُوَ يُحْىِ ٱلْمَوْتَىٰ وَهُوَ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌۭ</div>
+        <div class="translation">"Or have they actually taken protectors [and allies] absolutely other than Him?! But Allah - He exclusively is the absolute Protector, and it is exclusively He who gives life to the dead, and He is over absolutely all things Supreme in Capability."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"Why would you ever rely on a human being for protection? A human gets tired, loses their wealth, and dies! If you want an ally ('Wali'), pick the One who never sleeps, who can literally bring dead bodies back to life, and who has infinite, unmatched power over the entire matrix of reality!"</div></div>
+        </div>
+        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">Logic</span><span class="tag">Steadfastness</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 10</span></div>
+        <div class="arabic">وَمَا ٱخْتَلَفْتُمْ فِيهِ مِن شَىْءٍۢ فَحُكْمُهُۥٓ إِلَى ٱللَّهِ ۚ ذَٰلِكُمُ ٱللَّهُ رَبِّى عَلَيْهِ تَوَكَّلْتُ وَإِلَيْهِ أُنِيبُ</div>
+        <div class="translation">"And absolutely whatever thing you completely disagree upon - its ultimate judgment rests strictly with Allah. [Declare]: 'That is Allah, my true Lord! Upon Him entirely I have placed my absolute trust, and to Him exclusively I continuously turn back in repentance.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The ultimate formula for intellectual and spiritual peace! In this world, humans will debate and argue about everything—politics, theology, science. God says: "Don't lose your mind arguing! The final verdict belongs to Me alone." The believer simply declares: "God is my Master. I tie my camel, but I place 100% of my trust in Him, and whenever I mess up, I run directly back to Him."</div></div>
+        </div>
+        <div class="tags"><span class="tag">Spiritual Practice</span><span class="tag">Steadfastness</span><span class="tag">Truth</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 11</span></div>
+        <div class="arabic">فَاطِرُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۚ جَعَلَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَٰجًۭا وَمِنَ ٱلْأَنْعَـٰمِ أَزْوَٰجًۭا ۖ يَذْرَؤُكُمْ فِيهِ ۚ لَيْسَ كَمِثْلِهِۦ شَىْءٌۭ ۖ وَهُوَ ٱلسَّمِيعُ ٱلْبَصِيرُ</div>
+        <div class="translation">"[He is] the absolute Originator of the heavens and the earth. He has created for you from among yourselves mates, and among the cattle mates; He relentlessly multiplies you thereby. There is absolutely nothing whatsoever like unto Him! And He is the All-Hearing, the All-Seeing."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">This verse contains the ultimate, foundational rule of Islamic theology: "Laysa kamithlihi shay'" (There is absolutely nothing like Him). God completely shatters all human attempts to imagine Him. He is not a man with a white beard sitting on a cloud. He is not a physical energy, a spirit, or a force of nature. Whatever image pops into your head when you think of God—God is exactly NOT that. He is the Creator of dimensions, space, and time, and is therefore completely outside of them.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">Truth</span><span class="tag">Logic</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 12</span></div>
+        <div class="arabic">لَهُۥ مَقَالِيدُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۖ يَبْسُطُ ٱلرِّزْقَ لِمَن يَشَآءُ وَيَقْدِرُ ۚ إِنَّهُۥ بِكُلِّ شَىْءٍ عَلِيمٌۭ</div>
+        <div class="translation">"To Him exclusively belong the absolute keys of the heavens and the earth. He expansively extends provision for whomever He strictly wills, and He mathematically restricts it. Indeed, He is, of absolutely all things, Supremely Knowing."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God holds the master keys ("Maqalid") to the universe's vault! Why are some people billionaires and others poor? It is not a cosmic accident. God actively expands the wealth of some, and actively restricts the wealth of others based entirely on His perfect, intimate knowledge of what that specific human soul needs to be tested with.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Wealth</span><span class="tag">The Unseen</span><span class="tag">Attributes of Allah</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 13</span></div>
+        <div class="arabic">شَرَعَ لَكُم مِّنَ ٱلدِّينِ مَا وَصَّىٰ بِهِۦ نُوحًۭا وَٱلَّذِىٓ أَوْحَيْنَآ إِلَيْكَ وَمَا وَصَّيْنَا بِهِۦٓ إِبْرَٰهِيمَ وَمُوسَىٰ وَعِيسَىٰٓ ۖ أَنْ أَقِيمُوا۟ ٱلدِّينَ وَلَا تَتَفَرَّقُوا۟ فِيهِ ۚ كَبُرَ عَلَى ٱلْمُشْرِكِينَ مَا تَدْعُوهُمْ إِلَيْهِ ۚ ٱللَّهُ يَجْتَبِىٓ إِلَيْهِ مَن يَشَآءُ وَيَهْدِىٓ إِلَيْهِ مَن يُنِيبُ</div>
+        <div class="translation">"He has legislated for you of the religion exactly what He forcefully enjoined upon Noah, and exactly that which We have profoundly revealed to you, [O Muhammad], and what We enjoined upon Abraham and Moses and Jesus - to firmly establish the religion and absolutely not be violently divided therein. Extremely heavy upon the polytheists is exactly that which you invite them to. Allah exclusively chooses for Himself whomever He strictly wills and flawlessly guides to Himself whoever turns back [to Him in repentance]."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God draws the ultimate timeline of religious unity! Muhammad ﷺ did not invent a new set of rules. God gave the Muslims the exact same core spiritual DNA that He gave to Noah, Abraham, Moses, and Jesus. The core command for all of them was identical: "Establish the truth, and DO NOT break into competing, hateful sects!" The pagans hate this unity, but God will pull toward Himself anyone whose heart is genuinely searching for truth.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Truth</span><span class="tag">Social Ethics</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 14</span></div>
+        <div class="arabic">وَمَا تَفَرَّقُوٓا۟ إِلَّا مِنۢ بَعْدِ مَا جَآءَهُمُ ٱلْعِلْمُ بَغْيًۢا بَيْنَهُمْ ۚ وَلَوْلَا كَلِمَةٌۭ سَبَقَتْ مِن رَّبِّكَ إِلَىٰٓ أَجَلٍۢ مُّسَمًّۭى لَّقُضِىَ بَيْنَهُمْ ۚ وَإِنَّ ٱلَّذِينَ أُورِثُوا۟ ٱلْكِتَـٰبَ مِنۢ بَعْدِهِمْ لَفِى شَكٍّۢ مِّنْهُ مُرِيبٍۢ</div>
+        <div class="translation">"And they absolutely did not become violently divided until after the true knowledge had already come to them - out of jealous, aggressive animosity between themselves! And if not for a Word that preceded from your Lord [delaying the penalty] until a specifically designated time, it would definitively have been concluded between them. And indeed, those who were granted inheritance of the Scripture after them are, concerning it, in heavily disquieting doubt."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Why do religions fracture into hundreds of fighting sects? God reveals the ugly truth: It is almost never due to "ignorance." The ancient nations didn't divide because they didn't understand the scripture; they divided because of "Baghy" (jealousy, ego, and a desperate desire for political power over each other). The truth was clear, but their egos were too massive to share it.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Human Nature</span><span class="tag">Warning</span><span class="tag">Accountability</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 15</span></div>
+        <div class="arabic">فَلِذَٰلِكَ فَٱدْعُ ۖ وَٱسْتَقِمْ كَمَآ أُمِرْتَ ۖ وَلَا تَتَّبِعْ أَهْوَآءَهُمْ ۖ وَقُلْ ءَامَنتُ بِمَآ أَنزَلَ ٱللَّهُ مِن كِتَـٰبٍۢ ۖ وَأُمِرْتُ لِأَعْدِلَ بَيْنَكُمُ ۖ ٱللَّهُ رَبُّنَا وَرَبُّكُمْ ۖ لَنَآ أَعْمَـٰلُنَا وَلَكُمْ أَعْمَـٰلُكُمْ ۖ لَا حُجَّةَ بَيْنَنَا وَبَيْنَكُمُ ۖ ٱللَّهُ يَجْمَعُ بَيْنَنَا ۖ وَإِلَيْهِ ٱلْمَصِيرُ</div>
+        <div class="translation">"So strictly to that [original religion] forcefully invite, [O Muhammad], and remain firmly on a right course exactly as you are commanded, and absolutely do not follow their corrupted desires. But boldly declare, 'I have completely believed in exactly what Allah has sent down of the Book, and I have been strictly commanded to do absolute justice among you. Allah is our Lord and your Lord. For us are our deeds, and for you your deeds. There is absolutely no argument between us and you. Allah will forcefully bring us together, and exclusively to Him is the ultimate destination.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The ultimate rule of engagement for a believer! When you are surrounded by different groups fighting over religion, God tells you exactly how to behave: "Stand completely straight (Istaqim). Don't compromise your values to please them. Be flawlessly just to everyone. And when they try to drag you into toxic arguments, shut it down gracefully! Say: 'You have your life, I have mine. We don't need to scream at each other. God will bring us all together on Judgment Day and sort it out.'"</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"La hujjata baynana wa baynakum" (There is no argument between us and you). This is the apex of emotional and spiritual maturity. The ego is obsessed with "winning" the debate and forcing the opponent into submission. The Qur'an commands the Prophet to detach from the addiction of argumentation. Once the truth has been clearly articulated, debating further only hardens the heart. True spiritual power is stating the truth and walking away, leaving the ultimate verdict to the Creator.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Social Ethics</span><span class="tag">Steadfastness</span><span class="tag">Commands</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 16</span></div>
+        <div class="arabic">وَٱلَّذِينَ يُحَآجُّونَ فِى ٱللَّهِ مِنۢ بَعْدِ مَا ٱسْتُجِيبَ لَهُۥ حُجَّتُهُمْ دَاحِضَةٌ عِندَ رَبِّهِمْ وَعَلَيْهِمْ غَضَبٌۭ وَلَهُمْ عَذَابٌۭ شَدِيدٌ</div>
+        <div class="translation">"And those who violently argue concerning Allah after He has already been [widely] responded to - their argument is utterly invalid and void with their Lord! And upon them is absolute wrath, and for them is a devastatingly severe punishment."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Once the truth of Islam became obvious and people started converting, the elites doubled down on their toxic arguments just to stop the momentum. God says their intellectual "debates" are entirely bankrupt. They aren't seeking truth; they are just protecting their political power, and their reward is the wrath of God.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Warning</span><span class="tag">Arrogance</span><span class="tag">Logic</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 17</span></div>
+        <div class="arabic">ٱللَّهُ ٱلَّذِىٓ أَنزَلَ ٱلْكِتَـٰبَ بِٱلْحَقِّ وَٱلْمِيزَانَ ۗ وَمَا يُدْرِيكَ لَعَلَّ ٱلسَّاعَةَ قَرِيبٌۭ</div>
+        <div class="translation">"It is Allah exclusively who has sent down the Book in absolute truth, and [also] the Balance [of justice]. And what will possibly make you perceive? Perhaps the Final Hour is incredibly near!"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God didn't just drop a book of theology from the sky; He dropped the "Mizan" (The Balance). The Qur'an is designed to balance human society, preventing the rich from crushing the poor and the strong from exploiting the weak. Implement this balance immediately, because the apocalypse might happen tomorrow!</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Social Ethics</span><span class="tag">Warning</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 18</span></div>
+        <div class="arabic">يَسْتَعْجِلُ بِهَا ٱلَّذِينَ لَا يُؤْمِنُونَ بِهَا ۖ وَٱلَّذِينَ ءَامَنُوا۟ مُشْفِقُونَ مِنْهَا وَيَعْلَمُونَ أَنَّهَا ٱلْحَقُّ ۗ أَلَآ إِنَّ ٱلَّذِينَ يُمَارُونَ فِى ٱلسَّاعَةِ لَفِى ضَلَـٰلٍۭ بَعِيدٍ</div>
+        <div class="translation">"Those who absolutely do not believe in it sarcastically seek to hasten it! But those who genuinely believe are profoundly fearful of it and definitively know that it is the absolute Truth. Unquestionably, those who continuously dispute concerning the Hour are in extreme, distant error."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The terrifying difference in psychology. The arrogant atheist laughs and says, "Bring on the apocalypse! Let's see this Judgment Day!" because they think it's a joke. But the believer, who actually understands the sheer, terrifying magnitude of standing before the Creator, trembles with awe.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Arrogance</span><span class="tag">Warning</span><span class="tag">The Unseen</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 19</span></div>
+        <div class="arabic">ٱللَّهُ لَطِيفٌۢ بِعِبَادِهِۦ يَرْزُقُ مَن يَشَآءُ ۖ وَهُوَ ٱلْقَوِىُّ ٱلْعَزِيزُ</div>
+        <div class="translation">"Allah is infinitely Subtle and Gracious with His servants; He effortlessly provides for whomever He strictly wills. And He is the Supremely Powerful, the Exalted in Might."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God is "Lateef." This means His grace operates behind the scenes in ways you cannot see. Sometimes a closed door, a lost job, or a cancelled flight is actually the exact mechanism of His mercy, saving you from a hidden disaster and bringing you your true provision.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">Wealth</span><span class="tag">Hope</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 20</span></div>
+        <div class="arabic">مَن كَانَ يُرِيدُ حَرْثَ ٱلْـَٔاخِرَةِ نَزِدْ لَهُۥ فِى حَرْثِهِۦ ۖ وَمَن كَانَ يُرِيدُ حَرْثَ ٱلدُّنْيَا نُؤْتِهِۦ مِنْهَا وَمَا لَهُۥ فِى ٱلْـَٔاخِرَةِ مِن نَّصِيبٍ</div>
+        <div class="translation">"Whoever intensely desires the brilliant harvest of the Hereafter - We powerfully increase for him in his harvest! And whoever strictly desires the temporary harvest of this world - We give him thereof, but absolutely never will he have in the Hereafter any share whatsoever!"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">An absolute masterpiece of a metaphor! Human life is a farm, and every action is a seed. If your ultimate goal is the Afterlife, God multiplies your spiritual crop, and as a bonus, He takes care of you in this world too! But if your only goal is to get rich, famous, and comfortable in the Dunya, God might give it to you—but when you wake up on Judgment Day, your bank account will literally be zero. You reap exactly what you sow.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Purpose</span><span class="tag">Wealth</span><span class="tag">Logic</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 21</span></div>
+        <div class="arabic">أَمْ لَهُمْ شُرَكَـٰٓؤُا۟ شَرَعُوا۟ لَهُم مِّنَ ٱلدِّينِ مَا لَمْ يَأْذَنۢ بِهِ ٱللَّهُ ۚ وَلَوْلَا كَلِمَةُ ٱلْفَصْلِ لَقُضِىَ بَيْنَهُمْ ۗ وَإِنَّ ٱلظَّـٰلِمِينَ لَهُمْ عَذَابٌ أَلِيمٌۭ</div>
+        <div class="translation">"Or do they actually have 'partners' [false gods/leaders] who have arrogantly ordained for them a religion to which Allah has absolutely not consented?! But if not for the decisive Word [delaying judgment], it would have been violently concluded between them. And indeed, the unjust oppressors will definitely have an agonizingly painful punishment."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Who gave you permission to invent new moral laws? When humans make the pursuit of wealth their only goal (as mentioned in the previous verse), they inevitably invent fake religious and political systems to justify their greed. God asks: "Who do these politicians think they are to overwrite My laws?"</div></div>
+        </div>
+        <div class="tags"><span class="tag">Warning</span><span class="tag">Arrogance</span><span class="tag">Divine Justice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 22</span></div>
+        <div class="arabic">تَرَى ٱلظَّـٰلِمِينَ مُشْفِقِينَ مِمَّا كَسَبُوا۟ وَهُوَ وَاقِعٌۢ بِهِمْ ۗ وَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ فِى رَوْضَاتِ ٱلْجَنَّاتِ ۖ لَهُم مَّا يَشَآءُونَ عِندَ رَبِّهِمْ ۚ ذَٰلِكَ هُوَ ٱلْفَضْلُ ٱلْكَبِيرُ</div>
+        <div class="translation">"You will vividly see the unjust oppressors violently fearful of exactly what they have earned, and it is absolutely going to befall them! While those who genuinely believed and actively did righteous deeds will be entirely in the lush, majestic meadows of the Gardens [Paradise], having absolutely whatever they desire in the presence of their Lord. That is the supreme, magnificent bounty!"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The ultimate contrast of destinies. On Judgment Day, the arrogant elites will be paralyzed with terror, watching the direct consequences of their crimes crashing down on them like a meteor. Meanwhile, the believers are relaxing in the lush, green, VIP meadows of Paradise. And the greatest perk of Jannah? "Whatever they desire." Anything you can imagine instantly becomes yours.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Jannah</span><span class="tag">Hell</span><span class="tag">Divine Justice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 23</span></div>
+        <div class="arabic">ذَٰلِكَ ٱلَّذِى يُبَشِّرُ ٱللَّهُ عِبَادَهُ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ ۗ قُل لَّآ أَسْـَٔلُكُمْ عَلَيْهِ أَجْرًا إِلَّا ٱلْمَوَدَّةَ فِى ٱلْقُرْبَىٰ ۗ وَمَن يَقْتَرِفْ حَسَنَةًۭ نَّزِدْ لَهُۥ فِيهَا حُسْنًا ۚ إِنَّ ٱللَّهَ غَفُورٌۭ شَكُورٌ</div>
+        <div class="translation">"That is exactly the breathtaking good tidings which Allah gives to His servants who believe and do righteous deeds. Declare boldly: 'I absolutely do not ask you for this message any payment whatsoever, except exclusively the profound love for [my] kinship.' And whoever actively commits a good deed - We will magnificently increase for him absolute goodness therein. Indeed, Allah is Profoundly Forgiving, Immensely Appreciative."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The Prophet ﷺ is commanded to tell the people: "I am giving you the roadmap to eternal Paradise, and I am not charging you a single dime! I don't want a salary. The only 'payment' I want from you is that you stop attacking me and simply respect the blood-ties (kinship) we share as Arabs!" God promises that whoever takes a step toward good will have their reward massively multiplied by the Appreciative King.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Social Ethics</span><span class="tag">Hope</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 24</span></div>
+        <div class="arabic">أَمْ يَقُولُونَ ٱفْتَرَىٰ عَلَى ٱللَّهِ كَذِبًۭا ۖ فَإِن يَشَإِ ٱللَّهُ يَخْتِمْ عَلَىٰ قَلْبِكَ ۗ وَيَمْحُ ٱللَّهُ ٱلْبَـٰطِلَ وَيُحِقُّ ٱلْحَقَّ بِكَلِمَـٰتِهِۦٓ ۚ إِنَّهُۥ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ</div>
+        <div class="translation">"Or do they arrogantly sneer, 'He has invented a massive lie against Allah'?! But if Allah strictly willed, He could violently seal over your heart. And Allah completely eradicates falsehood and establishes the absolute truth by His majestic Words. Indeed, He is intimately Knowing of exactly what is within the breasts."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">They accuse the Prophet of making up the Qur'an for personal glory. God defends him with terrifying logic: "If Muhammad was a fake prophet making up lies using My Name, do you really think I would just sit back and watch? I would instantly crush his heart and seal it permanently! The fact that he is succeeding is proof that I am backing him. God's Word always violently deletes falsehood."</div></div>
+        </div>
+        <div class="tags"><span class="tag">Warning</span><span class="tag">Truth</span><span class="tag">Attributes of Allah</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 25</span></div>
+        <div class="arabic">وَهُوَ ٱلَّذِى يَقْبَلُ ٱلتَّوْبَةَ عَنْ عِبَادِهِۦ وَيَعْفُوا۟ عَنِ ٱلسَّيِّـَٔاتِ وَيَعْلَمُ مَا تَفْعَلُونَ</div>
+        <div class="translation">"And it is exclusively He who accepts true repentance from His servants and completely pardons massive sins, and He flawlessly knows exactly what you are continually doing."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God issues an open invitation to every broken soul! You might have spent your entire life mocking Him or committing terrible crimes, but the door is always unlocked. He is the *only* one who can formally accept your apology, wipe your slate entirely clean, and completely pardon the darkest things you've done. And He does this while knowing *exactly* how bad those sins were!</div></div>
+        </div>
+        <div class="tags"><span class="tag">Hope</span><span class="tag">Repentance</span><span class="tag">Attributes of Allah</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 26</span></div>
+        <div class="arabic">وَيَسْتَجِيبُ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ وَيَزِيدُهُم مِّن فَضْلِهِۦ ۚ وَٱلْكَـٰفِرُونَ لَهُمْ عَذَابٌۭ شَدِيدٌۭ</div>
+        <div class="translation">"And He actively answers [the prayers of] those who genuinely believe and do righteous deeds, and He exponentially increases them from His majestic bounty. But the violently ungrateful disbelievers - for them is a devastatingly severe punishment."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">When a true believer raises their hands and asks God for something, God doesn't just give them what they asked for—He gives them the answer, and then pours out massive, unexpected bonus blessings ("Fadl") on top of it! But for those who arrogantly reject Him, their only guarantee is severity.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Hope</span><span class="tag">Spiritual Practice</span><span class="tag">Divine Justice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 27</span></div>
+        <div class="arabic">۞ وَلَوْ بَسَطَ ٱللَّهُ ٱلرِّزْقَ لِعِبَادِهِۦ لَبَغَوْا۟ فِى ٱلْأَرْضِ وَلَـٰكِن يُنَزِّلُ بِقَدَرٍۢ مَّا يَشَآءُ ۚ إِنَّهُۥ بِعِبَادِهِۦ خَبِيرٌۢ بَصِيرٌۭ</div>
+        <div class="translation">"And if Allah were to vastly extend provision [wealth] for all His servants, they would absolutely commit violent tyranny throughout the earth! But rather, He actively sends it down in an exact, mathematically precise measure that He specifically wills. Indeed, concerning His servants, He is intimately Acquainted and All-Seeing."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">A profound masterclass in sociology and human psychology! People constantly complain, "If God loves me, why doesn't He make me a billionaire?" God answers with terrifying honesty: "If I gave everyone unlimited money, human society would instantly collapse into a bloodbath of arrogance, greed, and violent tyranny ('Baghy'). Money amplifies the ego." God restricts your bank account specifically to protect your soul. Poverty is often a hidden shield.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"Walakin yunazzilu bi-qadarin ma yasha'" (But He sends down in a precise measure). The concept of "Man' " (Deprivation) as an act of Divine Love. When a doctor restricts sugar from a diabetic, the patient feels deprived, but the doctor is saving their life. The "Khabeer" (Intimately Acquainted) knows exactly what dosage of wealth your specific heart can survive. If He gave you the millions you beg for, it might be the exact currency you use to buy your ticket to Hell. His withholding is His protection.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Wealth</span><span class="tag">Human Nature</span><span class="tag">Logic</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 28</span></div>
+        <div class="arabic">وَهُوَ ٱلَّذِى يُنَزِّلُ ٱلْغَيْثَ مِنۢ بَعْدِ مَا قَنَطُوا۟ وَيَنشُرُ رَحْمَتَهُۥ ۚ وَهُوَ ٱلْوَلِىُّ ٱلْحَمِيدُ</div>
+        <div class="translation">"And it is exclusively He who miraculously sends down the saving rain right after they had violently despaired, and He actively spreads His massive mercy! And He is the absolute Protector, the inherently Praiseworthy."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God loves to showcase His mercy at the exact moment of human breaking points! Imagine a farming society experiencing a brutal drought. The crops are dying, the animals are thirsty, and the people hit absolute, crushing despair ("Qanatoo"). The exact second they give up hope, God bursts the sky open with life-saving rain, proving that He alone is the Hero and the Protector of their lives!</div></div>
+        </div>
+        <div class="tags"><span class="tag">Hope</span><span class="tag">Knowledge & Signs</span><span class="tag">Attributes of Allah</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 29</span></div>
+        <div class="arabic">وَمِنْ ءَايَـٰتِهِۦ خَلْقُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ وَمَا بَثَّ فِيهِمَا مِن دَآبَّةٍۢ ۚ وَهُوَ عَلَىٰ جَمْعِهِمْ إِذَا يَشَآءُ قَدِيرٌۭ</div>
+        <div class="translation">"And among His spectacular signs is the flawless creation of the heavens and the earth and exactly what He has vividly scattered throughout them of all living creatures. And He is, over violently gathering them together whenever He strictly wills, Supreme in Capability."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Look at the sheer scale of biology! God didn't just put life on earth; He scattered living creatures throughout the cosmos. If He has the power to engineer trillions of complex biological creatures across the universe, do you really think it will be hard for Him to gather your scattered bones on the Day of Judgment? He can reassemble humanity in a microsecond.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">The Unseen</span><span class="tag">Attributes of Allah</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 30</span></div>
+        <div class="arabic">وَمَآ أَصَـٰبَكُم مِّن مُّصِيبَةٍۢ فَبِمَا كَسَبَتْ أَيْدِيكُمْ وَيَعْفُوا۟ عَن كَثِيرٍۢ</div>
+        <div class="translation">"And absolutely whatever violently strikes you of a disaster - it is entirely for exactly what your own hands have earned; but He completely pardons and wipes away so much!"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">A terrifying yet comforting reality check about the tragedies of life. When massive, painful disasters hit a society or a person, it is not "random bad luck." It is the direct, physical consequence of our own greed, corruption, and sins (like climate change, economic collapse, or broken relationships). We break our own world! But out of pure mercy, God actually intercepts and pardons 99% of our crimes, only letting a tiny fraction hit us so we can wake up and change course!</div></div>
+        </div>
+        <div class="tags"><span class="tag">Accountability</span><span class="tag">Divine Justice</span><span class="tag">Hope</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 31</span></div>
+        <div class="arabic">وَمَآ أَنتُم بِمُعْجِزِينَ فِى ٱلْأَرْضِ ۖ وَمَا لَكُم مِّن دُونِ ٱللَّهِ مِن وَلِىٍّۢ وَلَا نَصِيرٍۢ</div>
+        <div class="translation">"And you are absolutely not capable of escaping [causing failure to Him] anywhere on earth! And you have, absolutely other than Allah, no protector whatsoever nor any ultimate helper."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"You cannot outrun God! You can build underground bunkers or fly to another continent, but you are trapped in His jurisdiction. When His decree drops, no government, army, or lawyer can bail you out."</div></div>
+        </div>
+        <div class="tags"><span class="tag">Warning</span><span class="tag">The Unseen</span><span class="tag">Accountability</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 32</span></div>
+        <div class="arabic">وَمِنْ ءَايَـٰتِهِ ٱلْجَوَارِ فِى ٱلْبَحْرِ كَٱلْأَعْلَـٰمِ</div>
+        <div class="translation">"And among His spectacular signs are the massive ships sailing through the sea, towering exactly like majestic mountains!"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God forces us to look at human engineering through a theological lens. Humans built massive cargo ships the size of skyscrapers and feel incredibly proud. But God says: "I am the One who engineered the physics of water displacement! The fact that thousands of tons of heavy steel float on liquid is a daily, blinding miracle of My design!"</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Logic</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 33</span></div>
+        <div class="arabic">إِن يَشَأْ يُسْكِنِ ٱلرِّيحَ فَيَظْلَلْنَ رَوَاكِدَ عَلَىٰ ظَهْرِهِۦٓ ۚ إِنَّ فِى ذَٰلِكَ لَـَٔايَـٰتٍۢ لِّكُلِّ صَبَّارٍۢ شَكُورٍ</div>
+        <div class="translation">"If He strictly willed, He could instantly still the wind, and they would remain utterly motionless, paralyzed upon its surface! Indeed in that are spectacularly undeniable signs for absolutely everyone who is relentlessly patient and profoundly grateful."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The ultimate vulnerability of global trade! Before engine power, the entire global economy relied on wind. God reminds them: "Your massive ships are completely useless without My wind. If I turned off the breeze, your towering ships would become floating coffins, paralyzed in the middle of the ocean, and your economy would crash overnight!" You are entirely dependent on forces you cannot control.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Wealth</span><span class="tag">Warning</span><span class="tag">Knowledge & Signs</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 34</span></div>
+        <div class="arabic">أَوْ يُوبِقْهُنَّ بِمَا كَسَبُوا۟ وَيَعْفُ عَن كَثِيرٍۢ</div>
+        <div class="translation">"Or He could completely annihilate them [with a storm] for exactly what they have earned; but He completely pardons and wipes away so much!"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"Or, instead of stopping the wind, I could accelerate it into a massive, raging hurricane and violently shatter your ships at the bottom of the sea as a direct punishment for your arrogance! But I don't. I let your ships pass safely because My mercy overrides My wrath."</div></div>
+        </div>
+        <div class="tags"><span class="tag">Warning</span><span class="tag">Hope</span><span class="tag">Divine Justice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 35</span></div>
+        <div class="arabic">وَيَعْلَمَ ٱلَّذِينَ يُجَـٰدِلُونَ فِىٓ ءَايَـٰتِنَا مَا لَهُم مِّن مَّحِيصٍۢ</div>
+        <div class="translation">"And specifically so that those who actively dispute concerning Our spectacular signs may definitively know that there is absolutely no escape for them whatsoever!"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">When the hurricane hits the ship, the arrogant atheists who used to debate religion on land suddenly realize a terrifying truth: they are trapped! There is nowhere to hide on a sinking ship, and there is nowhere to hide from God's ultimate justice.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Accountability</span><span class="tag">Arrogance</span><span class="tag">Warning</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 36</span></div>
+        <div class="arabic">فَمَآ أُوتِيتُم مِّن شَىْءٍۢ فَمَتَـٰعُ ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ وَمَا عِندَ ٱللَّهِ خَيْرٌۭ وَأَبْقَىٰ لِلَّذِينَ ءَامَنُوا۟ وَعَلَىٰ رَبِّهِمْ يَتَوَكَّلُونَ</div>
+        <div class="translation">"So absolutely whatever thing you have been given - it is entirely but a temporary, fleeting enjoyment of the worldly life. But exactly what is with Allah is infinitely better and vastly more lasting for those who genuinely believe and upon their Lord entirely place their trust."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God completely minimizes the Dunya (the material world). "Look at your skyscrapers, your bank accounts, and your cars. It is just 'Mata''—the cheap, temporary provisions you give a traveler. It is designed to expire. Stop worshipping the temporary! The rewards God has locked in His vault for the believers are infinitely higher in quality and literally last forever."</div></div>
+        </div>
+        <div class="tags"><span class="tag">Wealth</span><span class="tag">Purpose</span><span class="tag">Jannah</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 37</span></div>
+        <div class="arabic">وَٱلَّذِينَ يَجْتَنِبُونَ كَبَـٰٓئِرَ ٱلْإِثْمِ وَٱلْفَوَٰحِشَ وَإِذَا مَا غَضِبُوا۟ هُمْ يَغْفِرُونَ</div>
+        <div class="translation">"And those who fiercely avoid the massive, major sins and filthy immoralities, and precisely when they are intensely angry, they beautifully forgive."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Who gets those eternal rewards? God begins defining the elite characteristics of an Islamic society! Step 1: They actively build a massive buffer zone between themselves and major crimes (murder, theft, major sexual immorality). Step 2: Emotional intelligence! When someone insults them and their blood is boiling with intense, justified rage—they swallow their anger and choose to forgive. Power isn't crushing someone; power is having the ability to crush them and choosing mercy instead.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Social Ethics</span><span class="tag">Spiritual Practice</span><span class="tag">Human Nature</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 38</span></div>
+        <div class="arabic">وَٱلَّذِينَ ٱسْتَجَابُوا۟ لِرَبِّهِمْ وَأَقَامُوا۟ ٱلصَّلَوٰةَ وَأَمْرُهُمْ شُورَىٰ بَيْنَهُمْ وَمِمَّا رَزَقْنَـٰهُمْ يُنفِقُونَ</div>
+        <div class="translation">"And those who passionately responded to their Lord and firmly established the prayer, and their critical affairs are strictly [determined by] mutual consultation [Shura] among themselves, and from exactly what We have provided them, they generously spend."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Here is the verse that gives the Surah its name! Step 3: They build a powerful connection with God through Prayer. Step 4: They build a powerful political and social system through "Shura" (Consultation)! Islam strictly forbids tyranny and dictatorship. A true Islamic family, business, or government makes critical decisions by sitting down, discussing, and consulting one another. Step 5: They don't hoard their money; they aggressively spend it to help the poor.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">"Wa amruhum shura baynahum" (And their affairs are by consultation). This verse completely revolutionized human governance. The ancient world was ruled by the absolute decrees of singular kings and Pharaohs. The Qur'an mandated a participatory framework. Even the Prophet ﷺ, who received direct instructions from Heaven, was commanded by God to consult his companions on military and social strategies (like the Battle of the Trench) to establish Shura as the eternal political framework for Muslims.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Social Ethics</span><span class="tag">Spiritual Practice</span><span class="tag">Wealth</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 39</span></div>
+        <div class="arabic">وَٱلَّذِينَ إِذَآ أَصَابَهُمُ ٱلْبَغْىُ هُمْ يَنتَصِرُونَ</div>
+        <div class="translation">"And those who, precisely when violent tyranny and oppression strike them, they fiercely and justly defend themselves."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">A stunning conclusion to this list of traits! Wait, didn't verse 37 say to forgive when angry? Yes! But God draws a strict line between personal annoyance and systemic oppression. If someone insults you personally, forgive them. But if an oppressor ("Baghy") physically attacks your family, steals your land, or commits tyranny, you DO NOT turn the other cheek! Islam is not a religion of passive victimhood. Believers are commanded to stand up, fight back, and secure absolute justice!</div></div>
+        </div>
+        <div class="tags"><span class="tag">Social Ethics</span><span class="tag">Steadfastness</span><span class="tag">Commands</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 40</span></div>
+        <div class="arabic">وَجَزَٰٓؤُا۟ سَيِّئَةٍۢ سَيِّئَةٌۭ مِّثْلُهَا ۖ فَمَنْ عَفَا وَأَصْلَحَ فَأَجْرُهُۥ عَلَى ٱللَّهِ ۚ إِنَّهُۥ لَا يُحِبُّ ٱلظَّـٰلِمِينَ</div>
+        <div class="translation">"And the absolute retribution for an evil act is an evil one entirely like it; but whoever profoundly pardons and makes reconciliation - his magnificent reward rests exclusively upon Allah. Indeed, He absolutely does not love the violently unjust oppressors."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God establishes the flawless balance of the justice system. If someone wrongs you, you have the absolute legal right to retaliate with the *exact* same weight—no more, no less. But God immediately offers the ultimate upgrade: "If you swallow your pride, pardon them, and repair the relationship, I will personally pay your reward." When God writes the check, it is infinite. But the warning remains: if you use "retaliation" as an excuse to go overboard and oppress them back, God will despise you.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Divine Justice</span><span class="tag">Social Ethics</span><span class="tag">Spiritual Practice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 41</span></div>
+        <div class="arabic">وَلَمَنِ ٱنتَصَرَ بَعْدَ ظُلْمِهِۦ فَأُو۟لَـٰٓئِكَ مَا عَلَيْهِم مِّن سَبِيلٍ</div>
+        <div class="translation">"And absolutely whoever defends and avenges himself after having been violently wronged - those have absolutely not upon them any cause [for blame or penalty]."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God completely validates human dignity! If you are oppressed, stolen from, or attacked, and you stand up and fiercely defend yourself to reclaim your rights, you have committed zero sin. No one is allowed to shame you or blame you for fighting back against injustice.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Social Ethics</span><span class="tag">Steadfastness</span><span class="tag">Divine Justice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 42</span></div>
+        <div class="arabic">إِنَّمَا ٱلسَّبِيلُ عَلَى ٱلَّذِينَ يَظْلِمُونَ ٱلنَّاسَ وَيَبْغُونَ فِى ٱلْأَرْضِ بِغَيْرِ ٱلْحَقِّ ۚ أُو۟لَـٰٓئِكَ لَهُمْ عَذَابٌ أَلِيمٌۭ</div>
+        <div class="translation">"The absolute cause [for blame and penalty] is strictly against those who violently oppress the people and fiercely tyrannize upon the earth entirely without right. Those will definitively have an agonizingly painful punishment."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The crosshairs of God's wrath are locked exclusively onto the bullies and the tyrants. Those who abuse their power, steal land, oppress the weak, and operate outside the law of justice are mathematically guaranteed an agonizing, terrifying penalty.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Warning</span><span class="tag">Accountability</span><span class="tag">Hell</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 43</span></div>
+        <div class="arabic">وَلَمَن صَبَرَ وَغَفَرَ إِنَّ ذَٰلِكَ لَمِنْ عَزْمِ ٱلْأُمُورِ</div>
+        <div class="translation">"But whoever is relentlessly patient and beautifully forgives - indeed, that is absolutely of the matters requiring the most resolute, unwavering determination!"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">While defending yourself is your right, God reveals the absolute apex of spiritual strength. True power is not throwing a punch; true power is taking a hit, having the absolute capability to destroy your opponent, but choosing to restrain your ego and forgive them instead. That takes "Azm" (unbreakable, heroic psychological resolve).</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"Inna thalika lamin 'azmi al-umoor" (That is of the matters of determination). The ego equates forgiveness with weakness and retaliation with strength. God flips this paradigm. Retaliation is merely a biological reflex driven by adrenaline; it requires no self-control. But swallowing anger and extending grace when your blood is boiling requires the subjugation of the lower self. It is the ultimate victory over the internal tyrant (the ego).</div></div>
+        </div>
+        <div class="tags"><span class="tag">Spiritual Practice</span><span class="tag">Steadfastness</span><span class="tag">Social Ethics</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 44</span></div>
+        <div class="arabic">وَمَن يُضْلِلِ ٱللَّهُ فَمَا لَهُۥ مِن وَلِىٍّۢ مِّنۢ بَعْدِهِۦ ۗ وَتَرَى ٱلظَّـٰلِمِينَ لَمَّا رَأَوُا۟ ٱلْعَذَابَ يَقُولُونَ هَلْ إِلَىٰ مَرَدٍّۢ مِّن سَبِيلٍۢ</div>
+        <div class="translation">"And whoever Allah strictly allows to stray - there is for him absolutely no protector beyond Him. And you will vividly see the unjust oppressors, when they finally see the devastating punishment, desperately screaming, 'Is there absolutely any way to return [to earth]?!'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">When you choose your ego over God's law, God lets go of your hand, and you plunge into the darkness. When those tyrants finally wake up on Judgment Day and stare directly into the roaring flames of Hell, their fake toughness will instantly evaporate. They will beg and scream: "Just send us back! We will be good! We will forgive people! Just one more chance!"</div></div>
+        </div>
+        <div class="tags"><span class="tag">Warning</span><span class="tag">The Unseen</span><span class="tag">Accountability</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 45</span></div>
+        <div class="arabic">وَتَرَىٰهُمْ يُعْرَضُونَ عَلَيْهَا خَـٰشِعِينَ مِنَ ٱلذُّلِّ يَنظُرُونَ مِن طَرْفٍ خَفِىٍّۢ ۗ وَقَالَ ٱلَّذِينَ ءَامَنُوٓا۟ إِنَّ ٱلْخَـٰسِرِينَ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُمْ وَأَهْلِيهِمْ يَوْمَ ٱلْقِيَـٰمَةِ ۗ أَلَآ إِنَّ ٱلظَّـٰلِمِينَ فِى عَذَابٍۢ مُّقِيمٍۢ</div>
+        <div class="translation">"And you will vividly see them being violently exposed to it [the Fire], totally humbled by sheer disgrace, looking with a stealthy, terrified glance! And those who genuinely believed will majestically declare, 'Indeed, the absolute losers are exactly those who completely lost their own souls and their families on the Day of Resurrection.' Unquestionably, the violently unjust oppressors are in a permanent, inescapable punishment."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">A masterclass in psychological terror! Imagine the billionaires and dictators who used to force people to look down at the floor when speaking to them. Now, as they are dragged to the edge of Hellfire, they are so broken and paralyzed by "Thull" (ultimate, crushing humiliation) that they can't even lift their heads! They try to steal terrified, side-long glances out of the corner of their eyes at the flames. The believers watch this and realize: True bankruptcy isn't losing your money; it is losing your soul and your family to the eternal fire.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Hell</span><span class="tag">Accountability</span><span class="tag">Divine Justice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 46</span></div>
+        <div class="arabic">وَمَا كَانَ لَهُم مِّنْ أَوْلِيَآءَ يَنصُرُونَهُم مِّن دُونِ ٱللَّهِ ۗ وَمَن يُضْلِلِ ٱللَّهُ فَمَا لَهُۥ مِن سَبِيلٍ</div>
+        <div class="translation">"And there will absolutely not be for them any protectors to save them besides Allah. And whoever Allah strictly allows to stray - there is for him absolutely no path [of escape]."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">All their bodyguards, lawyers, and political allies are gone. They are standing completely alone. Once the Divine Verdict is passed, every single exit door in the universe vanishes.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Accountability</span><span class="tag">Warning</span><span class="tag">The Unseen</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 47</span></div>
+        <div class="arabic">ٱسْتَجِيبُوا۟ لِرَبِّكُم مِّن قَبْلِ أَن يَأْتِىَ يَوْمٌۭ لَّا مَرَدَّ لَهُۥ مِنَ ٱللَّهِ ۚ مَا لَكُم مِّن مَّلْجَأٍۢ يَوْمَئِذٍۢ وَمَا لَكُم مِّن نَّكِيرٍۢ</div>
+        <div class="translation">"Respond passionately to your Lord entirely before there violently comes a Day from Allah which absolutely cannot be repelled! You will have absolutely no refuge whatsoever on that Day, nor will you have any ability to deny [your crimes]."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God issues an urgent, booming wake-up call to the reader! "Wake up! Stop delaying your repentance! Fix your prayers and your heart *today*, because a Day is rushing toward you that no force in the cosmos can cancel. When it arrives, you will have no bunkers to hide in, and your tongue won't even be able to lie to cover up your sins!"</div></div>
+        </div>
+        <div class="tags"><span class="tag">Commands</span><span class="tag">Warning</span><span class="tag">Accountability</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 48</span></div>
+        <div class="arabic">فَإِنْ أَعْرَضُوا۟ فَمَآ أَرْسَلْنَـٰكَ عَلَيْهِمْ حَفِيظًا ۖ إِنْ عَلَيْكَ إِلَّا ٱلْبَلَـٰغُ ۗ وَإِنَّآ إِذَآ أَذَقْنَا ٱلْإِنسَـٰنَ مِنَّا رَحْمَةًۭ فَرِحَ بِهَا ۖ وَإِن تُصِبْهُمْ سَيِّئَةٌۢ بِمَا قَدَّمَتْ أَيْدِيهِمْ فَإِنَّ ٱلْإِنسَـٰنَ كَفُورٌۭ</div>
+        <div class="translation">"But if they violently turn away - then We have absolutely not sent you over them as a guardian! Your exact duty is nothing but the clear delivery [of the message]. And indeed, when We let man vividly taste mercy from Us, he arrogantly rejoices in it; but if a devastating disaster strikes them for exactly what their own hands have put forward - then indeed, man is a massive, treacherous ingrate!"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God comforts the Prophet ﷺ and diagnoses the toxic psychology of the human ego. "If you give them the message and they walk away, let them go! You are not their security guard. But look at how humans behave: When I give them money and health, they act arrogant and take all the credit! But the second their own corrupt actions trigger a disaster, they instantly blame Me and become violently ungrateful!"</div></div>
+        </div>
+        <div class="tags"><span class="tag">Human Nature</span><span class="tag">Steadfastness</span><span class="tag">Arrogance</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 49</span></div>
+        <div class="arabic">لِّلَّهِ مُلْكُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۚ يَخْلُقُ مَا يَشَآءُ ۚ يَهَبُ لِمَن يَشَآءُ إِنَـٰثًۭا وَيَهَبُ لِمَن يَشَآءُ ٱلذُّكُورَ</div>
+        <div class="translation">"To Allah exclusively belongs the absolute dominion of the heavens and the earth. He flawlessly creates whatever He strictly wills. He grants to whomever He wills females, and He grants to whomever He wills males."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God asserts His absolute dominance over human biology and genetics! Having a child is not a scientific entitlement; it is a Divine Gift ("Wahb"). He decides who has daughters, who has sons, and nobody can override His laboratory.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">Family</span><span class="tag">Knowledge & Signs</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 50</span></div>
+        <div class="arabic">أَوْ يُزَوِّجُهُمْ ذُكْرَانًۭا وَإِنَـٰثًۭا ۖ وَيَجْعَلُ مَن يَشَآءُ عَقِيمًا ۚ إِنَّهُۥ عَلِيمٌۭ قَدِيرٌۭ</div>
+        <div class="translation">"Or He perfectly pairs them, males and females, and He mathematically renders whomever He strictly wills barren. Indeed, He is Supremely Knowing, Absolute in Capability."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">He continues: "Or I give some people both boys and girls! And some people, I choose to make completely barren (unable to have children)." This is not a punishment! God is "Aleem" (Knowing). He knows exactly what type of family structure will best test and protect your specific soul. A barren couple hasn't been abandoned; they have been assigned a different, highly customized spiritual curriculum.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Family</span><span class="tag">Hope</span><span class="tag">Attributes of Allah</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 51 ۩</span></div>
+        <div class="arabic">وَمَا كَانَ لِبَشَرٍ أَن يُكَلِّمَهُ ٱللَّهُ إِلَّا وَحْيًا أَوْ مِن وَرَآئِ حِجَابٍ أَوْ يُرْسِلَ رَسُولًۭا فَيُوحِىَ بِإِذْنِهِۦ مَا يَشَآءُ ۚ إِنَّهُۥ عَلِىٌّ حَكِيمٌۭ</div>
+        <div class="translation">"And it is absolutely not fitting for any human being that Allah should ever speak directly to him except by profound inspiration [Wahy], or from strictly behind a massive veil, or that He actively sends a messenger [angel] to reveal, by His absolute permission, exactly what He strictly wills. Indeed, He is Most High, Perfectly Wise."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">This is the pinnacle of the Surah! The exact, mechanical breakdown of how the King of the universe communicates with a biological human. Because human biology would disintegrate under the unfiltered voice of God, God uses three secure channels: 1) "Wahy" (Instant, telepathic inspiration directly into the heart). 2) "Behind a veil" (Like God speaking to Moses through the burning bush). 3) Sending an Angel (like Gabriel) to physically deliver the message to the Prophet.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">"Aw min wara'i hijab" (Or from behind a veil). The Jews of Medina challenged the Prophet: "If you are a true prophet, why doesn't God speak to you face-to-face like He did with Moses?!" This verse destroys their argument by defining the boundaries of Prophethood. Even Moses did not see God; he heard the Acoustic Command from behind the veil of the physical universe. The transmission of Revelation is an act of Divine Protocol, meticulously protected to prevent the human vessel from shattering.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Prophetic History</span><span class="tag">The Unseen</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 52</span></div>
+        <div class="arabic">وَكَذَٰلِكَ أَوْحَيْنَآ إِلَيْكَ رُوحًۭا مِّنْ أَمْرِنَا ۚ مَا كُنتَ تَدْرِى مَا ٱلْكِتَـٰبُ وَلَا ٱلْإِيمَـٰنُ وَلَـٰكِن جَعَلْنَـٰهُ نُورًۭا نَّهْدِى بِهِۦ مَن نَّشَآءُ مِنْ عِبَادِنَا ۚ وَإِنَّكَ لَتَهْدِىٓ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ</div>
+        <div class="translation">"And exactly thus We powerfully revealed to you a Spirit [the Qur'an] by Our absolute command. You absolutely did not know previously what the Scripture was, nor [the details of] the faith, but We meticulously made it a brilliant Light by which We flawlessly guide whomever We strictly will of Our servants. And indeed, you [O Muhammad] are definitively guiding to a perfectly straight path!"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God reminds the Prophet ﷺ of his humble origins! "Before I gave you this Revelation at age 40, you didn't know the laws of this Book, and you didn't know the deep details of Iman (Faith). You were unlettered. I took this Qur'an—calling it a 'Rooh' (a living, breathing Spirit)—and placed it inside your chest like a blinding flashlight. Now, through this Book, you are leading humanity out of the dark!"</div></div>
+        </div>
+        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Knowledge & Signs</span><span class="tag">Hope</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 53</span></div>
+        <div class="arabic">صِرَٰطِ ٱللَّهِ ٱلَّذِى لَهُۥ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ أَلَآ إِلَى ٱللَّهِ تَصِيرُ ٱلْأُمُورُ</div>
+        <div class="translation">"The absolute path of Allah, to whom exclusively belongs whatever is in the heavens and whatever is on the earth. Unquestionably, strictly to Allah do all matters ultimately return!"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The monumental conclusion! What is this "straight path" you are guiding people to? It is the royal highway of the Supreme Owner of the galaxies. Every single human life, every political dispute, every secret tear, and every atom in the universe is rushing inexorably back to the Throne of God. The story ends exactly where it began: with Him.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">The Unseen</span><span class="tag">Truth</span></div>
+    </div>
+
+</div>
+
+</body>
+</html>
