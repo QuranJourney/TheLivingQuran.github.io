@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surah Al-Mulk | The Sovereignty</title>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@300;400;600&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #ffffff; --text-color: #2d3748; --primary-accent: #2b6cb0; 
+            --border-color: #e2e8f0; --tag-bg: #e6fffa; --tag-text: #2c7a7b;
+            --context-color: #d69e2e; --sufi-color: #38a169; --wisdom-color: #805ad5; --plain-color: #718096; 
+        }
+        body { font-family: 'Inter', sans-serif; background: var(--bg-color); color: var(--text-color); margin: 0; padding: 0; line-height: 1.6; }
+        .nav-bar { padding: 1rem 2rem; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; background: white; z-index: 100; box-shadow: 0 2px 4px rgba(0,0,0,0.05); flex-wrap: wrap; gap: 1rem;}
+        .nav-controls { display: flex; gap: 1.5rem; align-items: center; }
+        .nav-link { text-decoration: none; color: var(--primary-accent); font-weight: 600; display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem;}
+        .nav-link:hover { text-decoration: underline; }
+        .home-btn { background: var(--primary-accent); color: white; padding: 0.5rem 1rem; border-radius: 6px; }
+        .home-btn:hover { background: #2c5282; color: white; text-decoration: none; }
+        header { text-align: center; padding: 3rem 1rem 2rem; background: linear-gradient(180deg, #f7fafc 0%, #ffffff 100%); }
+        h1 { font-family: 'Merriweather', serif; font-size: 2.8rem; margin: 0; color: #1a202c; }
+        .meta { color: #718096; text-transform: uppercase; letter-spacing: 2px; font-size: 0.85rem; margin-top: 1rem; font-weight: 700; }
+        .intro-text { max-width: 650px; margin: 1.5rem auto 0; font-style: italic; color: #4a5568; }
+        .container { max-width: 900px; margin: 0 auto; padding: 0 1rem 4rem; }
+        .verse-card { background: white; border: 1px solid var(--border-color); border-radius: 12px; padding: 2rem; margin-bottom: 2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.02); }
+        .verse-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; border-bottom: 1px solid #edf2f7; padding-bottom: 0.8rem; }
+        .verse-number { background: var(--primary-accent); color: white; padding: 0.2rem 0.8rem; border-radius: 20px; font-size: 0.85rem; font-weight: 700; }
+        .arabic { font-family: 'Amiri', serif; font-size: 2.4rem; text-align: right; color: #2d3748; margin-bottom: 1.5rem; line-height: 2.2; }
+        .translation { font-family: 'Merriweather', serif; font-size: 1.2rem; color: #1a202c; margin-bottom: 2rem; border-left: 4px solid var(--primary-accent); padding-left: 1rem; }
+        .insights { display: grid; grid-template-columns: 1fr; gap: 1rem; }
+        .insight-box { background: #fff; padding: 1.2rem; border-radius: 8px; border: 1px solid #e2e8f0; border-left-width: 4px; }
+        .insight-box.plain { border-left-color: var(--plain-color); background: #f7fafc; }
+        .insight-box.context { border-left-color: var(--context-color); }
+        .insight-box.sufi { border-left-color: var(--sufi-color); }
+        .insight-box.hikam { border-left-color: var(--wisdom-color); }
+        .label { display: block; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1.2px; font-weight: 700; margin-bottom: 0.5rem; }
+        .plain .label { color: var(--plain-color); }
+        .context .label { color: var(--context-color); }
+        .sufi .label { color: var(--sufi-color); }
+        .hikam .label { color: var(--wisdom-color); }
+        .content { font-size: 0.95rem; color: #4a5568; }
+        .tags { margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; padding-top: 1rem; border-top: 1px solid #edf2f7; }
+        .tag { background: var(--tag-bg); color: var(--tag-text); padding: 0.2rem 0.7rem; border-radius: 99px; font-size: 0.75rem; font-weight: 600; }
+    </style>
+</head>
+<body>
+
+<div class="nav-bar">
+    <div class="nav-controls">
+        <a href="index.html" class="nav-link home-btn">⌂ Dashboard</a>
+        <a href="surah-76-tur.html" class="nav-link">← Prev</a>
+        <a href="surah-78-haqqah.html" class="nav-link">Next →</a>
+    </div>
+    <span style="font-weight: 600; color: #718096; font-size: 0.9rem;">Mushaf: #67 | Chronological: #77</span>
+</div>
+
+<header>
+    <h1>Surah Al-Mulk</h1>
+    <div class="meta">The Sovereignty • Makkah • 30 Verses (Part 1: 1-14)</div>
+    <div class="intro-text">
+        A universally beloved Makkan Surah declaring God's absolute ownership of the cosmos. It challenges the intellect to find a single flaw in the universe, details the terrifying reality of Hell, and exposes the secrets of the human heart.
+    </div>
+</header>
+
+<div class="container">
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 1</span></div>
+        <div class="arabic">تَبَارَكَ ٱلَّذِى بِيَدِهِ ٱلْمُلْكُ وَهُوَ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌ</div>
+        <div class="translation">"Blessed is He in whose hand is dominion, and He is over all things competent -"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God introduces Himself as the ultimate, eternal Sovereign. He is the source of all blessings ("Tabaraka"), possessing absolute, unquestionable control over the entire universe. His capability is infinite, extending over every single matter in existence.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context</span><div class="content">This Surah held immense daily significance in the Seerah. Authentic narrations from Jabir and Abu Hurairah confirm that the Prophet (ﷺ) would never go to sleep until he had recited Surah As-Sajdah and Surah Al-Mulk. It was known among the companions as "Al-Mani'ah" (The Preventer) or "Al-Munjiyah" (The Savior), because the Prophet explicitly stated that its continuous recitation acts as a physical and spiritual shield against the punishment of the grave. (Narrated in Tirmidhi).</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Gilani)</span><div class="content">Sheikh Abdul Qadir al-Gilani reflects that true spiritual liberation is found in this verse. Because absolute dominion (Mulk) is strictly in His hand, seeking ultimate power, provision, or safety from created beings is like seeking water from a mirage. The heart only finds peace when it stops begging from the slaves and submits to the King.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">Prophetic History</span><span class="tag">Truth</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 2</span></div>
+        <div class="arabic">ٱلَّذِى خَلَقَ ٱلْمَوْتَ وَٱلْحَيَوٰةَ لِيَبْلُوَكُمْ أَيُّكُمْ أَحْسَنُ عَمَلًۭا ۚ وَهُوَ ٱلْعَزِيزُ ٱلْغَفُورُ</div>
+        <div class="translation">"[He] who created death and life to test you [as to] which of you is best in deed - and He is the Exalted in Might, the Forgiving -"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God establishes the profound purpose of human existence. Life and death are not random biological events; they are deliberate creations engineered as a testing ground to see whose actions are the most excellent. He concludes with a balance of His attributes: He is Mighty enough to punish failure, yet Forgiving enough to accept repentance.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Al-Qurtubi)</span><div class="content">Imam Al-Qurtubi draws attention to the sequence: God mentions "death" before "life." Death is placed first because the constant remembrance of mortality is the most powerful motivator for the human soul. Furthermore, the test is to see who is "best in deed" (Ahsanu 'Amala), not "most in deed" (Aktharu 'Amala), establishing that the divine criterion is quality, not sheer volume.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">Imam al-Ghazali expands on what constitutes the "best deed." A deed is only "best" if it contains perfect sincerity (Ikhlas). A tiny, hidden act of charity done purely for the King outweighs mountains of public deeds polluted by the ego's desire for human applause.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Human Nature</span><span class="tag">Accountability</span><span class="tag">Spiritual Practice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 3</span></div>
+        <div class="arabic">ٱلَّذِى خَلَقَ سَبْعَ سَمَـٰوَٰتٍۢ طِبَاقًۭا ۖ مَّا تَرَىٰ فِى خَلْقِ ٱلرَّحْمَـٰنِ مِن تَفَـٰوُتٍۢ ۖ فَٱرْجِعِ ٱلْبَصَرَ هَلْ تَرَىٰ مِن فُطُورٍۢ</div>
+        <div class="translation">"[And] who created seven heavens in layers. You do not see in the creation of the Most Merciful any inconsistency. So return [your] vision [to the sky]; do you see any breaks?"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God challenges humanity to observe the cosmos. The universe is constructed in vast, perfectly balanced layers. God specifically invites the observer to scrutinize the sky, actively hunting for any flaws, cracks, or structural inconsistencies in His engineering.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Al-Qurtubi)</span><div class="content">Al-Qurtubi notes the profound use of the name "Ar-Rahman" (The Most Merciful) here, rather than "Al-Khaliq" (The Creator). This indicates that the flawless structure of the universe is a direct manifestation of God's mercy. If the laws of physics, gravity, or the atmosphere were flawed by a fraction of a degree, human life would be impossible. The stability of the sky is a mercy to the earth.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Attributes of Allah</span><span class="tag">Logic</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 4</span></div>
+        <div class="arabic">ثُمَّ ٱرْجِعِ ٱلْبَصَرَ كَرَّتَيْنِ يَنقَلِبْ إِلَيْكَ ٱلْبَصَرُ خَاسِئًۭا وَهُوَ حَسِيرٌۭ</div>
+        <div class="translation">"Then return [your] vision twice again. [Your] vision will return to you humbled while it is fatigued."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God issues a repeated, confident challenge. Keep looking at the sky, actively searching for a defect. Eventually, the physical eye will become exhausted and defeated, completely unable to find a single error or disproportion in the cosmic design.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">Ibn Ata'illah extracts a theological principle: If the physical eye is exhausted and humbled just trying to find a flaw in the *physical* heavens, how can the human intellect ever hope to fully comprehend the infinite perfection of the *Creator* Himself? The intellect must eventually return to the heart, humbled and surrendered to His majesty.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Logic</span><span class="tag">Humility</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 5</span></div>
+        <div class="arabic">وَلَقَدْ زَيَّنَّا ٱلسَّمَآءَ ٱلدُّنْيَا بِمَصَـٰبِيحَ وَجَعَلْنَـٰهَا رُجُومًۭا لِّلشَّيَـٰطِينِ ۖ وَأَعْتَدْنَا لَهُمْ عَذَابَ ٱلسَّعِيرِ</div>
+        <div class="translation">"And We have certainly beautified the nearest heaven with stars and have made [from] them what is thrown at the devils and have prepared for them the punishment of the Blaze."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God describes the dual function of stars (and meteors). First, they serve as a spectacular visual adornment for the night sky (the nearest heaven). Second, they serve a defensive spiritual function as projectiles used by angels to drive away devils attempting to eavesdrop on heavenly decrees. The ultimate fate for these devils is the punishment of Hellfire.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context</span><div class="content">In pre-Islamic times, fortune-tellers (Kuhhan) held massive societal influence, claiming to receive hidden knowledge from the Jinn who would spy on the heavens. During the advent of the Prophet's (ﷺ) mission, the frequency of shooting stars increased significantly. This was a divine security measure to aggressively lock down the heavens from the Jinn, preventing them from stealing fragments of revelation to mix with lies. (Recorded in Sahih Muslim).</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">The Unseen</span><span class="tag">Prophetic History</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 6</span></div>
+        <div class="arabic">وَلِلَّذِينَ كَفَرُوا۟ بِرَبِّهِمْ عَذَابُ جَهَنَّمَ ۖ وَبِئْسَ ٱلْمَصِيرُ</div>
+        <div class="translation">"And for those who disbelieved in their Lord is the punishment of Hell, and wretched is the destination."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The narrative transitions from the physical cosmos to the spiritual reality of human accountability. Those who consciously observe this perfect, protected universe yet stubbornly reject its Creator will face the ultimate, miserable consequence: Hellfire.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Hell</span><span class="tag">Warning</span><span class="tag">Accountability</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 7</span></div>
+        <div class="arabic">إِذَآ أُلْقُوا۟ فِيهَا سَمِعُوا۟ لَهَا شَهِيقًۭا وَهِىَ تَفُورُ</div>
+        <div class="translation">"When they are thrown into it, they hear from it a [dreadful] inhaling while it boils up."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God provides a terrifying auditory and visual description of Hell. It is not merely a static, silent fire; it behaves like a raging, furious beast. As the condemned are thrown into it, they hear it violently inhaling ("Shaheeq") like a braying animal, boiling over with intense heat.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Hell</span><span class="tag">Warning</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 8</span></div>
+        <div class="arabic">تَكَادُ تَمَيَّزُ مِنَ ٱلْغَيْظِ ۖ كُلَّمَآ أُلْقِىَ فِيهَا فَوْجٌۭ سَأَلَهُمْ خَزَنَتُهَآ أَلَمْ يَأْتِكُمْ نَذِيرٌۭ</div>
+        <div class="translation">"It almost bursts with rage. Every time a company is thrown into it, its keepers ask them, 'Did there not come to you a warner?'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The personification of Hell continues; it is so furious at those who disobeyed God that it nearly tears itself apart with rage. As groups of people are tossed inside, the angelic guards interrogate them, expressing sheer disbelief that anyone would end up here. They ask if a Prophet ever came to warn them about this horrifying reality.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Al-Qurtubi)</span><div class="content">Al-Qurtubi explains that the interrogation by the angels of Hell (the *Zabaniyah*) is not to gather information, because the angels already know they are guilty. The question is a form of psychological torment (Tawbeekh). It is designed to establish absolute, undeniable justice, forcing the inhabitants to verbally admit that God was entirely fair and that their destruction was their own fault.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Hell</span><span class="tag">Accountability</span><span class="tag">Warning</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 9</span></div>
+        <div class="arabic">قَالُوا۟ بَلَىٰ قَدْ جَآءَنَا نَذِيرٌۭ فَكَذَّبْنَا وَقُلْنَا مَا نَزَّلَ ٱللَّهُ مِن شَىْءٍ إِنْ أَنتُمْ إِلَّا فِى ضَلَـٰلٍۢ كَبِيرٍۢ</div>
+        <div class="translation">"They will say, 'Yes, a warner had come to us, but we denied and said, "Allah has not sent down anything. You are not but in great error."'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The condemned offer their final, devastating confession. They acknowledge that Prophets and clear warners did indeed reach them, but they willfully rejected them. Worse, they projected their own arrogance onto the Messengers, loudly accusing the Prophets of being the ones who were deeply lost and misguided.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Accountability</span><span class="tag">Truth</span><span class="tag">Human Nature</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 10</span></div>
+        <div class="arabic">وَقَالُوا۟ لَوْ كُنَّا نَسْمَعُ أَوْ نَعْقِلُ مَا كُنَّا فِىٓ أَصْحَـٰبِ ٱلسَّعِيرِ</div>
+        <div class="translation">"And they will say, 'If only we had been listening or reasoning, we would not be among the companions of the Blaze.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">This is their ultimate admission of intellectual failure. They realize that salvation required only two simple things: sincerely listening to the truth of revelation, or using their own intellect to logically deduce the existence of the Creator. Because they stubbornly suspended both faculties, they doomed themselves.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">Imam al-Ghazali highlights that Hearing (Sama') and Reasoning ('Aql) are the two primary avenues to God. Hearing represents submitting to the external revelation (the Qur'an and Sunnah), while Reasoning represents internal reflection upon the signs of the universe. To abandon both is to forfeit one's humanity and willingly become fuel for the fire.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Logic</span><span class="tag">Accountability</span><span class="tag">Truth</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 11</span></div>
+        <div class="arabic">فَٱعْتَرَفُوا۟ بِذَنۢبِهِمْ فَسُحْقًۭا لِّأَصْحَـٰبِ ٱلسَّعِيرِ</div>
+        <div class="translation">"And they will admit their sin, so [it is] alienation for the companions of the Blaze."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Their confession is finalized, but it yields no benefit because the time for testing has passed. The divine verdict is "Suhqan" (complete, crushing alienation and distancing from God's mercy) permanently issued for the inhabitants of the Fire.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Divine Justice</span><span class="tag">Hell</span><span class="tag">Warning</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 12</span></div>
+        <div class="arabic">إِنَّ ٱلَّذِينَ يَخْشَوْنَ رَبَّهُم بِٱلْغَيْبِ لَهُم مَّغْفِرَةٌۭ وَأَجْرٌۭ كَبِيرٌۭ</div>
+        <div class="translation">"Indeed, those who fear their Lord unseen will have forgiveness and a great reward."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God immediately contrasts the deniers with the successful believers. True faith is characterized by "Khashyah" (fear and reverence) of God precisely when one is in private, away from the eyes of society (in the unseen). This unseen sincerity guarantees total forgiveness and an immense, generous compensation.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">Ibn Ata'illah states that a person's true spiritual rank is never defined by their behavior in the mosque, but by their actions behind closed doors. Fearing the Lord in the unseen (*bil-ghayb*) proves that the heart's relationship is genuinely with the Creator, uncontaminated by the desire for the applause of creation.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Spiritual Practice</span><span class="tag">Humility</span><span class="tag">Hope</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 13</span></div>
+        <div class="arabic">وَأَسِرُّوا۟ قَوْلَكُمْ أَوِ ٱجْهَرُوا۟ بِهِۦٓ ۖ إِنَّهُۥ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ</div>
+        <div class="translation">"And conceal your speech or publicize it; indeed, He is Knowing of that within the breasts."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God establishes His absolute, piercing omniscience. Whether humans whisper their secrets or declare them loudly, it makes zero difference to the Creator. He is intimately aware of the deepest, unspoken thoughts, desires, and intentions buried within the human heart.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context</span><div class="content">According to Ibn Abbas, the polytheists of Makkah would intentionally lower their voices when plotting to assassinate or harm the Prophet (ﷺ). They would whisper to one another, "Speak quietly so Muhammad's God doesn't hear us!" This verse was revealed to shatter that absurd pagan notion, confirming that God hears the silence of the heart just as clearly as a shout in the marketplace.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">The Unseen</span><span class="tag">Truth</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 14</span></div>
+        <div class="arabic">أَلَا يَعْلَمُ مَنْ خَلَقَ وَهُوَ ٱللَّطِيفُ ٱلْخَبِيرُ</div>
+        <div class="translation">"Does He who created not know, while He is the Subtle, the Acquainted?"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God concludes this section with a profound logical question: How could the Manufacturer not know the intricate details of His own product? God pairs two magnificent names here: "Al-Lateef" (The Subtle, who knows the most microscopic, hidden details and acts with gentle precision) and "Al-Khabeer" (The Acquainted, who has comprehensive awareness of all reality).</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Gilani)</span><div class="content">Sheikh Abdul Qadir al-Gilani notes the immense psychological comfort embedded in this verse. Because He is Al-Lateef, His knowledge of your pain, your silent tears, and your hidden sincerity is complete. Let this reality bring peace to the struggling heart: the One who created your soul understands its complex burdens infinitely better than you do yourself.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">Logic</span><span class="tag">Mercy</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 15</span></div>
+        <div class="arabic">هُوَ ٱلَّذِى جَعَلَ لَكُمُ ٱلْأَرْضَ ذَلُولًۭا فَٱمْشُوا۟ فِى مَنَاكِبِهَا وَكُلُوا۟ مِن رِّزْقِهِۦ ۖ وَإِلَيْهِ ٱلنُّشُورُ</div>
+        <div class="translation">"It is He who made the earth tame for you - so walk among its slopes and eat of His provision - and to Him is the resurrection."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God describes the earth not as a wild, chaotic planet, but as a deliberately subdued and "tamed" environment designed specifically to host human life. He commands humanity to travel across its vast landscapes, seek out their livelihood, and consume its resources. However, He immediately anchors this pursuit of wealth with a profound reminder: the earth is temporary, and the ultimate destination is the resurrection to face the Creator.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Al-Qurtubi)</span><div class="content">Imam Al-Qurtubi points out the profound linguistic choice of the word "Dhalul" (tamed/subservient). This word was commonly used by the Arabs to describe a well-trained camel that is easy to ride and docile, despite its massive size. The earth is a massive, spinning cosmic body, yet God tamed its gravity, atmosphere, and geology so humans can comfortably "ride" it through space.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">Imam al-Ghazali highlights the psychological balance commanded in this verse. God explicitly tells us to "walk among its slopes and eat" — validating the active, physical effort required to earn a Halal living. But the verse concludes with "and to Him is the resurrection," preventing the heart from becoming consumed by corporate ambition. Earn from the earth, but do not let the earth become your ultimate goal.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Provision</span><span class="tag">Knowledge & Signs</span><span class="tag">Accountability</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 16</span></div>
+        <div class="arabic">ءَأَمِنتُم مَّن فِى ٱلسَّمَآءِ أَن يَخْسِفَ بِكُمُ ٱلْأَرْضَ فَإِذَا هِىَ تَمُورُ</div>
+        <div class="translation">"Do you feel secure that He who [holds authority] in the heaven would not cause the earth to swallow you and suddenly it would sway?"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Having established that the earth is "tamed," God now shatters the illusion of earthly permanence. He issues a terrifying warning to the arrogant: Do you feel completely safe from the One who commands the cosmos? He possesses the absolute power to untame the earth at any second, causing violent earthquakes that could open the ground and swallow civilizations whole.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">Ibn Ata'illah states that the greatest delusion of the human ego is feeling a sense of absolute security (Amn) based on physical surroundings. True security is not found in the thickness of your walls or the stability of the ground beneath your feet, because the physical world can turn against you by Divine command. True security is only found in spiritual obedience to the Creator.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Warning</span><span class="tag">Knowledge & Signs</span><span class="tag">Attributes of Allah</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 17</span></div>
+        <div class="arabic">أَمْ أَمِنتُم مَّن فِى ٱلسَّمَآءِ أَن يُرْسِلَ عَلَيْكُمْ حَاصِبًۭا ۖ فَسَتَعْلَمُونَ كَيْفَ نَذِيرِ</div>
+        <div class="translation">"Or do you feel secure that He who [holds authority] in the heaven would not send against you a storm of stones? Then you would know how [severe] was My warning."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The warning expands from the ground below to the sky above. God asks if they feel secure from a sudden, devastating bombardment from the atmosphere—such as a violent storm of pelting stones or meteors ("Hasiba"). When such a catastrophe strikes, all theoretical debates end, and they will realize the absolute reality of His warnings.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context</span><div class="content">This imagery resonated deeply with the Quraysh. They were intensely aware of the historical event of "Am al-Fil" (The Year of the Elephant), which occurred the year the Prophet ﷺ was born. When the tyrant Abraha attempted to destroy the Kaaba, God sent flocks of birds that pelted his massive army with stones of baked clay, annihilating them. God reminds the Quraysh that He can easily unleash that exact same terror upon them for their defiance.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Al-Qurtubi)</span><div class="content">Al-Qurtubi points out the comprehensive nature of God's threat in verses 16 and 17. Humans instinctively look down at the ground for stability and look up to the sky for protection. God warns that He can weaponize the very foundations of their physical security from both directions simultaneously, leaving the arrogant with absolutely no place to flee.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Warning</span><span class="tag">Prophetic History</span><span class="tag">Divine Justice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 18</span></div>
+        <div class="arabic">وَلَقَدْ كَذَّبَ ٱلَّذِينَ مِن قَبْلِهِمْ فَكَيْفَ كَانَ نَكِيرِ</div>
+        <div class="translation">"And already had those before them denied, and how [terrible] was My reproach."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">This is not an empty threat. God points to the undeniable, documented ruins of ancient civilizations (like 'Aad, Thamud, and the people of Noah). They also denied their Messengers and felt secure in their military and architectural power. Yet, when God's reproach (Nakeer) fell upon them, their destruction was absolute and terrifying.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Warning</span><span class="tag">Divine Justice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 19</span></div>
+        <div class="arabic">أَوَلَمْ يَرَوْا۟ إِلَى ٱلطَّيْرِ فَوْقَهُمْ صَـٰٓفَّـٰتٍۢ وَيَقْبِضْنَ ۚ مَا يُمْسِكُهُنَّ إِلَّا ٱلرَّحْمَـٰنُ ۚ إِنَّهُۥ بِكُلِّ شَىْءٍۭ بَصِيرٌ</div>
+        <div class="translation">"Do they not see the birds above them with wings outspread and [sometimes] folded in? None holds them [aloft] except the Most Merciful. Indeed He is, of all things, Seeing."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God redirects human attention to a beautiful, everyday miracle: the flight of birds. Whether they are gliding with their wings perfectly spread out ("Saffat") or rapidly flapping them ("Yaqbidn"), the fact that these heavy physical bodies do not plummet to the ground is a direct result of the physical laws instituted and actively maintained by the Most Merciful.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Al-Qurtubi)</span><div class="content">Al-Qurtubi states that observing the physical laws of aerodynamics is a religious duty. The heavy, dense body of a bird should naturally fall due to gravity. The invisible air holding it aloft is a metaphor for God's invisible power sustaining the entire universe. It forces the intellect to recognize an active, living Sustainer.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Gilani)</span><div class="content">Sheikh Abdul Qadir al-Gilani draws a profound spiritual analogy. The bird flying through the sky is like the heart of the believer traversing the Dunya. It stays aloft through the perfect balance of expanding its wings in Hope (Raja') and folding them in Fear (Khawf) of God. If the believer relies solely on one wing, their spiritual flight will fail, and they will plummet into the dirt of the ego.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Attributes of Allah</span><span class="tag">Logic</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 20</span></div>
+        <div class="arabic">أَمَّنْ هَـٰذَا ٱلَّذِى هُوَ جُندٌۭ لَّكُمْ يَنصُرُكُم مِّن دُونِ ٱلرَّحْمَـٰنِ ۚ إِنِ ٱلْكَـٰفِرُونَ إِلَّا فِى غُرُورٍ</div>
+        <div class="translation">"Or who is it that could be an army for you to aid you other than the Most Merciful? The disbelievers are not but in delusion."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God challenges the reliance on military and political power. If the Most Merciful decides to enact His judgment, what army, alliance, or defensive force could possibly stand against Him to offer protection? Believing that human armies or alliances can save you from God's decree is the pinnacle of pure delusion.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">Ibn Ata'illah states: "There is no real power or might except with God. Whoever seeks aid, honor, or victory from an entity other than God is seeking victory from that which is itself weak, dying, and dependent. Such a person is trapped in the prison of illusion."</div></div>
+        </div>
+        <div class="tags"><span class="tag">Logic</span><span class="tag">Warning</span><span class="tag">Arrogance</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 21</span></div>
+        <div class="arabic">أَمَّنْ هَـٰذَا ٱلَّذِى يَرْزُقُكُمْ إِنْ أَمْسَكَ رِزْقَهُۥ ۚ بَل لَّجُّوا۟ فِى عُتُوٍّۢ وَنُفُورٍ</div>
+        <div class="translation">"Or who is it that could provide for you if He withheld His provision? But they have persisted in insolence and aversion."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God shifts the challenge from military protection to economic survival. If God were to stop the rain, dry up the rivers, or halt the growth of crops, who could possibly generate food and water to sustain humanity? Despite this undeniable vulnerability, the disbelievers stubbornly dig their heels into their arrogance ("'Utuww") and actively flee from the truth ("Nufur").</div></div>
+            <div class="insight-box context"><span class="label">Historical Context</span><div class="content">This verse hit the Quraysh with brutal, real-world accuracy. During the Makkan period, when the Quraysh intensified their persecution of the Muslims, a severe famine struck the city. The wealthy elite found that their hoarded gold and silver were completely useless because there was simply no food or water left to buy. Their ultimate dependence on God's provision was laid bare, yet their pride prevented them from submitting.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Provision</span><span class="tag">Logic</span><span class="tag">Arrogance</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 22</span></div>
+        <div class="arabic">أَفَمَن يَمْشِى مُكِبًّا عَلَىٰ وَجْهِهِۦٓ أَهْدَىٰٓ أَمَّن يَمْشِى سَوِيًّا عَلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ</div>
+        <div class="translation">"Then is one who walks fallen on his face better guided or one who walks upright on a straight path?"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God poses a striking visual metaphor. He compares the disbeliever to a man stumbling blindly, walking face-down in the dirt, constantly tripping over obstacles because he cannot see where he is going. He compares the believer to a man walking upright, with clear vision, striding confidently on a straight, illuminated road. God asks the human intellect: which of these two is actually guided?</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Al-Qurtubi)</span><div class="content">Al-Qurtubi notes that this metaphor transitions into a literal reality on the Day of Judgment. The Prophet (ﷺ) explicitly stated in authentic Hadith that the disbelievers will literally be gathered and dragged upon their faces into the Fire, while the believers will walk upright and honored across the bridge of Sirat toward Paradise.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">Imam al-Ghazali interprets the spiritual depth of this imagery. The one "fallen on his face" is the materialist whose heart is entirely glued to the dirt of the Dunya. He cannot look up to see the heavens or contemplate the Hereafter because his ego forces him to scavenge continuously in the mud of worldly desires. The believer walks upright because their heart is tethered to the Divine.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Logic</span><span class="tag">Knowledge & Signs</span><span class="tag">Spiritual Practice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 23</span></div>
+        <div class="arabic">قُلْ هُوَ ٱلَّذِىٓ أَنشَأَكُمْ وَجَعَلَ لَكُمُ ٱلسَّمْعَ وَٱلْأَبْصَـٰرَ وَٱلْأَفْـِٔدَةَ ۖ قَلِيلًۭا مَّا تَشْكُرُونَ</div>
+        <div class="translation">"Say, 'It is He who has produced you and made for you hearing and vision and hearts; little are you grateful.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The Prophet ﷺ is commanded to remind humanity of their origins. God did not just initiate human life; He meticulously designed the complex organs of hearing, sight, and the intellect (the heart) so that humans could process revelation and recognize their Creator. Yet, the overwhelming majority of people use these very faculties to ignore God, displaying massive ingratitude.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">Ibn Ata'illah teaches: "Whoever is not grateful for a blessing exposes himself to its removal, and whoever is grateful for it has securely bound it with its strongest rope." To use the eyes God gave you to look at the forbidden, or the ears He gave you to listen to slander, is to weaponize God's gifts against Him.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Gratitude</span><span class="tag">Human Nature</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 24</span></div>
+        <div class="arabic">قُلْ هُوَ ٱلَّذِى ذَرَأَكُمْ فِى ٱلْأَرْضِ وَإِلَيْهِ تُحْشَرُونَ</div>
+        <div class="translation">"Say, 'It is He who has multiplied you throughout the earth, and to Him you will be gathered.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God controls both the expansion and the conclusion of humanity. He is the one who scattered ("Dhara'a") human beings across different continents, languages, and generations. And just as easily as He scattered them, He will gather every single individual, from the first human to the last, back to Him for judgment.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">The Unseen</span><span class="tag">Accountability</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 25</span></div>
+        <div class="arabic">وَيَقُولُونَ مَتَىٰ هَـٰذَا ٱلْوَعْدُ إِن كُنتُمْ صَـٰدِقِينَ</div>
+        <div class="translation">"And they say, 'When is this promise, if you should be truthful?'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">In response to the certainty of being gathered, the disbelievers resort to their favorite mocking tactic. They impatiently demand to know the exact date, time, and year of the Resurrection, thinking that the lack of a specific date proves it is a fabricated promise.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Arrogance</span><span class="tag">Warning</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 26</span></div>
+        <div class="arabic">قُلْ إِنَّمَا ٱلْعِلْمُ عِندَ ٱللَّهِ وَإِنَّمَآ أَنَا۠ نَذِيرٌۭ مُّبِينٌۭ</div>
+        <div class="translation">"Say, 'The knowledge is only with Allah, and I am only a clear warner.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The Prophet ﷺ is instructed to answer with complete humility and clarity. He does not claim to know the unseen timing of the Final Hour; that knowledge belongs strictly and exclusively to God. The Prophet's role is not to predict dates, but to deliver a clear, urgent warning to prepare for the inevitable event.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Al-Qurtubi)</span><div class="content">Al-Qurtubi explains the profound wisdom in keeping the Hour hidden. If humans knew the exact date of the world's end, or the exact date of their own death, they would plunge into sin and delay repentance until the very last moment. Hiding the timing forces the sincere believer to remain in a constant state of spiritual vigilance and readiness.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Humility</span><span class="tag">Prophetic History</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 27</span></div>
+        <div class="arabic">فَلَمَّا رَأَوْهُ زُلْفَةًۭ سِيٓـَٔتْ وُجُوهُ ٱلَّذِينَ كَفَرُوا۟ وَقِيلَ هَـٰذَا ٱلَّذِى كُنتُم بِهِۦ تَدَّعُونَ</div>
+        <div class="translation">"But when they see it approaching, the faces of those who disbelieve will be distressed, and it will be said, 'This is that for which you used to call.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God fast-forwards to the moment the Day of Judgment actually arrives. When the disbelievers physically see the terrifying reality approaching them, their previous mockery will vanish instantly. Their faces will contort with deep distress and horror. The angels will then remind them that this is the exact punishment they used to arrogantly demand and rush during their earthly lives.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Accountability</span><span class="tag">Warning</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 28</span></div>
+        <div class="arabic">قُلْ أَرَءَيْتُمْ إِنْ أَهْلَكَنِىَ ٱللَّهُ وَمَن مَّعِىَ أَوْ رَحِمَنَا فَمَن يُجِيرُ ٱلْكَـٰفِرِينَ مِنْ عَذَابٍ أَلِيمٍۢ</div>
+        <div class="translation">"Say, [O Muhammad], 'Have you considered: whether Allah destroys me and those with me or has mercy upon us, who can protect the disbelievers from a painful punishment?'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God addresses the malicious hopes of the enemies of Islam. The Prophet ﷺ challenges them logically: even if God decrees death for the Prophet and the Muslims, or if He grants them long life and mercy, how does that solve the disbelievers' problem? The death of the Messenger does not cancel the reality of God's judgment against those who commit oppression.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context</span><div class="content">The elite of Quraysh publicly and frequently wished for the physical death of the Prophet (ﷺ) and the early Muslims, believing that if Muhammad ﷺ died, his message would die with him, and their problems would be solved. This verse exposes the sheer foolishness of their strategy: silencing the alarm does not stop the fire from burning your house down.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Logic</span><span class="tag">Warning</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 29</span></div>
+        <div class="arabic">قُلْ هُوَ ٱلرَّحْمَـٰنُ ءَامَنَّا بِهِۦ وَعَلَيْهِ تَوَكَّلْنَا ۖ فَسَتَعْلَمُونَ مَنْ هُوَ فِى ضَلَـٰلٍۢ مُّبِينٍۢ</div>
+        <div class="translation">"Say, 'He is the Most Merciful; we have believed in Him, and upon Him we have relied. And you will [come to] know who it is that is in clear error.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The Prophet ﷺ delivers a bold, unshakeable declaration of faith. He identifies God as "Ar-Rahman" (The Most Merciful), confirming that the Muslims' belief is paired with absolute reliance (Tawakkul) on Him. He concludes with a confident assertion that, eventually, time and divine decree will clearly expose who was standing on the truth and who was completely lost.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Gilani)</span><div class="content">Sheikh Abdul Qadir al-Gilani reflects that true Tawakkul (reliance) is the ultimate shield against the anxiety created by the enemies of truth. When the heart genuinely relies upon the Most Merciful, the threats, boycotts, and mockeries of creation lose all their weight, and the soul finds impenetrable peace.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Steadfastness</span><span class="tag">Trust in Allah</span><span class="tag">Truth</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 30 ۩</span></div>
+        <div class="arabic">قُلْ أَرَءَيْتُمْ إِنْ أَصْبَحَ مَآؤُكُمْ غَوْرًۭا فَمَن يَأْتِيكُم بِمَآءٍۢ مَّعِينٍۭ</div>
+        <div class="translation">"Say, 'Have you considered: if your water was to become sunken [into the earth], then who could bring you flowing water?'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The Surah closes with a brilliant, highly practical logical challenge that humbles human pride. God points to the most fundamental requirement for life: water. If God decreed that the water tables dropped so deep into the earth's crust that wells and springs dried up completely, is there any idol, political leader, or technology that could override God's physics and restore the flowing freshwater necessary for survival? The clear, silent answer is: No one but Allah.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Al-Qurtubi)</span><div class="content">Al-Qurtubi notes that this specific, final question leaves the denier entirely cornered. It moves the argument from theological abstracts (the Day of Judgment) to an immediate, inescapable physical necessity. It proves that human beings are fundamentally, desperately, and continuously dependent upon God's active mercy for their next glass of water.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Provision</span><span class="tag">Logic</span></div>
+    </div>
+
+</div>
+
+</body>
+</html>
