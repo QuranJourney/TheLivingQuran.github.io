@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surah An-Nazi'at | Those Who Drag Forth </title>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@300;400;600&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #ffffff; --text-color: #2d3748; --primary-accent: #2b6cb0; 
+            --border-color: #e2e8f0; --tag-bg: #e6fffa; --tag-text: #2c7a7b;
+            --context-color: #d69e2e; --sufi-color: #38a169; --wisdom-color: #805ad5; --plain-color: #718096; 
+        }
+        body { font-family: 'Inter', sans-serif; background: var(--bg-color); color: var(--text-color); margin: 0; padding: 0; line-height: 1.6; }
+        .nav-bar { padding: 1rem 2rem; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; background: white; z-index: 100; box-shadow: 0 2px 4px rgba(0,0,0,0.05); flex-wrap: wrap; gap: 1rem;}
+        .nav-controls { display: flex; gap: 1.5rem; align-items: center; }
+        .nav-link { text-decoration: none; color: var(--primary-accent); font-weight: 600; display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem;}
+        .nav-link:hover { text-decoration: underline; }
+        .home-btn { background: var(--primary-accent); color: white; padding: 0.5rem 1rem; border-radius: 6px; }
+        .home-btn:hover { background: #2c5282; color: white; text-decoration: none; }
+        header { text-align: center; padding: 3rem 1rem 2rem; background: linear-gradient(180deg, #f7fafc 0%, #ffffff 100%); }
+        h1 { font-family: 'Merriweather', serif; font-size: 2.8rem; margin: 0; color: #1a202c; }
+        .meta { color: #718096; text-transform: uppercase; letter-spacing: 2px; font-size: 0.85rem; margin-top: 1rem; font-weight: 700; }
+        .intro-text { max-width: 650px; margin: 1.5rem auto 0; font-style: italic; color: #4a5568; }
+        .container { max-width: 900px; margin: 0 auto; padding: 0 1rem 4rem; }
+        .verse-card { background: white; border: 1px solid var(--border-color); border-radius: 12px; padding: 2rem; margin-bottom: 2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.02); }
+        .verse-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; border-bottom: 1px solid #edf2f7; padding-bottom: 0.8rem; }
+        .verse-number { background: var(--primary-accent); color: white; padding: 0.2rem 0.8rem; border-radius: 20px; font-size: 0.85rem; font-weight: 700; }
+        .arabic { font-family: 'Amiri', serif; font-size: 2.4rem; text-align: right; color: #2d3748; margin-bottom: 1.5rem; line-height: 2.2; }
+        .translation { font-family: 'Merriweather', serif; font-size: 1.2rem; color: #1a202c; margin-bottom: 2rem; border-left: 4px solid var(--primary-accent); padding-left: 1rem; }
+        .insights { display: grid; grid-template-columns: 1fr; gap: 1rem; }
+        .insight-box { background: #fff; padding: 1.2rem; border-radius: 8px; border: 1px solid #e2e8f0; border-left-width: 4px; }
+        .insight-box.plain { border-left-color: var(--plain-color); background: #f7fafc; }
+        .insight-box.context { border-left-color: var(--context-color); }
+        .insight-box.sufi { border-left-color: var(--sufi-color); }
+        .insight-box.hikam { border-left-color: var(--wisdom-color); }
+        .label { display: block; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1.2px; font-weight: 700; margin-bottom: 0.5rem; }
+        .plain .label { color: var(--plain-color); }
+        .context .label { color: var(--context-color); }
+        .sufi .label { color: var(--sufi-color); }
+        .hikam .label { color: var(--wisdom-color); }
+        .content { font-size: 0.95rem; color: #4a5568; }
+        .tags { margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; padding-top: 1rem; border-top: 1px solid #edf2f7; }
+        .tag { background: var(--tag-bg); color: var(--tag-text); padding: 0.2rem 0.7rem; border-radius: 99px; font-size: 0.75rem; font-weight: 600; }
+    </style>
+</head>
+<body>
+
+<div class="nav-bar">
+    <div class="nav-controls">
+        <a href="index.html" class="nav-link home-btn">⌂ Dashboard</a>
+        <a href="surah-80-naba.html" class="nav-link">← Prev</a>
+        <a href="surah-82-infitar.html" class="nav-link">Next →</a>
+    </div>
+    <span style="font-weight: 600; color: #718096; font-size: 0.9rem;">Mushaf: #79 | Chronological: #81</span>
+</div>
+
+<header>
+    <h1>Surah An-Nazi'at</h1>
+    <div class="meta">Those Who Drag Forth • Makkah • 46 Verses</div>
+    <div class="intro-text">
+        An intensely vivid Makkan Surah that opens with terrifying oaths sworn by the angels of death. It details the violent extraction of the disbeliever's soul, contrasting it with the gentle removal of the believer's, before exposing the arrogance of the Quraysh regarding the resurrection.
+    </div>
+</header>
+
+<div class="container">
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 1</span></div>
+        <div class="arabic">وَٱلنَّـٰزِعَـٰتِ غَرْقًۭا</div>
+        <div class="translation">"By those [angels] who extract with violence"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God opens the Surah with a highly descriptive oath sworn by a specific group of Angels of Death. These angels are assigned to the disbelievers and tyrants. "Gharqan" indicates a process of pulling from the absolute depths; they extract the soul violently, tearing it from the deepest recesses of the human body.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context</span><div class="content">The Quraysh arrogantly denied the unseen realities of death and resurrection, treating death simply as a biological end to a material life. To shatter this illusion, the Prophet (ﷺ) described the unseen reality of this verse in authentic Hadith: when the angel arrives for the wicked person, their soul scatters and hides throughout the veins of the body in pure terror. The angel then tears it out forcefully, like a multi-pronged iron skewer being violently pulled through wet wool.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Al-Qurtubi)</span><div class="content">Imam Al-Qurtubi emphasizes the profound spiritual transition. Death is not a peaceful sleep for the oppressor; it is a violent, terrifying arrest. Because the arrogant soul spent its entire life violently clinging to the Dunya and refusing to submit to the Creator, the angels must violently rip it away from the physical world it worshipped.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Warning</span><span class="tag">Divine Justice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 2</span></div>
+        <div class="arabic">وَٱلنَّـٰشِطَـٰتِ نَشْطًۭا</div>
+        <div class="translation">"And [by] those who remove with ease"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The second oath contrasts the first. God swears by the Angels of Death assigned to the righteous believers. "Nashtan" refers to untying a knot effortlessly or drawing something out smoothly. These angels approach the believer with absolute gentleness, slipping the soul out of the body with ease and honor.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">Imam al-Ghazali explains the psychological reason for this ease. The soul of the sincere believer is already eager to meet its Lord. Because the believer spent their life actively detaching their heart from the illusions of the Dunya, the angel does not need to use force. The soul slips out as smoothly as a drop of water pouring gracefully from the spout of a jug.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Hope</span><span class="tag">Mercy</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 3</span></div>
+        <div class="arabic">وَٱلسَّـٰبِحَـٰتِ سَبْحًۭا</div>
+        <div class="translation">"And [by] those who glide [as if] swimming"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The third oath is sworn by the angels who "swim" or glide effortlessly through the heavens and the earth to execute God's commands without any hesitation or friction.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Gilani)</span><div class="content">Sheikh Abdul Qadir al-Gilani reflects on the concept of spiritual obedience. The angels do not resist or overthink the divine command; they glide in absolute submission. The human soul achieves true peace only when it stops swimming against the violent currents of divine decree, and learns to glide with it in total surrender.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Spiritual Practice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 4</span></div>
+        <div class="arabic">فَٱلسَّـٰبِقَـٰتِ سَبْقًۭا</div>
+        <div class="translation">"And those who race each other in a race"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The fourth oath describes the enthusiastic nature of the angels. They actively race and compete with one another to carry out the decrees of God, to deliver revelation, or to carry the pure souls of the believers rapidly up to Paradise.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">Ibn Ata'illah extracts a profound lesson for the living. The angels, who are completely sinless and mathematically guaranteed salvation, actively race to fulfill God's command. How much more aggressively should the sinful human being—whose salvation is entirely uncertain—race toward repentance and good deeds before their time expires?</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Commands</span><span class="tag">Steadfastness</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 5</span></div>
+        <div class="arabic">فَٱلْمُدَبِّرَٰتِ أَمْرًۭا</div>
+        <div class="translation">"And those who arrange [each] matter,"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The final oath in the sequence is sworn by the administrative angels. These are the vast angelic forces entrusted by God with managing the intricate, complex affairs of the universe—regulating weather systems, distributing provisions, and maintaining the laws of physics strictly according to divine decree.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Al-Qurtubi)</span><div class="content">Al-Qurtubi notes the theological framework established here. God assigns angels to manage the universe not out of physical necessity or fatigue, but to establish an administrative hierarchy and order (Sunnatullah). The Creator's use of a complex administrative system teaches humans to respect order, hierarchy, and delegation within their own societal and governmental structures.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Attributes of Allah</span><span class="tag">Knowledge & Signs</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 6</span></div>
+        <div class="arabic">يَوْمَ تَرْجُفُ ٱلرَّاجِفَةُ</div>
+        <div class="translation">"On the Day the quaking [earth] will quake"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The subject of the five terrifying oaths is finally revealed: The Day of Judgment is an absolute certainty. It will commence with "Ar-Rajifah"—the first catastrophic blast of the Horn, which will trigger a violent, global earthquake that completely shatters the planet and exterminates all biological life.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Warning</span><span class="tag">Knowledge & Signs</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 7</span></div>
+        <div class="arabic">تَتْبَعُهَا ٱلرَّادِفَةُ</div>
+        <div class="translation">"There will follow it the subsequent [one]."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The destruction is immediately followed by "Ar-Radifah"—the second, subsequent blast of the Horn. This is the command of Resurrection, which will compel all the deceased to rise from their graves to stand before the Creator.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Truth</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 8</span></div>
+        <div class="arabic">قُلُوبٌۭ يَوْمَئِذٍۢ وَاجِفَةٌ</div>
+        <div class="translation">"Hearts, that Day, will tremble,"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God describes the severe physiological reaction of the deniers upon witnessing these events. Their hearts will be "Wajifah"—palpitating violently, gripped by severe, agonizing terror and overwhelming dread as they realize the warnings they mocked were entirely true.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">Imam al-Ghazali points out the law of spiritual reciprocation. The heart that felt falsely secure, arrogant, and entirely at peace while disobeying God in the Dunya will be struck with paralyzing, violently trembling terror in the Akhirah. True peace in the next life is purchased with a cautious, fearful heart in this one.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Accountability</span><span class="tag">Warning</span><span class="tag">Human Nature</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 9</span></div>
+        <div class="arabic">أَبْصَـٰرُهَا خَـٰشِعَةٌۭ</div>
+        <div class="translation">"Their eyes humbled."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The arrogance of the oppressor is completely extinguished. The eyes of the disbelievers—which used to look down on the Prophets and the poor with intense mockery and pride—will be cast firmly downward in absolute humiliation, shame, and despair.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Humility</span><span class="tag">Accountability</span><span class="tag">Divine Justice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 10</span></div>
+        <div class="arabic">يَقُولُونَ أَءِنَّا لَمَرْدُودُونَ فِى ٱلْحَافِرَةِ</div>
+        <div class="translation">"They are [presently] saying, 'Will we indeed be returned to [our] former state [of life]?"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The Surah abruptly flashes back to the present reality of the Makkan elite, quoting their mocking, skeptical conversations. When warned about the Day of Judgment, the Quraysh scoffed and asked sarcastically if they would truly be brought back to a living state after having died and been buried in the ground.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Arrogance</span><span class="tag">Logic</span><span class="tag">Human Nature</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 11</span></div>
+        <div class="arabic">أَءِذَا كُنَّا عِظَـٰمًۭا نَّخِرَةًۭ</div>
+        <div class="translation">"Even if we should be decayed bones?'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">They emphasize what they perceive as the biological impossibility of the claim. They argue that once their skeletal structure has completely decayed, hollowed out, and crumbled into dust ("Nakhirah"), physically reconstructing them defies all known science and logic.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context</span><div class="content">The hostility to resurrection was deeply physical. Prominent Makkan idolaters, such as Ubayy ibn Khalaf, would literally go to graveyards, pick up ancient, brittle, and decaying bones, crush them into dust with their hands, blow the dust into the wind toward the Prophet ﷺ, and mockingly demand: "Who will give life to these bones after they have rotted away?"</div></div>
+        </div>
+        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Logic</span><span class="tag">The Unseen</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 12</span></div>
+        <div class="arabic">قَالُوا۟ تِلْكَ إِذًۭا كَرَّةٌ خَاسِرَةٌۭ</div>
+        <div class="translation">"They say, 'That, then, would be a losing return.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">They conclude their mockery with a sarcastic declaration. They laughingly assert that if this impossible resurrection actually happens, they will be total losers, since they spent their entire lives denying it and have absolutely no preparation for it.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">Ibn Ata'illah points out the bitter irony of this statement. The human ego often speaks the absolute truth in mockery without realizing it. It *is* a losing return for them, because returning to the Creator without faith and preparation is the definition of ultimate, eternal bankruptcy. They diagnosed their own ruin while laughing.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Arrogance</span><span class="tag">Accountability</span><span class="tag">Warning</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 13</span></div>
+        <div class="arabic">فَإِنَّمَا هِىَ زَجْرَةٌۭ وَٰحِدَةٌۭ</div>
+        <div class="translation">"Indeed, it will be but one shout,"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God completely dismisses their complex biological arguments as utterly irrelevant. Rebuilding trillions of human bodies from decayed dust is not a difficult, labor-intensive process for the Creator. It requires absolutely nothing more than a single, piercing, overwhelming command (the second blowing of the Horn).</div></div>
+        </div>
+        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">The Unseen</span><span class="tag">Truth</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 14</span></div>
+        <div class="arabic">فَإِذَا هُم بِٱلسَّاهِرَةِ</div>
+        <div class="translation">"And suddenly they will be [alert] upon the earth's surface."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The immediate, instantaneous result of that single shout is revealed. The billions of decayed bones and scattered dust will instantly reconstitute. Everyone will find themselves standing, fully alert, and wide awake upon a completely new, flattened earth ("As-Sahirah"), ready to face the Divine Court.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Al-Qurtubi)</span><div class="content">Al-Qurtubi explains the linguistic terror of the word "As-Sahirah." It literally means an open, white, flat land where sleep is impossible and eternal wakefulness is forced upon the inhabitants. The dead, who mistakenly thought they were finally resting in their graves, will suddenly find their sleep permanently broken, fully exposed on an infinite plain with nowhere to hide.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Accountability</span><span class="tag">Knowledge & Signs</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 15</span></div>
+        <div class="arabic">هَلْ أَتَىٰكَ حَدِيثُ مُوسَىٰٓ</div>
+        <div class="translation">"Has there reached you the story of Moses? -"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God abruptly transitions the subject by addressing the Prophet Muhammad ﷺ directly with a rhetorical question. He introduces the historical narrative of Prophet Moses (Musa) as a profound case study in dealing with extreme human arrogance and the absolute certainty of divine judgment.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context</span><div class="content">During the severe persecution in Mecca, the Prophet ﷺ and his companions felt the crushing weight of the Quraysh's political and economic power. By introducing the story of Moses confronting Pharaoh—the most powerful dictator in human history—God provides immediate psychological comfort to the Prophet ﷺ, proving that worldly power is an illusion before the decree of the Creator.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Knowledge & Signs</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 16</span></div>
+        <div class="arabic">إِذْ نَادَىٰهُ رَبُّهُۥ بِٱلْوَادِ ٱلْمُقَدَّسِ طُوًى</div>
+        <div class="translation">"When his Lord called to him in the sacred valley of Tuwa,"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The narrative begins at the exact moment of Moses's divine commission. God spoke directly to Moses in the sanctified, purified valley known as "Tuwa" (located near Mount Sinai), establishing his prophethood and delivering his monumental assignment.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Gilani)</span><div class="content">Sheikh Abdul Qadir al-Gilani notes the spiritual prerequisite of this encounter. God calls the valley "sacred" (Muqaddas). Before a heart can hear the direct, intimate call of the Divine, it must first be sanitized and emptied of worldly attachments, becoming a "sacred valley" solely dedicated to the King.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Spiritual Practice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 17</span></div>
+        <div class="arabic">ٱذْهَبْ إِلَىٰ فِرْعَوْنَ إِنَّهُۥ طَغَىٰ</div>
+        <div class="translation">"'Go to Pharaoh. Indeed, he has transgressed.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The command is brief, direct, and overwhelmingly dangerous. Moses is ordered to confront the supreme ruler of Egypt. God provides the explicit legal and theological justification for this mission: Pharaoh has "Tagha" (completely overstepped all moral, ethical, and theological boundaries, descending into absolute tyranny).</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Al-Qurtubi)</span><div class="content">Al-Qurtubi draws a parallel between the word "Tagha" used here for Pharaoh and the word "Taghiyah" (the overpowering blast) used to destroy Thamud in Surah Al-Haqqah. When human authority crosses its limits and plays God, it triggers a divine response that inevitably restores the balance of justice.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Commands</span><span class="tag">Arrogance</span><span class="tag">Divine Justice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 18</span></div>
+        <div class="arabic">فَقُلْ هَل لَّكَ إِلَىٰٓ أَن تَزَكَّىٰ</div>
+        <div class="translation">"And say to him, 'Would you [be willing to] purify yourself"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God instructs Moses on the precise methodology of his outreach. Despite Pharaoh's horrific crimes (including the mass murder of infants), Moses is commanded to approach him with a gentle, dignified invitation rather than an aggressive threat. He asks Pharaoh if he possesses any internal desire to cleanse his soul of its corruption.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">Ibn Ata'illah states: "Observe the gentleness of God with the one who claimed to be God. If He commands such profound politeness and mercy when addressing the worst of His creation, how immense must His mercy be for the broken believer who stands before Him seeking forgiveness?"</div></div>
+        </div>
+        <div class="tags"><span class="tag">Social Ethics</span><span class="tag">Spiritual Practice</span><span class="tag">Mercy</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 19</span></div>
+        <div class="arabic">وَأَهْدِيَكَ إِلَىٰ رَبِّكَ فَتَخْشَىٰ</div>
+        <div class="translation">"And let me guide you to your Lord so you would fear [Him]?'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Moses completes the invitation. The goal of this guidance is not to seize political power, but to introduce Pharaoh to his true Master. By gaining accurate knowledge of the Creator, Pharaoh would naturally develop "Khashyah" (a reverent, protective fear), which would automatically cure his tyrannical behavior.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">Imam al-Ghazali points out the profound psychological sequence in this verse: Guidance (Knowledge) inevitably leads to Fear (Khashyah). True fear of God is not an irrational panic; it is the natural, logical byproduct of knowing His absolute majesty. A heart devoid of the fear of God is simply a heart ignorant of God's reality.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Humility</span><span class="tag">Knowledge & Signs</span><span class="tag">Truth</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 20</span></div>
+        <div class="arabic">فَأَرَىٰهُ ٱلْءَايَةَ ٱلْكُبْرَىٰ</div>
+        <div class="translation">"And he showed him the greatest sign,"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Moses did not rely solely on philosophy or gentle words. He backed his claim of prophethood by producing "Al-Ayah Al-Kubra" (the greatest, most undeniable physical miracle), which classical scholars identify as his staff transforming into a massive, living serpent, and his hand glowing with blinding white light.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Prophetic History</span><span class="tag">Truth</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 21</span></div>
+        <div class="arabic">فَكَذَّبَ وَعَصَىٰ</div>
+        <div class="translation">"But Pharaoh denied and disobeyed."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Despite witnessing an impossible suspension of physical laws that proved Moses was backed by the Creator, Pharaoh's response was absolute rejection. He "denied" the truth intellectually with his tongue, and "disobeyed" the command practically through his actions, cementing his spiritual ruin.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Arrogance</span><span class="tag">Accountability</span><span class="tag">Human Nature</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 22</span></div>
+        <div class="arabic">ثُمَّ أَدْبَرَ يَسْعَىٰ</div>
+        <div class="translation">"Then he turned his back, striving."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Pharaoh did not just passively reject the message and walk away. He turned his back on the revelation and immediately began to "strive" (Yas'a)—putting intense, active, and urgent effort into plotting against Moses and mobilizing his empire to crush the truth.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Arrogance</span><span class="tag">Warning</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 23</span></div>
+        <div class="arabic">فَحَشَرَ فَنَادَىٰ</div>
+        <div class="translation">"And he gathered [his people] and called out"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Sensing a legitimate threat to his political and religious monopoly, Pharaoh executed a massive counter-operation. He mobilized his military, his magicians, and his citizens, gathering them in a vast assembly, and issued a public, booming proclamation to reassert his dominance.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Arrogance</span><span class="tag">Prophetic History</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 24</span></div>
+        <div class="arabic">فَقَالَ أَنَا۠ رَبُّكُمُ ٱلْأَعْلَىٰ</div>
+        <div class="translation">"And said, 'I am your most exalted lord.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">This is the terrifying psychological climax of human arrogance. Standing before his empire, Pharaoh explicitly denies the Creator of the universe and officially claims supreme divinity for himself, demanding that the masses recognize him as their ultimate provider, lawgiver, and master.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">Imam al-Ghazali diagnoses this not as a unique historical anomaly, but as the secret disease of every human ego. Every unpurified *Nafs* (ego) possesses the secret desire for absolute dominance and worship. Pharaoh was simply the one man who possessed enough political and military power to say out loud what every unchecked ego silently whispers in the dark.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Al-Qurtubi)</span><div class="content">Al-Qurtubi notes the strategic timing. Pharaoh did not say this immediately. He only made this catastrophic theological claim when he felt his political control slipping due to the influence of Moses. Tyranny always attempts to clothe itself in absolute, unquestionable authority when it is deeply terrified of losing power.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Arrogance</span><span class="tag">Truth</span><span class="tag">Human Nature</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 25</span></div>
+        <div class="arabic">فَأَخَذَهُ ٱللَّهُ نَكَالَ ٱلْءَاخِرَةِ وَٱلْأُولَىٰٓ</div>
+        <div class="translation">"So Allah seized him in exemplary punishment for the last and the first [transgression]."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The divine response is swift and absolute. God physically seized Pharaoh, making him a severe, permanent example ("Nakal") for all of human history. The punishment encompassed both his "first" transgression (claiming "I do not know of any god for you other than me" years earlier) and his "last" ultimate transgression (claiming "I am your most exalted lord" here). It also signifies punishment in both the Dunya (drowning in the sea) and the Akhirah (burning in Hellfire).</div></div>
+        </div>
+        <div class="tags"><span class="tag">Divine Justice</span><span class="tag">Warning</span><span class="tag">Prophetic History</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 26</span></div>
+        <div class="arabic">إِنَّ فِى ذَٰلِكَ لَعِبْرَةًۭ لِّمَن يَخْشَىٰٓ</div>
+        <div class="translation">"Indeed in that is a warning for whoever would fear [Allah]."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God establishes the purpose of recording this history. The rise and humiliating destruction of Pharaoh is a permanent "'Ibrah" (a profound lesson and warning). However, this historical data is utterly useless to an arrogant mind; it only serves as a transformative lesson for the heart that already possesses "Khashyah" (fear and awe of the Divine).</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">Ibn Ata'illah states that reading history without the lens of spiritual fear is merely entertainment. The arrogant person reads the story of Pharaoh and thinks, "What a foolish king." The person of *Khashyah* reads the story of Pharaoh, looks inward at their own ego, and trembles, praying, "O God, protect me from the Pharaoh within myself."</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Humility</span><span class="tag">Spiritual Practice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 27</span></div>
+        <div class="arabic">ءَأَنتُمْ أَشَدُّ خَلْقًا أَمِ ٱلسَّمَآءُ ۚ بَنَىٰهَا</div>
+        <div class="translation">"Are you a more difficult creation or is the heaven? Allah constructed it."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God powerfully pivots from the historical arrogance of Pharaoh directly to the contemporary arrogance of the Quraysh who mocked the Resurrection. He poses a devastating logical question: Is reconstructing your fragile, decayed human bones more difficult, or was engineering the massive, infinite structure of the cosmos more difficult? He built the cosmos effortlessly.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Logic</span><span class="tag">Knowledge & Signs</span><span class="tag">Truth</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 28</span></div>
+        <div class="arabic">رَفَعَ سَمْكَهَا فَسَوَّىٰهَا</div>
+        <div class="translation">"He raised its ceiling and proportioned it."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God details the architectural majesty of the universe to humble human pride. He elevated the immense canopy of the sky to an unfathomable height and "proportioned it" (i.e., balanced its physical laws flawlessly so it does not collapse, maintaining perfect equilibrium across galaxies).</div></div>
+        </div>
+        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">Knowledge & Signs</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 29</span></div>
+        <div class="arabic">وَأَغْطَشَ لَيْلَهَا وَأَخْرَجَ ضُحَىٰهَا</div>
+        <div class="translation">"And He darkened its night and extracted its brightness."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The Creator's absolute control over the fundamental forces of reality is highlighted. He manages the massive orbital mechanics required to plunge the earth into the deep darkness of night, and subsequently extracts the brilliant, energetic light of the morning ("Duha").</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Provision</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 30</span></div>
+        <div class="arabic">وَٱلْأَرْضَ بَعْدَ ذَٰلِكَ دَحَىٰهَآ</div>
+        <div class="translation">"And after that He spread the earth."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Following the engineering of the heavens and the lighting cycle, God prepared the planet for human habitation. "Dahaha" means He smoothed it out, expanded it, and leveled its terrain, making a harsh rocky planet suitable for building, walking, and survival.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Provision</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 31</span></div>
+        <div class="arabic">أَخْرَجَ مِنْهَا مَآءَهَا وَمَرْعَىٰهَا</div>
+        <div class="translation">"He extracted from it its water and its pasture,"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">From this prepared earth, God brought forth the two absolute essentials for biological survival: water (springs, rivers, oceans) and pasture (agriculture, vegetation, forests) to sustain both humanity and the animal kingdom.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Provision</span><span class="tag">Mercy</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 32</span></div>
+        <div class="arabic">وَٱلْجِبَالَ أَرْسَاهَا</div>
+        <div class="translation">"And the mountains He set firmly"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">To ensure this habitable environment remained stable, God drove the massive structures of the mountains deep into the earth's crust, setting them firmly as anchors to prevent the surface from violently shaking or shifting under the feet of its inhabitants.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Attributes of Allah</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 33</span></div>
+        <div class="arabic">مَتَـٰعًۭا لَّكُمْ وَلِأَنْعَـٰمِكُمْ</div>
+        <div class="translation">"As provision for you and your grazing livestock."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God concludes the cosmological and geological proofs by stating the purpose behind all of this immense engineering. The spreading of the earth, the extraction of water, and the stabilizing of the mountains were all executed specifically as a "Mata'" (a provision and temporary enjoyment) to sustain humanity and their livestock until the Day of Judgment arrives.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Al-Qurtubi)</span><div class="content">Al-Qurtubi brilliantly summarizes the logic of this entire section: The One who crushed the most powerful human empire (Pharaoh) with water, and the One who effortlessly engineered the massive heavens, the sun, the mountains, and the oceans solely to provide you with a meal, is undeniably capable of resurrecting you from the grave. To deny the Resurrection is to be blind to the reality happening around you every single day.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Provision</span><span class="tag">Logic</span><span class="tag">Mercy</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 34</span></div>
+        <div class="arabic">فَإِذَا جَآءَتِ ٱلطَّآمَّةُ ٱلْكُبْرَىٰ</div>
+        <div class="translation">"But when there comes the greatest Overwhelming Calamity -"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God transitions from the temporary provisions of the earth to the ultimate destruction of the universe. The Day of Judgment is given a terrifying title: "At-Taammah Al-Kubra". This translates to the absolute, supreme disaster—a calamity of such incomprehensible magnitude that it completely buries, overshadows, and renders insignificant every other tragedy or catastrophe ever experienced in human history.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Al-Qurtubi)</span><div class="content">Al-Qurtubi notes the linguistic gravity of "Taammah." It comes from a root word meaning "to cover or drown completely." Just as a massive flood covers the highest mountains, the terror of this Day will completely drown out all worldly thoughts, worldly statuses, and worldly memories. It is the disaster that eclipses all disasters.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Warning</span><span class="tag">Truth</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 35</span></div>
+        <div class="arabic">يَوْمَ يَتَذَكَّرُ ٱلْإِنسَـٰنُ مَا سَعَىٰ</div>
+        <div class="translation">"The Day when man will remember that for which he strove,"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The immediate psychological effect of this Calamity is total, inescapable recall. In the Dunya, humans easily forget their sins, their wasted hours, and their ethical compromises. On this Day, the shock of the resurrection will trigger an absolute, agonizing remembrance. Every individual will remember exactly where they spent their energy, their wealth, and their lifespan ("Sa'a").</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">Imam al-Ghazali captures the tragedy of this realization. When the veil is ripped away, the human being will suddenly remember that they spent decades exhausting themselves, stressing, and sacrificing their sleep just to gather ashes that blew away in the wind of the Hereafter. The true pain of the Day of Judgment is the realization of what you traded your eternity for.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Accountability</span><span class="tag">Human Nature</span><span class="tag">Truth</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 36</span></div>
+        <div class="arabic">وَبُرِّزَتِ ٱلْجَحِيمُ لِمَن يَرَىٰ</div>
+        <div class="translation">"And Hellfire will be exposed for [all] those who see -"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The terrifying reality of divine justice is physically manifested. "Al-Jaheem" (the fiercely blazing Fire) is not merely described or threatened; it is "Burrizat" (dragged forward, elevated, and fully exposed in plain sight). Every single resurrected being—both the righteous and the wicked—will be forced to look directly at the roaring flames with their own naked eyes.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Hell</span><span class="tag">The Unseen</span><span class="tag">Warning</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 37</span></div>
+        <div class="arabic">فَأَمَّا مَن طَغَىٰ</div>
+        <div class="translation">"So as for he who transgressed"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God distills the criteria for eternal ruin into a simple, undeniable formula. The first half of the formula for destruction is "Tagha"—the act of crossing God's established moral, theological, and ethical boundaries out of sheer arrogance and rebellion (exactly as Pharaoh did in Verse 17).</div></div>
+        </div>
+        <div class="tags"><span class="tag">Arrogance</span><span class="tag">Accountability</span><span class="tag">Warning</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 38</span></div>
+        <div class="arabic">وَءَاثَرَ ٱلْحَيَوٰةَ ٱلدُّنْيَا</div>
+        <div class="translation">"And preferred the life of the world,"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The second half of the formula for destruction is psychological. Transgression does not happen in a vacuum; it occurs because the individual explicitly "preferred" and prioritized the immediate, temporary pleasures of the worldly life (Dunya) over the permanent reality and laws of the Hereafter.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">Ibn Ata'illah states that the root of all spiritual disease is the love of the Dunya. When the heart prefers the applause, wealth, and comfort of the temporary world, it will inevitably cross the boundaries of God to secure them. Idolatry in its most common form is not bowing to a statue, but bowing to your worldly ambitions.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Human Nature</span><span class="tag">Arrogance</span><span class="tag">Logic</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 39</span></div>
+        <div class="arabic">فَإِنَّ ٱلْجَحِيمَ هِىَ ٱلْمَأْوَىٰ</div>
+        <div class="translation">"Then indeed, Hellfire will be [his] refuge."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The inevitable conclusion to the formula is declared. For the one who transgressed boundaries and prioritized the material world, the blazing Fire will serve as their "Ma'wa"—their permanent, inescapable home and resting place.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Hell</span><span class="tag">Divine Justice</span><span class="tag">Warning</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 40</span></div>
+        <div class="arabic">وَأَمَّا مَنْ خَافَ مَقَامَ رَبِّهِۦ وَنَهَى ٱلنَّفْسَ عَنِ ٱلْهَوَىٰ</div>
+        <div class="translation">"But as for he who feared the position of his Lord and prevented the soul from [unlawful] inclination,"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God now reveals the exact opposite formula: the blueprint for eternal success. It consists of an internal reality and an external action. Internally, the believer maintains a continuous, awe-inspiring fear ("Khafa") of the moment they will stand before the terrifying majesty of their Lord. Because of this internal fear, they take external action: they actively forcefully restrain their own ego ("Nafs") from acting upon its dark, unlawful desires ("Hawa").</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Gilani)</span><div class="content">Sheikh Abdul Qadir al-Gilani describes this verse as the absolute core of spiritual warfare (Jihad al-Nafs). The ego is like a wild, ravenous dog that constantly barks for the forbidden. You cannot kill the dog, because you need it to survive in the Dunya, but you must chain it. The chain that binds the ego is the fear of standing before the King. Without that fear, the ego runs wild and destroys the soul.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Al-Qurtubi)</span><div class="content">Al-Qurtubi notes the profound precision here. The verse does not say "the one who has no desires." Having desires is human biology. The verse praises the one who *prevents* the soul from acting upon those desires. The victory is not the absence of temptation; the victory is the active, painful discipline of saying "no" to the self for the sake of God.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Spiritual Practice</span><span class="tag">Humility</span><span class="tag">Human Nature</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 41</span></div>
+        <div class="arabic">فَإِنَّ ٱلْجَنَّةَ هِىَ ٱلْمَأْوَىٰ</div>
+        <div class="translation">"Then indeed, Paradise will be [his] refuge."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The ultimate reward is guaranteed. For the one who successfully waged war against their own ego and prioritized the fear of God over the love of the world, the eternal, magnificent Gardens of Paradise will be their permanent, secure sanctuary and home.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Jannah</span><span class="tag">Hope</span><span class="tag">Divine Justice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 42</span></div>
+        <div class="arabic">يَسْـَٔلُونَكَ عَنِ ٱلسَّاعَةِ أَيَّانَ مُرْسَىٰهَا</div>
+        <div class="translation">"They ask you, [O Muhammad], about the Hour: when is its arrival?"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Despite the terrifying clarity of these formulas, the arrogant Makkan elite return to their favorite tactic of distraction. Instead of examining their own egos and preparing for the Day, they mockingly interrogate the Prophet ﷺ, demanding the exact date, time, and coordinates of the Final Hour's arrival.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Arrogance</span><span class="tag">Prophetic History</span><span class="tag">The Unseen</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 43</span></div>
+        <div class="arabic">فِيمَ أَنتَ مِن ذِكْرَىٰهَا</div>
+        <div class="translation">"In what [position] are you that you should mention it?"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God intervenes to defend His Messenger. The Prophet is instructed that it is not his responsibility, nor is it within his capacity, to know or declare the exact timing of the end of the world. The exact knowledge of the unseen is intentionally withheld even from the greatest of Prophets.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context</span><div class="content">This reality was cemented in the famous "Hadith of Jibril." When the Archangel Gabriel came in the form of a man and explicitly asked the Prophet ﷺ, "Tell me about the Hour," the Prophet replied, "The one being asked knows no more about it than the one asking." Both the greatest Angel and the greatest Prophet submitted completely to their lack of knowledge regarding this specific secret of God.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Humility</span><span class="tag">Prophetic History</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 44</span></div>
+        <div class="arabic">إِلَىٰ رَبِّكَ مُنتَهَىٰهَا</div>
+        <div class="translation">"To your Lord is its finality."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The ultimate reality is established. The absolute, exclusive knowledge regarding the timing, mechanics, and execution of the Final Hour rests entirely with the Creator. It is a divine secret that no scientific calculation, angelic insight, or prophetic vision can penetrate.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">The Unseen</span><span class="tag">Truth</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 45</span></div>
+        <div class="arabic">إِنَّمَآ أَنتَ مُنذِرُ مَن يَخْشَىٰهَا</div>
+        <div class="translation">"You are only a warner for those who fear it."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God refocuses the Prophet ﷺ on his true mission. He is not a fortune-teller predicting dates; he is a profound warner. However, God highlights a psychological truth: the warnings of the Prophet only benefit and penetrate the hearts of those who already possess "Khashyah" (a sincere, internal fear and awe of the accountability). For the arrogant, the warning is useless.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">Ibn Ata'illah teaches: "Rain does not bring dead stone to life; it only brings forth plants from fertile soil." The Prophet's warning is the pure rain of revelation, but it only produces the fruit of guidance in a heart that has cultivated the fertile soil of humility and fear.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Spiritual Practice</span><span class="tag">Humility</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 46 ۩</span></div>
+        <div class="arabic">كَأَنَّهُمْ يَوْمَ يَرَوْنَهَا لَمْ يَلْبَثُوٓا۟ إِلَّا عَشِيَّةً أَوْ ضُحَىٰهَا</div>
+        <div class="translation">"It will be, on the Day they see it, as though they had not remained [in the world] except for an afternoon or a morning thereof."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The Surah concludes with a mind-bending revelation regarding the relativity of time. On the Day of Judgment, when the arrogant are finally exposed to the infinite reality of eternity, their perception of their worldly life will collapse. Decades of earthly wealth, power, and arrogant rebellion will feel as brief and fleeting as a single afternoon or a quick morning. The ultimate tragedy is trading an infinite eternity for a single morning of illusion.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">Imam al-Ghazali eloquently summarizes the human condition using this verse. The Dunya is a dream, and death is the moment you wake up. When you wake up from a dream, you realize that years of events in the dream actually took only a few seconds of real time. When the soul wakes up to the reality of the Akhirah, the seventy years of the Dunya will feel like a passing shadow. Do not sell your waking reality to chase a phantom in a dream.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Warning</span><span class="tag">Human Nature</span><span class="tag">Truth</span></div>
+    </div>
+
+</div>
+
+</body>
+</html>
