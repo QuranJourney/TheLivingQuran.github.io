@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surah Ad-Dhariyat | The Winnowing Winds</title>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@300;400;600&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #ffffff; --text-color: #2d3748; --primary-accent: #2b6cb0; 
+            --border-color: #e2e8f0; --tag-bg: #e6fffa; --tag-text: #2c7a7b;
+            --context-color: #d69e2e; --sufi-color: #38a169; --wisdom-color: #805ad5; --plain-color: #718096; 
+        }
+        body { font-family: 'Inter', sans-serif; background: var(--bg-color); color: var(--text-color); margin: 0; padding: 0; line-height: 1.6; }
+        .nav-bar { padding: 1rem 2rem; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; background: white; z-index: 100; box-shadow: 0 2px 4px rgba(0,0,0,0.05); flex-wrap: wrap; gap: 1rem;}
+        .nav-controls { display: flex; gap: 1.5rem; align-items: center; }
+        .nav-link { text-decoration: none; color: var(--primary-accent); font-weight: 600; display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem;}
+        .nav-link:hover { text-decoration: underline; }
+        .home-btn { background: var(--primary-accent); color: white; padding: 0.5rem 1rem; border-radius: 6px; }
+        .home-btn:hover { background: #2c5282; color: white; text-decoration: none; }
+        header { text-align: center; padding: 3rem 1rem 2rem; background: linear-gradient(180deg, #f7fafc 0%, #ffffff 100%); }
+        h1 { font-family: 'Merriweather', serif; font-size: 2.8rem; margin: 0; color: #1a202c; }
+        .meta { color: #718096; text-transform: uppercase; letter-spacing: 2px; font-size: 0.85rem; margin-top: 1rem; font-weight: 700; }
+        .intro-text { max-width: 650px; margin: 1.5rem auto 0; font-style: italic; color: #4a5568; }
+        .container { max-width: 900px; margin: 0 auto; padding: 0 1rem 4rem; }
+        .verse-card { background: white; border: 1px solid var(--border-color); border-radius: 12px; padding: 2rem; margin-bottom: 2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.02); }
+        .verse-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; border-bottom: 1px solid #edf2f7; padding-bottom: 0.8rem; }
+        .verse-number { background: var(--primary-accent); color: white; padding: 0.2rem 0.8rem; border-radius: 20px; font-size: 0.85rem; font-weight: 700; }
+        .arabic { font-family: 'Amiri', serif; font-size: 2.4rem; text-align: right; color: #2d3748; margin-bottom: 1.5rem; line-height: 2.2; }
+        .translation { font-family: 'Merriweather', serif; font-size: 1.2rem; color: #1a202c; margin-bottom: 2rem; border-left: 4px solid var(--primary-accent); padding-left: 1rem; }
+        .insights { display: grid; grid-template-columns: 1fr; gap: 1rem; }
+        .insight-box { background: #fff; padding: 1.2rem; border-radius: 8px; border: 1px solid #e2e8f0; border-left-width: 4px; }
+        .insight-box.plain { border-left-color: var(--plain-color); background: #f7fafc; }
+        .insight-box.context { border-left-color: var(--context-color); }
+        .insight-box.sufi { border-left-color: var(--sufi-color); }
+        .insight-box.hikam { border-left-color: var(--wisdom-color); }
+        .label { display: block; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1.2px; font-weight: 700; margin-bottom: 0.5rem; }
+        .plain .label { color: var(--plain-color); }
+        .context .label { color: var(--context-color); }
+        .sufi .label { color: var(--sufi-color); }
+        .hikam .label { color: var(--wisdom-color); }
+        .content { font-size: 0.95rem; color: #4a5568; }
+        .tags { margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; padding-top: 1rem; border-top: 1px solid #edf2f7; }
+        .tag { background: var(--tag-bg); color: var(--tag-text); padding: 0.2rem 0.7rem; border-radius: 99px; font-size: 0.75rem; font-weight: 600; }
+    </style>
+</head>
+<body>
+
+<div class="nav-bar">
+    <div class="nav-controls">
+        <a href="index.html" class="nav-link home-btn">⌂ Dashboard</a>
+        <a href="surah-66-ahqaf.html" class="nav-link">← Prev</a>
+        <a href="surah-68-ghashiyah.html" class="nav-link">Next →</a>
+    </div>
+    <span style="font-weight: 600; color: #718096; font-size: 0.9rem;">Mushaf: #51 | Chronological: #67</span>
+</div>
+
+<header>
+    <h1>Surah Ad-Dhariyat</h1>
+    <div class="meta">The Winnowing Winds • Makkah • 60 Verses</div>
+    <div class="intro-text">
+        A visually explosive, fast-paced revelation that swears by the massive forces of the atmosphere to prove the certainty of Resurrection. It completely destroys human financial anxiety by declaring that true provision is locked securely in the heavens.
+    </div>
+</header>
+
+<div class="container">
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 1</span></div>
+        <div class="arabic">وَٱلذَّٰرِيَـٰتِ ذَرْوًۭا</div>
+        <div class="translation">"By the violently scattering, winnowing winds,"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The Surah opens with a massive, cinematic oath! "Ad-Dhariyat" refers to the hyper-speed winds that violently scatter dust, pollen, and seeds across the earth. God points to the invisible but overwhelmingly powerful physics of the atmosphere.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Attributes of Allah</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 2</span></div>
+        <div class="arabic">فَٱلْحَـٰمِلَـٰتِ وِقْرًۭا</div>
+        <div class="translation">"And those [clouds] carrying a massive, heavy burden [of water],"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The camera pans up! Look at the storm clouds. They look light and fluffy, but they are literally carrying millions of tons of heavy water ("Wiqran") suspended miles above your head against the force of gravity!</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">The Unseen</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 3</span></div>
+        <div class="arabic">فَٱلْجَـٰرِيَـٰتِ يُسْرًۭا</div>
+        <div class="translation">"And those [ships] sailing with absolute ease,"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The camera pans down to the ocean! The exact same wind that carries the heavy clouds is also engineered to push thousands of tons of steel and wood across the water with complete, frictionless ease.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Wealth</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 4</span></div>
+        <div class="arabic">فَٱلْمُقَسِّمَـٰتِ أَمْرًا</div>
+        <div class="translation">"And those [angels] meticulously apportioning strictly by absolute command,"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The final oath breaks through the physical dimension into the Unseen! Above the winds, clouds, and ships are the Angels. They are the ultimate distributors. They meticulously execute God's command, mathematically distributing exactly how much rain falls on which farm, and exactly how much wealth goes to which human being.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Commands</span><span class="tag">Wealth</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 5</span></div>
+        <div class="arabic">إِنَّمَا تُوعَدُونَ لَصَادِقٌۭ</div>
+        <div class="translation">"Indeed, exactly what you are promised is absolutely, undeniably true."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Why did God swear by the winds, the clouds, the ships, and the angels? To make a devastating point: "The God who manages these massive, complex, global systems flawlessly every single day is absolutely telling you the truth when He promises that Judgment Day is coming!"</div></div>
+        </div>
+        <div class="tags"><span class="tag">Truth</span><span class="tag">Warning</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 6</span></div>
+        <div class="arabic">وَإِنَّ ٱلدِّينَ لَوَٰقِعٌۭ</div>
+        <div class="translation">"And indeed, the ultimate Recompense [Judgment] is absolutely going to occur!"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"Deen" here means the ultimate repayment and balancing of the scales. The cosmos is not a joke. You will be compensated for your pain, and the tyrants will pay for their crimes. It is "Waqi'"—a physical event that will violently crash into reality.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Divine Justice</span><span class="tag">Accountability</span><span class="tag">The Unseen</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 7</span></div>
+        <div class="arabic">وَٱلسَّمَآءِ ذَاتِ ٱلْحُبُكِ</div>
+        <div class="translation">"By the magnificent heaven possessing perfectly woven tracks [and starry pathways]!"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Another breathtaking cosmic oath! "Hubuk" refers to something flawlessly woven with precision (like a tapestry or waves in the sand). God swears by the intricate, mathematical orbits of the planets and galaxies—the cosmic superhighways of the universe.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Attributes of Allah</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 8</span></div>
+        <div class="arabic">إِنَّكُمْ لَفِى قَوْلٍۢ مُّخْتَلِفٍۢ</div>
+        <div class="translation">"Indeed, you are deeply tangled in completely differing, contradictory speech."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Look at the contrast! The universe runs on perfectly ordered tracks ("Hubuk"), but human atheism and polytheism are chaotic and contradictory! One day they call the Prophet a poet, the next day a magician, the next day a madman. Their theology is a tangled, confused mess because it is not based on truth.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Arrogance</span><span class="tag">Logic</span><span class="tag">Human Nature</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 9</span></div>
+        <div class="arabic">يُؤْفَكُ عَنْهُ مَن أُفِكَ</div>
+        <div class="translation">"Violently turned away from it [the Qur'an] is absolutely whoever is turned away [by their own delusion]."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Who misses out on this obvious Truth? Only the person whose ego is so massive that their own arrogance actively deflects the light. They are "turned away" not because the truth is hidden, but because their hearts are completely inverted.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Warning</span><span class="tag">Arrogance</span><span class="tag">Accountability</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 10</span></div>
+        <div class="arabic">قُتِلَ ٱلْخَرَّٰصُونَ</div>
+        <div class="translation">"Destroyed are the falsifiers [who invent lies and guess blindly]!"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">A devastating curse! "Al-Kharrasoon" are the people who make up fake religious theories and atheistic philosophies based purely on blind guessing, with zero divine proof. God declares their intellectual and spiritual destruction.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Warning</span><span class="tag">Logic</span><span class="tag">Divine Justice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 11</span></div>
+        <div class="arabic">ٱلَّذِينَ هُمْ فِى غَمْرَةٍۢ سَاهُونَ</div>
+        <div class="translation">"Those who are completely submerged in a flood of ignorance, heedlessly wandering."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">They are drowning in "Ghamrah" (a deep, dark flood of confusion and intoxicating luxury). They are "Sahoon"—sleepwalking through life, completely obsessed with the Dunya, and entirely heedless of the massive cliff they are walking toward.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Warning</span><span class="tag">Human Nature</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 12</span></div>
+        <div class="arabic">يَسْـَٔلُونَ أَيَّانَ يَوْمُ ٱلدِّينِ</div>
+        <div class="translation">"They sarcastically ask, 'Exactly when is this Day of Recompense?!'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Because they are sleepwalking, they think the warning is a joke. They arrogantly demand: "Give us the exact date! What year? What month? If you don't know the date, it must be fake!"</div></div>
+        </div>
+        <div class="tags"><span class="tag">Arrogance</span><span class="tag">The Unseen</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 13</span></div>
+        <div class="arabic">يَوْمَ هُمْ عَلَى ٱلنَّارِ يُفْتَنُونَ</div>
+        <div class="translation">"It is the terrifying Day they will be violently tormented [and roasted] over the Fire!"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God doesn't give them a calendar date; He gives them the agonizing reality. "You want to know when it is? It is the exact day your arrogant bodies are dragged and roasted over the flames. Keep laughing; the date is coming."</div></div>
+        </div>
+        <div class="tags"><span class="tag">Hell</span><span class="tag">Divine Justice</span><span class="tag">Warning</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 14</span></div>
+        <div class="arabic">ذُوقُوا۟ فِتْنَتَكُمْ هَـٰذَا ٱلَّذِى كُنتُم بِهِۦ تَسْتَعْجِلُونَ</div>
+        <div class="translation">"[It will be roared], 'Violently taste your torment! This is exactly what you were desperately trying to hasten!'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The ultimate, terrifying irony! The very event they used to sarcastically beg for ("Bring on the punishment if you're telling the truth!") is now physically melting them. The Angels mock their earthly arrogance as the fire consumes them.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Hell</span><span class="tag">Accountability</span><span class="tag">Arrogance</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 15</span></div>
+        <div class="arabic">إِنَّ ٱلْمُتَّقِينَ فِى جَنَّـٰتٍۢ وَعُيُونٍ</div>
+        <div class="translation">"Indeed, the fiercely God-conscious [the righteous] will be entirely within majestic Gardens and pure, flowing springs,"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The camera violently cuts away from the fire to the ultimate VIP section of the universe! While the arrogant are roasting, the "Muttaqeen" (those who fiercely protected their souls from sin) are relaxing in lush, green, eternal gardens with pure water flowing at their feet.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Jannah</span><span class="tag">Hope</span><span class="tag">Spiritual Practice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 16</span></div>
+        <div class="arabic">ءَاخِذِينَ مَآ ءَاتَىٰهُمْ رَبُّهُمْ ۚ إِنَّهُمْ كَانُوا۟ قَبْلَ ذَٰلِكَ مُحْسِنِينَ</div>
+        <div class="translation">"Joyfully receiving exactly what their Lord has given them. Indeed, they were, completely before that, doers of supreme excellence [Muhsineen]."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">They are eagerly accepting their massive rewards. But why did they get this VIP access? Because when they were on earth, they didn't just do the bare minimum; they lived a life of "Ihsan" (Excellence). They went above and beyond in their worship and their kindness to others.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Jannah</span><span class="tag">Hope</span><span class="tag">Accountability</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 17</span></div>
+        <div class="arabic">كَانُوا۟ قَلِيلًۭا مِّنَ ٱلَّيْلِ مَا يَهْجَعُونَ</div>
+        <div class="translation">"They used to sleep but a very little of the night,"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God reveals the secret, elite habits of the Muhsineen! Step 1: They sacrificed their comfort. While the rest of the world was snoring in warm beds, these believers fought their biology, threw off the blankets, and stood up in the dark to pray Qiyam al-Layl (the Night Prayer) and talk to their Creator when no one else was watching.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">"Qaleelan mina al-layli ma yahja'oon" (They slept little of the night). The night is the sanctuary of the lovers. When the distractions of the Dunya fall silent and the hypocrites are asleep, the true lover of God finds absolute ecstasy in the quiet intimacy of the night prayer. Sleep is the nourishment of the physical body, but standing in the dark before the King is the nourishment of the soul.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Spiritual Practice</span><span class="tag">Hope</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 18</span></div>
+        <div class="arabic">وَبِٱلْأَسْحَارِ هُمْ يَسْتَغْفِرُونَ</div>
+        <div class="translation">"And in the hours just before dawn, they would passionately seek forgiveness,"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Step 2: Absolute humility! Even though they just spent the whole night doing the hardest, most elite form of worship (Tahajjud), they didn't get arrogant. They didn't say, "Wow, I am so holy." Instead, right before the sun came up, they dropped to the floor and begged God for forgiveness, feeling that their worship wasn't good enough for His Majesty!</div></div>
+        </div>
+        <div class="tags"><span class="tag">Repentance</span><span class="tag">Humility</span><span class="tag">Spiritual Practice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 19</span></div>
+        <div class="arabic">وَفِىٓ أَمْوَٰلِهِمْ حَقٌّۭ لِّلسَّآئِلِ وَٱلْمَحْرُومِ</div>
+        <div class="translation">"And specifically within their wealth was a known, absolute right for the one who asks and for the one deprived [who cannot ask]."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Step 3: Social Justice! Their spirituality didn't just stay on the prayer mat. They looked at their bank accounts and realized: "This money isn't entirely mine!" They believed that a specific percentage of their wealth was the *property* of the beggar, and the *property* of the poor person who is too dignified to beg. Giving charity wasn't a "favor"; it was paying back a debt.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Wealth</span><span class="tag">Social Ethics</span><span class="tag">Spiritual Practice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 20</span></div>
+        <div class="arabic">وَفِى ٱلْأَرْضِ ءَايَـٰتٌۭ لِّلْمُوقِنِينَ</div>
+        <div class="translation">"And on the earth are absolutely spectacular signs for those possessing unshakeable certainty."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God pulls us out of the heavenly vision back to the earth. "Look at the mountains, the oceans, the ecosystems, and the gravity holding it all together. The earth is a massive museum of Divine Engineering. But you will only see the exhibits if you have 'Yaqeen' (Certainty). If you look with arrogance, you just see dirt."</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Truth</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 21</span></div>
+        <div class="arabic">وَفِىٓ أَنفُسِكُمْ ۚ أَفَلَا تُبْصِرُونَ</div>
+        <div class="translation">"And deeply within yourselves! Will you then absolutely not see?!"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">A profound, intimate challenge! "You don't even need to travel to the mountains to find Me. Look at your own biology! The billions of cells working in perfect harmony, the complex electrical firing of your nervous system, the flawless mechanism of your eye reading this exact sentence. You are a walking, breathing miracle. How can you be blind to the Designer who built you?"</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Logic</span><span class="tag">Attributes of Allah</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 22</span></div>
+        <div class="arabic">وَفِى ٱلسَّمَآءِ رِزْقُكُمْ وَمَا تُوعَدُونَ</div>
+        <div class="translation">"And entirely in the heaven is your ultimate provision [Rizq] and exactly whatever you are promised."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">One of the most life-changing, anxiety-destroying verses in the Qur'an! Humans stress themselves to death over their jobs, salaries, and economy. God drops a massive paradigm shift: "Your Rizq (provision) is NOT on earth! It is not decided by your boss, the stock market, or the government. Your provision is locked in a vault in the highest heaven, and I distribute it directly from My Throne. Stop bowing to human beings for money."</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"Wa fi as-sama'i rizqukum" (And in the heaven is your provision). The ego attaches itself to the visible "Asbab" (the physical means—like a paycheck). God violently cuts this attachment. When you truly internalize that the decree of your wealth is written in the sky, you stop compromising your morals for a promotion. You work hard on earth, but your heart remains completely detached, knowing the true Provider is above the clouds.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Wealth</span><span class="tag">The Unseen</span><span class="tag">Hope</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 23</span></div>
+        <div class="arabic">فَوَرَبِّ ٱلسَّمَآءِ وَٱلْأَرْضِ إِنَّهُۥ لَحَقٌّۭ مِّثْلَ مَآ أَنَّكُمْ تَنطِقُونَ</div>
+        <div class="translation">"Then by the Supreme Lord of the heaven and the earth, indeed, it is the absolute truth - exactly as [sure as] it is that you are speaking!"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The climax of this section! God swears the ultimate oath by His own Majesty! "I swear by Myself, the Lord of the Universe, that everything I just told you—the Judgment, your provision in heaven, the Afterlife—is a 100% objective, mathematical fact. It is as undeniable and real as the physical words coming out of your own mouth right now!"</div></div>
+        </div>
+        <div class="tags"><span class="tag">Truth</span><span class="tag">Attributes of Allah</span><span class="tag">Logic</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 24</span></div>
+        <div class="arabic">هَلْ أَتَىٰكَ حَدِيثُ ضَيْفِ إِبْرَٰهِيمَ ٱلْمُكْرَمِينَ</div>
+        <div class="translation">"Has there miraculously reached you the spectacular story of the highly honored guests of Abraham?!"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God shifts the narrative to a story of ultimate hospitality and hidden terror. He introduces a group of mysterious, highly honored VIP guests who visited Prophet Abraham. Notice the suspense—God doesn't immediately reveal who they are!</div></div>
+        </div>
+        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">The Unseen</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 25</span></div>
+        <div class="arabic">إِذْ دَخَلُوا۟ عَلَيْهِ فَقَالُوا۟ سَلَـٰمًۭا ۖ قَالَ سَلَـٰمٌۭ قَوْمٌۭ مُّنكَرُونَ</div>
+        <div class="translation">"Exactly when they entered upon him and declared, 'Peace!' He replied, 'Peace, [you are] an unrecognized people.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">These strangers walk into Abraham's tent in the middle of the desert. They don't look like travelers; there is no dust on their clothes, and they possess an overwhelming, beautiful presence. Abraham greets them politely, but his internal alarm bells go off. He realizes: "I have never seen these people before. They are completely unknown to this region."</div></div>
+        </div>
+        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Social Ethics</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 26</span></div>
+        <div class="arabic">فَرَاغَ إِلَىٰٓ أَهْلِهِۦ فَجَآءَ بِعِجْلٍۢ سَمِينٍۢ</div>
+        <div class="translation">"Then he slipped away quietly to his family and swiftly brought back a massive, fat [roasted] calf."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The masterclass in Islamic hospitality! Abraham didn't ask them, "Are you hungry?" or make them feel like a burden. He "slipped away" quietly so they wouldn't feel awkward, and he didn't just bring them scraps. He slaughtered and roasted the absolute best, most expensive, fattest calf he owned for total strangers!</div></div>
+        </div>
+        <div class="tags"><span class="tag">Social Ethics</span><span class="tag">Prophetic History</span><span class="tag">Spiritual Practice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 27</span></div>
+        <div class="arabic">فَقَرَّبَهُۥٓ إِلَيْهِمْ قَالَ أَلَا تَأْكُلُونَ</div>
+        <div class="translation">"And he respectfully placed it incredibly near to them; he gently asked, 'Will you absolutely not eat?'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">He served them like a king. He didn't put the food on a table across the room; he brought it right to their hands. But when he offered the massive feast, the strangers just stared at it. They didn't touch a single bite.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Social Ethics</span><span class="tag">Human Nature</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 28</span></div>
+        <div class="arabic">فَأَوْجَسَ مِنْهُمْ خِيفَةًۭ ۖ قَالُوا۟ لَا تَخَفْ ۖ وَبَشَّرُوهُ بِغُلَـٰمٍ عَلِيمٍۢ</div>
+        <div class="translation">"So he instantly felt a deeply hidden fear of them! They said, 'Absolutely do not fear!' And they gave him breathtaking good news of a profoundly knowledgeable boy."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">In desert culture, if a stranger refuses to eat your food, it means they are planning to murder you! Abraham's heart drops. But the guests instantly read his mind. They reveal their true identity: "Don't be afraid! We aren't humans; we are Angels!" And before he can even process the shock, they drop a massive miracle on him: "Your elderly, barren wife is going to have a baby boy [Isaac] who will be a brilliant scholar!"</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Hope</span><span class="tag">Family</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 29</span></div>
+        <div class="arabic">فَأَقْبَلَتِ ٱمْرَأَتُهُۥ فِى صَرَّةٍۢ فَصَكَّتْ وَجْهَهَا وَقَالَتْ عَجُوزٌ عَقِيمٌۭ</div>
+        <div class="translation">"Then his wife violently approached with a loud cry, struck her face [in sheer astonishment], and screamed, 'A barren old woman?!'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Abraham's wife (Sarah) overhears the Angels. She is so utterly shocked that she cries out, slaps her own forehead in disbelief, and says: "I am biologically ancient and I have been barren my entire life! How on earth is this scientifically possible?!"</div></div>
+        </div>
+        <div class="tags"><span class="tag">Family</span><span class="tag">Human Nature</span><span class="tag">Knowledge & Signs</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 30</span></div>
+        <div class="arabic">قَالُوا۟ كَذَٰلِكِ قَالَ رَبُّكِ ۖ إِنَّهُۥ هُوَ ٱلْحَكِيمُ ٱلْعَلِيمُ</div>
+        <div class="translation">"They majestically replied, 'Exactly thus has your Lord declared! Indeed, He exclusively is the Perfectly Wise, the All-Knowing.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The Angels gently correct her perspective. "Do not apply human biological limitations to the Creator of biology! God said it is going to happen, so it is a mathematical certainty. He knows exactly what He is doing."</div></div>
+        </div>
+        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">Truth</span><span class="tag">The Unseen</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 31</span></div>
+        <div class="arabic">قَالَ فَمَا خَطْبُكُمْ أَيُّهَا ٱلْمُرْسَلُونَ</div>
+        <div class="translation">"He [Abraham] urgently asked, 'Then what exactly is your massive, primary mission, O sent messengers?!'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Abraham is a Prophet. He knows that God doesn't dispatch a massive squad of high-ranking Angels just to deliver a pregnancy announcement. Something huge is about to happen. He looks at them and asks: "What is your real target? Who are you here to destroy?"</div></div>
+        </div>
+        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">The Unseen</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 32</span></div>
+        <div class="arabic">قَالُوٓا۟ إِنَّآ أُرْسِلْنَآ إِلَىٰ قَوْمٍۢ مُّجْرِمِينَ</div>
+        <div class="translation">"They declared, 'Indeed, we have been dispatched to a violently criminal people!'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The atmosphere of the tent shifts from joy to sheer terror. The Angels reveal that they are an execution squad on their way to the cities of Sodom and Gomorrah (the people of Prophet Lot). The people there had crossed the final boundary of violent crime, assault, and unnatural corruption.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Warning</span><span class="tag">Divine Justice</span><span class="tag">The Unseen</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 33</span></div>
+        <div class="arabic">لِنُرْسِلَ عَلَيْهِمْ حِجَارَةًۭ مِّن طِينٍۢ</div>
+        <div class="translation">"'Specifically to violently send down upon them devastating stones of baked clay,'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The Angels reveal their ammunition. They aren't going to fight them with swords. They are carrying a meteor shower of super-heated, baked clay stones designed to completely obliterate the entire civilization from the map.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Divine Justice</span><span class="tag">Warning</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 34</span></div>
+        <div class="arabic">مُّسَوَّمَةً عِندَ رَبِّكَ لِلْمُسْرِفِينَ</div>
+        <div class="translation">"'Meticulously marked from your Lord strictly for the violent transgressors!'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">This is the most terrifying detail! The meteor shower wasn't random. Every single stone the Angels carried was "Musawwamah" (specifically laser-marked and engraved with the exact name of the criminal it was destined to crush). God's justice is a surgical strike; it never hits the wrong target!</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"Musawwamatan" (Marked). The ego thinks it can hide in a crowd or a massive city. But the Divine Decree tracks individuals, not just demographics. If a punishment has your name carved onto it in the heavens, absolutely no bunker, wealth, or army on earth can intercept it. Absolute precision.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Divine Justice</span><span class="tag">Accountability</span><span class="tag">Attributes of Allah</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 35</span></div>
+        <div class="arabic">فَأَخْرَجْنَا مَن كَانَ فِيهَا مِنَ ٱلْمُؤْمِنِينَ</div>
+        <div class="translation">"So We meticulously extracted absolutely whoever was within it of the believers."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Before the meteor shower hit, God executed a flawless extraction operation. He didn't let the believers burn with the criminals. He pulled Prophet Lot and his righteous followers out of the city in the middle of the night.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Hope</span><span class="tag">Divine Justice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 36</span></div>
+        <div class="arabic">فَمَا وَجَدْنَا فِيهَا غَيْرَ بَيْتٍۢ مِّنَ ٱلْمُسْلِمِينَ</div>
+        <div class="translation">"But We absolutely did not find within it other than a single, solitary house of Muslims [those who submitted]!"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The terrifying ratio of corruption! God scanned an entire thriving, massive city-state, and out of thousands of homes, He found only ONE single house (Lot's family) that had kept their morals and submitted to God. Everyone else was completely consumed by the toxic culture.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Warning</span><span class="tag">Social Ethics</span><span class="tag">Accountability</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 37</span></div>
+        <div class="arabic">وَتَرَكْنَا فِيهَآ ءَايَةًۭ لِّلَّذِينَ يَخَافُونَ ٱلْعَذَابَ ٱلْأَلِيمَ</div>
+        <div class="translation">"And We permanently left therein a spectacular sign exclusively for those who intensely fear the agonizingly painful punishment."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God completely flipped their cities upside down and turned the entire area into a barren wasteland (the Dead Sea region). It remains an open wound on the earth, serving as a permanent warning. But only those who have actual fear of God in their hearts extract the lesson; the tourists just take pictures.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Warning</span><span class="tag">Knowledge & Signs</span><span class="tag">Prophetic History</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 38</span></div>
+        <div class="arabic">وَفِى مُوسَىٰٓ إِذْ أَرْسَلْنَـٰهُ إِلَىٰ فِرْعَوْنَ بِسُلْطَـٰنٍۢ مُّبِينٍۢ</div>
+        <div class="translation">"And absolutely in [the story of] Moses [is a massive sign], precisely when We sent him directly to Pharaoh with clear, undeniable authority!"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The camera rapidly cuts to Egypt! Moses stands in front of the greatest king on earth, fully equipped with undeniable miracles ("Sultan Mubeen") that shatter the laws of physics.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Knowledge & Signs</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 39</span></div>
+        <div class="arabic">فَتَوَلَّىٰ بِرُكْنِهِۦ وَقَالَ سَـٰحِرٌ أَوْ مَجْنُونٌۭ</div>
+        <div class="translation">"But he [Pharaoh] violently turned away alongside his massive establishment, and sneered, 'A dark magician or an absolute madman!'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Pharaoh saw the sea turn to blood and the staff turn to a snake. His intellect knew it was God. But his ego ("Ruknihi" - his military and political pillars) made him feel invincible. To protect his throne, he launched a smear campaign, labeling the Prophet a crazy sorcerer.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Arrogance</span><span class="tag">Human Nature</span><span class="tag">Prophetic History</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 40</span></div>
+        <div class="arabic">فَأَخَذْنَـٰهُ وَجُنُودَهُۥ فَنَبَذْنَـٰهُمْ فِى ٱلْيَمِّ وَهُوَ مُلِيمٌۭ</div>
+        <div class="translation">"So We violently seized him and his entire massive army, and We completely tossed them into the crushing sea, while he was entirely blameworthy!"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God completely dismisses the illusion of human power. Pharaoh had chariots, generals, and billions in gold. God says, "I just grabbed him and his army and literally threw them ('Nabathnahum'—like tossing a useless pebble) into the ocean." Pharaoh blamed the sea, but God declares that Pharaoh was entirely to blame for his own drowning.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Divine Justice</span><span class="tag">Accountability</span><span class="tag">Warning</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 41</span></div>
+        <div class="arabic">وَفِى عَادٍ إِذْ أَرْسَلْنَا عَلَيْهِمُ ٱلرِّيحَ ٱلْعَقِيمَ</div>
+        <div class="translation">"And absolutely in [the story of] 'Aad [is a massive sign], precisely when We violently sent against them the completely barren, devastating wind!"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The camera cuts to the giant empire of 'Aad! God highlights the specific weapon used against them: a "barren" wind. Normally, wind is productive—it brings rain and pollinates flowers. But this was a dead, sterile, highly pressurized wind engineered specifically to kill.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Divine Justice</span><span class="tag">Knowledge & Signs</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 42</span></div>
+        <div class="arabic">مَا تَذَرُ مِن شَىْءٍ أَتَتْ عَلَيْهِ إِلَّا جَعَلَتْهُ كَٱلرَّمِيمِ</div>
+        <div class="translation">"It absolutely left nothing whatsoever of exactly what it came upon, except that it violently rendered it like completely disintegrated, shattered ruins!"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The wind acted like a cosmic shredder. Anything it touched—giant humans, livestock, massive trees—was instantly pulverized into dust and completely decayed bones ("Rameem"). Their empire was deleted in a matter of days.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Warning</span><span class="tag">Accountability</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 43</span></div>
+        <div class="arabic">وَفِى ثَمُودَ إِذْ قِيلَ لَهُمْ تَمَتَّعُوا۟ حَتَّىٰ حِينٍۢ</div>
+        <div class="translation">"And absolutely in [the story of] Thamud [is a massive sign], precisely when it was declared to them, 'Amuse yourselves for just a little while!'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The camera cuts again, this time to the empire of Thamud! They carved their mansions directly into solid mountains. When they violently rejected their Prophet and slaughtered the miracle camel, God gave them a psychological torture: "You have exactly three days left to live. Enjoy your mansions while the clock runs out."</div></div>
+        </div>
+        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Warning</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 44</span></div>
+        <div class="arabic">فَعَتَوْا۟ عَنْ أَمْرِ رَبِّهِمْ فَأَخَذَتْهُمُ ٱلصَّـٰعِقَةُ وَهُمْ يَنظُرُونَ</div>
+        <div class="translation">"But they acted with supreme, violent insolence toward the absolute command of their Lord; so the devastating thunderbolt violently seized them while they were fully looking on!"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">They thought their mountain fortresses made them bulletproof! But you can't hide from a cosmic weapon. While they were standing on their balconies staring at the sky, a massive, deafening acoustic shockwave ("Sa'iqah") ruptured their internal organs and dropped them dead on the spot.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Divine Justice</span><span class="tag">Arrogance</span><span class="tag">The Unseen</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 45</span></div>
+        <div class="arabic">فَمَا ٱسْتَطَـٰعُوا۟ مِن قِيَامٍۢ وَمَا كَانُوا۟ مُنتَصِرِينَ</div>
+        <div class="translation">"So they were absolutely unable to even arise, nor could they ever aggressively defend themselves!"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The "strong men" of Thamud who used to terrorize the poor couldn't even stand up on their own two feet! They collapsed instantly, proving that human strength is an illusion borrowed from God.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Warning</span><span class="tag">Accountability</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 46</span></div>
+        <div class="arabic">وَقَوْمَ نُوحٍۢ مِّن قَبْلُ ۖ إِنَّهُمْ كَانُوا۟ قَوْمًا فَـٰسِقِينَ</div>
+        <div class="translation">"And exactly the people of Noah entirely before them! Indeed, they were an utterly, defiantly disobedient people."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">And long before the empires of 'Aad, Thamud, and Pharaoh, the exact same arrogance was crushed during the great flood of Noah! The historical pattern is undeniable: when human beings become "Fasiqeen" (rebellious and corrupt), the physics of the universe are unleashed against them.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Warning</span><span class="tag">Divine Justice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 47</span></div>
+        <div class="arabic">وَٱلسَّمَآءَ بَنَيْنَـٰهَا بِأَيْي۟دٍۢ وَإِنَّا لَمُوسِعُونَ</div>
+        <div class="translation">"And the heaven We meticulously constructed with absolute strength, and indeed, We are continuously expanding it!"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">A breathtaking, cosmic revelation! Over 1,400 years before modern telescopes and astrophysics discovered the "expanding universe," the Qur'an explicitly declared it. God didn't just build the cosmos and walk away; He constructed it with immense power ("Aydin") and He is actively, continuously expanding its borders ("La-Musi'oon") at this very second!</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Attributes of Allah</span><span class="tag">Truth</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 48</span></div>
+        <div class="arabic">وَٱلْأَرْضَ فَرَشْنَـٰهَا فَنِعْمَ ٱلْمَـٰهِدُونَ</div>
+        <div class="translation">"And the earth We have perfectly spread out, and how supremely excellent are We at preparing it!"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">While the universe is violently expanding, God perfectly smoothed out the crust of the earth, turning a molten rock into a beautiful, life-sustaining cradle ("Mahidoon") perfectly prepared for human biology.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Attributes of Allah</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 49</span></div>
+        <div class="arabic">وَمِن كُلِّ شَىْءٍ خَلَقْنَا زَوْجَيْنِ لَعَلَّكُمْ تَذَكَّرُونَ</div>
+        <div class="translation">"And of absolutely everything We have created pairs, specifically so that you might vividly remember."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Look at the structure of reality! Male/female, matter/antimatter, positive/negative charges, day/night. Everything in creation requires a partner to function. Why? To prove that only the Creator is Absolute, Singular, and Independent (Al-Ahad). We are paired because we are weak; He is One because He is Supreme.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Logic</span><span class="tag">Truth</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 50</span></div>
+        <div class="arabic">فَفِرُّوٓا۟ إِلَى ٱللَّهِ ۖ إِنِّى لَكُم مِّنْهُ نَذِيرٌۭ مُّبِينٌۭ</div>
+        <div class="translation">"So aggressively flee directly to Allah! Indeed, I am to you from Him a brilliantly clear warner."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">A massive, urgent command! "Fafirroo" literally means to run for your life! God doesn't say "walk" or "stroll" toward Him. The Dunya is a burning building of distractions, sins, and toxic egos. Sprint away from your addictions and flee directly into the safety of God's sanctuary. You are running out of time!</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"Fafirroo ila Allah" (Flee to Allah). When you are afraid of anything in this world (a predator, poverty, an enemy), your biological instinct is to flee *away* from it. But God is the ultimate exception. When you fear God's justice, the only safe place to run is directly *toward* His mercy. Fleeing to Allah is not abandoning the physical world; it is detaching your heart from its illusions.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Commands</span><span class="tag">Spiritual Practice</span><span class="tag">Hope</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 51</span></div>
+        <div class="arabic">وَلَا تَجْعَلُوا۟ مَعَ ٱللَّهِ إِلَـٰهًا ءَاخَرَ ۖ إِنِّى لَكُم مِّنْهُ نَذِيرٌۭ مُّبِينٌۭ</div>
+        <div class="translation">"And absolutely do not set up with Allah any other deity! Indeed, I am to you from Him a brilliantly clear warner."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">As you run to God, drop the baggage! Do not carry your love for money, your obsession with status, or your reliance on human beings into His sanctuary. He demands exclusive loyalty.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Truth</span><span class="tag">Commands</span><span class="tag">Warning</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 52</span></div>
+        <div class="arabic">كَذَٰلِكَ مَآ أَتَى ٱلَّذِينَ مِن قَبْلِهِم مِّن رَّسُولٍ إِلَّا قَالُوا۟ سَاحِرٌ أَوْ مَجْنُونٌۢ</div>
+        <div class="translation">"Exactly thus! Absolutely no messenger ever came to those entirely before them except that they viciously sneered, 'A dark magician or an absolute madman!'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God comforts the Prophet ﷺ. "Don't let the Meccan media campaign hurt your feelings. The human ego is completely unoriginal! The elites said the exact same insulting catchphrases to Noah, Abraham, and Moses."</div></div>
+        </div>
+        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Human Nature</span><span class="tag">Arrogance</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 53</span></div>
+        <div class="arabic">أَتَوَاصَوْا۟ بِهِۦ ۚ بَلْ هُمْ قَوْمٌۭ طَاغُونَ</div>
+        <div class="translation">"Did they actually pass this [insult] down to one another?! No! Rather, they are an utterly, violently transgressing people."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">A profound psychological question: "Did the ancient empires leave a secret handbook for the Meccans on how to insult Prophets?" No! They are separated by thousands of years and oceans of distance. The reason they use the exact same insults is because the disease of arrogance ("Tughyan") produces the exact same symptoms in every single generation!</div></div>
+        </div>
+        <div class="tags"><span class="tag">Arrogance</span><span class="tag">Human Nature</span><span class="tag">Logic</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 54</span></div>
+        <div class="arabic">فَتَوَلَّ عَنْهُمْ فَمَآ أَنتَ بِمَلُومٍۢ</div>
+        <div class="translation">"So completely turn away from them, for you are absolutely not to be blamed!"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God issues an executive order of emotional relief for the Prophet ﷺ. "Stop stressing over them! You delivered the message flawlessly. If they choose to jump off a cliff, their blood is not on your hands. Turn your back and walk away with your dignity intact."</div></div>
+        </div>
+        <div class="tags"><span class="tag">Steadfastness</span><span class="tag">Accountability</span><span class="tag">Commands</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 55</span></div>
+        <div class="arabic">وَذَكِّرْ فَإِنَّ ٱلذِّكْرَىٰ تَنفَعُ ٱلْمُؤْمِنِينَ</div>
+        <div class="translation">"But continuously remind! For indeed, the reminder profoundly benefits the believers."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"Walk away from the arrogant, but do NOT stop preaching! Shift your focus to the believers." Human faith leaks. Believers get distracted by jobs, grief, and society. They desperately need the constant, continuous repetition of the Qur'an to keep their spiritual batteries charged.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Spiritual Practice</span><span class="tag">Hope</span><span class="tag">Commands</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 56</span></div>
+        <div class="arabic">وَمَا خَلَقْتُ ٱلْجِنَّ وَٱلْإِنسَ إِلَّا لِيَعْبُدُونِ</div>
+        <div class="translation">"And I absolutely did not create the jinn and mankind except exclusively to worship Me!"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The ultimate, defining Mission Statement of human existence! Why are you here? You were not engineered to just pay bills, buy a house, and die. Your exclusive cosmic purpose—the very reason breath is in your lungs—is "'Ibadah" (Worship). This doesn't mean just sitting on a prayer mat; it means aligning your entire life, your business, your marriage, and your heart into a state of absolute submission to the King.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Purpose</span><span class="tag">Truth</span><span class="tag">Spiritual Practice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 57</span></div>
+        <div class="arabic">مَآ أُرِيدُ مِنْهُم مِّن رِّزْقٍۢ وَمَآ أُرِيدُ أَن يُطْعِمُونِ</div>
+        <div class="translation">"I absolutely do not want from them any provision whatsoever, nor do I want them to feed Me!"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God completely shatters the pagan concept of religion. Ancient mythologies taught that gods needed humans to burn sacrifices so the gods could "eat" and survive. God says: "I don't need your money! I don't need your sacrifices! I am entirely self-sufficient. I am asking you to worship Me because it heals YOU, not because it feeds Me!"</div></div>
+        </div>
+        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">Logic</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 58</span></div>
+        <div class="arabic">إِنَّ ٱللَّهَ هُوَ ٱلرَّزَّاقُ ذُو ٱلْقُوَّةِ ٱلْمَتِينُ</div>
+        <div class="translation">"Indeed, it is Allah exclusively who is the Supreme, Continuous Provider, the Ultimate Possessor of absolute, unbreakable Power!"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"You don't feed Me; I feed YOU!" He is "Ar-Razzaq" (The Hyper-Provider who relentlessly sustains trillions of creatures every microsecond). And He is "Al-Mateen" (Possessing unbreakable, unshakeable strength). No economic collapse or human tyrant can ever overpower His distribution of wealth.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">Wealth</span><span class="tag">Truth</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 59</span></div>
+        <div class="arabic">فَإِنَّ لِلَّذِينَ ظَلَمُوا۟ ذَنُوبًۭا مِّثْلَ ذَنُوبِ أَصْحَـٰبِهِمْ فَلَا يَسْتَعْجِلُونِ</div>
+        <div class="translation">"So indeed, for those who committed immense injustice is a devastating portion [of punishment] exactly like the portion of their predecessors; so let them absolutely not seek to hasten Me!"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God issues the final warning! "Thanoob" means a massive bucket. God says: "The bucket of My wrath is filling up for the elites of Mecca, drop by drop, just like the bucket filled up for Pharaoh and 'Aad. Stop arrogantly begging Me to pour it on you right now, because when it spills, you will be utterly destroyed."</div></div>
+        </div>
+        <div class="tags"><span class="tag">Divine Justice</span><span class="tag">Warning</span><span class="tag">Prophetic History</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 60</span></div>
+        <div class="arabic">فَوَيْلٌۭ لِّلَّذِينَ كَفَرُوا۟ مِن يَوْمِهِمُ ٱلَّذِى يُوعَدُونَ</div>
+        <div class="translation">"So absolute woe to those who violently disbelieved, from their terrifying Day which they are continuously promised!"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The Surah slams shut with a terrifying verdict. Woe to the arrogant! The Day of Recompense that God swore by at the very beginning of the Surah is rushing toward them like the roaring winds, and it will violently sweep them away.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Warning</span><span class="tag">The Unseen</span><span class="tag">Accountability</span></div>
+    </div>
+
+</div>
+
+</body>
+</html>
