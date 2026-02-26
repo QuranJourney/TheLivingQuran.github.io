@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surah Nuh | Noah</title>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@300;400;600&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #ffffff; --text-color: #2d3748; --primary-accent: #2b6cb0; 
+            --border-color: #e2e8f0; --tag-bg: #e6fffa; --tag-text: #2c7a7b;
+            --context-color: #d69e2e; --sufi-color: #38a169; --wisdom-color: #805ad5; --plain-color: #718096; 
+        }
+        body { font-family: 'Inter', sans-serif; background: var(--bg-color); color: var(--text-color); margin: 0; padding: 0; line-height: 1.6; }
+        .nav-bar { padding: 1rem 2rem; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; background: white; z-index: 100; box-shadow: 0 2px 4px rgba(0,0,0,0.05); flex-wrap: wrap; gap: 1rem;}
+        .nav-controls { display: flex; gap: 1.5rem; align-items: center; }
+        .nav-link { text-decoration: none; color: var(--primary-accent); font-weight: 600; display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem;}
+        .nav-link:hover { text-decoration: underline; }
+        .home-btn { background: var(--primary-accent); color: white; padding: 0.5rem 1rem; border-radius: 6px; }
+        .home-btn:hover { background: #2c5282; color: white; text-decoration: none; }
+        header { text-align: center; padding: 3rem 1rem 2rem; background: linear-gradient(180deg, #f7fafc 0%, #ffffff 100%); }
+        h1 { font-family: 'Merriweather', serif; font-size: 2.8rem; margin: 0; color: #1a202c; }
+        .meta { color: #718096; text-transform: uppercase; letter-spacing: 2px; font-size: 0.85rem; margin-top: 1rem; font-weight: 700; }
+        .intro-text { max-width: 650px; margin: 1.5rem auto 0; font-style: italic; color: #4a5568; }
+        .container { max-width: 900px; margin: 0 auto; padding: 0 1rem 4rem; }
+        .verse-card { background: white; border: 1px solid var(--border-color); border-radius: 12px; padding: 2rem; margin-bottom: 2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.02); }
+        .verse-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; border-bottom: 1px solid #edf2f7; padding-bottom: 0.8rem; }
+        .verse-number { background: var(--primary-accent); color: white; padding: 0.2rem 0.8rem; border-radius: 20px; font-size: 0.85rem; font-weight: 700; }
+        .arabic { font-family: 'Amiri', serif; font-size: 2.4rem; text-align: right; color: #2d3748; margin-bottom: 1.5rem; line-height: 2.2; }
+        .translation { font-family: 'Merriweather', serif; font-size: 1.2rem; color: #1a202c; margin-bottom: 2rem; border-left: 4px solid var(--primary-accent); padding-left: 1rem; }
+        .insights { display: grid; grid-template-columns: 1fr; gap: 1rem; }
+        .insight-box { background: #fff; padding: 1.2rem; border-radius: 8px; border: 1px solid #e2e8f0; border-left-width: 4px; }
+        .insight-box.plain { border-left-color: var(--plain-color); background: #f7fafc; }
+        .insight-box.context { border-left-color: var(--context-color); }
+        .insight-box.sufi { border-left-color: var(--sufi-color); }
+        .insight-box.hikam { border-left-color: var(--wisdom-color); }
+        .label { display: block; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1.2px; font-weight: 700; margin-bottom: 0.5rem; }
+        .plain .label { color: var(--plain-color); }
+        .context .label { color: var(--context-color); }
+        .sufi .label { color: var(--sufi-color); }
+        .hikam .label { color: var(--wisdom-color); }
+        .content { font-size: 0.95rem; color: #4a5568; }
+        .tags { margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; padding-top: 1rem; border-top: 1px solid #edf2f7; }
+        .tag { background: var(--tag-bg); color: var(--tag-text); padding: 0.2rem 0.7rem; border-radius: 99px; font-size: 0.75rem; font-weight: 600; }
+    </style>
+</head>
+<body>
+
+<div class="nav-bar">
+    <div class="nav-controls">
+        <a href="index.html" class="nav-link home-btn">⌂ Dashboard</a>
+        <a href="surah-70-nahl.html" class="nav-link">← Prev</a>
+        <a href="surah-72-ibrahim.html" class="nav-link">Next →</a>
+    </div>
+    <span style="font-weight: 600; color: #718096; font-size: 0.9rem;">Mushaf: #71 | Chronological: #71</span>
+</div>
+
+<header>
+    <h1>Surah Nuh</h1>
+    <div class="meta">Noah • Makkah • 28 Verses</div>
+    <div class="intro-text">
+        A profound and deeply personal account of Prophet Noah's 950-year mission. This Surah details his immense patience, his varied methods of calling his people to God, and his heartfelt supplication regarding their stubborn rejection.
+    </div>
+</header>
+
+<div class="container">
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 1</span></div>
+        <div class="arabic">إِنَّآ أَرْسَلْنَا نُوحًا إِلَىٰ قَوْمِهِۦٓ أَنْ أَنذِرْ قَوْمَكَ مِن قَبْلِ أَن يَأْتِيَهُمْ عَذَابٌ أَلِيمٌۭ</div>
+        <div class="translation">"Indeed, We sent Noah to his people, [saying], 'Warn your people before there comes to them a painful punishment.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God initiates the narrative by establishing Noah's primary mission. He was sent to his people with a clear and urgent directive: to warn them of severe consequences if they continued in their disbelief. This demonstrates God's mercy in providing a clear warning before enacting justice.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Warning</span><span class="tag">Mercy</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 2</span></div>
+        <div class="arabic">قَالَ يَـٰقَوْمِ إِنِّى لَكُمْ نَذِيرٌۭ مُّبِينٌ</div>
+        <div class="translation">"He said, 'O my people, indeed I am to you a clear warner,'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Noah addresses his people with compassion, calling them "my people." He clarifies his role to them: he is not seeking power or wealth, but is simply serving as a plain and evident warner sent to deliver a message for their own benefit.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Truth</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 3</span></div>
+        <div class="arabic">أَنِ ٱعْبُدُوا۟ ٱللَّهَ وَٱتَّقُوهُ وَأَطِيعُونِ</div>
+        <div class="translation">"'[Commanding you] to worship Allah, fear Him, and obey me.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Noah outlines the core of his message, which consists of three straightforward principles: to dedicate worship entirely to God, to maintain reverence and consciousness of Him (Taqwa), and to obey the Messenger who conveys His guidance.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Commands</span><span class="tag">Spiritual Practice</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 4</span></div>
+        <div class="arabic">يَغْفِرْ لَكُم مِّن ذُنُوبِكُمْ وَيُؤَخِّرْكُمْ إِلَىٰٓ أَجَلٍۢ مُّسَمًّى ۚ إِنَّ أَجَلَ ٱللَّهِ إِذَا جَآءَ لَا يُؤَخَّرُ ۖ لَوْ كُنتُمْ تَعْلَمُونَ</div>
+        <div class="translation">"'Allah will forgive you of your sins and delay you for a specified term. Indeed, the time [set by] Allah, when it comes, will not be delayed, if you only knew.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Noah explains the direct benefits of their obedience: God will forgive their past sins and allow them to live out their natural lives in peace. However, he warns them that God has an appointed time for judgment. Once that final decree arrives, no amount of pleading can delay it.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Forgiveness</span><span class="tag">The Unseen</span><span class="tag">Warning</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 5</span></div>
+        <div class="arabic">قَالَ رَبِّ إِنِّى دَعَوْتُ قَوْمِى لَيْلًۭا وَنَهَارًۭا</div>
+        <div class="translation">"He said, 'My Lord, indeed I invited my people [to truth] night and day.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The Surah shifts to Noah's intimate prayer to God. He presents his profound dedication to his mission, expressing that he exhausted every possible opportunity, preaching to his people continuously through the night and the day for centuries.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Steadfastness</span><span class="tag">Prophetic History</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 6</span></div>
+        <div class="arabic">فَلَمْ يَزِدْهُمْ دُعَآءِىٓ إِلَّا فِرَارًۭا</div>
+        <div class="translation">"'But my invitation increased them in nothing except flight.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Despite Noah's sincere and persistent efforts, the reaction of his people was entirely negative. The more he called them toward guidance and forgiveness, the further they actively ran away from the message.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Human Nature</span><span class="tag">Arrogance</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 7</span></div>
+        <div class="arabic">وَإِنِّى كُلَّمَا دَعَوْتُهُمْ لِتَغْفِرَ لَهُمْ جَعَلُوٓا۟ أَصَـٰبِعَهُمْ فِىٓ ءَاذَانِهِمْ وَٱسْتَغْشَوْا۟ ثِيَابَهُمْ وَأَصَرُّوا۟ وَٱسْتَكْبَرُوا۟ ٱسْتِكْبَارًۭا</div>
+        <div class="translation">"'And indeed, every time I invited them that You may forgive them, they put their fingers in their ears, covered themselves with their garments, persisted, and were arrogant with great arrogance.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Noah details the physical and psychological extent of their rejection. They would literally plug their ears to avoid hearing his words and pull their clothing over their faces to avoid seeing him. They were stubborn in their disbelief and consumed by a deep-seated pride that prevented them from accepting the truth.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Arrogance</span><span class="tag">Human Nature</span><span class="tag">Prophetic History</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 8</span></div>
+        <div class="arabic">ثُمَّ إِنِّى دَعَوْتُهُمْ جِهَارًۭا</div>
+        <div class="translation">"'Then I invited them publicly.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Refusing to give up, Noah diversified his methods. When individual approaches failed, he took his message to public gatherings, speaking openly and loudly so that the entire community would hear the warning.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Steadfastness</span><span class="tag">Prophetic History</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 9</span></div>
+        <div class="arabic">ثُمَّ إِنِّىٓ أَعْلَنتُ لَهُمْ وَأَسْرَرْتُ لَهُمْ إِسْرَارًۭا</div>
+        <div class="translation">"'Then I announced to them and [also] confided to them secretly.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Noah utilized every form of communication available to him. He addressed them in large public announcements, and he also sought them out in private, speaking to them gently in secret. He tailored his approach in hopes that at least one method would reach their hearts.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Steadfastness</span><span class="tag">Social Ethics</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 10</span></div>
+        <div class="arabic">فَقُلْتُ ٱسْتَغْفِرُوا۟ رَبَّكُمْ إِنَّهُۥ كَانَ غَفَّارًۭا</div>
+        <div class="translation">"'And I said, 'Ask forgiveness of your Lord. Indeed, He is ever a Perpetual Forgiver.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The core of Noah's preaching was an appeal to God's mercy. He assured his people that regardless of their past idolatry, if they simply turned back and asked for forgiveness, God's nature is to forgive constantly and completely.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Forgiveness</span><span class="tag">Attributes of Allah</span><span class="tag">Hope</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 11</span></div>
+        <div class="arabic">يُرْسِلِ ٱلسَّمَآءَ عَلَيْكُم مِّدْرَارًۭا</div>
+        <div class="translation">"'He will send [rain from] the sky upon you in [continuing] showers,'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Noah explains that spiritual obedience brings physical blessings. He tells his people that seeking forgiveness will relieve their hardships, as God will bless their lands with abundant, life-giving rain for their crops.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Provision</span><span class="tag">Knowledge & Signs</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 12</span></div>
+        <div class="arabic">وَيُمْدِدْكُم بِأَمْوَٰلٍۢ وَبَنِينَ وَيَجْعَل لَّكُمْ جَنَّـٰتٍۢ وَيَجْعَل لَّكُمْ أَنْهَـٰرًۭا</div>
+        <div class="translation">"'And give you increase in wealth and children and provide for you gardens and provide for you rivers.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">He continues to outline the earthly rewards of repentance. Returning to God is not a path to poverty; rather, Noah assures them that God will bless them with increased wealth, healthy families, and thriving agricultural prosperity.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Wealth</span><span class="tag">Family</span><span class="tag">Provision</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 13</span></div>
+        <div class="arabic">مَّا لَكُمْ لَا تَرْجُونَ لِلَّهِ وَقَارًا</div>
+        <div class="translation">"'What is [the matter] with you that you do not attribute to Allah [due] grandeur,'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Noah questions their lack of reverence. He asks them to reflect on why they do not respect the majesty and greatness of the Creator. Their hearts had become so hardened that they lost the natural awe that a creation should feel toward God.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Truth</span><span class="tag">Attributes of Allah</span><span class="tag">Human Nature</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 14</span></div>
+        <div class="arabic">وَقَدْ خَلَقَكُمْ أَطْوَارًا</div>
+        <div class="translation">"'While He has created you in stages?'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">To help them understand God's greatness, Noah points them to their own biological existence. He reminds them that God created them through careful, distinct stages of development in the womb. Recognizing the complexity of their own creation should lead them to revere the One who created them.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Human Nature</span><span class="tag">Logic</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 15</span></div>
+        <div class="arabic">أَلَمْ تَرَوْا۟ كَيْفَ خَلَقَ ٱللَّهُ سَبْعَ سَمَـٰوَٰتٍۢ طِبَاقًۭا</div>
+        <div class="translation">"Do you not consider how Allah has created seven heavens in layers,"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Noah directs the attention of his people away from their own bodies and toward the vast universe. He asks them to reflect on the perfect, layered structure of the seven heavens above them, presenting it as undeniable evidence of God's immense creative power and orderly design.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">The Unseen</span><span class="tag">Logic</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 16</span></div>
+        <div class="arabic">وَجَعَلَ ٱلْقَمَرَ فِيهِنَّ نُورًۭا وَجَعَلَ ٱلشَّمْسَ سِرَاجًۭا</div>
+        <div class="translation">"And made the moon therein a [reflected] light and made the sun a burning lamp?"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">He continues to highlight celestial signs, drawing a precise distinction between the light of the moon and the sun. He describes the moon as a source of gentle light (Noor) and the sun as a radiant, heat-producing lamp (Siraj), demonstrating God's meticulous engineering of the solar system to sustain human life.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Provision</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 17</span></div>
+        <div class="arabic">وَٱللَّهُ أَنۢبَتَكُم مِّنَ ٱلْأَرْضِ نَبَاتًۭا</div>
+        <div class="translation">"And Allah has caused you to grow from the earth a [progressive] growth."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Noah connects human existence directly to the earth. Just as God causes plants to sprout and grow gradually from the soil, He originated human life from the earth (through Adam) and sustains our physical growth through the food that the earth produces.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Human Nature</span><span class="tag">Knowledge & Signs</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 18</span></div>
+        <div class="arabic">ثُمَّ يُعِيدُكُمْ فِيهَا وَيُخْرِجُكُمْ إِخْرَاجًۭا</div>
+        <div class="translation">"Then He will return you into it and extract you [another] extraction."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">This verse establishes the inevitable cycle of human mortality and resurrection. Noah warns his people that their bodies will return to the earth in death, but that is not the end. God will undoubtedly extract them from the earth once again for the Day of Judgment.</div></div>
+        </div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Truth</span><span class="tag">Warning</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 19</span></div>
+        <div class="arabic">وَٱللَّهُ جَعَلَ لَكُمُ ٱلْأَرْضَ بِسَاطًۭا</div>
+        <div class="translation">"And Allah has made for you the earth an expanse,"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Noah points out another fundamental blessing: the design of the earth itself. God made the earth wide, spread out, and habitable, creating a stable environment perfectly suited for human settlement and activity.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Provision</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 20</span></div>
+        <div class="arabic">لِّتَسْلُكُوا۟ مِنْهَا سُبُلًۭا فِجَاجًۭا</div>
+        <div class="translation">"That you may follow therein roads of passage.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The earth was made vast with clear pathways and wide valleys specifically so that people could travel, seek their livelihood, and connect with one another. This ease of travel is a mercy that should evoke gratitude toward the Creator.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Provision</span><span class="tag">Gratitude</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 21</span></div>
+        <div class="arabic">قَالَ نُوحٌۭ رَّبِّ إِنَّهُمْ عَصَوْنِى وَٱتَّبَعُوا۟ مَن لَّمْ يَزِدْهُ مَالُهُۥ وَوَلَدُهُۥٓ إِلَّا خَسَارًۭا</div>
+        <div class="translation">"Noah said, 'My Lord, indeed they have disobeyed me and followed one whose wealth and children will not increase him except in loss."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">After presenting all these logical arguments, Noah returns to his supplication to God. He reports that despite his efforts, the people rejected his message. Instead of following the truth, the masses chose to blindly follow their wealthy and influential leaders—leaders whose worldly success only deepened their arrogance and spiritual ruin.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Wealth</span><span class="tag">Arrogance</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 22</span></div>
+        <div class="arabic">وَمَكَرُوا۟ مَكْرًۭا كُبَّارًۭا</div>
+        <div class="translation">"And they conspired an immense conspiracy."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The leaders of the society did not just passively ignore Noah; they actively orchestrated campaigns against him. They used their power and influence to devise massive plots to discredit his message and keep the common people firmly devoted to idolatry.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Warning</span><span class="tag">Social Ethics</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 23</span></div>
+        <div class="arabic">وَقَالُوا۟ لَا تَذَرُنَّ ءَالِهَتَكُمْ وَلَا تَذَرُنَّ وَدًّۭا وَلَا سُوَاعًۭا وَلَا يَغُوثَ وَيَعُوقَ وَنَسْرًۭا</div>
+        <div class="translation">"And said, 'Never leave your gods and never leave Wadd or Suwa' or Yaghuth and Ya'uq and Nasr.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The corrupt leaders instructed their followers to hold tightly to their false religion. They specifically named five prominent idols, which according to historical tradition, were originally the names of righteous men from earlier generations. Over time, reverence for these men decayed into full-blown worship, anchoring the society in misguidance.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Arrogance</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 24</span></div>
+        <div class="arabic">وَقَدْ أَضَلُّوا۟ كَثِيرًۭا ۖ وَلَا تَزِدِ ٱلظَّـٰلِمِينَ إِلَّا ضَلَـٰلًۭا</div>
+        <div class="translation">"And already they have misled many. And, [my Lord], do not increase the wrongdoers except in error."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Noah acknowledges the devastating success of the leaders' conspiracy; they had successfully corrupted the vast majority of the population. Seeing that their hostility was permanent and incurable, Noah makes a decisive prayer, asking God to allow the oppressors to sink further into the misguidance they deliberately chose.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Divine Justice</span><span class="tag">Warning</span><span class="tag">Prophetic History</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 25</span></div>
+        <div class="arabic">مِّمَّا خَطِيٓـَٔـٰتِهِمْ أُغْرِقُوا۟ فَأُدْخِلُوا۟ نَارًۭا فَلَمْ يَجِدُوا۟ لَهُم مِّن دُونِ ٱللَّهِ أَنصَارًۭا</div>
+        <div class="translation">"Because of their sins they were drowned and put into the Fire, and they found not for themselves besides Allah any helpers."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God interjects to reveal the ultimate consequence of their actions. Because of their persistent rebellion and sins, they were destroyed by the great flood in this world, and subsequently condemned to the punishment of the Fire in the Hereafter. None of the idols they worshipped or the wealth they hoarded could protect them from God's judgment.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Divine Justice</span><span class="tag">Hell</span><span class="tag">Accountability</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 26</span></div>
+        <div class="arabic">وَقَالَ نُوحٌۭ رَّبِّ لَا تَذَرْ عَلَى ٱلْأَرْضِ مِنَ ٱلْكَـٰفِرِينَ دَيَّارًا</div>
+        <div class="translation">"And Noah said, 'My Lord, do not leave upon the earth from among the disbelievers an inhabitant."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">After centuries of patient preaching, Noah concludes that the society is entirely toxic and beyond reform. He prays for a complete purification of the earth, asking God to remove every single defiant disbeliever so that their corruption cannot spread any further.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Warning</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 27</span></div>
+        <div class="arabic">إِنَّكَ إِن تَذَرْهُمْ يُضِلُّوا۟ عِبَادَكَ وَلَا يَلِدُوٓا۟ إِلَّا فَاجِرًۭا كَفَّارًۭا</div>
+        <div class="translation">"Indeed, if You leave them, they will mislead Your servants and not beget except [every] wicked one and [confirmed] disbeliever."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Noah explains the logical reasoning behind his severe prayer. The corruption had become systemic and generational. If left alive, these people would not only continue to oppress the few believers, but they would also indoctrinate their children in the exact same wicked traditions, ensuring an endless cycle of disbelief and hostility.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Family</span><span class="tag">Social Ethics</span><span class="tag">Logic</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 28</span></div>
+        <div class="arabic">رَّبِّ ٱغْفِرْ لِى وَلِوَٰلِدَىَّ وَلِمَن دَخَلَ بَيْتِىَ مُؤْمِنًۭا وَلِلْمُؤْمِنِينَ وَٱلْمُؤْمِنَـٰتِ وَلَا تَزِدِ ٱلظَّـٰلِمِينَ إِلَّا تَبَارًۢا</div>
+        <div class="translation">"My Lord, forgive me and my parents and whoever enters my house a believer and the believing men and believing women. And do not increase the wrongdoers except in destruction.'"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The Surah concludes with Noah's comprehensive and compassionate prayer. Despite being a mighty Prophet, he humbles himself by asking for personal forgiveness first. He then prays for his parents, those who sought refuge in his home, and extends his supplication to all believing men and women throughout time. He finalizes his plea against the oppressors, asking that their injustice only results in their ultimate ruin.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Forgiveness</span><span class="tag">Family</span><span class="tag">Spiritual Practice</span></div>
+    </div>
+
+</div>
+
+</body>
+</html>
