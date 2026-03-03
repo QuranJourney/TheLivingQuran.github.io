@@ -7,43 +7,43 @@
     <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@300;400;600&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
     <style>
         :root {
-            --bg-color: #ffffff; --text-color: #2d3748; --primary-accent: #2b6cb0; 
-            --border-color: #e2e8f0; --tag-bg: #e6fffa; --tag-text: #2c7a7b;
+            --bg-color: #ffffff; --text-color: #2d3748; --primary-accent: #2c5282; 
+            --border-color: #e2e8f0; --tag-bg: #ebf8ff; --tag-text: #2b6cb0;
             --context-color: #d69e2e; --sufi-color: #38a169; --wisdom-color: #805ad5; --plain-color: #718096; 
         }
         body { font-family: 'Inter', sans-serif; background: var(--bg-color); color: var(--text-color); margin: 0; padding: 0; line-height: 1.6; }
         
-        .nav-bar { padding: 1rem 2rem; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; background: white; z-index: 100; box-shadow: 0 2px 4px rgba(0,0,0,0.05); flex-wrap: wrap; gap: 1rem;}
-        .nav-controls { display: flex; gap: 1.5rem; align-items: center; }
-        .nav-link { text-decoration: none; color: var(--primary-accent); font-weight: 600; display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem;}
-        .nav-link:hover { text-decoration: underline; }
-        .home-btn { background: var(--primary-accent); color: white; padding: 0.5rem 1rem; border-radius: 6px; }
-        .home-btn:hover { background: #2c5282; color: white; text-decoration: none; }
+       .nav-bar { padding: 1rem 2rem; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; background: white; z-index: 100; box-shadow: 0 2px 4px rgba(0,0,0,0.05); flex-wrap: wrap; gap: 1rem;}
+       .nav-controls { display: flex; gap: 1.5rem; align-items: center; }
+       .nav-link { text-decoration: none; color: var(--primary-accent); font-weight: 600; display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem;}
+       .nav-link:hover { text-decoration: underline; }
+       .home-btn { background: var(--primary-accent); color: white; padding: 0.5rem 1rem; border-radius: 6px; }
+       .home-btn:hover { background: #2a4365; color: white; text-decoration: none; }
 
         header { text-align: center; padding: 3rem 1rem 2rem; background: linear-gradient(180deg, #f7fafc 0%, #ffffff 100%); }
         h1 { font-family: 'Merriweather', serif; font-size: 2.8rem; margin: 0; color: #1a202c; }
-        .meta { color: #718096; text-transform: uppercase; letter-spacing: 2px; font-size: 0.85rem; margin-top: 1rem; font-weight: 700; }
-        .intro-text { max-width: 650px; margin: 1.5rem auto 0; font-style: italic; color: #4a5568; }
-        .container { max-width: 900px; margin: 0 auto; padding: 0 1rem 4rem; }
-        .verse-card { background: white; border: 1px solid var(--border-color); border-radius: 12px; padding: 2rem; margin-bottom: 2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.02); }
-        .verse-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; border-bottom: 1px solid #edf2f7; padding-bottom: 0.8rem; }
-        .verse-number { background: var(--primary-accent); color: white; padding: 0.2rem 0.8rem; border-radius: 20px; font-size: 0.85rem; font-weight: 700; }
-        .arabic { font-family: 'Amiri', serif; font-size: 2.4rem; text-align: right; color: #2d3748; margin-bottom: 1.5rem; line-height: 2.2; }
-        .translation { font-family: 'Merriweather', serif; font-size: 1.2rem; color: #1a202c; margin-bottom: 2rem; border-left: 4px solid var(--primary-accent); padding-left: 1rem; }
-        .insights { display: grid; grid-template-columns: 1fr; gap: 1rem; }
-        .insight-box { background: #fff; padding: 1.2rem; border-radius: 8px; border: 1px solid #e2e8f0; border-left-width: 4px; }
-        .insight-box.plain { border-left-color: var(--plain-color); background: #f7fafc; }
-        .insight-box.context { border-left-color: var(--context-color); }
-        .insight-box.sufi { border-left-color: var(--sufi-color); }
-        .insight-box.hikam { border-left-color: var(--wisdom-color); }
-        .label { display: block; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1.2px; font-weight: 700; margin-bottom: 0.5rem; }
-        .plain .label { color: var(--plain-color); }
-        .context .label { color: var(--context-color); }
-        .sufi .label { color: var(--sufi-color); }
-        .hikam .label { color: var(--wisdom-color); }
-        .content { font-size: 0.95rem; color: #4a5568; }
-        .tags { margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; padding-top: 1rem; border-top: 1px solid #edf2f7; }
-        .tag { background: var(--tag-bg); color: var(--tag-text); padding: 0.2rem 0.7rem; border-radius: 99px; font-size: 0.75rem; font-weight: 600; }
+       .meta { color: #718096; text-transform: uppercase; letter-spacing: 2px; font-size: 0.85rem; margin-top: 1rem; font-weight: 700; }
+       .intro-text { max-width: 650px; margin: 1.5rem auto 0; font-style: italic; color: #4a5568; line-height: 1.8; }
+       .container { max-width: 900px; margin: 0 auto; padding: 0 1rem 4rem; }
+       .verse-card { background: white; border: 1px solid var(--border-color); border-radius: 12px; padding: 2rem; margin-bottom: 2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.02); }
+       .verse-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; border-bottom: 1px solid #edf2f7; padding-bottom: 0.8rem; }
+       .verse-number { background: var(--primary-accent); color: white; padding: 0.2rem 0.8rem; border-radius: 20px; font-size: 0.85rem; font-weight: 700; }
+       .arabic { font-family: 'Amiri', serif; font-size: 2.4rem; text-align: right; color: #2d3748; margin-bottom: 1.5rem; line-height: 2.2; }
+       .translation { font-family: 'Merriweather', serif; font-size: 1.2rem; color: #1a202c; margin-bottom: 2rem; border-left: 4px solid var(--primary-accent); padding-left: 1rem; }
+       .insights { display: grid; grid-template-columns: 1fr; gap: 1rem; }
+       .insight-box { background: #fff; padding: 1.2rem; border-radius: 8px; border: 1px solid #e2e8f0; border-left-width: 4px; }
+       .insight-box.plain { border-left-color: var(--plain-color); background: #f7fafc; }
+       .insight-box.context { border-left-color: var(--context-color); }
+       .insight-box.sufi { border-left-color: var(--sufi-color); }
+       .insight-box.hikam { border-left-color: var(--wisdom-color); }
+       .label { display: block; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1.2px; font-weight: 700; margin-bottom: 0.5rem; }
+       .plain .label  { color: var(--plain-color); }
+.context .label { color: var(--context-color); }
+.sufi .label    { color: var(--sufi-color); }
+.hikam .label   { color: var(--wisdom-color); }
+       .content { font-size: 0.95rem; color: #4a5568; }
+       .tags { margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; padding-top: 1rem; border-top: 1px solid #edf2f7; }
+       .tag { background: var(--tag-bg); color: var(--tag-text); padding: 0.2rem 0.7rem; border-radius: 99px; font-size: 0.75rem; font-weight: 600; }
     </style>
 </head>
 <body>
@@ -59,9 +59,9 @@
 
 <header>
     <h1>Surah Al-Falaq</h1>
-    <div class="meta">The Daybreak • Makkah • 5 Verses</div>
+    <div class="meta">The Daybreak • Madinah • 5 Verses</div>
     <div class="intro-text">
-        The Ultimate Shield. This Surah is a divine prescription against the terrifying external forces of the world: the creeping darkness, hidden magic, and the toxic gaze of envy. It teaches that the only safe refuge from the creation is the Creator.
+        The Dawn of Protection. Revealed in Madinah, this Surah, alongside Surah An-Nas, forms the <em>Mu'awwidhatayn</em> (The Two Protectors). It was revealed during a period of immense personal trial for the Prophet Muhammad ﷺ, who was suffering from the physical and psychological effects of a dark spell cast by a hostile figure. Surah Al-Falaq serves as the ultimate divine antidote to external evils. It teaches the believer to seek absolute sanctuary in the Lord of the Daybreak, systematically shielding the soul from the general harms of creation, the creeping dangers of the dark, the unseen malice of dark arts, and the toxic, destructive energy of human envy.
     </div>
 </header>
 
@@ -70,66 +70,92 @@
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 1</span></div>
         <div class="arabic">قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ</div>
-        <div class="translation">"Say, 'I seek refuge in the Lord of daybreak'"</div>
+        <div class="translation">"Say, ˹O Prophet,˺ 'I seek refuge in the Lord of the daybreak'"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Declare and pray: I flee for ultimate protection and safety to the Master and Creator of the breaking dawn.</div></div>
-            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">"A'udhu" means to actively flee from something terrifying into a secure fortress. "Falaq" means to cleave or split open. God splits the dark night to bring forth the bright morning, and splits the seed to bring forth the plant. He is the Lord of new beginnings and sudden relief.</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The "night" is the darkness of ignorance, depression, and sin. Seeking refuge in the Lord of the Daybreak means asking Him to split the darkness of your ego and grant you the illuminating light of guidance.</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"Do not seek refuge in the creation, for it is as fragile as you." Realize that only the One who commands the cosmos to transition from pitch black to blinding light can truly protect your heart from despair.</div></div>
+            <div class="insight-box plain">
+                <span class="label">Plain Understanding</span>
+                <div class="content">A direct command to seek sanctuary and absolute safety in the Creator, specifically invoking His attribute as the One who splits the darkness of the night to bring forth the illuminating light of dawn.</div>
+            </div>
+            <div class="insight-box context">
+                <span class="label">Historical Context (Ibn Kathir & Al-Wahidi)</span>
+                <div class="content">This Surah was revealed after a hypocrite named Labid ibn al-A'sam cast a severe spell on the Prophet ﷺ using hairings from his comb placed in a well. The Prophet ﷺ suffered physical illness and psychological distress for months. God sent down Surah Al-Falaq and Surah An-Nas as a direct spiritual cure (Ruqyah), proving that even the most beloved of creation was susceptible to worldly harm, yet entirely protected by Divine intervention.</div>
+            </div>
+            <div class="insight-box sufi">
+                <span class="label">Purification of the Self (Al-Jilani)</span>
+                <div class="content">"Al-Falaq" (Daybreak) represents the light of divine knowledge breaking through the deep darkness of the human ego and ignorance. Seeking refuge in the Lord of the Dawn means actively turning away from the darkness of self-reliance and asking God to split open the darkness of your own heart with the light of His certainty.</div>
+            </div>
         </div>
-        <div class="tags"><span class="tag">Commands</span><span class="tag">Spiritual Practice</span><span class="tag">Attributes of Allah</span></div>
+        <div class="tags"><span class="tag">Seeking Refuge</span><span class="tag">Divine Light</span><span class="tag">Protection</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 2</span></div>
         <div class="arabic">مِن شَرِّ مَا خَلَقَ</div>
-        <div class="translation">"From the evil of that which He created"</div>
+        <div class="translation">"from the evil of whatever He has created,"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Protect me from all the harm, danger, and evil that exists within any of His creations.</div></div>
-            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">God created all things, and within the creation exists the capacity for harm (venomous animals, oppressive humans, diseases, accidents). This is a sweeping, general request for physical and spiritual protection from all external worldly harm.</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">Notice it says "the evil of what He created," affirming that evil is not an independent divine force. Evil is the absence of good, or the misuse of creation. The ultimate "evil of creation" that you must seek refuge from is your own Nafs (ego) when it disobeys.</div></div>
+            <div class="insight-box plain">
+                <span class="label">Plain Understanding</span>
+                <div class="content">A comprehensive plea for protection against any harm, mischief, or pain originating from any created being—whether it be human, jinn, animal, or environmental.</div>
+            </div>
+            <div class="insight-box hikam">
+                <span class="label">Divine Wisdom (Ibn Ata'illah)</span>
+                <div class="content">True refuge is recognizing that all creation is entirely subject to the Creator. Harm cannot touch you without His permission, so you seek safety from the potential harm of His creation by fleeing directly to the safety of the Creator Himself. The created world is an illusion of power; the only real Power is God.</div>
+            </div>
         </div>
-        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Knowledge & Signs</span><span class="tag">Hope</span></div>
+        <div class="tags"><span class="tag">Creation</span><span class="tag">Tawakkul (Trust)</span><span class="tag">Safety</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 3</span></div>
         <div class="arabic">وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ</div>
-        <div class="translation">"And from the evil of darkness when it settles"</div>
+        <div class="translation">"and from the evil of the night when it grows dark,"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">And specifically, protect me from the hidden evils that emerge when the intensely dark night covers the earth.</div></div>
-            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">"Ghasiq" is the pitch-black night. Historically, the night was a time of immense vulnerability. When darkness settles (Waqab), thieves strike, wild predators hunt, and people are asleep and defenseless. It is a plea for safety when human vigilance is at its weakest.</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The "darkness that settles" represents periods of spiritual depression (Qabd) or moments when heedlessness overtakes the heart, allowing whispers of doubt and temptation to sneak in while the intellect is "asleep."</div></div>
+            <div class="insight-box plain">
+                <span class="label">Plain Understanding</span>
+                <div class="content">Specifically seeking safety from the terrors that emerge when the sun sets and intense darkness envelops the world, a time when both physical threats (like predators and criminals) and spiritual threats multiply.</div>
+            </div>
+            <div class="insight-box sufi">
+                <span class="label">Purification of the Self (Al-Ghazali)</span>
+                <div class="content">The "darkness that settles" is a profound metaphor for the veil of heedlessness (Ghaflah) that descends upon the heart when it forgets God. The worst evil of the night is not what lurks in the shadows outside, but a soul sleeping through the opportunity for night prayer and divine intimacy, allowing the darkness to consume it from within.</div>
+            </div>
         </div>
-        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Human Nature</span></div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Heedlessness</span><span class="tag">Vigilance</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 4</span></div>
         <div class="arabic">وَمِن شَرِّ ٱلنَّفَّـٰثَـٰتِ فِى ٱلْعُقَدِ</div>
-        <div class="translation">"And from the evil of the blowers in knots"</div>
+        <div class="translation">"and from the evil of those ˹witches casting spells by˺ blowing onto knots,"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">And from the evil of those who practice dark magic, sorcery, and witchcraft.</div></div>
-            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">Refers to sorcerers who would tie knots in a string and blow upon them with incantations to cause harm. While originally revealed in Makkah, these Surahs were heavily recited later in Madinah when a man named Labeed bin Al-A'sam cast a dark spell on the Prophet ﷺ, causing him severe physical illness. Reciting these verses broke the spell entirely.</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">Metaphorically, the "blowers in knots" are the toxic people, cynics, or demonic whispers that try to untie your firm resolutions ("knots") of faith. They blow doubt onto your commitments to break your spiritual discipline.</div></div>
+            <div class="insight-box plain">
+                <span class="label">Plain Understanding</span>
+                <div class="content">Asking protection from those who practice sorcery and dark arts, specifically referencing the ancient occult practice of tying knots in a string and blowing malicious incantations into them to inflict hidden harm.</div>
+            </div>
+            <div class="insight-box context">
+                <span class="label">Historical Context (Al-Qurtubi)</span>
+                <div class="content">In the incident with Labid ibn al-A'sam, his daughters assisted him by tying eleven knots in a cord, blowing dark incantations onto each. As the Prophet ﷺ recited the eleven combined verses of the Mu'awwidhatayn (5 in Al-Falaq, 6 in An-Nas), a knot miraculously untied with each verse, lifting the heavy psychological and physical burden from him entirely.</div>
+            </div>
         </div>
-        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Prophetic History</span><span class="tag">Spiritual Practice</span></div>
+        <div class="tags"><span class="tag">Spiritual Warfare</span><span class="tag">Healing</span><span class="tag">The Unseen</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 5</span></div>
         <div class="arabic">وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ</div>
-        <div class="translation">"And from the evil of an envier when he envies."</div>
+        <div class="translation">"and from the evil of an envier when they envy.”"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">And protect me from the destructive malice of a jealous person when they actively project their envy upon me.</div></div>
-            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">Hasad (envy) is desiring that a blessing be stripped away from someone else. It was the first sin committed in heaven (Iblis envying Adam) and on earth (Cain envying Abel). The "evil eye" (Ayn) is a very real, metaphysical consequence of intense envy that can cause physical and psychological harm.</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The Prophet ﷺ said, "Envy consumes good deeds just as fire consumes wood." Seeking refuge from the envier also means begging God to cure your *own* heart from harboring envy toward others. If you envy, you become the villain of this verse.</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"Whoever envies the creation is implicitly objecting to the Creator's distribution of His grace." Envy is fundamentally a theological problem: it is an accusation that God made a mistake in giving someone else a blessing instead of you.</div></div>
+            <div class="insight-box plain">
+                <span class="label">Plain Understanding</span>
+                <div class="content">A final, powerful shield against the destructive, malicious energy of an envious person (Hasid) who not only desires the blessings you have, but actively wishes for them to be destroyed and taken away from you.</div>
+            </div>
+            <div class="insight-box sufi">
+                <span class="label">Purification of the Self (Al-Ghazali)</span>
+                <div class="content">Envy (Hasad) is the most dangerous sickness of the heart. As Al-Ghazali notes, the envier is fundamentally furious at Allah's rule and decree, objecting to His divine distribution of mercy. The Prophet ﷺ warned that "envy consumes good deeds just as fire consumes wood." To protect yourself from the envier, you must first ensure you extinguish the fire of envy within your own soul.</div>
+            </div>
         </div>
-        <div class="tags"><span class="tag">Human Nature</span><span class="tag">Sin</span><span class="tag">The Unseen</span></div>
+        <div class="tags"><span class="tag">Envy (Hasad)</span><span class="tag">Diseases of the Heart</span><span class="tag">Purity of Heart</span></div>
     </div>
 
-</div>
-
+</div> 
 </body>
 </html>
