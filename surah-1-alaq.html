@@ -13,38 +13,37 @@
         }
         body { font-family: 'Inter', sans-serif; background: var(--bg-color); color: var(--text-color); margin: 0; padding: 0; line-height: 1.6; }
         
-        /* Updated Navigation Bar */
-        .nav-bar { padding: 1rem 2rem; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; background: white; z-index: 100; box-shadow: 0 2px 4px rgba(0,0,0,0.05); flex-wrap: wrap; gap: 1rem;}
-        .nav-controls { display: flex; gap: 1.5rem; align-items: center; }
-        .nav-link { text-decoration: none; color: var(--primary-accent); font-weight: 600; display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem;}
-        .nav-link:hover { text-decoration: underline; }
-        .home-btn { background: var(--primary-accent); color: white; padding: 0.5rem 1rem; border-radius: 6px; }
-        .home-btn:hover { background: #2c5282; color: white; text-decoration: none; }
+      .nav-bar { padding: 1rem 2rem; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; background: white; z-index: 100; box-shadow: 0 2px 4px rgba(0,0,0,0.05); flex-wrap: wrap; gap: 1rem;}
+      .nav-controls { display: flex; gap: 1.5rem; align-items: center; }
+      .nav-link { text-decoration: none; color: var(--primary-accent); font-weight: 600; display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem;}
+      .nav-link:hover { text-decoration: underline; }
+      .home-btn { background: var(--primary-accent); color: white; padding: 0.5rem 1rem; border-radius: 6px; }
+      .home-btn:hover { background: #2c5282; color: white; text-decoration: none; }
 
         header { text-align: center; padding: 3rem 1rem 2rem; background: linear-gradient(180deg, #f7fafc 0%, #ffffff 100%); }
         h1 { font-family: 'Merriweather', serif; font-size: 2.8rem; margin: 0; color: #1a202c; }
-        .meta { color: #718096; text-transform: uppercase; letter-spacing: 2px; font-size: 0.85rem; margin-top: 1rem; font-weight: 700; }
-        .intro-text { max-width: 650px; margin: 1.5rem auto 0; font-style: italic; color: #4a5568; }
-        .container { max-width: 900px; margin: 0 auto; padding: 0 1rem 4rem; }
-        .verse-card { background: white; border: 1px solid var(--border-color); border-radius: 12px; padding: 2rem; margin-bottom: 2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.02); }
-        .verse-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; border-bottom: 1px solid #edf2f7; padding-bottom: 0.8rem; }
-        .verse-number { background: var(--primary-accent); color: white; padding: 0.2rem 0.8rem; border-radius: 20px; font-size: 0.85rem; font-weight: 700; }
-        .arabic { font-family: 'Amiri', serif; font-size: 2.4rem; text-align: right; color: #2d3748; margin-bottom: 1.5rem; line-height: 2.2; }
-        .translation { font-family: 'Merriweather', serif; font-size: 1.2rem; color: #1a202c; margin-bottom: 2rem; border-left: 4px solid var(--primary-accent); padding-left: 1rem; }
-        .insights { display: grid; grid-template-columns: 1fr; gap: 1rem; }
-        .insight-box { background: #fff; padding: 1.2rem; border-radius: 8px; border: 1px solid #e2e8f0; border-left-width: 4px; }
-        .insight-box.plain { border-left-color: var(--plain-color); background: #f7fafc; }
-        .insight-box.context { border-left-color: var(--context-color); }
-        .insight-box.sufi { border-left-color: var(--sufi-color); }
-        .insight-box.hikam { border-left-color: var(--wisdom-color); }
-        .label { display: block; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1.2px; font-weight: 700; margin-bottom: 0.5rem; }
-        .plain .label { color: var(--plain-color); }
-        .context .label { color: var(--context-color); }
-        .sufi .label { color: var(--sufi-color); }
-        .hikam .label { color: var(--wisdom-color); }
-        .content { font-size: 0.95rem; color: #4a5568; }
-        .tags { margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; padding-top: 1rem; border-top: 1px solid #edf2f7; }
-        .tag { background: var(--tag-bg); color: var(--tag-text); padding: 0.2rem 0.7rem; border-radius: 99px; font-size: 0.75rem; font-weight: 600; }
+      .meta { color: #718096; text-transform: uppercase; letter-spacing: 2px; font-size: 0.85rem; margin-top: 1rem; font-weight: 700; }
+      .intro-text { max-width: 650px; margin: 1.5rem auto 0; font-style: italic; color: #4a5568; }
+      .container { max-width: 900px; margin: 0 auto; padding: 0 1rem 4rem; }
+      .verse-card { background: white; border: 1px solid var(--border-color); border-radius: 12px; padding: 2rem; margin-bottom: 2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.02); }
+      .verse-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; border-bottom: 1px solid #edf2f7; padding-bottom: 0.8rem; }
+      .verse-number { background: var(--primary-accent); color: white; padding: 0.2rem 0.8rem; border-radius: 20px; font-size: 0.85rem; font-weight: 700; }
+      .arabic { font-family: 'Amiri', serif; font-size: 2.4rem; text-align: right; color: #2d3748; margin-bottom: 1.5rem; line-height: 2.2; }
+      .translation { font-family: 'Merriweather', serif; font-size: 1.2rem; color: #1a202c; margin-bottom: 2rem; border-left: 4px solid var(--primary-accent); padding-left: 1rem; }
+      .insights { display: grid; grid-template-columns: 1fr; gap: 1rem; }
+      .insight-box { background: #fff; padding: 1.2rem; border-radius: 8px; border: 1px solid #e2e8f0; border-left-width: 4px; }
+      .insight-box.plain { border-left-color: var(--plain-color); background: #f7fafc; }
+      .insight-box.context { border-left-color: var(--context-color); }
+      .insight-box.sufi { border-left-color: var(--sufi-color); }
+      .insight-box.hikam { border-left-color: var(--wisdom-color); }
+      .label { display: block; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1.2px; font-weight: 700; margin-bottom: 0.5rem; }
+      .plain .label  { color: var(--plain-color); }
+.context .label { color: var(--context-color); }
+.sufi .label    { color: var(--sufi-color); }
+.hikam .label   { color: var(--wisdom-color); }
+      .content { font-size: 0.95rem; color: #4a5568; }
+      .tags { margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; padding-top: 1rem; border-top: 1px solid #edf2f7; }
+      .tag { background: var(--tag-bg); color: var(--tag-text); padding: 0.2rem 0.7rem; border-radius: 99px; font-size: 0.75rem; font-weight: 600; }
     </style>
 </head>
 <body>
@@ -52,16 +51,16 @@
 <div class="nav-bar">
     <div class="nav-controls">
         <a href="index.html" class="nav-link home-btn">⌂ Dashboard</a>
-        <span class="nav-link" style="color: #a0aec0; cursor: default;">← Prev</span>
         <a href="surah-2-qalam.html" class="nav-link">Next →</a>
     </div>
     <span style="font-weight: 600; color: #718096; font-size: 0.9rem;">Mushaf: #96 | Chronological: #1</span>
 </div>
+
 <header>
     <h1>Surah Al-Alaq</h1>
     <div class="meta">The Clot • Makkah • 19 Verses</div>
     <div class="intro-text">
-        The first drops of rain from the heavens after a drought of six hundred years. This Surah captures the absolute poverty of man before his Creator and the absolute arrogance of man when he thinks he is independent.
+        The Spark of Divine Intimacy. The opening lines of this Surah mark the very first drops of revelation to descend upon the Earth, delivered to an unlettered, deeply contemplative man trembling in the Cave of Hira. It begins by establishing the profound connection between human humility and divine knowledge, acting as a spiritual anchor. The second half of the Surah dramatically shifts to the dusty courtyard of the Ka'bah, capturing the severe historical confrontation with Abu Jahl—a man blinded by wealth and ego. Ultimately, the Surah is a masterclass in navigating spiritual hostility, teaching the heart that true safety and power are not found in returning aggression, but in dropping to the earth in absolute, loving surrender to the Creator.
     </div>
 </header>
 
@@ -72,15 +71,11 @@
         <div class="arabic">ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ</div>
         <div class="translation">"Read, ˹O Prophet,˺ in the Name of your Lord Who created—"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The very first divine command to humanity is an invitation to seek knowledge, anchored not in ego, but entirely in the Name of the loving Creator.</div></div>
-            <div class="insight-box context"><span class="label">Historical Context (Sahih Bukhari)</span><div class="content">The Prophet ﷺ, who could neither read nor write, was retreating in Cave Hira when the Angel Jibril suddenly appeared. The angel seized him in a crushing embrace three times, commanding him, "Iqra!" (Read!). The Prophet replied in sheer terror, "I am not a reader." Finally, Jibril released him and recited these earth-shattering opening words.</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">Secular knowledge pursued for worldly gain merely inflates the ego. But knowledge pursued "in the Name of your Lord" purifies the heart. The very first instruction of Islam is that intellectual pursuit must be permanently married to spiritual humility.</div></div>
-                 <div class="insight-box hikam">
-                <span class="label">Divine Wisdom (Ibn Ata’illah)</span>
-                <div class="content">"He who is illumined at the beginning, is illumined at the end." By starting the revelation with the Name of the Lord, Allah guaranteed its perfection and preservation. If you start your affairs with Bismillah, the end is secured.</div>
-            </div>
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The Creator gently commands the unlettered Prophet to read. He is instructed to do so not through his own intellectual capacity, but by relying entirely on the infinite power of the One who brought the entire universe into existence.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Ibn Kathir)</span><div class="content">These are the very first words of the Quran ever revealed. The Prophet ﷺ had retreated to the Cave of Hira seeking solitude from a morally corrupt society. The Archangel Jibreel appeared, pressing him so tightly to his chest that he could barely breathe, and commanded him to "Read." The Prophet, terrified and illiterate, replied, "I cannot read." Jibreel was breaking his reliance on normal human capability, preparing his heart to receive a purely divine transmission.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">Knowledge without a divine connection is a dangerous illusion. The command is not simply 'Read', but 'Read in the Name of your Lord'. Any science, philosophy, or text you engage with that does not ultimately point your heart back in awe to the Creator is a veil over your soul.</div></div>
         </div>
-        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Prophetic History</span><span class="tag">Humility</span></div>
+        <div class="tags"><span class="tag">Divine Revelation</span><span class="tag">Knowledge</span><span class="tag">Prophetic History</span></div>
     </div>
 
     <div class="verse-card">
@@ -88,17 +83,10 @@
         <div class="arabic">خَلَقَ ٱلْإِنسَـٰنَ مِنْ عَلَقٍ</div>
         <div class="translation">"created humans from a clinging clot."</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The Creator immediately grounds the human being in reality, reminding us of our incredibly fragile, microscopic biological origins.</div></div>
-            <div class="insight-box sufi">
-                <span class="label">Purification of the Self (Al-Jilani)</span>
-                <div class="content">This is the cure for Arrogance (Kibr). O Man, you who walk the earth with pride, remember your origin. You are not made of gold or light; you are made of a clinging, humble fluid. Realize your lowliness to witness His Greatness.</div>
-            </div>
-            <div class="insight-box hikam">
-                <span class="label">Divine Wisdom (Ibn Ata’illah)</span>
-                <div class="content">"Your desire to be known among people is a proof of your lack of truthfulness in your servitude." Why do you seek greatness when your origin is so humble? True dignity comes from the Creator, not the created material.</div>
-            </div>
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">We are immediately reminded of our incredibly fragile, microscopic origins—we began our existence in the womb as nothing more than a helpless, clinging substance entirely dependent on God for survival.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata'illah)</span><div class="content">"Your indigence belongs to you essentially... The trials that arrive in this world are but reminders to you of what you ignore of indigence." Remembering that you originated from a mere clot of blood is the ultimate medicine for the ego. How can a creature born of such absolute weakness ever exhibit pride before the Eternal King?</div></div>
         </div>
-        <div class="tags"><span class="tag">Human Nature</span><span class="tag">Humility</span><span class="tag">Attributes of Allah</span></div>
+        <div class="tags"><span class="tag">Human Nature</span><span class="tag">Humility</span><span class="tag">Creation</span></div>
     </div>
 
     <div class="verse-card">
@@ -106,14 +94,10 @@
         <div class="arabic">ٱقْرَأْ وَرَبُّكَ ٱلْأَكْرَمُ</div>
         <div class="translation">"Read! And your Lord is the Most Generous,"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The command to learn is repeated, beautifully paired with the reassurance that God's generosity and willingness to teach are absolutely boundless.</div></div>
-            <div class="insight-box context">
-                <span class="label">Historical Context (Al-Qurtubi)</span>
-                <div class="content">The Prophet ﷺ feared he could not carry this heavy message. Allah uses the superlative Al-Akram to reassure him: "You don't need to be capable; I am Generous enough to give even to the incapable."</div>
-            </div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">He is Al-Akram (The Most Generous). A generic king gives you gold; the Most Generous King gives you the capacity to know Him intimately. Do not fear your inability to "read" or comprehend, for the Generous One will pour the understanding directly into your heart.</div></div>
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The command is warmly repeated to reassure the anxious Prophet: do not worry about your human limitations, because your Lord is abundantly, unimaginably generous and will give you the capacity to bear this heavy message.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">The title 'Al-Akram' (The Most Generous) signifies the One who gives without the recipient having any prior merit, capacity, or right to earn the gift. Your ability to comprehend truth, to pray, and even to draw breath right now is an unearned, continuous charity from Him.</div></div>
         </div>
-        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">Compassion</span><span class="tag">Knowledge & Signs</span></div>
+        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">Grace</span><span class="tag">Comfort</span></div>
     </div>
 
     <div class="verse-card">
@@ -121,18 +105,10 @@
         <div class="arabic">ٱلَّذِى عَلَّمَ بِٱلْقَلَمِ</div>
         <div class="translation">"Who taught by the pen—"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The Almighty elevates the written word as a sacred, divine instrument used to record, preserve, and transmit wisdom across generations.</div></div>
-            <div class="insight-box context"><span class="label">Historical Context (Ibn Kathir)</span><div class="content">In 7th-century Arabia, literacy was exceedingly rare, and oral tradition dominated. By emphasizing the "Pen" to an unlettered Prophet in the very first revelation, God laid the foundation for an Islamic civilization that would eventually build the greatest libraries, universities, and scientific centers the world had ever seen.</div></div>
-            <div class="insight-box sufi">
-                <span class="label">Purification of the Self (Al-Jilani)</span>
-                <div class="content">The Pen has no will of its own; it only writes what the writer intends. The heart of the Murid (seeker) should be like the pen in the hand of Allah—silent, submissive, and moving only when moved by the Divine Command.</div>
-            </div>
-            <div class="insight-box hikam">
-                <span class="label">Divine Wisdom (Ibn Ata’illah)</span>
-                <div class="content">"He subjected everything to you, so that you might know His kindness in everything." The pen, the paper, the ink—all are subjected to serve your learning. Do not get lost in the tool and forget the Designer of the tool.</div>
-            </div>
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">He is the Supreme Teacher who gifted humanity the magnificent, elevating tool of the pen, allowing us to record, preserve, and transmit wisdom across oceans and centuries.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Tabari)</span><div class="content">God is elevating the status of literacy and documentation. To a Prophet who could not wield a pen himself, God is establishing that the very same Sovereign who taught ancient humanity to write will now directly inscribe the ultimate truth permanently upon his purified heart.</div></div>
         </div>
-        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Truth</span></div>
+        <div class="tags"><span class="tag">Knowledge</span><span class="tag">Divine Gift</span></div>
     </div>
 
     <div class="verse-card">
@@ -140,13 +116,10 @@
         <div class="arabic">عَلَّمَ ٱلْإِنسَـٰنَ مَا لَمْ يَعْلَمْ</div>
         <div class="translation">"taught humanity what they knew not."</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Every single drop of human understanding, intellectual breakthrough, and technological advancement ultimately originates entirely from the Creator's grace.</div></div>
-            <div class="insight-box context">
-                <span class="label">Historical Context (Al-Qurtubi)</span>
-                <div class="content">This refers to Adam (AS) being taught the names of things, and specifically to Muhammad ﷺ being taught the Quran despite being unlettered.</div>
-            </div>
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Every single discovery, insight, and scientific breakthrough ever achieved by a human mind was actually a profound secret lovingly unveiled by the Creator.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">When a scholar or scientist discovers something new, they must be very careful not to worship their own intellect. The highest station of knowledge is the profound, shattering realization that your mind is merely an empty vessel, and everything you know was gently poured into it by the Divine.</div></div>
         </div>
-        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">Humility</span></div>
+        <div class="tags"><span class="tag">Humility</span><span class="tag">Intellect</span><span class="tag">Gratitude</span></div>
     </div>
 
     <div class="verse-card">
@@ -154,10 +127,9 @@
         <div class="arabic">كَلَّآ إِنَّ ٱلْإِنسَـٰنَ لَيَطْغَىٰٓ</div>
         <div class="translation">"Most certainly, one exceeds all bounds"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Despite this profound divine generosity, human beings possess a dark, tragic tendency to arrogantly rebel and violently oppress others.</div></div>
-            <div class="insight-box context"><span class="label">Historical Context (Al-Tabari)</span><div class="content">The narrative dramatically fast-forwards several years from Cave Hira. These subsequent verses were revealed specifically addressing Abu Jahl, the tyrannical chieftain of Makkah, who had begun a vicious campaign of terror to stop the Prophet ﷺ and the early Muslims from worshiping at the Kaaba.</div></div>
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The tone sharply pivots to diagnose a devastating human flaw: despite receiving all these magnificent gifts, people have a terrifying tendency to rebel, oppress others, and aggressively cross moral limits.</div></div>
         </div>
-        <div class="tags"><span class="tag">Arrogance</span><span class="tag">Human Nature</span><span class="tag">Warning</span></div>
+        <div class="tags"><span class="tag">Human Nature</span><span class="tag">Arrogance</span><span class="tag">Warning</span></div>
     </div>
 
     <div class="verse-card">
@@ -165,10 +137,11 @@
         <div class="arabic">أَن رَّءَاهُ ٱسْتَغْنَىٰٓ</div>
         <div class="translation">"once they think they are self-sufficient."</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The absolute root cause of tyranny is exposed: the deadly delusion that a person no longer needs God, relying entirely on their own wealth and worldly status.</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata'illah)</span><div class="content">"The ego's greatest lie is the illusion of independence." When a human being feels perfectly secure in their bank account or political power, the heart hardens. Poverty that forces you to beg God is spiritually superior to wealth that makes you forget Him.</div></div>
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The root cause of all tyranny and rebellion is the grand illusion of independence—when a person gains wealth, status, or power, and foolishly believes they no longer need God's help or supervision.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">These verses mark a shift in the timeline, descending later in Makkah specifically targeting Abu Jahl. He was a deeply arrogant, wealthy tribal leader whose massive fortune and political influence made him feel invincible. He viewed the Prophet's ﷺ call to submit to an unseen God as a direct threat to his earthly supremacy.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata'illah)</span><div class="content">"The root of every disobedience, distraction, and desire lies in being satisfied with the self." The moment you look at your bank account, your intelligence, or your social standing and feel 'self-sufficient' (*Istighna*), you have severed the vital cord of spiritual poverty (*Iftiqar*) that tethers you to the Divine. You are in extreme danger.</div></div>
         </div>
-        <div class="tags"><span class="tag">Greed</span><span class="tag">Illusion of Dunya</span><span class="tag">Arrogance</span></div>
+        <div class="tags"><span class="tag">Wealth</span><span class="tag">Illusion of Dunya</span><span class="tag">Egoism</span></div>
     </div>
 
     <div class="verse-card">
@@ -176,13 +149,9 @@
         <div class="arabic">إِنَّ إِلَىٰ رَبِّكَ ٱلرُّجْعَىٰٓ</div>
         <div class="translation">"˹But˺ surely to your Lord is the return ˹of all˺."</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">A gentle but inescapable grounding in reality: no matter how powerful or wealthy an oppressor feels today, they will inevitably die and stand completely vulnerable before their Creator.</div></div>
-            <div class="insight-box context">
-                <span class="label">Historical Context (Al-Qurtubi)</span>
-                <div class="content">A threat to Abu Jahl: "You may rule Makkah, but you will return to Allah soon."</div>
-            </div>
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">A stark, grounding reality check designed to shatter the illusion of power: no matter how high you climb in this temporary world, your ultimate and unavoidable destination is the grave, where you will stand completely bare before your Creator.</div></div>
         </div>
-        <div class="tags"><span class="tag">Accountability</span><span class="tag">Truth</span><span class="tag">Divine Justice</span></div>
+        <div class="tags"><span class="tag">Life & Death</span><span class="tag">Accountability</span><span class="tag">Ultimate Return</span></div>
     </div>
 
     <div class="verse-card">
@@ -190,10 +159,10 @@
         <div class="arabic">أَرَءَيْتَ ٱلَّذِى يَنْهَىٰ</div>
         <div class="translation">"Have you seen the man who prevents"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God poses a rhetorical question, drawing sheer astonishment at the audacity of a human being attempting to block the worship of the Almighty.</div></div>
-            <div class="insight-box context"><span class="label">Historical Context (Ibn Ishaq)</span><div class="content">Abu Jahl publicly swore an oath to the Quraysh, saying, "If I see Muhammad prostrating his face in the dust at the Kaaba, I will surely trample his neck and smear his face with dirt!" He arrogantly positioned himself as a physical barrier between the Prophet ﷺ and his Lord.</div></div>
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The Divine asks us to direct our attention to the shocking, audacious behavior of a deeply corrupt individual who actively uses his worldly influence to stop others from worshiping.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Ibn Kathir)</span><div class="content">This addresses a horrifying incident in the Seerah. Abu Jahl, enraged that the Prophet ﷺ dared to publicly worship at the Ka'bah, gathered his elite friends and swore a violent oath: "If I see Muhammad praying here, I will stomp on his neck and grind his face into the dust!"</div></div>
         </div>
-        <div class="tags"><span class="tag">Arrogance</span><span class="tag">Prophetic History</span><span class="tag">Hardship</span></div>
+        <div class="tags"><span class="tag">Historical Warning</span><span class="tag">Arrogance</span><span class="tag">Prophetic History</span></div>
     </div>
 
     <div class="verse-card">
@@ -201,13 +170,10 @@
         <div class="arabic">عَبْدًا إِذَا صَلَّىٰٓ</div>
         <div class="translation">"a servant ˹of Ours˺ from praying?"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The text beautifully defends the Prophet ﷺ, elevating his honor by referring to him simply and profoundly as a devoted servant engaged in the intimate act of prayer.</div></div>
-            <div class="insight-box context">
-                <span class="label">Historical Context (Al-Qurtubi)</span>
-                <div class="content">Abu Jahl vowed to stop the Prophet ﷺ from praying at the Kaaba.</div>
-            </div>
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">He is threatening the most peaceful, beloved servant of God, whose only "crime" is standing quietly in deep, intimate conversation with his Lord.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">When you truly step onto the path of sincere worship, the forces of the *Dunya* will inevitably rise to obstruct you. Do not let the threats of people derail your focus. These obstacles are intentionally placed by divine decree to test the absolute sincerity of your devotion.</div></div>
         </div>
-        <div class="tags"><span class="tag">Prayer</span><span class="tag">Sincerity</span><span class="tag">Humility</span></div>
+        <div class="tags"><span class="tag">Hardship</span><span class="tag">Spiritual Practice</span><span class="tag">Test</span></div>
     </div>
 
     <div class="verse-card">
@@ -215,11 +181,7 @@
         <div class="arabic">أَرَءَيْتَ إِن كَانَ عَلَى ٱلْهُدَىٰٓ</div>
         <div class="translation">"What if this ˹servant˺ is ˹rightly˺ guided,"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">An invitation to pure logic: consider the absolute tragedy and spiritual ruin of violently attacking a man who is simply walking a path of divine light.</div></div>
-            <div class="insight-box sufi">
-                <span class="label">Purification of the Self</span>
-                <div class="content">Before you judge or stop someone, check yourself. Are you stopping goodness? The heart must always assume the best of others (Husn al-Zann).</div>
-            </div>
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Consider the sheer madness and tragedy of the oppressor: he is violently attacking a man whose life is a perfect manifestation of heavenly guidance and light.</div></div>
         </div>
         <div class="tags"><span class="tag">Guidance</span><span class="tag">Truth</span></div>
     </div>
@@ -229,10 +191,9 @@
         <div class="arabic">أَوْ أَمَرَ بِٱلتَّقْوَىٰٓ</div>
         <div class="translation">"or encourages righteousness?"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Not only is he personally guided, but his entire public mission consists of calling his community to moral beauty, compassion, and deep reverence for God.</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The sickness of the oppressor is that they view the call to righteousness (Taqwa) as a personal attack on their power. The tyrant does not hate the Prophet; the tyrant hates the moral mirror the Prophet holds up to him.</div></div>
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Furthermore, this targeted servant is not harming society; he is actively calling his community toward deep morality, compassion, and mindfulness of God.</div></div>
         </div>
-        <div class="tags"><span class="tag">Spiritual Practice</span><span class="tag">Compassion</span></div>
+        <div class="tags"><span class="tag">Righteousness</span><span class="tag">Social Ethics</span></div>
     </div>
 
     <div class="verse-card">
@@ -240,9 +201,10 @@
         <div class="arabic">أَرَءَيْتَ إِن كَذَّبَ وَتَوَلَّىٰٓ</div>
         <div class="translation">"What if that ˹man˺ persists in denial and turns away?"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Reflect deeply on the terrifying internal state of the tyrant who consciously, aggressively rejects the truth and physically turns his back on his own salvation.</div></div>
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Look at the dark internal state of the tyrant: he stubbornly rejects the clear, undeniable truth and arrogantly turns his back on the very path that would save his soul.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata'illah)</span><div class="content">"Were it not for the seeds of ambitious desire, the branches of disgrace would not be lofty." The oppressor's rejection is rarely intellectual. Abu Jahl did not reject the Prophet ﷺ because the message lacked proof; he rejected it because his diseased, inflated ego utterly refused to submit to a peer. His desire for status became his spiritual graveyard.</div></div>
         </div>
-        <div class="tags"><span class="tag">Arrogance</span><span class="tag">Human Nature</span></div>
+        <div class="tags"><span class="tag">Arrogance</span><span class="tag">Spiritual Blindness</span></div>
     </div>
 
     <div class="verse-card">
@@ -250,10 +212,10 @@
         <div class="arabic">أَلَمْ يَعْلَم بِأَنَّ ٱللَّهَ يَرَىٰ</div>
         <div class="translation">"Does he not know that Allah sees ˹all˺?"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The ultimate reality check shatters the tyrant's delusion: he acts as if he is an invincible king, completely forgetting that the Master of the Universe watches his every breath.</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata'illah)</span><div class="content">"If you commit a sin knowing He is watching, how audacious is your rebellion? And if you commit it thinking He is not watching, how profound is your disbelief?" Awareness of His gaze is the foundation of all spiritual discipline.</div></div>
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">A chilling warning sent across time to every person who abuses power: you are never operating in secret. The Supreme Sovereign is intimately watching every aggressive move and hidden thought.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">True *Muraqabah* (vigilant self-examination) is living every second with the profound realization that the piercing gaze of the Creator rests firmly upon your heart. The tyrant's ultimate disease is forgetting this gaze, while the believer finds absolute, unshakable safety within it.</div></div>
         </div>
-        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">Accountability</span><span class="tag">The Unseen</span></div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Accountability</span><span class="tag">Divine Justice</span></div>
     </div>
 
     <div class="verse-card">
@@ -261,10 +223,10 @@
         <div class="arabic">كَلَّا لَئِن لَّمْ يَنتَهِ لَنَسْفَعًۢا بِٱلنَّاصِيَةِ</div>
         <div class="translation">"But no! If he does not desist, We will certainly drag him by the forelock—"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">A terrifying, severe promise of justice is issued: if the oppressor does not halt his abuse, God will violently seize and drag him by the front of his head.</div></div>
-            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">In ancient Arab culture, the 'Nasiyah' (forelock, or front of the hair) was the absolute symbol of pride, dignity, and nobility. When a man surrendered in battle, his forelock was cut. God promises Abu Jahl the ultimate cultural and physical humiliation: the very pride he refuses to bow to God will be used to drag him into the Fire.</div></div>
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God issues a fierce, definitive ultimatum: if he does not abandon this wicked oppression, he will be violently seized by the front of his head and forcefully dragged to face his punishment.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Tabari)</span><div class="content">In ancient Arab culture, the 'forelock' (the hair at the very front of the head) was the physical emblem of a man's pride, dignity, and honor. Because Abu Jahl used his frontal lobe to plot his arrogance, God promises a devastating psychological and physical humiliation: he will be seized and degraded by the exact symbol of his earthly pride.</div></div>
         </div>
-        <div class="tags"><span class="tag">Divine Justice</span><span class="tag">Warning</span><span class="tag">Humility</span></div>
+        <div class="tags"><span class="tag">Divine Justice</span><span class="tag">Punishment</span><span class="tag">Humility</span></div>
     </div>
 
     <div class="verse-card">
@@ -272,10 +234,9 @@
         <div class="arabic">نَاصِيَةٍ كَـٰذِبَةٍ خَاطِئَةٍۢ</div>
         <div class="translation">"a lying, sinful forelock."</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The divine text precisely attributes the acts of malicious lying and deliberate sinning directly to the front of the brain, the exact origin of his corrupt choices.</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">Notice the beautiful, terrifying symmetry: the forehead that is lovingly placed in the dust during prostration is elevated to the heavens, while the arrogant "forelock" that refuses to bow is violently dragged into the dirt.</div></div>
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">This specific part of him is described as utterly deceitful and saturated with deliberate sin, exposing the dark, calculated malice behind his outward threats.</div></div>
         </div>
-        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Accountability</span><span class="tag">Arrogance</span></div>
+        <div class="tags"><span class="tag">Truth</span><span class="tag">Falsehood</span></div>
     </div>
 
     <div class="verse-card">
@@ -283,10 +244,10 @@
         <div class="arabic">فَلْيَدْعُ نَادِيَهُۥ</div>
         <div class="translation">"So let him call his associates."</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">A fearless, majestic divine challenge: let the tyrant summon his entire council of powerful friends and heavily armed tribal gangs to protect him.</div></div>
-            <div class="insight-box context"><span class="label">Historical Context (Ibn Kathir)</span><div class="content">When the Prophet ﷺ rebuked him, Abu Jahl angrily fired back, "Do you threaten me, Muhammad? By God, I have the largest tribe and the most followers in this entire valley!" God immediately responds, completely dismissing Abu Jahl's worldly mafia as utterly pathetic.</div></div>
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God fearlessly challenges the tyrant's worldly security: go ahead and call upon your wealthy friends, your powerful tribe, and your entire corrupt syndicate to protect you.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Ibn Kathir)</span><div class="content">When the Prophet ﷺ firmly rebuked him for his threats, Abu Jahl smugly fired back, "Do you threaten me? By God, I have the largest gathering of powerful supporters in this entire valley!" The Divine immediately responds to this boast, mocking his human army and exposing its utter fragility.</div></div>
         </div>
-        <div class="tags"><span class="tag">Truth</span><span class="tag">Arrogance</span><span class="tag">Illusion of Dunya</span></div>
+        <div class="tags"><span class="tag">Power</span><span class="tag">Illusion of Dunya</span></div>
     </div>
 
     <div class="verse-card">
@@ -294,13 +255,10 @@
         <div class="arabic">سَنَدْعُ ٱلزَّبَانِيَةَ</div>
         <div class="translation">"We will call the wardens of Hell."</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God promises to answer his mortal, earthly gang by summoning the Zabaniyah—the massive, terrifying, and completely unstoppable angelic guards of the Fire.</div></div>
-            <div class="insight-box hikam">
-                <span class="label">Divine Wisdom (Ibn Ata’illah)</span>
-                <div class="content">"He allows you to witness the opposition of people so you may seek refuge in His protection." The Prophet ﷺ had no army here; he had only Allah.</div>
-            </div>
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">If he dares to summon his fragile mortal gang, the Almighty Sovereign will instantly summon the terrifying, uncompromising angels of punishment to dismantle him.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Ibn Abbas)</span><div class="content">Abu Jahl once approached the Prophet ﷺ while he was praying, intending to crush his neck. Suddenly, he threw his hands up in horror and scrambled backward in sheer panic. When his friends asked him what happened, he gasped, "Between him and me is a ditch of fire, and terrible winged monsters!" The Prophet ﷺ later explained: "If he had stepped one inch closer, the angels would have torn him limb from limb."</div></div>
         </div>
-        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Divine Justice</span><span class="tag">Warning</span></div>
+        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Protection</span><span class="tag">Angels</span></div>
     </div>
 
     <div class="verse-card">
@@ -308,11 +266,11 @@
         <div class="arabic">كَلَّا لَا تُطِعْهُ وَٱسْجُدْ وَٱقْتَرِب ۩</div>
         <div class="translation">"Again, no! Never obey him ˹O Prophet˺! Rather, ˹continue to˺ prostrate and draw near ˹to Allah˺."</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The Surah concludes with a beautiful, defiant command of love: completely ignore the threats of the tyrant, press your forehead to the earth, and find your absolute safety in the intimate closeness of your Lord.</div></div>
-            <div class="insight-box context"><span class="label">Historical Context (Sahih Muslim)</span><div class="content">Abu Jahl once approached the Prophet ﷺ while he was praying, intending to carry out his threat to step on his neck. Suddenly, Abu Jahl threw up his hands in sheer terror and retreated backwards. When his tribe asked what happened, he trembled, "Between him and me is a trench of fire, terror, and wings!" The Prophet ﷺ later said, "If he had come near me, the angels would have torn him limb from limb."</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Al-Ghazali)</span><div class="content">"The ultimate victory over oppression is not found in arguing with the oppressor, but in falling into Sujud (prostration)." When you prostrate, you are physically at your lowest, but spiritually, you have drawn so incredibly near to the King that no human hand can ever reach you.</div></div>
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The Surah concludes with the ultimate formula for surviving oppression: entirely ignore the noise and threats of your enemies, press your forehead firmly to the dust, and find absolute, unbreakable safety in the loving closeness of your Lord.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata'illah)</span><div class="content">"A disobedience that bequeaths humiliation and extreme need is better than an obedience that bequeaths self-infatuation and pride." Prostration is the profound, physical manifestation of extreme spiritual need. It is the paradox of the believer: in the exact moment your face is lowest to the ground, you are exalted to the highest station in the sight of the King.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">"Take pity on your soul... surrender whatever is besides your Lord to Him." By commanding the Prophet ﷺ to prostrate while under threat, God is teaching us the secret of internal peace. When you place your forehead on the earth, you hand over the terrors of the world to the Creator, emptying the heart of anxiety and filling it exclusively with divine intimacy (*Qurb*).</div></div>
         </div>
-        <div class="tags"><span class="tag">Prayer</span><span class="tag">Comfort</span><span class="tag">Spiritual Practice</span><span class="tag">Protection</span></div>
+        <div class="tags"><span class="tag">Worship</span><span class="tag">Reliance on God</span><span class="tag">Love of God</span><span class="tag">Comfort</span></div>
     </div>
 
 </div> </body>
