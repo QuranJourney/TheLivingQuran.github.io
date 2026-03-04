@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surah Al-Insan | The Human</title>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@300;400;600&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #ffffff; --text-color: #2d3748; --primary-accent: #2b6cb0; 
+            --border-color: #e2e8f0; --tag-bg: #e6fffa; --tag-text: #2c7a7b;
+            --context-color: #d69e2e; --sufi-color: #38a169; --wisdom-color: #805ad5; --plain-color: #718096; 
+        }
+        body { font-family: 'Inter', sans-serif; background: var(--bg-color); color: var(--text-color); margin: 0; padding: 0; line-height: 1.6; }
+        
+      .nav-bar { padding: 1rem 2rem; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; background: white; z-index: 100; box-shadow: 0 2px 4px rgba(0,0,0,0.05); flex-wrap: wrap; gap: 1rem;}
+      .nav-controls { display: flex; gap: 1.5rem; align-items: center; }
+      .nav-link { text-decoration: none; color: var(--primary-accent); font-weight: 600; display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem;}
+      .nav-link:hover { text-decoration: underline; }
+      .home-btn { background: var(--primary-accent); color: white; padding: 0.5rem 1rem; border-radius: 6px; }
+      .home-btn:hover { background: #2c5282; color: white; text-decoration: none; }
+
+        header { text-align: center; padding: 3rem 1rem 2rem; background: linear-gradient(180deg, #f7fafc 0%, #ffffff 100%); }
+        h1 { font-family: 'Merriweather', serif; font-size: 2.8rem; margin: 0; color: #1a202c; }
+      .meta { color: #718096; text-transform: uppercase; letter-spacing: 2px; font-size: 0.85rem; margin-top: 1rem; font-weight: 700; }
+      .intro-text { max-width: 650px; margin: 1.5rem auto 0; font-style: italic; color: #4a5568; }
+      .container { max-width: 900px; margin: 0 auto; padding: 0 1rem 4rem; }
+      .verse-card { background: white; border: 1px solid var(--border-color); border-radius: 12px; padding: 2rem; margin-bottom: 2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.02); }
+      .verse-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; border-bottom: 1px solid #edf2f7; padding-bottom: 0.8rem; }
+      .verse-number { background: var(--primary-accent); color: white; padding: 0.2rem 0.8rem; border-radius: 20px; font-size: 0.85rem; font-weight: 700; }
+      .arabic { font-family: 'Amiri', serif; font-size: 2.4rem; text-align: right; color: #2d3748; margin-bottom: 1.5rem; line-height: 2.2; }
+      .translation { font-family: 'Merriweather', serif; font-size: 1.2rem; color: #1a202c; margin-bottom: 2rem; border-left: 4px solid var(--primary-accent); padding-left: 1rem; }
+      .insights { display: grid; grid-template-columns: 1fr; gap: 1rem; }
+      .insight-box { background: #fff; padding: 1.2rem; border-radius: 8px; border: 1px solid #e2e8f0; border-left-width: 4px; }
+      .insight-box.plain { border-left-color: var(--plain-color); background: #f7fafc; }
+      .insight-box.context { border-left-color: var(--context-color); }
+      .insight-box.sufi { border-left-color: var(--sufi-color); }
+      .insight-box.hikam { border-left-color: var(--wisdom-color); }
+      .label { display: block; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1.2px; font-weight: 700; margin-bottom: 0.5rem; }
+      .plain .label  { color: var(--plain-color); }
+      .context .label { color: var(--context-color); }
+      .sufi .label    { color: var(--sufi-color); }
+      .hikam .label   { color: var(--wisdom-color); }
+      .content { font-size: 0.95rem; color: #4a5568; }
+      .tags { margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; padding-top: 1rem; border-top: 1px solid #edf2f7; }
+      .tag { background: var(--tag-bg); color: var(--tag-text); padding: 0.2rem 0.7rem; border-radius: 99px; font-size: 0.75rem; font-weight: 600; }
+    </style>
+</head>
+<body>
+
+<div class="nav-bar">
+    <div class="nav-controls">
+        <a href="index.html" class="nav-link home-btn">⌂ Dashboard</a>
+        <a href="surah-097-rahman.html" class="nav-link">← Prev</a>
+        <a href="surah-099-talaq.html" class="nav-link">Next →</a>
+    </div>
+    <span style="font-weight: 600; color: #718096; font-size: 0.9rem;">Mushaf: #76 | Chronological: #98</span>
+</div>
+
+<header>
+    <h1>Surah Al-Insan</h1>
+    <div class="meta">The Human • Madinah • 31 Verses</div>
+    <div class="intro-text">
+        The Journey from Dust to Divine Proximity. Surah Al-Insan opens by dismantling the human ego, gently reminding us of our absolute non-existence before God’s graceful intervention. Moving from the biological frailty of a mixed fluid drop to the immense responsibility of sight, hearing, and free will, the Surah beautifully maps the spiritual condition. Its heart beats in the profound historical accounts of the Prophet's household—Ahl al-Bayt—whose legendary, selfless charity provides the ultimate blueprint for sincerity. It is a masterful, healing narrative that teaches us true power lies in immense gratitude, and that the only cure for the anxieties of this world is an unbroken, selfless love for the Creator.
+    </div>
+</header>
+
+<div class="container">
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 1</span></div>
+        <div class="arabic">هَلْ أَتَىٰ عَلَى ٱلْإِنسَـٰنِ حِينٌۭ مِّنَ ٱلدَّهْرِ لَمْ يَكُن شَيْـًۭٔا مَّذْكُورًا</div>
+        <div class="translation">"Is there not a period of time when each human is nothing yet worth mentioning?"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">A humbling, contemplative question asked to center our hearts: Before you had a name, an identity, or achievements, there was an eternity where you simply did not exist. You are entirely a product of divine grace.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Ibn Kathir)</span><div class="content">This verse directly addresses the innate arrogance that often crept into the hearts of humanity. It forces the proud individual to reflect on the timeline of the universe—there were countless eras where they were nothing more than scattered dust before God chose to elevate them into existence.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata'illah)</span><div class="content">"Your true essence is non-existence; existence is merely a garment borrowed from the True Existent." Remembering that you were once 'nothing worth mentioning' annihilates the ego. Any pride you harbor today is an illusion masking your profound, essential poverty before the Creator.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Humility</span><span class="tag">Creation</span><span class="tag">Human Nature</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 2</span></div>
+        <div class="arabic">إِنَّا خَلَقْنَا ٱلْإِنسَـٰنَ مِن نُّطْفَةٍ أَمْشَاجٍۢ نَّبْتَلِيهِ فَجَعَلْنَـٰهُ سَمِيعًۢا بَصِيرًا</div>
+        <div class="translation">"˹For˺ indeed, We ˹alone˺ created humans from a drop of mixed fluids, ˹in order˺ to test them, so We made them hear and see."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">We are reminded of our incredibly fragile biological origins. God gifted us the magnificent senses of hearing and sight not just for physical survival, but as essential tools to navigate the lifelong spiritual test of choosing right from wrong.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The 'mixed fluids' refer to the mingling of the male and female elements, a scientific reality presented to a 7th-century audience to illustrate God's meticulous, purposeful design. The purpose of this precise construction is explicitly stated: *Nabtaleeh* (to test him).</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">Your eyes and your ears are the primary gates to your heart. God gave them to you as a trust (*Amanah*) to witness His signs in the universe and listen to His truth. If you use them exclusively to consume the distractions of the *Dunya*, you have failed the very test for which they were created.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Biology</span><span class="tag">Divine Trust</span><span class="tag">The Test of Life</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 3</span></div>
+        <div class="arabic">إِنَّا هَدَيْنَـٰهُ ٱلسَّبِيلَ إِمَّا شَاكِرًۭا وَإِمَّا كَفُورًا</div>
+        <div class="translation">"We already showed them the Way, whether they ˹choose to˺ be grateful or ungrateful."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God respects human dignity by granting us absolute free will. He has illuminated the path of truth through prophets and our own intellect, leaving the ultimate choice in our hands: to live with profound gratitude or bitter rejection.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">Notice that the opposite of 'grateful' (*Shakir*) here is not 'ungrateful', but 'a denier/disbeliever' (*Kafur*). This reveals a profound spiritual secret: true faith is nothing but absolute gratitude, and disbelief is fundamentally an act of ultimate ingratitude toward the Giver of life.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Free Will</span><span class="tag">Gratitude</span><span class="tag">Guidance</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 4</span></div>
+        <div class="arabic">إِنَّآ أَعْتَدْنَا لِلْكَـٰفِرِينَ سَلَـٰسِلَا۟ وَأَغْلَـٰلًۭا وَسَعِيرًا</div>
+        <div class="translation">"Indeed, We have prepared for the disbelievers chains, shackles, and a blazing Fire."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">A necessary, sobering reality check. For those who stubbornly choose the path of profound ingratitude and oppress others, their ultimate consequence is a heavy, restrictive, and painful reality in the hereafter.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata'illah)</span><div class="content">The chains and shackles of the afterlife are merely the physical manifestations of the invisible chains we forge in this world. The one who enslaves their heart to wealth, status, and ego in the *Dunya* is already walking in shackles; the Hereafter simply makes those chains visible and permanent.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Accountability</span><span class="tag">Consequences</span><span class="tag">Warning</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 5</span></div>
+        <div class="arabic">إِنَّ ٱلْأَبْرَارَ يَشْرَبُونَ مِن كَأْسٍۢ كَانَ مِزَاجُهَا كَافُورًا</div>
+        <div class="translation">"Indeed, the virtuous will have a drink ˹of pure wine˺—flavored with camphor—"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">In breathtaking contrast, those who lived their lives with sincere goodness (*Al-Abrar*) will be refreshed with a beautifully pure, cool drink, perfectly flavored to bring absolute peace and satisfaction.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Ibn Abbas)</span><div class="content">In classical Arabic society, camphor was highly prized for its brilliant white color, its cooling sensation, and its beautiful fragrance. The Quran uses this familiar imagery to describe a heavenly drink that cools the spiritual fatigue and burning hardships the believers endured in the worldly life.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Paradise</span><span class="tag">Reward</span><span class="tag">Virtue</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 6</span></div>
+        <div class="arabic">عَيْنًۭا يَشْرَبُ بِهَا عِبَادُ ٱللَّهِ يُفَجِّرُونَهَا تَفْجِيرًا</div>
+        <div class="translation">"˹from˺ a spring where Allah’s servants will drink, flowing at their will."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">This is not merely a cup handed to them; it is a limitless, divine spring. Because they restrained their desires for God in the temporary world, God grants them total, effortless mastery over this flowing spring in the eternal one.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">They are honored with the highest title: 'Servants of Allah' (*Ibad Allah*). Because their hearts drank deeply from the spring of His love, remembrance (*Dhikr*), and intimacy in this world, they are granted the physical manifestation of that boundless, flowing divine intimacy in the next.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Divine Love</span><span class="tag">Bounty</span><span class="tag">Mastery</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 7</span></div>
+        <div class="arabic">يُوفُونَ بِٱلنَّذْرِ وَيَخَافُونَ يَوْمًۭا كَانَ شَرُّهُۥ مُسْتَطِيرًۭا</div>
+        <div class="translation">"They ˹are those who˺ fulfil ˹their˺ vows and fear a Day of sweeping horror,"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The narrative now pauses to explain exactly *why* they earned this paradise. They are people of deep integrity who honor their promises to God, living with a healthy, orienting awareness of the massive accountability of Judgment Day.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The classical exegetes extensively link these verses to Ali ibn Abi Talib and his wife Fatimah (the Prophet's ﷺ daughter). When their sons Hasan and Husayn fell ill, they made a solemn vow to fast for three consecutive days if God healed them. Upon their recovery, the family, though extremely impoverished, perfectly fulfilled their vow.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Integrity</span><span class="tag">Vows</span><span class="tag">Accountability</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 8</span></div>
+        <div class="arabic">وَيُطْعِمُونَ ٱلطَّعَامَ عَلَىٰ حُبِّهِۦ مِسْكِينًۭا وَيَتِيمًۭا وَأَسِيرًا</div>
+        <div class="translation">"and give food—despite their desire for it—to the poor, the orphan, and the captive,"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">True charity requires sacrifice. These profound souls do not give away their leftovers; they give away the exact food they desperately need and crave themselves, extending deep mercy to society's most vulnerable.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Ibn Kathir)</span><div class="content">Continuing the narrative of Ali and Fatimah: During their three days of fasting, they had only enough barley bread to break their own fast. On the first night, a beggar knocked; they gave him all their food and slept hungry. On the second night, an orphan knocked; they gave their food again. On the third night, a war captive knocked; again, they gave everything away. They endured three entire days of starvation purely out of love for the needy.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata'illah)</span><div class="content">To give when you are full is an act of generosity; to give when you are starving is an act of *Yaqeen* (absolute certainty). They did not see the food as their property, but as a divine trust meant for the one who knocked at the door. Their detachment from the *Dunya* was absolute.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Charity</span><span class="tag">Sacrifice</span><span class="tag">Compassion</span><span class="tag">Ahl al-Bayt</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 9</span></div>
+        <div class="arabic">إِنَّمَا نُطْعِمُكُمْ لِوَجْهِ ٱللَّهِ لَا نُرِيدُ مِنكُمْ جَزَآءًۭ وَلَا شُكُورًا</div>
+        <div class="translation">"˹saying to themselves,˺ “We feed you only for the sake of Allah, seeking neither reward nor thanks from you."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">This is the gold standard of sincerity. When they give, they expect absolutely nothing in return—no compensation, no praise, not even a simple "thank you." Their transaction is entirely, exclusively with the Creator.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">Examine your own heart (*Ikhlas*). If you give charity to someone, and later become angry or hurt because they were ungrateful or did not acknowledge your help, know that your charity was for your own ego, not for God. True sincerity is when the gratitude of the recipient means exactly as much to you as their silence: zero.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Sincerity (Ikhlas)</span><span class="tag">Selflessness</span><span class="tag">Pure Intentions</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 10</span></div>
+        <div class="arabic">إِنَّا نَخَافُ مِن رَّبِّنَا يَوْمًا عَبُوسًۭا قَمْطَرِيرًۭا</div>
+        <div class="translation">"We fear from our Lord a horribly distressful Day.”"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Their immense generosity is driven by a profound, grounding awe. They know that a day of severe difficulty is coming, and they are desperately seeking God's protection through acts of radical mercy.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata'illah)</span><div class="content">"Fear is not that which makes you weep; true fear is that which prevents you from sinning and pushes you to serve." Their fear of the Last Day did not paralyze them in anxious depression; rather, it mobilized them into becoming the most compassionate, selfless people in their community.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Awe (Taqwa)</span><span class="tag">Day of Judgment</span><span class="tag">Spiritual Motivation</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 11</span></div>
+        <div class="arabic">فَوَقَىٰهُمُ ٱللَّهُ شَرَّ ذَٰلِكَ ٱلْيَوْمِ وَلَقَّقَـٰهُمْ نَضْرَةًۭ وَسُرُورًۭا</div>
+        <div class="translation">"So Allah will deliver them from the horror of that Day, and grant them radiance and joy,"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The divine promise is beautifully fulfilled. Because they embraced hunger, sacrifice, and reverent fear in this temporary world, the Creator guarantees them absolute safety, radiant faces, and unbreakable happiness in eternity.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Tabari)</span><div class="content">The word *Nadrah* refers to a physical, luminous glow on the face, while *Surur* refers to a profound internal joy of the heart. God compensates their physical starvation with eternal beauty, and their worldly anxieties with eternal emotional peace.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Divine Promise</span><span class="tag">Safety</span><span class="tag">Joy</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 12</span></div>
+        <div class="arabic">وَجَزَىٰهُم بِمَا صَبَرُوا۟ جَنَّةًۭ وَحَرِيرًۭا</div>
+        <div class="translation">"and reward them for their perseverance with a Garden ˹in Paradise˺ and ˹garments of˺ silk."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Every moment of their silent endurance—every pang of hunger, every restrained desire, every act of patience—is infinitely compensated by God with the lush, green sanctuary of Paradise and the softest, most luxurious garments.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">*Sabr* (Patience/Perseverance) is the foundation of all spiritual elevation. They were patient in obedience, patient away from sin, and patient with their hunger. Because their skin endured the harsh, rough conditions of the *Dunya* for His sake, He will wrap their bodies in the cooling, gentle silk of His absolute mercy.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Patience (Sabr)</span><span class="tag">Paradise</span><span class="tag">Divine Justice</span></div>
+    </div>
+<div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 13</span></div>
+        <div class="arabic">مُتَّكِـِٔينَ فِيهَا عَلَى ٱلْأَرَآئِكِ ۖ لَا يَرَوْنَ فِيهَا شَمْسًۭا وَلَا زَمْهَرِيرًۭا</div>
+        <div class="translation">"There they will be reclining on ˹canopied˺ couches, never seeing scorching heat or bitter cold."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">In Paradise, the believers will rest in absolute, royal comfort, entirely protected from the harsh extremes of weather and worldly discomfort that plague earthly life.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Ibn Kathir)</span><div class="content">The Arabs of the desert suffered immensely from the blazing, inescapable sun of the summer and the biting, barren cold of the winter. God describes a perfectly temperate, eternal climate to people whose entire earthly existence was a brutal battle against the elements.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The 'scorching heat' is the burning fire of unchecked desires, lust, and anger, while the 'bitter cold' is the freezing numbness of heedlessness and spiritual despair. In the presence of God, the soul is finally liberated from these emotional extremes, reaching an equilibrium of profound, eternal peace.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Paradise</span><span class="tag">Peace</span><span class="tag">Comfort</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 14</span></div>
+        <div class="arabic">وَدَانِيَةً عَلَيْهِمْ ظِلَـٰلُهَا وَذُلِّلَتْ قُطُوفُهَا تَذْلِيلًۭا</div>
+        <div class="translation">"The Garden’s shade will be right above them, and its fruit will be made very easy to reach."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The lush canopy of heaven will intimately blanket them in comfort, and its bounties will graciously lower themselves into their hands without a single drop of exertion.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata'illah)</span><div class="content">In the *Dunya*, you had to strive, sweat, and reach painfully for your provision, testing your reliance on God and breaking your ego. In the *Akhirah*, the provision lovingly reaches out to you—a physical manifestation of His pure, unearned grace rewarding your prior struggles.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Divine Grace</span><span class="tag">Ease</span><span class="tag">Bounty</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 15</span></div>
+        <div class="arabic">وَيُطَافُ عَلَيْهِم بِـَٔانِيَةٍۢ مِّن فِضَّةٍۢ وَأَكْوَابٍۢ كَانَتْ قَوَارِيرَا۠</div>
+        <div class="translation">"They will be waited on with silver vessels and cups of crystal—"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">They will be served with exquisite, flawless beauty, drinking from vessels that miraculously combine the solid purity of silver with the breathtaking transparency of crystal.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Tabari)</span><div class="content">In the ancient world, silver was opaque and glass or crystal was fragile and rare. God introduces a miraculous, paradoxical substance—silver that is completely transparent—to emphasize that the realities and physics of Paradise entirely transcend earthly limitations and imagination.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Beauty</span><span class="tag">Reward</span><span class="tag">The Unseen</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 16</span></div>
+        <div class="arabic">قَوَارِيرَا۟ مِن فِضَّةٍۢ قَدَّرُوهَا تَقْدِيرًۭا</div>
+        <div class="translation">"crystalline silver, filled precisely as desired."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Every single cup is perfectly measured to the exact preference and thirst of the one drinking it, never falling short and never overflowing into waste.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">This perfect measurement reflects the precise, highly individualized intimacy God has with every single soul. He knows your deepest, unspoken thirsts, and He fills your spiritual cup to the exact degree that brings you ultimate fulfillment, offering a deeply personalized love.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Intimacy</span><span class="tag">Fulfillment</span><span class="tag">Perfection</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 17</span></div>
+        <div class="arabic">وَيُسْقَوْنَ فِيهَا كَأْسًۭا كَانَ مِزَاجُهَا زَنجَبِيلًا</div>
+        <div class="translation">"And they will be given a drink ˹of pure wine˺ flavored with ginger"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">They are honored with a uniquely warming, invigorating drink, infused with the rich, aromatic spice of ginger.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The Arabs highly esteemed ginger for its medicinal properties, warmth, and digestive benefits, often adding it to their finest, most expensive royal drinks. While the earlier heavenly drink was cooled with camphor, this one is warmed with ginger, offering a perfectly balanced spectrum of pleasure.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Reward</span><span class="tag">Healing</span><span class="tag">Joy</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 18</span></div>
+        <div class="arabic">عَيْنًۭا فِيهَا تُسَمَّىٰ سَلْسَبِيلًۭا</div>
+        <div class="translation">"from a spring there, called Salsabîl."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">This continuous, flowing source of delight has a name that literally means "slipping smoothly and easily down the throat," reflecting its absolute perfection and ease.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata'illah)</span><div class="content">Just as the pure waters of Salsabîl flow effortlessly in Paradise, so too does the grace of God flow smoothly into the hearts of those who patiently removed the boulders of ego, arrogance, and worldly attachment from their spiritual streams in this life.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Purity</span><span class="tag">Grace</span><span class="tag">Paradise Springs</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 19</span></div>
+        <div class="arabic">وَيَطُوفُ عَلَيْهِمْ وِلْدَٰنٌۭ مُّخَلَّدُونَ إِذَا رَأَيْتَهُمْ حَسِبْتَهُمْ لُؤْلُؤًۭا مَّنثُورًۭا</div>
+        <div class="translation">"They will be waited on by eternal youths. If you saw them, you would think they were scattered pearls."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The believers are attended to by immortal servants whose striking, flawless beauty and graceful movement resemble shimmering pearls scattered across a royal floor.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Ibn Kathir)</span><div class="content">The imagery of 'scattered pearls' denotes not just immense beauty, but abundance and dynamic movement. Unlike pearls strung tightly on a stationary necklace, scattered pearls catch the light from every single angle, illustrating the vibrant, joyous, and continuous service the inhabitants receive.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Honor</span><span class="tag">Service</span><span class="tag">Eternal Beauty</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 20</span></div>
+        <div class="arabic">وَإِذَا رَأَيْتَ ثَمَّ رَأَيْتَ نَعِيمًۭا وَمُلْكًۭا كَبِيرًا</div>
+        <div class="translation">"And if you looked around, you would see ˹indescribable˺ bliss and a vast kingdom."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Wherever the eyes wander in this heavenly realm, they will be met with staggering, limitless luxury and a personal dominion so vast it defies human imagination.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The 'vast kingdom' is the true inheritance of the awakened soul. In the *Dunya*, kings brutally fight over tiny patches of dirt and fleeting power. The believer, by willingly abdicating the throne of their own ego and submitting entirely to the King of Kings, is ultimately crowned with a kingdom that never perishes.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Dominion</span><span class="tag">True Wealth</span><span class="tag">Limitless Blessing</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 21</span></div>
+        <div class="arabic">عَـٰلِيَهُمْ ثِيَابُ سُندُسٍ خُضْرٌۭ وَإِسْتَبْرَقٌۭ ۖ وَحُلُّوٓا۟ أَسَاوِرَ مِن فِضَّةٍۢ وَسَقَىٰهُمْ رَبُّهُمْ شَرَابًۭا طَهُورًا</div>
+        <div class="translation">"The virtuous will be ˹dressed˺ in garments of fine green silk and rich brocade, and adorned with bracelets of silver, and their Lord will give them a purifying drink."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">They will be draped in the most luxurious, vibrant green silks, crowned with silver jewelry, and ultimately, the Creator Himself will serve them a drink that profoundly purifies their souls.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Tabari)</span><div class="content">Green was universally recognized as the most soothing and beautiful color to the human eye, symbolizing life, royalty, and flourishing nature. The 'purifying drink' is the final stage of heavenly entry, cleansing the inhabitants internally of any residual envy, grief, or bodily needs.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">Pay profound attention to the wording: earlier, they were served by youths, but here, *their Lord* gives them the drink. This is the ultimate, intoxicating wine of Divine Love. It thoroughly purifies the heart from the desire for *anything* other than Him, elevating them from the mere physical pleasures of Paradise into the ecstatic, overwhelming joy of His direct Presence.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Divine Presence</span><span class="tag">Purification</span><span class="tag">Love of God</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 22</span></div>
+        <div class="arabic">إِنَّ هَـٰذَا كَانَ لَكُمْ جَزَآءًۭ وَكَانَ سَعْيُكُم مَّشْكُورًا</div>
+        <div class="translation">"˹And they will be told,˺ “All this is surely a reward for you. Your striving has been appreciated.”"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The most beautiful, healing honor of all: God gently validates their entire earthly struggle, openly acknowledging their pain, their patience, and their quiet efforts, telling them it was all deeply seen.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata'illah)</span><div class="content">The greatest reward is not the silk, the couches, or the springs—it is the word *Mashkoora* (Appreciated). When the Infinite Creator looks at your finite, flawed, exhausted efforts and calls them 'appreciated', the soul finds its ultimate and permanent rest. The tears, the withheld anger, the secret charity—none of it was ever in vain.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Validation</span><span class="tag">Appreciation</span><span class="tag">Ultimate Peace</span></div>
+    </div>
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 23</span></div>
+        <div class="arabic">إِنَّا نَحْنُ نَزَّلْنَا عَلَيْكَ ٱلْقُرْءَانَ تَنزِيلًۭا</div>
+        <div class="translation">"Indeed, it is We Who have revealed the Quran to you ˹O Prophet˺ in stages."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The divine revelation was sent down gradually to deeply anchor the Prophet's heart, providing perfectly timed, highly relevant guidance rather than an overwhelming, immediate burden.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The pagan opposition frequently mocked the Prophet ﷺ, asking why the Quran was not sent down entirely all at once like the Torah or Gospel. God emphatically confirms that this piecemeal revelation is a deliberate, merciful design to strengthen his resolve, comfort his grief, and answer societal challenges dynamically over 23 grueling years of prophetic struggle.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">Spiritual growth cannot be violently rushed. Just as the Quran was revealed in steady stages to build an unbreakable foundation in the world, the purification of your own heart requires persistent, gradual effort over a lifetime. Do not despair if you cannot transform overnight; grace descends step by step.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Gradual Growth</span><span class="tag">Revelation</span><span class="tag">Prophetic Heart</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 24</span></div>
+        <div class="arabic">فَٱصْبِرْ لِحُكْمِ رَبِّكَ وَلَا تُطِعْ مِنْهُمْ ءَاثِمًا أَوْ كَفُورًۭا</div>
+        <div class="translation">"So be patient with your Lord’s decree, and do not yield to any evildoer or ˹staunch˺ disbeliever from among them."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God directly commands the Prophet to maintain beautiful patience during extreme hardships and to fiercely protect his spiritual boundaries by refusing to compromise with toxic or corrupt worldly influences.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Ibn Kathir)</span><div class="content">The elite tribal leaders of Quraysh, particularly men like Utbah ibn Rabi'ah and Walid ibn al-Mughirah, repeatedly tried to negotiate with the Prophet ﷺ. They offered to make him the wealthiest man in Makkah, marry him to their most beautiful women, and give him ultimate political kingship—if he would only soften his message and stop criticizing their idols. This verse is an absolute command to remain uncompromisingly steadfast against such bribes.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata'illah)</span><div class="content">"Do not keep company with anyone whose state does not elevate you, and whose speech does not direct you to God." Yielding to those entrenched in the *Dunya* extinguishes the sensitive light of the heart. True patience (*Sabr*) is holding fast to your divine connection even when the entire world pressures you to let go and conform.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Patience (Sabr)</span><span class="tag">Steadfastness</span><span class="tag">Boundaries</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 25</span></div>
+        <div class="arabic">وَٱذْكُرِ ٱسْمَ رَبِّكَ بُكْرَةًۭ وَأَصِيلًۭا</div>
+        <div class="translation">"˹Always˺ remember the Name of your Lord morning and evening,"</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">To sustain that incredibly difficult patience, the soul requires continuous nourishment. We are instructed to anchor our days by actively remembering the Creator during the peaceful transitions of dawn and dusk.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">The remembrance of God (*Dhikr*) is the ultimate fortress against the anxieties of the world. When you deliberately begin and end your day by immersing your heart in His Beautiful Names, the chaotic noise of creation fades away, leaving only the profound stillness and safety of His presence.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Remembrance (Dhikr)</span><span class="tag">Morning and Evening</span><span class="tag">Inner Peace</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 26</span></div>
+        <div class="arabic">وَمِنَ ٱلَّيْلِ فَٱسْجُدْ لَهُۥ وَسَبِّحْهُ لَيْلًۭا طَوِيلًا</div>
+        <div class="translation">"and prostrate before Him during part of the night, and glorify Him long at night."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The deepest, most transformative connection happens in the quiet hours of the night, where standing in prayer and physical prostration become a sacred, deeply intimate refuge from the harshness of the daytime.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Tabari)</span><div class="content">This references the night vigil prayer (*Tahajjud*), which was an intense, mandatory obligation for the Prophet ﷺ and his early companions before the five daily prayers were established. It was the crucial spiritual training ground that built the immense internal stamina needed to face daily persecution and hostility in Makkah.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata'illah)</span><div class="content">"When He gives you the night, He is calling you to intimacy." The darkness of the night provides a heavy veil that perfectly protects your worship from the disease of showing off (*Riya*). It is the exclusive time when lovers meet in absolute privacy, pouring their unfiltered fears, tears, and hopes before the Eternal King.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Night Prayer (Tahajjud)</span><span class="tag">Intimacy</span><span class="tag">Devotion</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 27</span></div>
+        <div class="arabic">إِنَّ هَـٰٓؤُلَآءِ يُحِبُّونَ ٱلْعَاجِلَةَ وَيَذَرُونَ وَرَآءَهُمْ يَوْمًۭا ثَقِيلًا</div>
+        <div class="translation">"Surely those ˹pagans˺ love this fleeting world, ˹totally˺ neglecting a weighty Day ahead of them."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The profound tragedy of those who oppress others and reject the truth is their obsessive, blinding infatuation with the temporary glitz of this world, deliberately ignoring the massive reality of the hereafter that rapidly approaches.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Ibn Abbas)</span><div class="content">This verse exposes the exact psychological root of the Makkan elite's rejection. They were not confused by the Prophet's theology; rather, they simply loved their economic monopolies, social status, and immediate sensual pleasures too much to submit to a moral code that demanded massive social and spiritual accountability.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The *Dunya* is exactly like drinking ocean water: the more you consume, the thirstier and more frantic you become. To 'totally neglect' the Heavy Day means your heart has been entirely colonized by the trivial anxieties of wealth, reputation, and control. The only cure is to actively remember death to break the hypnotic spell of materialism.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Illusion of Dunya</span><span class="tag">Hereafter</span><span class="tag">Materialism</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 28</span></div>
+        <div class="arabic">نَّحْنُ خَلَقْنَـٰهُمْ وَشَدَدْنَآ أَسْرَهُمْ ۖ وَإِذَا شِئْنَا بَدَّلْنَآ أَمْثَـٰلَهُمْ تَبْدِيلًا</div>
+        <div class="translation">"It is We Who created them and perfected their ˹physical˺ form. But if We will, We can easily replace them with others."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">A gentle yet firm reminder of human fragility: the Creator who beautifully designed our strong, capable bodies can effortlessly remove us from the earth and bring forth a completely new generation if we squander our purpose.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata'illah)</span><div class="content">"How can you be arrogant with your form when you did not create it, and you cannot even prevent its inevitable decay?" Your physical strength, your intelligence, and your health are entirely borrowed. The realization that God can replace you at any fleeting moment should shatter all entitlement and birth a profound, desperate gratitude for every single breath.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Creation</span><span class="tag">Humility</span><span class="tag">Divine Power</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 29</span></div>
+        <div class="arabic">إِنَّ هَـٰذِهِۦ تَذْكِرَةٌۭ ۖ فَمَن شَآءَ ٱتَّخَذَ إِلَىٰ رَبِّهِۦ سَبِيلًا</div>
+        <div class="translation">"Surely this is a reminder. So let whoever wills take the ˹Right˺ Way to their Lord."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The entire Surah serves as a loving, urgent wake-up call to the human heart. The path back to God is wide open, simply waiting for the individual to exercise their free will and courageously take the first step.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">The door to the Divine is never locked. The 'Right Way' is not merely a dry path of outward rituals, but the deeply internal path of the broken, humble heart returning to its Origin. Whoever truly wills, regardless of how dark their past or how far they have strayed, will find Him waiting with infinite mercy.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Free Will</span><span class="tag">Return to God</span><span class="tag">Reminder</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 30</span></div>
+        <div class="arabic">وَمَا تَشَآءُونَ إِلَّآ أَن يَشَآءَ ٱللَّهُ ۚ إِنَّ ٱللَّهَ كَانَ عَلِيمًا حَكِيمًا</div>
+        <div class="translation">"But you cannot will ˹to do so˺ unless Allah wills. Indeed, Allah is All-Knowing, All-Wise."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">While we absolutely must make the choice to walk the path, we must simultaneously recognize the beautiful paradox that even our desire to seek God is a precious gift gracefully placed in our hearts by Him.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">This verse masterfully balances human agency with Divine sovereignty (*Qadar*). It corrects the arrogant delusion that a person can force their own salvation through sheer intellect or willpower alone, forever grounding the believer in a state of constant reliance on God's sustaining grace.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata'illah)</span><div class="content">"He only made you seek Him so that He could give to you." If you feel a sudden, aching desire to pray, repent, or draw near to God in the middle of the night, do not credit your own piety. It is the All-Knowing, All-Wise Lord actively pulling the strings of your heart, inviting you to His door because He already intends to forgive you.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Divine Will</span><span class="tag">Paradox of Agency</span><span class="tag">Grace</span></div>
+    </div>
+
+    <div class="verse-card">
+        <div class="verse-header"><span class="verse-number">Verse 31</span></div>
+        <div class="arabic">يُدْخِلُ مَن يَشَآءُ فِى رَحْمَتِهِۦ ۚ وَٱلظَّـٰلِمِينَ أَعَدَّ لَهُمْ عَذَابًا أَلِيمًۢا</div>
+        <div class="translation">"He admits whoever He wills into His mercy. As for the wrongdoers, He has prepared for them a painful punishment."</div>
+        <div class="insights">
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The Surah closes with absolute, striking clarity. The ultimate destination of the human journey is either being fully enveloped in God's vast, loving mercy, or facing the agonizing consequence of choosing a life of cruelty, ego, and rejection.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">Do not view 'His mercy' merely as a physical place filled with gardens and rivers; His ultimate mercy is the unveiling of His Countenance and the intimate nearness of His Presence. The wrongdoers are punished by the fire, yes, but their most excruciating, unbearable torment is the eternal veil permanently placed between their souls and the Beloved.</div></div>
+        </div>
+        <div class="tags"><span class="tag">Divine Mercy</span><span class="tag">Ultimate Consequence</span><span class="tag">Justice</span></div>
+    </div>
+</div> </body>
+</html>
