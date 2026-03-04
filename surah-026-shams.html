@@ -12,36 +12,38 @@
             --context-color: #d69e2e; --sufi-color: #38a169; --wisdom-color: #805ad5; --plain-color: #718096; 
         }
         body { font-family: 'Inter', sans-serif; background: var(--bg-color); color: var(--text-color); margin: 0; padding: 0; line-height: 1.6; }
-        .nav-bar { padding: 1rem 2rem; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; background: white; z-index: 100; box-shadow: 0 2px 4px rgba(0,0,0,0.05); flex-wrap: wrap; gap: 1rem;}
-        .nav-controls { display: flex; gap: 1.5rem; align-items: center; }
-        .nav-link { text-decoration: none; color: var(--primary-accent); font-weight: 600; display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem;}
-        .nav-link:hover { text-decoration: underline; }
-        .home-btn { background: var(--primary-accent); color: white; padding: 0.5rem 1rem; border-radius: 6px; }
-        .home-btn:hover { background: #2c5282; color: white; text-decoration: none; }
+        
+      .nav-bar { padding: 1rem 2rem; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; background: white; z-index: 100; box-shadow: 0 2px 4px rgba(0,0,0,0.05); flex-wrap: wrap; gap: 1rem;}
+      .nav-controls { display: flex; gap: 1.5rem; align-items: center; }
+      .nav-link { text-decoration: none; color: var(--primary-accent); font-weight: 600; display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem;}
+      .nav-link:hover { text-decoration: underline; }
+      .home-btn { background: var(--primary-accent); color: white; padding: 0.5rem 1rem; border-radius: 6px; }
+      .home-btn:hover { background: #2c5282; color: white; text-decoration: none; }
+
         header { text-align: center; padding: 3rem 1rem 2rem; background: linear-gradient(180deg, #f7fafc 0%, #ffffff 100%); }
         h1 { font-family: 'Merriweather', serif; font-size: 2.8rem; margin: 0; color: #1a202c; }
-        .meta { color: #718096; text-transform: uppercase; letter-spacing: 2px; font-size: 0.85rem; margin-top: 1rem; font-weight: 700; }
-        .intro-text { max-width: 650px; margin: 1.5rem auto 0; font-style: italic; color: #4a5568; }
-        .container { max-width: 900px; margin: 0 auto; padding: 0 1rem 4rem; }
-        .verse-card { background: white; border: 1px solid var(--border-color); border-radius: 12px; padding: 2rem; margin-bottom: 2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.02); }
-        .verse-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; border-bottom: 1px solid #edf2f7; padding-bottom: 0.8rem; }
-        .verse-number { background: var(--primary-accent); color: white; padding: 0.2rem 0.8rem; border-radius: 20px; font-size: 0.85rem; font-weight: 700; }
-        .arabic { font-family: 'Amiri', serif; font-size: 2.4rem; text-align: right; color: #2d3748; margin-bottom: 1.5rem; line-height: 2.2; }
-        .translation { font-family: 'Merriweather', serif; font-size: 1.2rem; color: #1a202c; margin-bottom: 2rem; border-left: 4px solid var(--primary-accent); padding-left: 1rem; }
-        .insights { display: grid; grid-template-columns: 1fr; gap: 1rem; }
-        .insight-box { background: #fff; padding: 1.2rem; border-radius: 8px; border: 1px solid #e2e8f0; border-left-width: 4px; }
-        .insight-box.plain { border-left-color: var(--plain-color); background: #f7fafc; }
-        .insight-box.context { border-left-color: var(--context-color); }
-        .insight-box.sufi { border-left-color: var(--sufi-color); }
-        .insight-box.hikam { border-left-color: var(--wisdom-color); }
-        .label { display: block; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1.2px; font-weight: 700; margin-bottom: 0.5rem; }
-        .plain .label { color: var(--plain-color); }
-        .context .label { color: var(--context-color); }
-        .sufi .label { color: var(--sufi-color); }
-        .hikam .label { color: var(--wisdom-color); }
-        .content { font-size: 0.95rem; color: #4a5568; }
-        .tags { margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; padding-top: 1rem; border-top: 1px solid #edf2f7; }
-        .tag { background: var(--tag-bg); color: var(--tag-text); padding: 0.2rem 0.7rem; border-radius: 99px; font-size: 0.75rem; font-weight: 600; }
+      .meta { color: #718096; text-transform: uppercase; letter-spacing: 2px; font-size: 0.85rem; margin-top: 1rem; font-weight: 700; }
+      .intro-text { max-width: 650px; margin: 1.5rem auto 0; font-style: italic; color: #4a5568; }
+      .container { max-width: 900px; margin: 0 auto; padding: 0 1rem 4rem; }
+      .verse-card { background: white; border: 1px solid var(--border-color); border-radius: 12px; padding: 2rem; margin-bottom: 2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.02); }
+      .verse-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; border-bottom: 1px solid #edf2f7; padding-bottom: 0.8rem; }
+      .verse-number { background: var(--primary-accent); color: white; padding: 0.2rem 0.8rem; border-radius: 20px; font-size: 0.85rem; font-weight: 700; }
+      .arabic { font-family: 'Amiri', serif; font-size: 2.4rem; text-align: right; color: #2d3748; margin-bottom: 1.5rem; line-height: 2.2; }
+      .translation { font-family: 'Merriweather', serif; font-size: 1.2rem; color: #1a202c; margin-bottom: 2rem; border-left: 4px solid var(--primary-accent); padding-left: 1rem; }
+      .insights { display: grid; grid-template-columns: 1fr; gap: 1rem; }
+      .insight-box { background: #fff; padding: 1.2rem; border-radius: 8px; border: 1px solid #e2e8f0; border-left-width: 4px; }
+      .insight-box.plain { border-left-color: var(--plain-color); background: #f7fafc; }
+      .insight-box.context { border-left-color: var(--context-color); }
+      .insight-box.sufi { border-left-color: var(--sufi-color); }
+      .insight-box.hikam { border-left-color: var(--wisdom-color); }
+      .label { display: block; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1.2px; font-weight: 700; margin-bottom: 0.5rem; }
+      .plain .label  { color: var(--plain-color); }
+      .context .label { color: var(--context-color); }
+      .sufi .label    { color: var(--sufi-color); }
+      .hikam .label   { color: var(--wisdom-color); }
+      .content { font-size: 0.95rem; color: #4a5568; }
+      .tags { margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; padding-top: 1rem; border-top: 1px solid #edf2f7; }
+      .tag { background: var(--tag-bg); color: var(--tag-text); padding: 0.2rem 0.7rem; border-radius: 99px; font-size: 0.75rem; font-weight: 600; }
     </style>
 </head>
 <body>
@@ -49,7 +51,7 @@
 <div class="nav-bar">
     <div class="nav-controls">
         <a href="index.html" class="nav-link home-btn">⌂ Dashboard</a>
-        <a href="surah-025-qadr.html" class="nav-link">← Prev</a>
+         <a href="surah-025-qadr.html" class="nav-link">← Prev</a>
         <a href="surah-027-buruj.html" class="nav-link">Next →</a>
     </div>
     <span style="font-weight: 600; color: #718096; font-size: 0.9rem;">Mushaf: #91 | Chronological: #26</span>
@@ -57,9 +59,9 @@
 
 <header>
     <h1>Surah Ash-Shams</h1>
-    <div class="meta">The Sun • Makkah • 15 Verses</div>
+    <div class="meta">The Sun • Makkah • Verses 1-10</div>
     <div class="intro-text">
-        The Ultimate Thesis of the Soul. Allah swears the longest chain of consecutive oaths in the Quran—by the cosmos and its opposites—to deliver one absolute truth: Success is entirely dependent on purifying the soul, and failure is entirely due to corrupting it.
+        The Cosmic Worth of the Human Heart. In early Makkah, the elites of Quraysh measured a person's worth entirely by external metrics: the size of their caravans, the purity of their tribal bloodline, and the gold in their hands. They looked down upon the impoverished followers of the Prophet ﷺ. In response, God descends one of the most magnificent, rhythmic sequences of oaths in the entire Quran. He swears by the massive, terrifying dualities of the cosmos—the blinding sun, the trailing moon, the expansive day, the comforting night, the towering heavens, and the flattened earth. Why this dramatic, universe-spanning buildup? To fiercely declare that the most critical, consequential project in all of existence is not the amassing of wealth, but the quiet, unseen purification of the human soul.
     </div>
 </header>
 
@@ -68,178 +70,225 @@
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 1</span></div>
         <div class="arabic">وَٱلشَّمْسِ وَضُحَىٰهَا</div>
-        <div class="translation">"By the sun and its brightness,"</div>
+        <div class="translation">By the sun and its brightness,</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">An oath sworn by the magnificent sun and the radiant, life-giving light it emits in the early morning.</div></div>
-            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">Allah begins a series of 11 oaths (the longest sequence in the Quran). To swear by the sun is to point to the most obvious, undeniable, and universally necessary physical reality in human existence.</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">Just as the physical sun illuminates the physical world, the "Sun" of divine revelation (the Quran/Prophethood) illuminates the spiritual world. Without the sun, the earth dies in freezing darkness; without revelation, the soul dies in the cold darkness of ignorance.</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"The cosmos is all darkness. It is illumined only by the manifestation of God in it." The sun has no light of its own; it is merely a mirror reflecting the creative power of its Maker.</div></div>
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The Creator draws our eyes up to the most massive, blinding source of physical light in our sky, setting the stage for a profound realization about our own inner light.</div></div>
+            
+            <div class="insight-box context"><span class="label">Historical Context (Ibn Kathir)</span><div class="content">In pre-Islamic Arabia, and in many surrounding ancient civilizations, the sun was worshipped as a supreme, untouchable deity. By swearing by it, the Quran immediately subjugates the sun, reducing it from a 'god' to a mere tool and an obedient creation of the True Divine.</div></div>
+            
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The sun in the sky is a mirror for the spirit (Ruh) within you. Just as the physical sun banishes the darkness of the earth, the light of absolute certainty (Yaqeen) in your heart banishes the exhausting darkness of anxiety, doubt, and fear.</div></div>
+            
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata'illah)</span><div class="content">"When the light of certainty shines, the darkness of illusions vanishes." Just as the sun illuminates the physical world without requiring any effort on your part, His grace illuminates your heart the moment you simply open your eyes to it.</div></div>
         </div>
-        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Attributes of Allah</span></div>
+        <div class="tags"><span class="tag">Light</span><span class="tag">Certainty</span><span class="tag">Divine Oaths</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 2</span></div>
         <div class="arabic">وَٱلْقَمَرِ إِذَا تَلَىٰهَا</div>
-        <div class="translation">"And [by] the moon when it follows it,"</div>
+        <div class="translation">and the moon as it follows it,</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">An oath by the moon as it rises and follows the sun, providing light in the darkness.</div></div>
-            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The sequence of oaths is establishing the concept of duality and pairs. The sun dominates the day, and the moon faithfully takes over its shift in the night. They are bound by an unbreakable cosmic discipline.</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">If the Sun is the Prophet ﷺ (the source of light), the Moon is the spiritually purified scholar or saint who "follows it." The moon has no light of its own; it merely reflects the light of the sun into the dark night. A true guide only reflects Prophetic light.</div></div>
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Just as the moon possesses no light of its own but beautifully reflects the sun, the human heart finds its true, gentle glow only when it perfectly reflects the light of its Creator.</div></div>
+            
+            <div class="insight-box context"><span class="label">Historical Context (Al-Tabari)</span><div class="content">The desert Arabs regulated their entire lives, their poetry, their travel, and their sense of time by the phases of the moon. This oath highlights the harmonious, inescapable submission of celestial bodies to a divine order, showing how they flawlessly cooperate rather than compete.</div></div>
+            
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Ibn Arabi)</span><div class="content">The sun represents the pure spirit, and the moon represents the heart. The heart only shines when it follows the pure, original light of the spirit. When the heart turns away from the spirit and turns toward the ego, it enters a spiritual eclipse.</div></div>
         </div>
-        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Spiritual Practice</span></div>
+        <div class="tags"><span class="tag">Reflection</span><span class="tag">The Heart</span><span class="tag">Submission</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 3</span></div>
         <div class="arabic">وَٱلنَّهَارِ إِذَا جَلَّىٰهَا</div>
-        <div class="translation">"And [by] the day when it displays it,"</div>
+        <div class="translation">and the day as it unveils it,</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">An oath by the bright daytime when it fully reveals the sun and exposes the earth.</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"Sometimes He gives to you and deprives you; and sometimes He deprives you and gives to you." The day represents the state of spiritual expansion (Bast) and clarity, where good deeds feel easy and faith feels brilliant.</div></div>
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The brilliant clarity of daylight banishes all shadows, gently reminding us that the truth of our hidden actions and silent intentions will eventually be completely exposed.</div></div>
+            
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">Daylight brings visibility, safety, and the crucial time when human beings seek their livelihood. The oath honors the period of action and clarity, reminding the Meccans that just as the day exposes the hidden terrain of the desert, the Day of Judgment will expose the hidden terrain of their souls.</div></div>
+            
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata'illah)</span><div class="content">Do not rely on the darkness of your locked doors to hide your sins. You worship the Lord of the Day—the One whose very nature is to unveil, reveal, and bring what is hidden in the chest out into the glaring light.</div></div>
         </div>
-        <div class="tags"><span class="tag">Knowledge & Signs</span></div>
+        <div class="tags"><span class="tag">Clarity</span><span class="tag">Exposure</span><span class="tag">Truth</span><span class="tag">Action</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 4</span></div>
         <div class="arabic">وَٱلَّيْلِ إِذَا يَغْشَىٰهَا</div>
-        <div class="translation">"And [by] the night when it covers it,"</div>
+        <div class="translation">and the night as it conceals it!</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">An oath by the night when its darkness covers the sun, plunging the world into shadows.</div></div>
-            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The constant alternation of day and night proves that change is the only constant in creation. Nothing in this world is permanent; only the Creator of the day and night remains unchanged.</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The night represents the state of spiritual contraction (Qabd) or trials, where the light of faith feels covered or hidden. The true seeker worships the Lord of the Sun just as faithfully during the dark Night of the soul.</div></div>
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The dark, quiet blanket of night forces the chaotic, noisy world to rest, serving as a merciful sanctuary for the exhausted soul to privately heal and connect with the Divine.</div></div>
+            
+            <div class="insight-box context"><span class="label">Historical Context (Ibn Kathir)</span><div class="content">The Meccans often feared the deep, isolating darkness of the desert night. The Quran radically rephrases the night—not as a terrifying, chaotic void, but as a deliberate, comforting garment spread by God to grant respite and conceal our flaws.</div></div>
+            
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">The night is the 'dark night of the soul'—a necessary, beautiful spiritual phase where the ego is finally starved of its worldly distractions, applause, and noise, so it can finally sit in silence and hear the whisper of God.</div></div>
+            
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Al-Ghazali)</span><div class="content">He conceals the sun with the night just as He beautifully conceals your sins from the eyes of the people. Use the privacy of His 'night' to weep over your shortcomings, rather than using it as a cover to commit them.</div></div>
         </div>
-        <div class="tags"><span class="tag">Test</span><span class="tag">Spiritual Practice</span></div>
+        <div class="tags"><span class="tag">Sanctuary</span><span class="tag">Privacy</span><span class="tag">Concealment</span><span class="tag">Intimacy</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 5</span></div>
         <div class="arabic">وَٱلسَّمَآءِ وَمَا بَنَىٰهَا</div>
-        <div class="translation">"And [by] the sky and He who constructed it,"</div>
+        <div class="translation">And by heaven and ˹the One˺ Who built it,</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">An oath by the vast canopy of the sky, and by the incredible power of the God who built it without pillars.</div></div>
-            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">Notice the shift. First, Allah swore by the created objects (Sun, Moon). Now, He swears by the object *and* the active divine force that made it. It elevates the listener's mind from admiring the art to awing the Artist.</div></div>
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Look up at the unimaginable, unsupported vastness of the sky above you, and realize that the Architect of such endless space is more than capable of expanding your constricted, anxious chest.</div></div>
+            
+            <div class="insight-box context"><span class="label">Historical Context (Al-Tabari)</span><div class="content">By swearing by the heavens and explicitly mentioning "Who built it," the revelation decisively redirects the pagan mind away from worshiping the creation and forces them to acknowledge the absolute sovereignty of the unseen Creator.</div></div>
+            
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata'illah)</span><div class="content">"Relax from your management of affairs." He built the terrifying, massive canopy of the sky without a single visible pillar specifically so you would know He can easily uphold your fragile life without any earthly support.</div></div>
         </div>
-        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">Knowledge & Signs</span></div>
+        <div class="tags"><span class="tag">Cosmic Awe</span><span class="tag">Tawakkul</span><span class="tag">Expansion</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 6</span></div>
         <div class="arabic">وَٱلْأَرْضِ وَمَا طَحَىٰهَا</div>
-        <div class="translation">"And [by] the earth and He who spread it,"</div>
+        <div class="translation">and the earth and ˹the One˺ Who spread it!</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">An oath by the earth, and by the majestic power of the God who flattened and smoothed it out to be habitable.</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">The sky represents elevation and the spiritual realm; the earth represents humility and the physical realm. You are a bridge between the two: made of the dirt of the earth, but carrying the breath of the sky.</div></div>
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The earth was flattened, spread out, and made gentle for your footsteps—a profound reminder that true spiritual strength is found in being humble, accessible, and deeply grounded.</div></div>
+            
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The Arabs were intimately tied to the harsh, unforgiving earth. To recognize that God intentionally made it navigable, soft enough to farm, and firm enough to build upon was a direct call to abandon their tribal arrogance and adopt profound gratitude.</div></div>
+            
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">Be like the earth. Ignorant people constantly tread upon it, dig into it, and throw their filth onto it, but the earth only responds by returning beautiful flowers, clean water, and nourishing fruits. This is the exact state of the purified, forgiving heart.</div></div>
         </div>
-        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">Human Nature</span></div>
+        <div class="tags"><span class="tag">Humility</span><span class="tag">Groundedness</span><span class="tag">Forgiveness</span><span class="tag">Gratitude</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 7</span></div>
         <div class="arabic">وَنَفْسٍۢ وَمَا سَوَّىٰهَا</div>
-        <div class="translation">"And [by] the soul and He who proportioned it"</div>
+        <div class="translation">And by the soul and ˹the One˺ Who fashioned it,</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">An oath by the human soul, and by the God who designed it with perfect balance and intricate proportion.</div></div>
-            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">This is the pinnacle of the oaths. Allah equates the complexity and majesty of the human soul to the complexity of the sun, moon, sky, and earth. The inner universe of the human mind is just as vast as the outer cosmos.</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">"Sawwaha" (proportioned it) means God gave the soul a perfect baseline balance (Fitrah). It is naturally inclined to equilibrium. When you sin, you violate your own internal physics, causing the soul to fall out of proportion and suffer anxiety.</div></div>
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">After swearing by the most massive galaxies and celestial bodies, the Creator swears by your own soul, declaring that the universe inside your chest is just as breathtaking and complex as the cosmos above.</div></div>
+            
+            <div class="insight-box context"><span class="label">Historical Context (Ibn Kathir)</span><div class="content">This is the climactic, emotional pivot of the entire Surah. God aligns the perfection of the human soul directly alongside the perfection of the sun, moon, and heavens. Early Meccan society valued humans based on external wealth; Islam entirely redefined human worth based on the divinely fashioned soul.</div></div>
+            
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">God perfectly proportioned and fashioned your soul to be an immaculate mirror reflecting His divine attributes of mercy, justice, and love. Do not maliciously shatter this exquisite mirror with the hammer of your base, worldly desires.</div></div>
         </div>
-        <div class="tags"><span class="tag">Human Nature</span><span class="tag">Knowledge & Signs</span></div>
+        <div class="tags"><span class="tag">Human Worth</span><span class="tag">Inner Universe</span><span class="tag">Divine Masterpiece</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 8</span></div>
         <div class="arabic">فَأَلْهَمَهَا فُجُورَهَا وَتَقْوَىٰهَا</div>
-        <div class="translation">"And inspired it [with discernment of] its wickedness and its righteousness,"</div>
+        <div class="translation">then with ˹the knowledge of˺ right and wrong inspired it!</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God fundamentally wired into the human soul the intuitive ability to recognize what is deeply wicked (sin) and what is deeply righteous (God-consciousness).</div></div>
-            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">This destroys the excuse of ignorance. Even before a Prophet arrives, every human being has a conscience. You intuitively feel a knot in your chest when you steal (Fujur), and you feel expansion when you give charity (Taqwa).</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">You contain both the capacity of Pharaoh and the capacity of Abu Bakr. The ego leans toward Fujur (bursting boundaries); the spirit leans toward Taqwa (guarding boundaries). Your life is the battlefield between these two inspired forces.</div></div>
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">You are never truly lost; God has hardwired a spiritual compass into the very fabric of your being, ensuring your heart intuitively recognizes the difference between toxic actions and pure ones.</div></div>
+            
+            <div class="insight-box context"><span class="label">Historical Context (Al-Tabari)</span><div class="content">This verse establishes the ultimate reality of human free will and accountability. God did not create us as mindless angels; He gave us the terrifying, beautiful freedom to choose. He inspired the soul with the deep, innate knowledge of both its darkest, rebellious potential (*Fujur*) and its highest, most God-conscious elevation (*Taqwa*).</div></div>
+            
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata'illah)</span><div class="content">"The source of every disobedience, indifference, and passion is self-satisfaction. The source of every obedience, vigilance, and virtue is dissatisfaction with one's self." You have both potentials inside you; the one you feed is the one that will inevitably rule you.</div></div>
         </div>
-        <div class="tags"><span class="tag">Human Nature</span><span class="tag">Accountability</span><span class="tag">Test</span></div>
+        <div class="tags"><span class="tag">Free Will</span><span class="tag">Spiritual Compass</span><span class="tag">Accountability</span><span class="tag">Fitrah</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 9</span></div>
         <div class="arabic">قَدْ أَفْلَحَ مَن زَكَّىٰهَا</div>
-        <div class="translation">"He has succeeded who purifies it,"</div>
+        <div class="translation">Successful indeed is the one who purifies their soul,</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">This is the central thesis of the entire Surah: True, ultimate, and absolute success belongs exclusively to the person who actively purifies and cleanses their soul.</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">This is the definition of Sufism (Tazkiyat al-Nafs). The Arabic word "Zakka" means both to "purify" (remove the weeds of envy, anger, and lust) and to "grow" (plant the seeds of mercy, patience, and love). You cannot grow the flower until you pull the weed.</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">Success (Falah) in the Dunya is measured by what you accumulate (wealth). Success in the Akhirah is measured by what you eliminate (sins from the heart). "The day when neither wealth nor sons will avail, except him who brings to Allah a sound heart."</div></div>
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">True, lasting victory has absolutely nothing to do with your bank account, your career, or your followers; it is exclusively measured by how relentlessly you scrub your heart clean of ego, hatred, and greed.</div></div>
+            
+            <div class="insight-box context"><span class="label">Historical Context (Ibn Kathir)</span><div class="content">This is the thesis statement of the entire Surah, the ultimate answer to the longest series of oaths in the Quran. While the Quraysh arrogantly measured success by the size of their caravans and gold, the revelation introduces the revolutionary concept of *Tazkiyah*—the meticulous, lifelong gardening and purification of the unseen soul.</div></div>
+            
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">Purification (*Tazkiyah*) is not a one-time event; it is an agonizing, beautiful, and daily process of pruning the violent weeds of arrogance so the delicate flower of humility can finally bloom in your chest.</div></div>
+            
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata'illah)</span><div class="content">"Bury your existence in the earth of obscurity, for whatever sprouts forth without having first been buried, its fruits will never completely ripen." True purification happens in secret, far away from the applause of men.</div></div>
         </div>
-        <div class="tags"><span class="tag">Spiritual Practice</span><span class="tag">Commands</span><span class="tag">Hope</span></div>
+        <div class="tags"><span class="tag">Tazkiyah</span><span class="tag">True Success</span><span class="tag">Purification</span><span class="tag">Inner Work</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 10</span></div>
         <div class="arabic">وَقَدْ خَابَ مَن دَسَّىٰهَا</div>
-        <div class="translation">"And he has failed who instills it [with corruption]."</div>
+        <div class="translation">and doomed is the one who corrupts it!</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">And total ruin, failure, and despair belong to the person who corrupts, buries, and pollutes their soul with sin.</div></div>
-            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">"Dassaha" means to bury something deep in the dirt to hide it. The sinner buries their pure, illuminated soul under layers of dark, filthy sins until the conscience is entirely smothered and can no longer breathe or see the light.</div></div>
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The ultimate tragedy in this life is to take the pristine, divine masterpiece of your soul and bury it alive under the suffocating dirt of endless worldly distractions, ego, and toxic habits.</div></div>
+            
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The word *dassaha* literally means to bury something deep in the dirt to hide it. The pagan Arabs used this exact word when they committed the horrific act of burying their unwanted daughters alive. The Quran uses this terrifying cultural imagery to show that living a life driven entirely by base desires is the spiritual equivalent of burying your own soul alive.</div></div>
+            
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Ibn Arabi)</span><div class="content">Do not bury your heavenly light under the heavy, rotting soil of your earthly appetites. When you let your ego rule, your body ceases to be a temple and simply becomes a walking grave for your spirit.</div></div>
         </div>
-        <div class="tags"><span class="tag">Human Nature</span><span class="tag">Sin</span><span class="tag">Accountability</span></div>
+        <div class="tags"><span class="tag">Corruption</span><span class="tag">Ego</span><span class="tag">Spiritual Death</span><span class="tag">Tragedy</span></div>
     </div>
-
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 11</span></div>
         <div class="arabic">كَذَّبَتْ ثَمُودُ بِطَغْوَىٰهَآ</div>
-        <div class="translation">"Thamud denied [their prophet] by reason of their transgression,"</div>
+        <div class="translation">Thamûd rejected ˹the truth˺ out of arrogance,</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">A historical case study of a buried soul: The ancient tribe of Thamud called the truth a lie because their arrogance and rebellion (Tughyan) completely took over.</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">Denial of truth is rarely an intellectual problem; it is almost always a disease of the ego. They didn't reject the Prophet Salih because he lacked evidence; they rejected him because accepting his authority would crush their "Tughyan" (their arrogant desire to be their own gods).</div></div>
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">When human beings allow arrogance to blind their hearts, they inevitably reject the very truth that was sent to heal and elevate them.</div></div>
+            
+            <div class="insight-box context"><span class="label">Historical Context (Ibn Kathir)</span><div class="content">The ancient tribe of Thamud is presented as a tragic historical archetype. They were incredibly wealthy and architecturally advanced, carving impenetrable palaces directly into the mountains. However, their material success bred a toxic arrogance (<em>Taghwa</em>) that led them to reject the prophet Salih, believing their wealth made them entirely self-sufficient and untouchable by divine law.</div></div>
+            
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata'illah)</span><div class="content">"The source of every disobedience, indifference, and passion is self-satisfaction." Arrogance is the root illness of the soul; it convinces the heart that it needs no physician, locking the door to divine mercy entirely from the inside.</div></div>
+            
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The destruction of Thamud did not begin with a physical earthquake; it began the exact moment they believed they were self-sufficient. The ego's stubborn insistence on its own greatness is the absolute death of the spiritual heart.</div></div>
         </div>
-        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Arrogance</span><span class="tag">Human Nature</span></div>
+        <div class="tags"><span class="tag">Arrogance</span><span class="tag">Self-Deception</span><span class="tag">Ego</span><span class="tag">Rejection</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 12</span></div>
         <div class="arabic">إِذِ ٱنبَعَثَ أَشْقَىٰهَا</div>
-        <div class="translation">"When the most wretched of them was sent forth."</div>
+        <div class="translation">when the most wicked of them was roused ˹to kill the she-camel˺.</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">This happened when the most evil, miserable, and corrupt man among them stepped forward to do the unthinkable.</div></div>
-            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">His name was Qudar ibn Salif. He was the most wicked man in the tribe. The entire tribe cheered him on as he volunteered to execute their treacherous plan to kill the miraculous she-camel that God had sent as a test.</div></div>
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">A corrupt society often empowers the most broken and cruel among them to carry out the very actions that will ultimately destroy the entire community.</div></div>
+            
+            <div class="insight-box context"><span class="label">Historical Context (Al-Tabari)</span><div class="content">The "most wicked" refers to a specific man, Qudar ibn Salif, who eagerly stepped forward to slaughter the miraculous she-camel. The profound lesson here is one of collective responsibility: though only one man swung the blade, the entire tribe cheered him on, enabled him, and supported his cruelty, making them entirely complicit in the crime.</div></div>
+            
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">Within every human chest lies a 'Thamud'—a rebellious ego—and within that ego lies an 'Ashqa' (the most wicked impulse). If you do not actively suppress your darkest impulses through constant remembrance (<em>Dhikr</em>), they will eventually rise up and slaughter your spiritual innocence.</div></div>
         </div>
-        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Sin</span></div>
+        <div class="tags"><span class="tag">Complicity</span><span class="tag">Dark Impulses</span><span class="tag">Collective Responsibility</span><span class="tag">Corruption</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 13</span></div>
         <div class="arabic">فَقَالَ لَهُمْ رَسُولُ ٱللَّهِ نَاقَةَ ٱللَّهِ وَسُقْيَـٰهَا</div>
-        <div class="translation">"And the messenger of Allah [Salih] said to them, '[Do not harm] the she-camel of Allah or [prevent her from] her drink.'"</div>
+        <div class="translation">But the messenger of Allah warned them, “˹Do not disturb˺ Allah’s camel and her ˹turn to˺ drink!”</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The Prophet Salih desperately warned them: "Beware! Leave God's camel alone, and do not block her from her turn to drink water!"</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">The she-camel is a symbol of God's sacred boundaries (Hurumat). Every person has a "she-camel" in their life—a clear, undeniable command from God that they are tested with. Do not strike the boundary, or you invite the consequence.</div></div>
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The Divine frequently places innocent, vulnerable things in our path as a profound test to see if we will honor His boundaries or trample over them to satisfy our own greed.</div></div>
+            
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">Prophet Salih made a very simple, compassionate request: share the water. The miraculous she-camel was a symbol of divine grace and a direct test of their morality. They were asked to overcome their greed and allow the camel its appointed day to drink, testing their ability to honor God's sacred signs and practice basic resource-sharing.</div></div>
+            
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata'illah)</span><div class="content">"Do not despise the small boundaries He has set, for they are the guardians of the great boundaries." The camel was a physical boundary. When the heart loses its reverence for the sacred rights of the vulnerable, it loses its reverence for the Creator Himself.</div></div>
+            
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Ibn Arabi)</span><div class="content">Everything in creation belongs to God, but when He specifically attaches His name to something—"Allah's camel"—it requires an extraordinary level of spiritual courtesy (<em>Adab</em>). How you treat the helpless, voiceless creatures of God is the most accurate mirror of your inner relationship with God.</div></div>
         </div>
-        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Commands</span></div>
+        <div class="tags"><span class="tag">Boundaries</span><span class="tag">Vulnerability</span><span class="tag">Compassion</span><span class="tag">Tests</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 14</span></div>
         <div class="arabic">فَكَذَّبُوهُ فَعَقَرُوهَا فَدَمْدَمَ عَلَيْهِمْ رَبُّهُم بِذَنۢبِهِمْ فَسَوَّىٰهَا</div>
-        <div class="translation">"But they denied him and hamstrung her. So their Lord brought down upon them destruction for their sin and made it equal [upon all of them]."</div>
+        <div class="translation">Still they defied him and slaughtered her. So their Lord crushed them for their crime, leveling all to the ground.</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">But they ignored the Prophet, violently sliced the legs of the camel, and killed her. As a direct result, their Master unleashed a crushing, flattening destruction upon them because of their sin, wiping them all out equally.</div></div>
-            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">Even though only one man (Qudar) killed the camel, the entire tribe was destroyed. Why? Because they all supported, cheered, and enabled him. Silence in the face of violent injustice makes you complicit in the crime. "Damdama" implies a punishment that completely envelops and crushes, leaving nothing standing.</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">Notice the word "Sawwaha" (made it equal). In Verse 7, God "proportioned/equalized" (Sawwaha) the human soul for greatness. Because they destroyed that inner equilibrium with sin, God sent an external punishment that "equalized" (Sawwaha) them with the dirt. The external punishment matches the internal crime.</div></div>
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">When we knowingly and stubbornly destroy the beautiful signs God places in our lives, the inevitable consequence is the total collapse of the very world we thought we controlled.</div></div>
+            
+            <div class="insight-box context"><span class="label">Historical Context (Ibn Kathir)</span><div class="content">The word <em>Damdama</em> implies a thorough, all-encompassing, and suffocating destruction. Because their sin of slaughtering the camel was a collective act of defiant arrogance, the resulting divine punishment—an earthquake accompanied by a terrifying blast—leveled their seemingly indestructible mountain fortresses. It entirely erased their arrogant social hierarchy, making them all equally flat with the dust.</div></div>
+            
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata'illah)</span><div class="content">"Whoever is not drawn to God by the gentleness of His blessings will be chained to Him by the chains of trials." They violently rejected the gentle miracle of the camel, so they were forced to face the terrifying miracle of His wrath.</div></div>
+            
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">Sin does not just harm the soul; it violently destabilizes the foundation of your life. When you "slaughter" your own conscience, the internal earthquake (<em>Damdama</em>) leaves your inner world in absolute ruins, flattening your joy, your peace, and your connection to the Heavens.</div></div>
         </div>
-        <div class="tags"><span class="tag">Divine Justice</span><span class="tag">Punishment</span><span class="tag">Social Ethics</span></div>
+        <div class="tags"><span class="tag">Consequences</span><span class="tag">Destruction</span><span class="tag">Defiance</span><span class="tag">Spiritual Ruin</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 15</span></div>
         <div class="arabic">وَلَا يَخَافُ عُقْبَـٰهَا</div>
-        <div class="translation">"And He does not fear the consequence thereof."</div>
+        <div class="translation">He has no fear of consequences.</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">And unlike human kings, God does not fear any backlash, revenge, or consequence for destroying them.</div></div>
-            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">When a human king destroys a powerful tribe, he lives in constant fear that their allies will seek revenge. God acts with absolute, sovereign impunity. He annihilated a superpower, and there is no power in the cosmos that can question Him or retaliate.</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">Thamud did not fear the consequence of killing the camel, so God destroyed them with a power that fears no consequence. The height of delusion is acting recklessly in the kingdom of a King who cannot be challenged.</div></div>
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Unlike earthly kings who hesitate to punish out of fear of rebellion or backlash, the Creator executes perfect justice with absolute, unshakeable serenity.</div></div>
+            
+            <div class="insight-box context"><span class="label">Historical Context (Al-Tabari)</span><div class="content">Human rulers often let crimes go unpunished because they fear the political fallout, the loss of wealth, or revenge from a powerful tribe. God, being the Absolute Sovereign, is entirely free from any such weakness. His justice is pure, swift, and entirely unconcerned with any reciprocal harm, because He is the unchallenged Master of the cosmos.</div></div>
+            
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata'illah)</span><div class="content">"How can you fear what is in the hands of creation, when creation itself is entirely in the Hands of the One who fears nothing?"</div></div>
+            
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">The human ego constantly lives in anxiety over the consequences of tomorrow—fearing poverty, fearing people's opinions, fearing failure. But when your heart fully submits to the Lord who "fears no consequences," you absorb a profound, courageous peace. You stop fearing creation, because your soul is anchored to the Unshakable.</div></div>
         </div>
-        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">Divine Justice</span></div>
+        <div class="tags"><span class="tag">Absolute Justice</span><span class="tag">Divine Majesty</span><span class="tag">Fearlessness</span><span class="tag">Sovereignty</span></div>
     </div>
-
-</div>
-
+</div> 
 </body>
 </html>
