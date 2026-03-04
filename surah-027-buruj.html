@@ -12,36 +12,38 @@
             --context-color: #d69e2e; --sufi-color: #38a169; --wisdom-color: #805ad5; --plain-color: #718096; 
         }
         body { font-family: 'Inter', sans-serif; background: var(--bg-color); color: var(--text-color); margin: 0; padding: 0; line-height: 1.6; }
-        .nav-bar { padding: 1rem 2rem; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; background: white; z-index: 100; box-shadow: 0 2px 4px rgba(0,0,0,0.05); flex-wrap: wrap; gap: 1rem;}
-        .nav-controls { display: flex; gap: 1.5rem; align-items: center; }
-        .nav-link { text-decoration: none; color: var(--primary-accent); font-weight: 600; display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem;}
-        .nav-link:hover { text-decoration: underline; }
-        .home-btn { background: var(--primary-accent); color: white; padding: 0.5rem 1rem; border-radius: 6px; }
-        .home-btn:hover { background: #2c5282; color: white; text-decoration: none; }
+        
+      .nav-bar { padding: 1rem 2rem; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; background: white; z-index: 100; box-shadow: 0 2px 4px rgba(0,0,0,0.05); flex-wrap: wrap; gap: 1rem;}
+      .nav-controls { display: flex; gap: 1.5rem; align-items: center; }
+      .nav-link { text-decoration: none; color: var(--primary-accent); font-weight: 600; display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem;}
+      .nav-link:hover { text-decoration: underline; }
+      .home-btn { background: var(--primary-accent); color: white; padding: 0.5rem 1rem; border-radius: 6px; }
+      .home-btn:hover { background: #2c5282; color: white; text-decoration: none; }
+
         header { text-align: center; padding: 3rem 1rem 2rem; background: linear-gradient(180deg, #f7fafc 0%, #ffffff 100%); }
         h1 { font-family: 'Merriweather', serif; font-size: 2.8rem; margin: 0; color: #1a202c; }
-        .meta { color: #718096; text-transform: uppercase; letter-spacing: 2px; font-size: 0.85rem; margin-top: 1rem; font-weight: 700; }
-        .intro-text { max-width: 650px; margin: 1.5rem auto 0; font-style: italic; color: #4a5568; }
-        .container { max-width: 900px; margin: 0 auto; padding: 0 1rem 4rem; }
-        .verse-card { background: white; border: 1px solid var(--border-color); border-radius: 12px; padding: 2rem; margin-bottom: 2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.02); }
-        .verse-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; border-bottom: 1px solid #edf2f7; padding-bottom: 0.8rem; }
-        .verse-number { background: var(--primary-accent); color: white; padding: 0.2rem 0.8rem; border-radius: 20px; font-size: 0.85rem; font-weight: 700; }
-        .arabic { font-family: 'Amiri', serif; font-size: 2.4rem; text-align: right; color: #2d3748; margin-bottom: 1.5rem; line-height: 2.2; }
-        .translation { font-family: 'Merriweather', serif; font-size: 1.2rem; color: #1a202c; margin-bottom: 2rem; border-left: 4px solid var(--primary-accent); padding-left: 1rem; }
-        .insights { display: grid; grid-template-columns: 1fr; gap: 1rem; }
-        .insight-box { background: #fff; padding: 1.2rem; border-radius: 8px; border: 1px solid #e2e8f0; border-left-width: 4px; }
-        .insight-box.plain { border-left-color: var(--plain-color); background: #f7fafc; }
-        .insight-box.context { border-left-color: var(--context-color); }
-        .insight-box.sufi { border-left-color: var(--sufi-color); }
-        .insight-box.hikam { border-left-color: var(--wisdom-color); }
-        .label { display: block; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1.2px; font-weight: 700; margin-bottom: 0.5rem; }
-        .plain .label { color: var(--plain-color); }
-        .context .label { color: var(--context-color); }
-        .sufi .label { color: var(--sufi-color); }
-        .hikam .label { color: var(--wisdom-color); }
-        .content { font-size: 0.95rem; color: #4a5568; }
-        .tags { margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; padding-top: 1rem; border-top: 1px solid #edf2f7; }
-        .tag { background: var(--tag-bg); color: var(--tag-text); padding: 0.2rem 0.7rem; border-radius: 99px; font-size: 0.75rem; font-weight: 600; }
+      .meta { color: #718096; text-transform: uppercase; letter-spacing: 2px; font-size: 0.85rem; margin-top: 1rem; font-weight: 700; }
+      .intro-text { max-width: 650px; margin: 1.5rem auto 0; font-style: italic; color: #4a5568; }
+      .container { max-width: 900px; margin: 0 auto; padding: 0 1rem 4rem; }
+      .verse-card { background: white; border: 1px solid var(--border-color); border-radius: 12px; padding: 2rem; margin-bottom: 2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.02); }
+      .verse-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; border-bottom: 1px solid #edf2f7; padding-bottom: 0.8rem; }
+      .verse-number { background: var(--primary-accent); color: white; padding: 0.2rem 0.8rem; border-radius: 20px; font-size: 0.85rem; font-weight: 700; }
+      .arabic { font-family: 'Amiri', serif; font-size: 2.4rem; text-align: right; color: #2d3748; margin-bottom: 1.5rem; line-height: 2.2; }
+      .translation { font-family: 'Merriweather', serif; font-size: 1.2rem; color: #1a202c; margin-bottom: 2rem; border-left: 4px solid var(--primary-accent); padding-left: 1rem; }
+      .insights { display: grid; grid-template-columns: 1fr; gap: 1rem; }
+      .insight-box { background: #fff; padding: 1.2rem; border-radius: 8px; border: 1px solid #e2e8f0; border-left-width: 4px; }
+      .insight-box.plain { border-left-color: var(--plain-color); background: #f7fafc; }
+      .insight-box.context { border-left-color: var(--context-color); }
+      .insight-box.sufi { border-left-color: var(--sufi-color); }
+      .insight-box.hikam { border-left-color: var(--wisdom-color); }
+      .label { display: block; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1.2px; font-weight: 700; margin-bottom: 0.5rem; }
+      .plain .label  { color: var(--plain-color); }
+      .context .label { color: var(--context-color); }
+      .sufi .label    { color: var(--sufi-color); }
+      .hikam .label   { color: var(--wisdom-color); }
+      .content { font-size: 0.95rem; color: #4a5568; }
+      .tags { margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; padding-top: 1rem; border-top: 1px solid #edf2f7; }
+      .tag { background: var(--tag-bg); color: var(--tag-text); padding: 0.2rem 0.7rem; border-radius: 99px; font-size: 0.75rem; font-weight: 600; }
     </style>
 </head>
 <body>
@@ -49,7 +51,7 @@
 <div class="nav-bar">
     <div class="nav-controls">
         <a href="index.html" class="nav-link home-btn">⌂ Dashboard</a>
-        <a href="surah-026-shams.html" class="nav-link">← Prev</a>
+         <a href="surah-026-shams.html" class="nav-link">← Prev</a>
         <a href="surah-028-tin.html" class="nav-link">Next →</a>
     </div>
     <span style="font-weight: 600; color: #718096; font-size: 0.9rem;">Mushaf: #85 | Chronological: #27</span>
@@ -57,259 +59,211 @@
 
 <header>
     <h1>Surah Al-Buruj</h1>
-    <div class="meta">The Constellations • Makkah • 22 Verses</div>
+    <div class="meta">The Constellations • Makkah • Verses 1-11</div>
     <div class="intro-text">
-        The Anatomy of True Victory. A haunting and majestic Surah recounting the believers who were burned alive in trenches. It redefines success: the tyrant king who burned them failed, and the martyrs who burned won the "Great Victory" by protecting their faith.
+        The Triumph of the Unbroken Soul. This profoundly emotional Surah was revealed when the early Muslims in Makkah were experiencing horrific, daily persecution for their faith. Bodies were being dragged across burning sands, and the believers felt hopelessly outnumbered. To heal their breaking hearts, the Divine does not promise them immediate earthly rescue. Instead, He redirects their gaze to the stars, and then backward in time to the "People of the Ditch"—an ancient community of believers who were burned alive in trenches simply for believing in God. In an awe-inspiring shift of perspective, the Quran does not frame these martyrs as defeated victims. Even though they lost their lives, the Surah crowns them with the "Greatest Triumph" because they never lost their souls. It is a timeless, healing reminder that worldly destruction is not the end of the story, and true victory is keeping your heart anchored to the Heavens even when the earth is set on fire.
     </div>
 </header>
 
 <div class="container">
 
     <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 1</span></div>
-        <div class="arabic">وَٱلسَّمَآءِ ذَاتِ ٱلْبُرُوجِ</div>
-        <div class="translation">"By the sky containing great stars,"</div>
+        <div class="verse-header"><span class="verse-number">Verses 1-3</span></div>
+        <div class="arabic">وَٱلسَّمَآءِ ذَاتِ ٱلْبُرُوجِ •وَٱلْيَوْمِ ٱلْمَوْعُودِ •وَشَاهِدٍۢ وَمَشْهُودٍۢ</div>
+        <div class="translation">By the sky full of constellations, and the promised Day ˹of Judgment˺, and the witness and what is witnessed!</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">An oath sworn by the sky and its massive constellations, star clusters, and cosmic fortresses.</div></div>
-            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">"Al-Buruj" refers to massive structures, forts, or the 12 mansions of the stars (Zodiac). The Arabs saw these starry formations as towering, impenetrable fortresses in the sky. Allah swears by the ultimate, unconquerable fortresses above to prepare us for a story about a tyrant below who thought his worldly fortress made him a god.</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">Just as the physical sky has "Buruj" (fortresses) to protect it from ascending devils, the spiritual heart must have fortresses of Dhikr (remembrance) and Taqwa (piety) to protect it from the whisperings of the ego.</div></div>
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The Creator swears by the immense, ordered beauty of the starry night sky, the inescapable guarantee of the Final Day, and the absolute reality that no act of cruelty or act of silent faith ever goes unseen.</div></div>
+            
+            <div class="insight-box context"><span class="label">Historical Context (Al-Tabari)</span><div class="content">The Arabs relied heavily on the *Buruj* (constellations) for navigation in the desolate, terrifying darkness of the desert. By swearing by these guiding stars and the Day of Judgment, God anchors the believers: just as the stars guide the lost traveler in the dark, faith will guide the persecuted soul to the promised safety of the Next Life. Everything is witnessed; nothing is lost to the void.</div></div>
+            
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The vast outer cosmos is a reflection of the inner spiritual universe. Your heart, too, has 'constellations'—the guiding lights of certainty, patience, and love. When the darkness of worldly trials falls upon you, look up to these inner stars. They will guide you safely back to Him.</div></div>
+            
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata'illah)</span><div class="content">"He knew you would not be able to endure the wait, so He promised you a Day." When injustice in this world breaks your heart, find comfort in the 'Promised Day.' The ego demands immediate revenge, but the soul finds deep, lasting peace in the absolute certainty of Divine Justice.</div></div>
         </div>
-        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Attributes of Allah</span></div>
+        <div class="tags"><span class="tag">Divine Oaths</span><span class="tag">Justice</span><span class="tag">Unseen Witnesses</span><span class="tag">Constellations</span></div>
     </div>
 
     <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 2</span></div>
-        <div class="arabic">وَٱلْيَوْمِ ٱلْمَوْعُودِ</div>
-        <div class="translation">"And [by] the promised Day,"</div>
+        <div class="verse-header"><span class="verse-number">Verses 4-7</span></div>
+        <div class="arabic">قُتِلَ أَصْحَـٰبُ ٱلْأُخْدُودِ •ٱلنَّارِ ذَاتِ ٱلْوَقُودِ •إِذْ هُمْ عَلَيْهَا قُعُودٌۭ •وَهُمْ عَلَىٰ مَا يَفْعَلُونَ بِٱلْمُؤْمِنِينَ شُهُودٌۭ</div>
+        <div class="translation">Condemned are the makers of the ditch— the fire ˹pit˺, filled with fuel— when they sat around it, watching what they had ˹ordered to be˺ done to the believers,</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">An oath by the Day of Judgment, which has been unconditionally promised to all of humanity.</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">Justice in the Dunya is often delayed or denied, which can cause the heart to despair. But the "Promised Day" is the anchor of the believer. God’s promise is the ultimate guarantee that no tear falls unrecorded and no drop of blood is spilled without an accounting.</div></div>
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">A terrifying glimpse into the darkest depths of human cruelty: tyrants who dug trenches of fire to burn people alive, sitting around the edges with cold, apathetic hearts, treating the agony of the innocent as an entertaining spectacle.</div></div>
+            
+            <div class="insight-box context"><span class="label">Historical Context (Ibn Kathir)</span><div class="content">This refers to the deeply moving historical event of the Boy and the King in Najran (pre-Islamic Yemen). A tyrannical king ordered his subjects to worship him. When a young boy led the masses to believe in the One True God, the furious king dug vast trenches (*Ukhdud*), filled them with fire, and gave the believers a choice: abandon God or burn. They chose the fire. The Meccans were reminded that the cruelty they were currently inflicting on Muslims was the exact behavior of cursed tyrants.</div></div>
+            
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata'illah)</span><div class="content">"Do not be surprised by the occurrence of sorrows as long as you are in this world, for it only manifests what is strictly in accordance with its nature." The 'makers of the ditch' represent the ultimate toxicity of the Dunya. The world will always try to burn the light of faith out of you, but the fire can only touch the flesh; it cannot touch a soul anchored to the Divine.</div></div>
+            
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">Notice the chilling phrase "when they sat around it." The greatest tragedy is not just the fire; it is the dead, hardened heart of the oppressor who can watch human suffering and feel absolutely nothing. Guard your heart fiercely from apathy, for a heart that feels no compassion is already burning in a spiritual hell far worse than any physical trench.</div></div>
         </div>
-        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Accountability</span><span class="tag">Divine Justice</span></div>
+        <div class="tags"><span class="tag">Persecution</span><span class="tag">Cruelty</span><span class="tag">Steadfastness</span><span class="tag">Apathy</span></div>
     </div>
 
     <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 3</span></div>
-        <div class="arabic">وَشَاهِدٍۢ وَمَشْهُودٍۢ</div>
-        <div class="translation">"And [by] the witness and what is witnessed,"</div>
+        <div class="verse-header"><span class="verse-number">Verses 8-9</span></div>
+        <div class="arabic">وَمَا نَقَمُوا۟ مِنْهُمْ إِلَّآ أَن يُؤْمِنُوا۟ بِٱللَّهِ ٱلْعَزِيزِ ٱلْحَمِيدِ •ٱلَّذِى لَهُۥ مُلْكُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۚ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍۢ شَهِيدٌ</div>
+        <div class="translation">who they resented for no reason other than belief in Allah—the Almighty, the Praiseworthy— ˹the One˺ to Whom belongs the kingdom of the heavens and earth. And Allah is a Witness over all things.</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">An oath by everything that bears witness, and everything that is being observed.</div></div>
-            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">In the context of the upcoming story, the "witness" is the tyrant kings and the crowds watching the torture, and the "witnessed" are the believers burning in the fire. In a broader sense, the Prophet ﷺ is a witness over his Ummah, and the Day of Judgment is the ultimate witnessed event.</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">The highest station of faith is *Mushahadah* (witnessing). When the heart becomes a pure "witness" to the reality of God, the terror of the physical world (like being thrown into a fire) becomes entirely secondary to the beauty of the Divine Presence.</div></div>
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The only "crime" these beautiful souls committed was refusing to bow to human ego, choosing instead to love the Almighty King who actually owns and sustains the entire universe.</div></div>
+            
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The oppressors did not hate the believers because of political treason, theft, or corruption. They resented them purely because the believers' profound spiritual independence shattered the tyrants' illusion of absolute control. The mention of Allah as "Al-Aziz" (The Almighty) and "Al-Hamid" (The Praiseworthy) reminds the tortured believers that the God they are suffering for is absolutely worthy of their sacrifice.</div></div>
+            
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Ibn Arabi)</span><div class="content">When you truly realize that "to Him belongs the kingdom of the heavens and the earth," you stop fearing the fragile kings of this world. The believers in the ditch smiled at the fire because they saw through the illusion; they knew the tyrant commanding the flames did not even own his own breath, let alone their eternal destiny.</div></div>
         </div>
-        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Accountability</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 4</span></div>
-        <div class="arabic">قُتِلَ أَصْحَـٰبُ ٱلْأُخْدُودِ</div>
-        <div class="translation">"Destroyed [i.e., cursed] were the companions of the trench"</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">May the evil men who dug the massive trench and threw the believers into it be entirely cursed and destroyed.</div></div>
-            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">This refers to a historical event in Najran (Yemen) led by a Jewish tyrant king named Dhu Nuwas (pre-Islam). A young believing boy had successfully called the entire city to believe in the One True God. Furious, the king ordered massive trenches (Ukhdud) to be dug, filled them with raging fire, and gave the believers a choice: renounce your faith or burn. They chose the fire.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Divine Justice</span><span class="tag">Punishment</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 5</span></div>
-        <div class="arabic">ٱلنَّارِ ذَاتِ ٱلْوَقُودِ</div>
-        <div class="translation">"[Containing] the fire full of fuel,"</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">A trench filled with an intensely blazing fire, continuously fed with heavy fuel to keep it roaring.</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The fire of the tyrant was fueled by wood. But the fire of Hell (which the tyrant will face) is fueled by the tyrants themselves. The pain they inflicted in the Dunya is merely a shadow of the justice awaiting them.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Test</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 6</span></div>
-        <div class="arabic">إِذْ هُمْ عَلَيْهَا قُعُودٌۭ</div>
-        <div class="translation">"When they were sitting near it"</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">While the king and his elite guards sat comfortably in chairs around the edge of the burning trench.</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">Observe the chilling apathy of the hardened ego. They did not just kill; they sat comfortably and made a spectacle of human suffering. When the heart loses the light of God, it is capable of a cruelty that shames wild beasts.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Human Nature</span><span class="tag">Sin</span><span class="tag">Arrogance</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 7</span></div>
-        <div class="arabic">وَهُمْ عَلَىٰ مَا يَفْعَلُونَ بِٱلْمُؤْمِنِينَ شُهُودٌۭ</div>
-        <div class="translation">"And they, to what they were doing to the believers, were witnesses."</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">They actively watched, witnessed, and enjoyed the horrific torture they were inflicting upon the faithful believers.</div></div>
-            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">Among the victims was a woman carrying an infant. She hesitated at the edge of the fire out of love for her baby. Miraculously, the infant spoke to her: "O mother, be patient, for you are upon the Truth!" Upon hearing this, she plunged into the fire with her child. The king watched this entirely unmoved.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Steadfastness</span><span class="tag">Test</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 8</span></div>
-        <div class="arabic">وَمَا نَقَمُوا۟ مِنْهُمْ إِلَّآ أَن يُؤْمِنُوا۟ بِٱللَّهِ ٱلْعَزِيزِ ٱلْحَمِيدِ</div>
-        <div class="translation">"And they resented them not except because they believed in Allah, the Exalted in Might, the Praiseworthy,"</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The believers committed no crime, treason, or theft. The only reason the king hated them and burned them was their pure faith in the Mighty, Praiseworthy God.</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">When you carry the light of Tawheed (Monotheism), the darkness will naturally resent you. Do not expect applause from a society deeply invested in falsehood. The resentment of the ignorant is the badge of honor for the believer.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Steadfastness</span><span class="tag">Human Nature</span><span class="tag">Attributes of Allah</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 9</span></div>
-        <div class="arabic">ٱلَّذِى لَهُۥ مُلْكُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۚ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ شَهِيدٌ</div>
-        <div class="translation">"To whom belongs the dominion of the heavens and the earth. And Allah, over all things, is Witness."</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">This God they believed in is the absolute Owner of the entire universe. And God was watching and witnessing everything the tyrants were doing.</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">The tyrant sat as a "witness" (v. 7) to his own cruelty, feeling powerful. But he forgot that the True King of the Heavens was a "Witness" (Shaheed) over him. The watcher was being watched. Human power is an illusion acting within the theater of Divine Sovereignty.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">The Unseen</span><span class="tag">Accountability</span></div>
+        <div class="tags"><span class="tag">True Crime</span><span class="tag">Divine Ownership</span><span class="tag">Spiritual Independence</span><span class="tag">Courage</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 10</span></div>
         <div class="arabic">إِنَّ ٱلَّذِينَ فَتَنُوا۟ ٱلْمُؤْمِنِينَ وَٱلْمُؤْمِنَـٰتِ ثُمَّ لَمْ يَتُوبُوا۟ فَلَهُمْ عَذَابُ جَهَنَّمَ وَلَهُمْ عَذَابُ ٱلْحَرِيقِ</div>
-        <div class="translation">"Indeed, those who have tortured the believing men and believing women and then have not repented will have the punishment of Hell, and they will have the punishment of the Burning Fire."</div>
+        <div class="translation">Those who persecute the believing men and women and then do not repent will certainly suffer the punishment of Hell and the torment of burning.</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Those who burned and persecuted the believers, and refused to repent for it, will face the eternal fires of Hell.</div></div>
-            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">Look at the sheer, unimaginable mercy of God. Hasan Al-Basri commented on this verse: "Look at His generosity! They killed His beloved friends, they burned His saints alive, and yet He *still* opens the door and offers them repentance ('and then have not repented'). If they had asked for forgiveness, He would have forgiven them!"</div></div>
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Even for the most monstrous abusers who burned innocent people alive, the door of divine mercy remains astonishingly open—but if they arrogantly refuse to repent, they will eternally face the very fire they used to terrorize others.</div></div>
+            
+            <div class="insight-box context"><span class="label">Historical Context (Hasan Al-Basri)</span><div class="content">The great classical scholar Hasan Al-Basri wept when reading this verse, famously saying: "Look at this supreme generosity and mercy! They killed His intimate friends, they burned His beloveds alive, yet He still lovingly invites them to repentance and forgiveness! He says '...and then do not repent,' leaving the door open even for the makers of the ditch."</div></div>
+            
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata'illah)</span><div class="content">"No sin is so great that it can eclipse His mercy." If the Creator is willing to forgive the tyrants who dug trenches of fire to burn His friends, how can you ever despair that He will not forgive the private, hidden sins of your own fragile heart?</div></div>
+            
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">This verse is the ultimate cure for spiritual despair. It completely shatters the human ego's tendency to permanently write people off. It teaches us that divine love and the possibility of redemption are vastly, terrifyingly larger than human logic can comprehend.</div></div>
         </div>
-        <div class="tags"><span class="tag">Divine Justice</span><span class="tag">Punishment</span><span class="tag">Hope</span><span class="tag">Hell</span></div>
+        <div class="tags"><span class="tag">Radical Mercy</span><span class="tag">Repentance</span><span class="tag">Hope</span><span class="tag">Divine Justice</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 11</span></div>
-        <div class="arabic">إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ لَهُمْ جَنَّـٰتٌ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ ۚ ذَٰلِكَ ٱلْفَوْزُ ٱلْكَبِيرُ</div>
-        <div class="translation">"Indeed, those who have believed and done righteous deeds will have gardens beneath which rivers flow. That is the great attainment."</div>
+        <div class="arabic">إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ لَهُمْ جَنَّـٰتٌۭ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ ۚ ذَٰلِكَ ٱلْفَوْزُ ٱلْكَبِيرُ</div>
+        <div class="translation">Surely those who believe and do good will have Gardens under which rivers flow. That is the greatest triumph.</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">As for the believers who were thrown into the fire, they will be given eternal gardens with flowing rivers. God declares *that* to be the ultimate, massive victory.</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">This verse redefines victory. The believers were burned to ash; their bodies were destroyed. In worldly metrics, they lost entirely. But God calls their death "Al-Fawz Al-Kabir" (The Great Victory). Why? Because the goal of life is not to preserve your biology; the goal is to preserve your theology. They died, but their faith remained unburned. That is victory.</div></div>
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The ultimate victory is not defined by escaping worldly pain, but by keeping your heart so pure and your faith so intact that you seamlessly step out of the fires of this life into the eternal, cooling rivers of Paradise.</div></div>
+            
+            <div class="insight-box context"><span class="label">Historical Context (Al-Tabari)</span><div class="content">This is a profound redefinition of success. The believers of the ditch physically died in the fire; they were not rescued like Prophet Ibrahim (Abraham). To the worldly eye, they lost entirely. Yet, Allah crowns their death as "Al-Fawz Al-Kabir" (The Greatest Triumph). Victory in Islam is not earthly survival; it is the absolute preservation of your faith in the face of annihilation.</div></div>
+            
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">When your heart is entirely submitted to Him, the fire of the trench actually becomes the fastest vehicle to His Gardens. The pain lasted only a fleeting second, but the cooling waters they now drink from will last for eternity. Do not trade the eternal river for the temporary illusion of safety.</div></div>
+            
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata'illah)</span><div class="content">"He strips you of the world so He can adorn you with Himself." They lost their homes, their families, and their bodies, but they gained the King. And whoever gains the King has truly attained the Greatest Triumph.</div></div>
         </div>
-        <div class="tags"><span class="tag">Jannah</span><span class="tag">Hope</span><span class="tag">Steadfastness</span></div>
+        <div class="tags"><span class="tag">The Greatest Triumph</span><span class="tag">Redefining Success</span><span class="tag">Eternal Gardens</span><span class="tag">Faith</span></div>
     </div>
+    <div class="nav-bar">
+    <div class="nav-controls">
+        <a href="index.html" class="nav-link home-btn">⌂ Dashboard</a>
+         <a href="surah-084-inshiqaq.html" class="nav-link">← Prev</a>
+        <a href="surah-086-tariq.html" class="nav-link">Next →</a>
+    </div>
+    <span style="font-weight: 600; color: #718096; font-size: 0.9rem;">Mushaf: #85 | Chronological: #27</span>
+</div>
+
+<header>
+    <h1>Surah Al-Buruj</h1>
+    <div class="meta">The Constellations • Makkah • Verses 12-22</div>
+    <div class="intro-text">
+        The Majesty that Outlasts Tyranny. Revealed during the most brutally oppressive years in Makkah, the early Muslims were enduring unthinkable physical and psychological torment. The first half of this Surah recounts the chilling historical tragedy of the "People of the Ditch"—believers who were burned alive by a tyrannical king simply for their faith. When the bruised and battered companions heard this, they needed an anchor. These concluding verses pivot breathtakingly from human cruelty to Divine supremacy. They serve to heal the traumatized heart by reminding it that earthly oppressors are pathetically weak, while the Lord is fiercely protective, fiercely loving, and in absolute control of the final narrative.
+    </div>
+</header>
+
+<div class="container">
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 12</span></div>
         <div class="arabic">إِنَّ بَطْشَ رَبِّكَ لَشَدِيدٌ</div>
-        <div class="translation">"Indeed, the vengeance of your Lord is severe."</div>
+        <div class="translation">Indeed, the ˹crushing˺ grip of your Lord is severe.</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Truly, the grip and punishment of your Lord is overwhelmingly intense.</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">The tyrant King thought his "grip" on the believers was severe because he threw them in a ditch. God reminds the tyrants of Makkah that human torture is temporary and frail. When the Divine Grip closes on a tyrant, there is no escape and no end to the severity.</div></div>
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Worldly oppressors may seem invincible for a terrifyingly long moment, but their power is utterly fragile compared to the inescapable, absolute justice of the Creator.</div></div>
+            
+            <div class="insight-box context"><span class="label">Historical Context (Ibn Kathir)</span><div class="content">The Quraysh were actively torturing the weakest among the Muslims—slaves and the impoverished—reveling in their unchecked dominance. The word *Batsh* refers to seizing something with overwhelming, violent force. This verse was a terrifying warning to the elite of Makkah and a profound source of psychological safety for the oppressed: you are not abandoned; the ultimate Justice will eventually seize those who harm you.</div></div>
+            
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata'illah)</span><div class="content">"Do not fear the one who has power over your body but no power over your soul." When your heart genuinely internalizes the absolute severity of the Divine grip, the temporary, bruising grip of creation loses all its ability to paralyze you with fear.</div></div>
         </div>
-        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">Divine Justice</span><span class="tag">Warning</span></div>
+        <div class="tags"><span class="tag">Divine Justice</span><span class="tag">Oppression</span><span class="tag">Courage</span><span class="tag">Protection</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 13</span></div>
         <div class="arabic">إِنَّهُۥ هُوَ يُبْدِئُ وَيُعِيدُ</div>
-        <div class="translation">"Indeed, it is He who originates [creation] and repeats."</div>
+        <div class="translation">˹For˺ He is certainly the One Who originates and resurrects ˹all˺.</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God is the One who starts creation from nothing, and He is the One who will bring it back to life after death.</div></div>
-            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The tyrant thought that by burning the believers to ash, he was ending their existence forever. Allah promises: I originated them the first time, and I will seamlessly repeat their creation to reward them, and repeat yours to punish you.</div></div>
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The same Creator who effortlessly brought your complex, beautiful life out of pure nothingness will have no difficulty breathing life back into your tired bones after the dust claims them.</div></div>
+            
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The Meccans frequently mocked the concept of resurrection, questioning how scattered ashes could become men again. This verse connects His 'severe grip' to His creative power: the tyrant's fire can only end the physical form, but the Creator retains the blueprint of the soul to resurrect it for eternal vindication.</div></div>
+            
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">He does not just originate you once in the womb and resurrect you once from the grave; He originates your spiritual consciousness and repeatedly resurrects your heart every time it dies from the darkness of sin or the crushing weight of grief. Trust His power to revive the dead spaces inside you.</div></div>
         </div>
-        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">Knowledge & Signs</span><span class="tag">The Unseen</span></div>
+        <div class="tags"><span class="tag">Resurrection</span><span class="tag">Hope</span><span class="tag">Creation</span><span class="tag">Healing</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 14</span></div>
         <div class="arabic">وَهُوَ ٱلْغَفُورُ ٱلْوَدُودُ</div>
-        <div class="translation">"And He is the Forgiving, the Affectionate,"</div>
+        <div class="translation">And He is the All-Forgiving, All-Loving—</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">And alongside His severe justice, He is intensely forgiving and deeply, intimately loving.</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">"Al-Wadud" is not just general love (Hubb); it is an active, affectionate, expressive love. To pair "Severe in Vengeance" (v. 12) directly with "The Affectionate" is a profound theological balance. He destroys the arrogant tyrant out of justice, and He embraces the broken, repentant sinner out of pure, affectionate love.</div></div>
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Despite possessing terrifying power and severe justice, His deepest, core nature toward those who seek Him is one of boundless forgiveness and a tender, intensely affectionate love.</div></div>
+            
+            <div class="insight-box context"><span class="label">Historical Context (Al-Tabari)</span><div class="content">This is one of the most stunning juxtapositions in the Quran. Immediately after describing His severe, crushing grip against tyrants (Verse 12), He introduces Himself as *Al-Wadud*. Unlike human kings whose absolute power breeds only cold detachment and fear, the Lord of the worlds pairs His ultimate might with an intimate, nurturing love for the believers.</div></div>
+            
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata'illah)</span><div class="content">"If you knew the perfection of His love for you, your heart would shatter from awe." *Al-Wadud* is not merely the one who loves, but the one who actively and consistently expresses that love through gifts, mercies, and the gentle veiling of your flaws (*Al-Ghafur*).</div></div>
+            
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">A master forgives a slave out of duty, but a mother forgives a child out of love. He calls Himself *Al-Ghafur* (The Forgiving) right next to *Al-Wadud* (The Loving) to assure your anxious heart that when He erases your sins, He does not do it with resentment, but with the profound warmth of the Beloved.</div></div>
         </div>
-        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">Hope</span><span class="tag">Spiritual Practice</span></div>
+        <div class="tags"><span class="tag">Divine Love (Al-Wadud)</span><span class="tag">Forgiveness</span><span class="tag">Grace</span><span class="tag">Intimacy</span></div>
     </div>
 
     <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 15</span></div>
-        <div class="arabic">ذُو ٱلْعَرْشِ ٱلْمَجِيدُ</div>
-        <div class="translation">"Honorable Owner of the Throne,"</div>
+        <div class="verse-header"><span class="verse-number">Verses 15-16</span></div>
+        <div class="arabic">ذُو ٱلْعَرْشِ ٱلْمَجِيدُ •فَعَّالٌۭ لِّمَا يُرِيدُ</div>
+        <div class="translation">Lord of the Throne, the All-Glorious, Doer of whatever He wills.</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">He is the possessor of the massive, majestic Throne.</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">The tyrant sat on his little wooden throne watching the fire (v. 6). God contrasts that pathetic display with His own Throne, which encompasses the heavens and the earth. Do not fear a king who sits on wood when you are protected by the Owner of the Cosmic Throne.</div></div>
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">He is the absolute Sovereign whose majesty towers infinitely above the petty, cruel kings of the earth, possessing the unrivaled authority to execute His will without asking anyone's permission.</div></div>
+            
+            <div class="insight-box context"><span class="label">Historical Context (Ibn Kathir)</span><div class="content">The King mentioned earlier in the Surah (who burned the believers) sat on a temporary, worldly throne and believed he had ultimate authority over life and death. The revelation strips away this illusion, pointing to the true Master of the *'Arsh* (the Divine Throne), whose decrees cannot be vetoed by any parliament or tyrant.</div></div>
+            
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Ibn Arabi)</span><div class="content">When your heart realizes that He is the "Doer of whatever He wills," you stop fighting the reality of your circumstances. True peace (*Rida*) descends when you surrender your tiny, exhausted will to His infinite, perfect will.</div></div>
         </div>
-        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">The Unseen</span></div>
+        <div class="tags"><span class="tag">Majesty</span><span class="tag">Sovereignty</span><span class="tag">Surrender</span><span class="tag">Destiny</span></div>
     </div>
 
     <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 16</span></div>
-        <div class="arabic">فَعَّالٌۭ لِّمَا يُرِيدُ</div>
-        <div class="translation">"Effecter of what He intends."</div>
+        <div class="verse-header"><span class="verse-number">Verses 17-18</span></div>
+        <div class="arabic">هَلْ أَتَىٰكَ حَدِيثُ ٱلْجُنُودِ •فِرْعَوْنَ وَثَمُودَ</div>
+        <div class="translation">Has the story of the ˹destroyed˺ forces reached you ˹O Prophet˺— ˹the forces of˺ Pharaoh and Thamûd?</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">He does absolutely whatever He wants to do, without exception or hindrance.</div></div>
-            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">If God is all-powerful, why did He let the believers burn? Because He is "Fa'aalun lima yureed" (He does what He intends). His wisdom requires tests. He intended for those believers to skip the trials of old age and sickness and transition directly into the highest ranks of martyrdom. His Will operates on a canvas too large for human anxiety to comprehend.</div></div>
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Look at the ruins of history: empires with infinitely more wealth, military might, and technological prowess than you were wiped away in a single breath when they chose arrogance over truth.</div></div>
+            
+            <div class="insight-box context"><span class="label">Historical Context (Al-Tabari)</span><div class="content">The Quraysh of Makkah had no standing army and lived in a barren desert, yet their arrogance was boundless. By invoking Pharaoh (a military superpower) and Thamud (architectural giants who carved palaces into mountains), God humbles the Meccans. It is a rhetorical question that means: "If I effortlessly destroyed them, what makes your little tribe think it can wage war against My messenger?"</div></div>
+            
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata'illah)</span><div class="content">"Do not look at the size of the army, look at the decree of the Heavens." The ego is just like Pharaoh—it builds massive walls of pride and refuses to submit. But just as the Red Sea drowned Pharaoh's physical army, the ocean of Divine Mercy will eventually drown the rebellion of the surrendered heart.</div></div>
         </div>
-        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">Knowledge & Signs</span><span class="tag">Humility</span></div>
+        <div class="tags"><span class="tag">History</span><span class="tag">Arrogance</span><span class="tag">Perspective</span><span class="tag">Ego</span></div>
     </div>
 
     <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 17</span></div>
-        <div class="arabic">هَلْ أَتَىٰكَ حَدِيثُ ٱلْجُنُودِ</div>
-        <div class="translation">"Has there reached you the story of the soldiers -"</div>
+        <div class="verse-header"><span class="verse-number">Verses 19-20</span></div>
+        <div class="arabic">بَلِ ٱلَّذِينَ كَفَرُوا۟ فِى تَكْذِيبٍۢ •وَٱللَّهُ مِن وَرَآئِهِم مُّحِيطٌۢ</div>
+        <div class="translation">Yet the disbelievers ˹still˺ persist in denial. But Allah encompasses them from all sides.</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Have you heard the historical accounts of the massive, armed forces of the past?</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">A rhetorical question to awaken the intellect. God draws our attention away from the current threats in Makkah to the graveyard of history. Look at the armies that thought they were invincible. Where are they now?</div></div>
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Stubborn people will continually reject the truth out of pride, blindly unaware that they are completely surrounded by the power, knowledge, and presence of the very God they deny.</div></div>
+            
+            <div class="insight-box context"><span class="label">Historical Context (Ibn Kathir)</span><div class="content">Despite hearing the historical facts of past destroyed nations, the Makkan elite doubled down on their persecution. God comforts the believers by revealing the tragic comedy of the oppressors: they think they are trapping the Muslims, but God has already completely enclosed *them*. They cannot take a single step outside of His domain.</div></div>
+            
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">To be 'encompassed' (*Muhit*) by God is a terror for the tyrant, but it is the ultimate comfort for the believer. It means the Divine presence wraps around you like a protective fortress. The enemy can only reach you if the Protector permits it for a higher wisdom.</div></div>
         </div>
-        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Knowledge & Signs</span></div>
+        <div class="tags"><span class="tag">Omnipresence</span><span class="tag">Denial</span><span class="tag">Divine Protection</span><span class="tag">Safety</span></div>
     </div>
 
     <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 18</span></div>
-        <div class="arabic">فِرْعَوْنَ وَثَمُودَ</div>
-        <div class="translation">"[Those of] Pharaoh and Thamud?"</div>
+        <div class="verse-header"><span class="verse-number">Verses 21-22</span></div>
+        <div class="arabic">بَلْ هُوَ قُرْءَانٌۭ مَّجِيدٌۭ •فِى لَوْحٍۢ مَّحْفُوظٍۭ</div>
+        <div class="translation">In fact, this is a glorious Quran, ˹recorded˺ in a Preserved Tablet.</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Specifically, the seemingly untouchable armies of Pharaoh in Egypt and the rock-carving tribe of Thamud?</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">Pharaoh had military supremacy. Thamud had architectural supremacy. Both weaponized their strength against the Prophets. Both were wiped off the face of the earth. God reminds the Quraish: you are weaker than them, so do not test the Grip of the Lord.</div></div>
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The words you are reading are not temporary human poetry; they are eternal, radiant truths safely guarded in the highest heavens, entirely beyond the reach of corruption or erasure.</div></div>
+            
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The polytheists called the Quran magic, poetry, or the mad ramblings of a possessed man. This concluding verse elevates the Book far beyond their earthly insults. It is 'Majid' (vast in its glory and generosity) and its original master copy rests in the *Lawh al-Mahfuz* (The Preserved Tablet)—safeguarded from devils, human tampering, and the passage of time.</div></div>
+            
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata'illah)</span><div class="content">If the physical Book is protected in the heavens from any corruption, imagine how fiercely He will protect a sincere human heart that carries these words inside it. What is preserved by the Divine cannot be destroyed by the mortal.</div></div>
+            
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">When your heart breaks from the chaos of this world, anchor yourself to the Preserved Tablet. The events of your life are not chaotic accidents; they were written by a Loving Hand in the highest realms before the earth was even formed. Rest in His glorious decree.</div></div>
         </div>
-        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Divine Justice</span></div>
+        <div class="tags"><span class="tag">The Quran</span><span class="tag">Preservation</span><span class="tag">Destiny</span><span class="tag">Eternal Truth</span></div>
     </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 19</span></div>
-        <div class="arabic">بَلِ ٱلَّذِينَ كَفَرُوا۟ فِى تَكْذِيبٍۢ</div>
-        <div class="translation">"But they who disbelieve are in [persistent] denial,"</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Despite knowing these historical facts, the disbelievers are stubbornly stuck in a state of rejecting the truth.</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">The disease of "Takdhib" (calling the truth a lie) is an addiction of the ego. When the ego refuses to submit, it must constantly generate lies to protect its fragile worldview against the overwhelming evidence of God's reality.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Human Nature</span><span class="tag">Arrogance</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 20</span></div>
-        <div class="arabic">وَٱللَّهُ مِن وَرَآئِهِم مُّحِيطٌۢ</div>
-        <div class="translation">"While Allah encompasses them from behind."</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">They think they are getting away with their denial, but God completely surrounds them from all sides, blocking any escape.</div></div>
-            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">"Muhit" means to completely encircle. Just as the physical sky (v. 1) encircles the earth, God's power entirely encircles the tyrants. They are operating inside His prison, completely unaware that the doors are already locked.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">Divine Justice</span><span class="tag">The Unseen</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 21</span></div>
-        <div class="arabic">بَلْ هُوَ قُرْءَانٌۭ مَّجِيدٌۭ</div>
-        <div class="translation">"But this is an honored Qur'an"</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The reality is, the message you are rejecting is a vastly glorious, noble, and honored Quran.</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">Allah uses the same word "Majeed" (Glorious/Honorable) to describe His Throne (v. 15) and His Book (v. 21). To reject the Quran is to reject the direct manifestation of the Glory of the Throne on earth.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Attributes of Allah</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 22</span></div>
-        <div class="arabic">فِى لَوْحٍۢ مَّحْفُوظٍۭ</div>
-        <div class="translation">"[Inscribed] in a Preserved Slate."</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">This Quran is permanently recorded and fiercely protected in the highest heavens on the Preserved Tablet (Al-Lawh Al-Mahfuz).</div></div>
-            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The tyrants of the world can burn the bodies of the believers, and they can burn the physical paper the Quran is written on, but they can never burn the Truth. The Truth is guarded in a fortress (Buruj) higher than their reach. It is eternally safe.</div></div>
-        </div>
-        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Knowledge & Signs</span></div>
-    </div>
-
-</div>
-
+</div> 
 </body>
 </html>
