@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Surah Al-Qadr | The Power / The Decree</title>
+    <title>Surah Al-Qadr | The Night of Glory</title>
     <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@300;400;600&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -12,36 +12,38 @@
             --context-color: #d69e2e; --sufi-color: #38a169; --wisdom-color: #805ad5; --plain-color: #718096; 
         }
         body { font-family: 'Inter', sans-serif; background: var(--bg-color); color: var(--text-color); margin: 0; padding: 0; line-height: 1.6; }
-        .nav-bar { padding: 1rem 2rem; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; background: white; z-index: 100; box-shadow: 0 2px 4px rgba(0,0,0,0.05); flex-wrap: wrap; gap: 1rem;}
-        .nav-controls { display: flex; gap: 1.5rem; align-items: center; }
-        .nav-link { text-decoration: none; color: var(--primary-accent); font-weight: 600; display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem;}
-        .nav-link:hover { text-decoration: underline; }
-        .home-btn { background: var(--primary-accent); color: white; padding: 0.5rem 1rem; border-radius: 6px; }
-        .home-btn:hover { background: #2c5282; color: white; text-decoration: none; }
+        
+      .nav-bar { padding: 1rem 2rem; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; background: white; z-index: 100; box-shadow: 0 2px 4px rgba(0,0,0,0.05); flex-wrap: wrap; gap: 1rem;}
+      .nav-controls { display: flex; gap: 1.5rem; align-items: center; }
+      .nav-link { text-decoration: none; color: var(--primary-accent); font-weight: 600; display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem;}
+      .nav-link:hover { text-decoration: underline; }
+      .home-btn { background: var(--primary-accent); color: white; padding: 0.5rem 1rem; border-radius: 6px; }
+      .home-btn:hover { background: #2c5282; color: white; text-decoration: none; }
+
         header { text-align: center; padding: 3rem 1rem 2rem; background: linear-gradient(180deg, #f7fafc 0%, #ffffff 100%); }
         h1 { font-family: 'Merriweather', serif; font-size: 2.8rem; margin: 0; color: #1a202c; }
-        .meta { color: #718096; text-transform: uppercase; letter-spacing: 2px; font-size: 0.85rem; margin-top: 1rem; font-weight: 700; }
-        .intro-text { max-width: 650px; margin: 1.5rem auto 0; font-style: italic; color: #4a5568; }
-        .container { max-width: 900px; margin: 0 auto; padding: 0 1rem 4rem; }
-        .verse-card { background: white; border: 1px solid var(--border-color); border-radius: 12px; padding: 2rem; margin-bottom: 2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.02); }
-        .verse-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; border-bottom: 1px solid #edf2f7; padding-bottom: 0.8rem; }
-        .verse-number { background: var(--primary-accent); color: white; padding: 0.2rem 0.8rem; border-radius: 20px; font-size: 0.85rem; font-weight: 700; }
-        .arabic { font-family: 'Amiri', serif; font-size: 2.4rem; text-align: right; color: #2d3748; margin-bottom: 1.5rem; line-height: 2.2; }
-        .translation { font-family: 'Merriweather', serif; font-size: 1.2rem; color: #1a202c; margin-bottom: 2rem; border-left: 4px solid var(--primary-accent); padding-left: 1rem; }
-        .insights { display: grid; grid-template-columns: 1fr; gap: 1rem; }
-        .insight-box { background: #fff; padding: 1.2rem; border-radius: 8px; border: 1px solid #e2e8f0; border-left-width: 4px; }
-        .insight-box.plain { border-left-color: var(--plain-color); background: #f7fafc; }
-        .insight-box.context { border-left-color: var(--context-color); }
-        .insight-box.sufi { border-left-color: var(--sufi-color); }
-        .insight-box.hikam { border-left-color: var(--wisdom-color); }
-        .label { display: block; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1.2px; font-weight: 700; margin-bottom: 0.5rem; }
-        .plain .label { color: var(--plain-color); }
-        .context .label { color: var(--context-color); }
-        .sufi .label { color: var(--sufi-color); }
-        .hikam .label { color: var(--wisdom-color); }
-        .content { font-size: 0.95rem; color: #4a5568; }
-        .tags { margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; padding-top: 1rem; border-top: 1px solid #edf2f7; }
-        .tag { background: var(--tag-bg); color: var(--tag-text); padding: 0.2rem 0.7rem; border-radius: 99px; font-size: 0.75rem; font-weight: 600; }
+      .meta { color: #718096; text-transform: uppercase; letter-spacing: 2px; font-size: 0.85rem; margin-top: 1rem; font-weight: 700; }
+      .intro-text { max-width: 650px; margin: 1.5rem auto 0; font-style: italic; color: #4a5568; }
+      .container { max-width: 900px; margin: 0 auto; padding: 0 1rem 4rem; }
+      .verse-card { background: white; border: 1px solid var(--border-color); border-radius: 12px; padding: 2rem; margin-bottom: 2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.02); }
+      .verse-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; border-bottom: 1px solid #edf2f7; padding-bottom: 0.8rem; }
+      .verse-number { background: var(--primary-accent); color: white; padding: 0.2rem 0.8rem; border-radius: 20px; font-size: 0.85rem; font-weight: 700; }
+      .arabic { font-family: 'Amiri', serif; font-size: 2.4rem; text-align: right; color: #2d3748; margin-bottom: 1.5rem; line-height: 2.2; }
+      .translation { font-family: 'Merriweather', serif; font-size: 1.2rem; color: #1a202c; margin-bottom: 2rem; border-left: 4px solid var(--primary-accent); padding-left: 1rem; }
+      .insights { display: grid; grid-template-columns: 1fr; gap: 1rem; }
+      .insight-box { background: #fff; padding: 1.2rem; border-radius: 8px; border: 1px solid #e2e8f0; border-left-width: 4px; }
+      .insight-box.plain { border-left-color: var(--plain-color); background: #f7fafc; }
+      .insight-box.context { border-left-color: var(--context-color); }
+      .insight-box.sufi { border-left-color: var(--sufi-color); }
+      .insight-box.hikam { border-left-color: var(--wisdom-color); }
+      .label { display: block; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1.2px; font-weight: 700; margin-bottom: 0.5rem; }
+      .plain .label  { color: var(--plain-color); }
+      .context .label { color: var(--context-color); }
+      .sufi .label    { color: var(--sufi-color); }
+      .hikam .label   { color: var(--wisdom-color); }
+      .content { font-size: 0.95rem; color: #4a5568; }
+      .tags { margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; padding-top: 1rem; border-top: 1px solid #edf2f7; }
+      .tag { background: var(--tag-bg); color: var(--tag-text); padding: 0.2rem 0.7rem; border-radius: 99px; font-size: 0.75rem; font-weight: 600; }
     </style>
 </head>
 <body>
@@ -49,7 +51,7 @@
 <div class="nav-bar">
     <div class="nav-controls">
         <a href="index.html" class="nav-link home-btn">⌂ Dashboard</a>
-        <a href="surah-024-abasa.html" class="nav-link">← Prev</a>
+         <a href="surah-024-abasa.html" class="nav-link">← Prev</a>
         <a href="surah-026-shams.html" class="nav-link">Next →</a>
     </div>
     <span style="font-weight: 600; color: #718096; font-size: 0.9rem;">Mushaf: #97 | Chronological: #25</span>
@@ -57,9 +59,9 @@
 
 <header>
     <h1>Surah Al-Qadr</h1>
-    <div class="meta">The Power / The Decree • Makkah • 5 Verses</div>
+    <div class="meta">The Night of Glory • Makkah • 5 Verses</div>
     <div class="intro-text">
-        The Night of Majesty. This Surah commemorates the single greatest night in the history of the cosmos: the descent of the Quran. It reveals a night of such concentrated spiritual gravity that a few hours of sincere devotion outweigh a lifetime of eighty-three years.
+        The Descent of Ultimate Peace. High above the noise of a deeply divided and transactional Makkah, the Prophet ﷺ sat entirely alone in the dark, silent cave of Hira, desperate for meaning. He could not have known that in this pitch-black isolation, the heavens were about to shatter open. Surah Al-Qadr is the majestic, breathtaking announcement of that very night—the moment the Divine intimately intersected with the human timeline. It speaks of a night so heavy with majesty, grace, and descending angels that normal time is suspended. It is a profound spiritual anchor, teaching the exhausted soul that a single moment of genuine, blinding sincerity with the Creator is worth more than an entire lifetime of empty, worldly pursuits.
     </div>
 </header>
 
@@ -68,69 +70,77 @@
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 1</span></div>
         <div class="arabic">إِنَّآ أَنزَلْنَـٰهُ فِى لَيْلَةِ ٱلْقَدْرِ</div>
-        <div class="translation">"Indeed, We sent the Qur'an down during the Night of Decree."</div>
+        <div class="translation">Indeed, ˹it is˺ We ˹Who˺ sent this ˹Quran˺ down on the Night of Glory.</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God declares with absolute authority that He sent down the Quran on a specific, immensely powerful night.</div></div>
-            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">According to Ibn Abbas, the entire Quran was brought down from the Preserved Tablet (Al-Lawh Al-Mahfuz) to the lowest heaven on this one night in Ramadan. From there, Jibreel brought it down to the Prophet ﷺ gradually over 23 years. "Qadr" means value, majesty, and destiny, because on this night the decrees for the upcoming year are assigned.</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The descent of the Quran into the physical world mirrors the descent of Divine Light into the spiritual heart of the seeker. A heart that clears itself of the ego's noise and receives this light experiences its own personal, transformative "Night of Power."</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">Notice that God says "We sent *it* down." He hides the object (the Quran) in a pronoun out of sheer majesty and reverence, assuming the believer's heart is already intimately aware of the ultimate Gift being discussed.</div></div>
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The Divine majestically announces the arrival of the greatest gift ever given to humanity, sent down in a single, transformative night that forever changed the trajectory of the world.</div></div>
+            
+            <div class="insight-box context"><span class="label">Historical Context (Ibn Kathir)</span><div class="content">The classical scholars note that the entirety of the Quran was sent down from the Preserved Tablet (Al-Lawh Al-Mahfuz) to the lowest heaven on Laylat al-Qadr, before being revealed piecemeal to the Prophet ﷺ over the next 23 years. This monumental cosmic event shifted human history from an era of profound spiritual ignorance into the illuminating age of revelation.</div></div>
+            
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">Just as the Quran descended into the darkness of the physical world on this specific night, the light of divine guidance must purposefully descend into the darkness of your own heart. Your personal 'Laylat al-Qadr' is the exact moment you finally lower your ego and allow His word to fully enter and transform your inner state.</div></div>
         </div>
-        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Attributes of Allah</span><span class="tag">The Unseen</span></div>
+        <div class="tags"><span class="tag">Divine Gift</span><span class="tag">Revelation</span><span class="tag">Transformation</span><span class="tag">Destiny</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 2</span></div>
         <div class="arabic">وَمَآ أَدْرَىٰكَ مَا لَيْلَةُ ٱلْقَدْرِ</div>
-        <div class="translation">"And what can make you know what is the Night of Decree?"</div>
+        <div class="translation">And what will make you realize what the Night of Glory is?</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">A profound rhetorical question emphasizing that the true magnitude of this night is completely beyond human imagination.</div></div>
-            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">Whenever Allah uses the phrase "Wa ma adraka" (And what can make you know?) in the Quran, it serves as an attention-grabber, preparing the listener for a reality that defies human logic and calculation. It builds ultimate awe.</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">Human intellect is fundamentally incapable of measuring the true weight of Divine gifts. You cannot calculate spiritual grace with worldly mathematics; you can only stand in awe of it and submit.</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">The question intentionally forces the ego to admit its total ignorance. You only know what God chooses to reveal to you. The realization of your own intellectual poverty is the prerequisite for receiving His divine knowledge.</div></div>
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The human mind is gently reminded of its absolute inability to fully comprehend the sheer magnitude and spiritual gravity of this hidden, sacred night.</div></div>
+            
+            <div class="insight-box context"><span class="label">Historical Context (Al-Tabari)</span><div class="content">The rhetorical phrase "And what will make you realize...?" (Wa ma adraka...) is consistently utilized throughout the Quran to indicate an event or reality of incomprehensible majesty. It purposefully elevates the listener's anticipation, signaling that what is about to be described completely defies normal human measurement or expectation.</div></div>
+            
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata'illah)</span><div class="content">"He veiled the Night of Power so that you would seek it, just as He veiled His greatest name so that you would invoke Him with all His names." The beauty of the unknown is that it prevents spiritual complacency. The veil forces the heart to stay awake, searching for Him with a desperate, beautiful sincerity.</div></div>
         </div>
-        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Humility</span><span class="tag">Knowledge & Signs</span></div>
+        <div class="tags"><span class="tag">Awe</span><span class="tag">Seeking</span><span class="tag">The Unknown</span><span class="tag">Majesty</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 3</span></div>
         <div class="arabic">لَيْلَةُ ٱلْقَدْرِ خَيْرٌۭ مِّنْ أَلْفِ شَهْرٍۢ</div>
-        <div class="translation">"The Night of Decree is better than a thousand months."</div>
+        <div class="translation">The Night of Glory is better than a thousand months.</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Worshipping on this single night is more heavily rewarded than worshipping continuously for one thousand months (over 83 years).</div></div>
-            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The Prophet ﷺ was shown the lifespans of people from previous nations, some of whom worshipped God for hundreds of years. He felt deep sorrow, worrying his Ummah (whose average lifespan is 60-70 years) could never compete in good deeds. Out of pure mercy, God gave this night as an ultimate multiplier to compensate them.</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">Time is relative in the presence of the Divine. A single, solitary moment of absolute sincerity and presence with God is heavier in the eternal scales than an entire lifetime of heedless, mechanical worship. Quality of heart completely shatters the quantity of time.</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"He has given you a time that is short, so do not shorten it further by your heedlessness." This night is the ultimate spiritual "hack" for the bankrupt soul to catch up to the saints and spiritual elites of history.</div></div>
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">A single night of true, pure connection with the Divine is infinitely more valuable than a lifetime—over eighty-three years—spent completely absorbed in the heedless pursuit of worldly illusions.</div></div>
+            
+            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The Prophet ﷺ was once shown the lifespans of previous nations, which stretched over hundreds of years. He felt a deep, empathetic sorrow for his own community (Ummah), who had much shorter lives, fearing they could not achieve as many good deeds. In response, God lovingly gifted them this single night—mathematically superior to an entire lifetime of worship—out of sheer grace.</div></div>
+            
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">Spiritual time is not measured by the mechanical ticking of a clock, but by the intense presence of the heart. One single moment of absolute, blinding sincerity before God is heavier on the divine scales than a thousand months of empty, distracted rituals performed out of habit.</div></div>
+            
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata'illah)</span><div class="content">"How often is a long life devoid of beneficial fruits, and a short life filled with profound blessings." Seek depth in your spiritual moments, not merely length.</div></div>
         </div>
-        <div class="tags"><span class="tag">Hope</span><span class="tag">Spiritual Practice</span><span class="tag">Attributes of Allah</span></div>
+        <div class="tags"><span class="tag">Grace</span><span class="tag">Time</span><span class="tag">Sincerity</span><span class="tag">Divine Generosity</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 4</span></div>
         <div class="arabic">تَنَزَّلُ ٱلْمَلَـٰٓئِكَةُ وَٱلرُّوحُ فِيهَا بِإِذْنِ رَبِّهِم مِّن كُلِّ أَمْرٍۢ</div>
-        <div class="translation">"The angels and the Spirit descend therein by permission of their Lord for every matter."</div>
+        <div class="translation">That night the angels and the ˹holy˺ spirit descend, by the permission of their Lord, for every ˹decreed˺ matter.</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Countless angels, including Jibreel (The Spirit), come down to earth continuously on this night, bringing God's specific decrees for the upcoming year.</div></div>
-            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The Prophet ﷺ said that on this night, the number of angels on earth is greater than the number of pebbles. They descend to say "Ameen" to the prayers of the believers, to greet them, and to execute the Qadr (destiny)—who will live, die, receive provision, or face trials in the coming 365 days.</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Jilani)</span><div class="content">The descent of the angels brings a heavy, thick atmosphere of Sakinah (tranquility) to the earth. A heart that has fasted properly and emptied itself of worldly noise can literally feel the spiritual gravity and dense peace of their presence in the late hours of the night.</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">The decrees for your entire year are being finalized tonight. Stand in absolute humility and spiritual poverty, asking the King to write your name among the forgiven, the protected, and the beloved before the pen lifts.</div></div>
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The heavens literally touch the earth, as countless angels—led by Gabriel—cascade down to witness the tears of the believers and perfectly execute the divine decrees for the coming year.</div></div>
+            
+            <div class="insight-box context"><span class="label">Historical Context (Ibn Kathir)</span><div class="content">"The Spirit" (Ar-Ruh) specifically refers to the Archangel Gabriel (Jibril). The traditions explain that so many angels descend on this single night that they actually outnumber the physical pebbles on the earth. They crowd the earthly realm, bringing down blessings, mercy, and the exact, precise decrees—including sustenance, lifespan, and trials—for every single person for the upcoming year.</div></div>
+            
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Ibn Arabi)</span><div class="content">The descent of the angels is a descent of profound spiritual intimacy. When your inner heart is finally purified of hatred, malice, and worldly obsession, you create a pristine landing space for these pure beings. They descend upon the tranquil heart just as softly as they descend upon the quiet earth.</div></div>
         </div>
-        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Knowledge & Signs</span><span class="tag">Spiritual Practice</span></div>
+        <div class="tags"><span class="tag">Angels</span><span class="tag">Destiny</span><span class="tag">Intimacy</span><span class="tag">Divine Decree</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 5</span></div>
         <div class="arabic">سَلَـٰمٌ هِىَ حَتَّىٰ مَطْلَعِ ٱلْفَجْرِ</div>
-        <div class="translation">"Peace it is until the emergence of dawn."</div>
+        <div class="translation">It is all peace until the break of dawn.</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The entire night is a state of pure peace, safety, and tranquility, completely unbroken until the sun comes up.</div></div>
-            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">Unlike other nights where demons roam and whisper, the devils are chained and stripped of their power on this specific night. It is a night of pure salvation where no evil can be decreed, only peace, mercy, and liberation from the Hellfire.</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The ultimate goal of the spiritual path is "Salam" (Peace)—a heart totally surrendered to God, free from anxiety about the past or fear of the future. The night ends at dawn, just as the darkness of the Dunya ultimately ends at the bright dawn of the Akhirah.</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">Peace is not the absence of conflict in the physical world; it is the absolute presence of God in the heart. Whoever secures this state of peace on Laylat al-Qadr secures their eternity.</div></div>
+            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The night is wrapped in a blanket of absolute, unbroken safety, offering a sanctuary of perfect spiritual stillness that heals the anxious soul until the morning light finally breaks.</div></div>
+            
+            <div class="insight-box context"><span class="label">Historical Context (Al-Tabari)</span><div class="content">The word "Salam" (peace) indicates that on this specific night, spiritual evil and demonic influence are completely paralyzed. It is a night entirely free from affliction, where the descending angels constantly greet the worshiping believers with invocations of peace until the very moment the physical sun begins to rise.</div></div>
+            
+            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">True peace (Salam) is the ultimate cessation of the exhausting inner war between your worldly desires and your soul's calling. On this night, if you surrender completely, the desperate battle within you finally ends, leaving a profound, quiet dawn radiating within your chest.</div></div>
+            
+            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata'illah)</span><div class="content">"He makes the dawn of relief break only after the darkest part of the night of despair." Just as the physical night must inevitably end in the beautiful light of Fajr, your worldly trials will eventually end in the dawn of His perfect, everlasting peace.</div></div>
         </div>
-        <div class="tags"><span class="tag">Hope</span><span class="tag">Spiritual Practice</span><span class="tag">Jannah</span></div>
+        <div class="tags"><span class="tag">Peace</span><span class="tag">San Sanctuary</span><span class="tag">Inner Stillness</span><span class="tag">Healing</span></div>
     </div>
 
-</div>
-
+</div> 
 </body>
 </html>
