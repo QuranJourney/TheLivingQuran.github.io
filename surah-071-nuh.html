@@ -12,36 +12,38 @@
             --context-color: #d69e2e; --sufi-color: #38a169; --wisdom-color: #805ad5; --plain-color: #718096; 
         }
         body { font-family: 'Inter', sans-serif; background: var(--bg-color); color: var(--text-color); margin: 0; padding: 0; line-height: 1.6; }
-        .nav-bar { padding: 1rem 2rem; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; background: white; z-index: 100; box-shadow: 0 2px 4px rgba(0,0,0,0.05); flex-wrap: wrap; gap: 1rem;}
-        .nav-controls { display: flex; gap: 1.5rem; align-items: center; }
-        .nav-link { text-decoration: none; color: var(--primary-accent); font-weight: 600; display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem;}
-        .nav-link:hover { text-decoration: underline; }
-        .home-btn { background: var(--primary-accent); color: white; padding: 0.5rem 1rem; border-radius: 6px; }
-        .home-btn:hover { background: #2c5282; color: white; text-decoration: none; }
+        
+       .nav-bar { padding: 1rem 2rem; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; background: white; z-index: 100; box-shadow: 0 2px 4px rgba(0,0,0,0.05); flex-wrap: wrap; gap: 1rem;}
+       .nav-controls { display: flex; gap: 1.5rem; align-items: center; }
+       .nav-link { text-decoration: none; color: var(--primary-accent); font-weight: 600; display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem;}
+       .nav-link:hover { text-decoration: underline; }
+       .home-btn { background: var(--primary-accent); color: white; padding: 0.5rem 1rem; border-radius: 6px; }
+       .home-btn:hover { background: #2c5282; color: white; text-decoration: none; }
+
         header { text-align: center; padding: 3rem 1rem 2rem; background: linear-gradient(180deg, #f7fafc 0%, #ffffff 100%); }
         h1 { font-family: 'Merriweather', serif; font-size: 2.8rem; margin: 0; color: #1a202c; }
-        .meta { color: #718096; text-transform: uppercase; letter-spacing: 2px; font-size: 0.85rem; margin-top: 1rem; font-weight: 700; }
-        .intro-text { max-width: 650px; margin: 1.5rem auto 0; font-style: italic; color: #4a5568; }
-        .container { max-width: 900px; margin: 0 auto; padding: 0 1rem 4rem; }
-        .verse-card { background: white; border: 1px solid var(--border-color); border-radius: 12px; padding: 2rem; margin-bottom: 2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.02); }
-        .verse-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; border-bottom: 1px solid #edf2f7; padding-bottom: 0.8rem; }
-        .verse-number { background: var(--primary-accent); color: white; padding: 0.2rem 0.8rem; border-radius: 20px; font-size: 0.85rem; font-weight: 700; }
-        .arabic { font-family: 'Amiri', serif; font-size: 2.4rem; text-align: right; color: #2d3748; margin-bottom: 1.5rem; line-height: 2.2; }
-        .translation { font-family: 'Merriweather', serif; font-size: 1.2rem; color: #1a202c; margin-bottom: 2rem; border-left: 4px solid var(--primary-accent); padding-left: 1rem; }
-        .insights { display: grid; grid-template-columns: 1fr; gap: 1rem; }
-        .insight-box { background: #fff; padding: 1.2rem; border-radius: 8px; border: 1px solid #e2e8f0; border-left-width: 4px; }
-        .insight-box.plain { border-left-color: var(--plain-color); background: #f7fafc; }
-        .insight-box.context { border-left-color: var(--context-color); }
-        .insight-box.sufi { border-left-color: var(--sufi-color); }
-        .insight-box.hikam { border-left-color: var(--wisdom-color); }
-        .label { display: block; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1.2px; font-weight: 700; margin-bottom: 0.5rem; }
-        .plain .label { color: var(--plain-color); }
-        .context .label { color: var(--context-color); }
-        .sufi .label { color: var(--sufi-color); }
-        .hikam .label { color: var(--wisdom-color); }
-        .content { font-size: 0.95rem; color: #4a5568; }
-        .tags { margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; padding-top: 1rem; border-top: 1px solid #edf2f7; }
-        .tag { background: var(--tag-bg); color: var(--tag-text); padding: 0.2rem 0.7rem; border-radius: 99px; font-size: 0.75rem; font-weight: 600; }
+       .meta { color: #718096; text-transform: uppercase; letter-spacing: 2px; font-size: 0.85rem; margin-top: 1rem; font-weight: 700; }
+       .intro-text { max-width: 650px; margin: 1.5rem auto 0; font-style: italic; color: #4a5568; }
+       .container { max-width: 900px; margin: 0 auto; padding: 0 1rem 4rem; }
+       .verse-card { background: white; border: 1px solid var(--border-color); border-radius: 12px; padding: 2rem; margin-bottom: 2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.02); }
+       .verse-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; border-bottom: 1px solid #edf2f7; padding-bottom: 0.8rem; }
+       .verse-number { background: var(--primary-accent); color: white; padding: 0.2rem 0.8rem; border-radius: 20px; font-size: 0.85rem; font-weight: 700; }
+       .arabic { font-family: 'Amiri', serif; font-size: 2.4rem; text-align: right; color: #2d3748; margin-bottom: 1.5rem; line-height: 2.2; }
+       .translation { font-family: 'Merriweather', serif; font-size: 1.2rem; color: #1a202c; margin-bottom: 2rem; border-left: 4px solid var(--primary-accent); padding-left: 1rem; }
+       .insights { display: grid; grid-template-columns: 1fr; gap: 1rem; }
+       .insight-box { background: #fff; padding: 1.2rem; border-radius: 8px; border: 1px solid #e2e8f0; border-left-width: 4px; }
+       .insight-box.plain { border-left-color: var(--plain-color); background: #f7fafc; }
+       .insight-box.context { border-left-color: var(--context-color); }
+       .insight-box.sufi { border-left-color: var(--sufi-color); }
+       .insight-box.hikam { border-left-color: var(--wisdom-color); }
+       .label { display: block; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1.2px; font-weight: 700; margin-bottom: 0.5rem; }
+       .plain .label  { color: var(--plain-color); }
+       .context .label { color: var(--context-color); }
+       .sufi .label    { color: var(--sufi-color); }
+       .hikam .label   { color: var(--wisdom-color); }
+       .content { font-size: 0.95rem; color: #4a5568; }
+       .tags { margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; padding-top: 1rem; border-top: 1px solid #edf2f7; }
+       .tag { background: var(--tag-bg); color: var(--tag-text); padding: 0.2rem 0.7rem; border-radius: 99px; font-size: 0.75rem; font-weight: 600; }
     </style>
 </head>
 <body>
@@ -49,7 +51,7 @@
 <div class="nav-bar">
     <div class="nav-controls">
         <a href="index.html" class="nav-link home-btn">⌂ Dashboard</a>
-        <a href="surah-070-nahl.html" class="nav-link">← Prev</a>
+             <a href="surah-070-nahl.html" class="nav-link">← Prev</a>
         <a href="surah-072-ibrahim.html" class="nav-link">Next →</a>
     </div>
     <span style="font-weight: 600; color: #718096; font-size: 0.9rem;">Mushaf: #71 | Chronological: #71</span>
@@ -57,9 +59,9 @@
 
 <header>
     <h1>Surah Nuh</h1>
-    <div class="meta">Noah • Makkah • 28 Verses</div>
+   <div class="meta">Noah • Makkah • 28 Verses</div>
     <div class="intro-text">
-        A profound historical document detailing the 950-year mission of Prophet Noah. It serves as a masterclass in the methodology of calling people to God, the psychological resistance of the arrogant, and the direct link between seeking forgiveness and receiving earthly provision.
+      The Burden of Unyielding Love. Revealed during the grueling middle years of the Prophet ﷺ's Makkan struggle, this Surah offers profound solace. It mirrors his own exhaustion through the legacy of Noah, reminding us that spiritual success is measured by sincere endurance, not immediate results.
     </div>
 </header>
 
@@ -67,313 +69,297 @@
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 1</span></div>
-        <div class="arabic">إِنَّآ أَرْسَلْنَا نُوحًا إِلَىٰ قَوْمِهِۦٓ أَنْ أَنذِرْ قَوْمَكَ مِن قَبْلِ أَن يَأْتِيَهُمْ عَذَابٌ أَلِيمٌۭ</div>
-        <div class="translation">"Indeed, We sent Noah to his people, [saying], 'Warn your people before there comes to them a painful punishment.'"</div>
+        <div class="arabic">إِنَّا أَرْسَلْنَا نُوحًا إِلَىٰ قَوْمِهِ أَنْ أَنذِرْ قَوْمَكَ مِن قَبْلِ أَن يَأْتِيَهُمْ عَذَابٌ أَلِيمٌ</div>
+        <div class="translation">"Indeed, We sent Noah to his people ˹saying to him˺, 'Warn your people before a painful punishment comes to them.'"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God initiates the narrative by confirming Noah's (Nuh's) divine commission. The overarching objective of his massive mission is established immediately: he must act as a clear, urgent alarm system for his society, giving them the opportunity to change course before a devastating Divine punishment strikes them.</div></div>
-            <div class="insight-box context"><span class="label">Historical Context</span><div class="content">This Surah was revealed during a period of extreme frustration and persecution in Mecca. The Prophet Muhammad (ﷺ) was facing a wall of stubborn rejection from the Quraysh. God revealed the entire struggle of Noah as a direct mirror and profound comfort to the Prophet ﷺ, proving that immense societal resistance is the historical standard for all Messengers.</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Al-Qurtubi)</span><div class="content">Imam Al-Qurtubi notes that the sequence of sending a warner *before* the punishment arrives highlights God's absolute, flawless justice. The Creator never enacts destruction upon a civilization without first establishing the intellectual and spiritual proof against them through a Messenger.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Before the flood, there was immense, enduring divine patience. This verse demonstrates that true justice is always preceded by a warning born out of love and concern, never out of a sudden desire to punish. The warning itself is a manifestation of mercy.</div></div>
         </div>
-        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Warning</span><span class="tag">Divine Justice</span></div>
+       <div class="tags"><span class="tag">Divine Mercy</span><span class="tag">Prophetic Mission</span><span class="tag">Justice</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 2</span></div>
-        <div class="arabic">قَالَ يَـٰقَوْمِ إِنِّى لَكُمْ نَذِيرٌۭ مُّبِينٌ</div>
-        <div class="translation">"He said, 'O my people, indeed I am to you a clear warner,'"</div>
+        <div class="arabic">قَالَ يَا قَوْمِ إِنِّي لَكُمْ نَذِيرٌ مُّبِينٌ</div>
+        <div class="translation">"Noah proclaimed, 'O my people! I am truly sent to you with a clear warning:'"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Noah immediately executes his mission. He approaches his society using a tender, relational plea ("O my people") to emphasize that he is one of them and desires their survival. He declares his role without ambiguity: he is a clear, transparent warner with no hidden political agenda.</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Gilani)</span><div class="content">Sheikh Abdul Qadir al-Gilani reflects on the etiquette of the spiritual guide (Murshid). The true caller to God does not seek to dominate, embarrass, or crush the sinners. By saying "O my people," Noah speaks from a place of deep compassion, viewing the disbelievers not as enemies to be destroyed, but as sick family members desperately needing a cure.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Notice the profound warmth in the address "O my people." Despite their hostility and rejection, Noah speaks to them with deep, familial affection. It sets the gold standard for the character of anyone who wishes to call others toward truth.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self</span><div class="content">The "clear warning" extends beyond physical destruction to the spiritual death that occurs when a soul severs its connection to the Source. The most painful punishment is not the floodwaters, but the total veiling of the heart from divine love.</div></div>
         </div>
-        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Social Ethics</span><span class="tag">Truth</span></div>
+       <div class="tags"><span class="tag">Sincerity</span><span class="tag">Compassion</span><span class="tag">Spiritual Awakening</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 3</span></div>
-        <div class="arabic">أَنِ ٱعْبُدُوا۟ ٱللَّهَ وَٱتَّقُوهُ وَأَطِيعُونِ</div>
-        <div class="translation">"'[Saying], Worship Allah, fear Him and obey me.'"</div>
+        <div class="arabic">أَنِ اعْبُدُوا اللَّهَ وَاتَّقُوهُ وَأَطِيعُونِ</div>
+        <div class="translation">"'worship Allah ˹alone˺, fear Him, and obey me.'"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Noah distills his entire 950-year message into three highly actionable pillars: 1) Dedicate all worship exclusively to God (Tawhid). 2) Maintain a protective fear and reverence for His boundaries (Taqwa). 3) Follow the practical, lived leadership of the Messenger (Obedience).</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">Imam al-Ghazali breaks down this tri-fold formula. "Worship Allah" secures the internal intention of the heart. "Fear Him" ensures the abstention from sins and forbidden acts. "Obey me" dictates the external execution of righteous deeds according to the prophetic model. Together, these three commands encompass the absolute entirety of religion.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The entire core of a healthy spiritual life is beautifully distilled here into three actionable steps: recognizing the Divine (worship), protecting one's heart from spiritual and moral harm (reverence/fear), and following a living, breathing example of truth (obedience to the Prophet).</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom</span><div class="content">To worship is to intimately recognize your Creator; to fear Him is to lovingly respect the boundaries He set for your own flourishing; and to obey His messenger is to walk the path safely. One cannot exist in harmony without the other.</div></div>
         </div>
-        <div class="tags"><span class="tag">Commands</span><span class="tag">Spiritual Practice</span><span class="tag">Truth</span></div>
+       <div class="tags"><span class="tag">Tawhid (Oneness)</span><span class="tag">Taqwa (God-Consciousness)</span><span class="tag">Following the Sunnah</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 4</span></div>
-        <div class="arabic">يَغْفِرْ لَكُم مِّن ذُنُوبِكُمْ وَيُؤَخِّرْكُمْ إِلَىٰٓ أَجَلٍۢ مُّسَمًّى ۚ إِنَّ أَجَلَ ٱللَّهِ إِذَا جَآءَ لَا يُؤَخَّرُ ۖ لَوْ كُنتُمْ تَعْلَمُونَ</div>
-        <div class="translation">"'Allah will forgive you of your sins and delay you for a specified term. Indeed, the time [set by] Allah, when it comes, cannot be delayed, if you only knew.'"</div>
+        <div class="arabic">يَغْفِرْ لَكُم مِّن ذُنُوبِكُمْ وَيُؤَخِّرْكُمْ إِلَىٰ أَجَلٍ مُّسَمًّى ۚ إِنَّ أَجَلَ اللَّهِ إِذَا جَاءَ لَا يُؤَخَّرُ ۖ لَوْ كُنتُمْ تَعْلَمُونَ</div>
+        <div class="translation">"'He will forgive your sins, and delay your end until the appointed time. Indeed, when the time set by Allah comes, it cannot be delayed, if only you knew!'"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Noah offers an incredible incentive for their submission. If they implement the three pillars, God will completely erase their past crimes and cancel the decree of their premature destruction, allowing them to live out their full, natural lifespans in peace. However, he warns that once God's ultimate, unchangeable deadline arrives, no negotiations or delays will be accepted.</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Al-Qurtubi)</span><div class="content">Al-Qurtubi extracts a profound legal and theological reality from this verse: Righteousness and obedience can actually extend a society's lifespan by removing the decree of divine punishment, while widespread sin literally cuts a civilization's lifespan short. The ultimate "specified term" (Ajal) of death is fixed, but the path to reaching it is affected by human morality.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God’s forgiveness is not just an erasure of the past; it actively transforms our present reality, granting us the physical time and spiritual space needed to heal. Yet, it comes with a gentle but firm boundary: our time on earth is finite, and the door of opportunity will eventually close.</div></div>
+           <div class="insight-box hikam"><span class="label">Divine Wisdom [Al-Hasan al-Basri]</span><div class="content">Reflecting on the fleeting nature of our "appointed time," the classical master Al-Hasan al-Basri profoundly observed: "O son of Adam, you are nothing but a number of days. Whenever a day passes, a part of you passes away."</div></div>
         </div>
-        <div class="tags"><span class="tag">Forgiveness</span><span class="tag">Warning</span><span class="tag">The Unseen</span></div>
+       <div class="tags"><span class="tag">Divine Forgiveness</span><span class="tag">The Reality of Time</span><span class="tag">Repentance</span></div>
     </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 5</span></div>
-        <div class="arabic">قَالَ رَبِّ إِنِّى دَعَوْتُ قَوْمِى لَيْلًۭا وَنَهَارًۭا</div>
-        <div class="translation">"He said, 'My Lord, indeed I invited my people [to truth] night and day.'"</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The narrative flashes forward centuries later. Noah is presenting his formal, exhausted report to his Creator. He confirms that he did not preach casually or occasionally; he dedicated absolutely every waking hour, sacrificing his rest, to call them to salvation throughout the darkness of night and the light of day.</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">Ibn Ata'illah states that true servitude ('Ubudiyyah) is not defined by the success of the outcome, but by the relentless consistency of the effort. Noah is praised eternally not because his people converted (they didn't), but because he never stopped calling them, proving his absolute, unshakeable loyalty to the Divine Command regardless of the results.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Steadfastness</span><span class="tag">Prophetic History</span><span class="tag">Spiritual Practice</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 6</span></div>
-        <div class="arabic">فَلَمْ يَزِدْهُمْ دُعَآءِىٓ إِلَّا فِرَارًۭا</div>
-        <div class="translation">"'But my invitation increased them not except in flight.'"</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Noah reports the devastating paradox of his mission. Despite his deep sincerity and exhaustion, his efforts produced the exact opposite of the desired result. The more he urged them toward God's forgiveness and salvation, the faster and further they ran away from the truth.</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">Imam al-Ghazali explains the psychology of this "flight." When a heart is completely colonized by arrogance and worldly desires, it becomes diseased. Just as a person with a severe eye infection feels intense physical pain when exposed to bright sunlight, the diseased ego feels severe psychological pain when exposed to the pure light of revelation, causing it to flee into the darkness to protect its illness.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Human Nature</span><span class="tag">Arrogance</span><span class="tag">Prophetic History</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 7</span></div>
-        <div class="arabic">وَإِنِّى كُلَّمَا دَعَوْتُهُمْ لِتَغْفِرَ لَهُمْ جَعَلُوٓا۟ أَصَـٰبِعَهُمْ فِىٓ ءَاذَانِهِمْ وَٱسْتَغْشَوْا۟ ثِيَابَهُمْ وَأَصَرُّوا۟ وَٱسْتَكْبَرُوا۟ ٱسْتِكْبَارًۭا</div>
-        <div class="translation">"'And indeed, every time I invited them that You may forgive them, they put their fingers in their ears, covered themselves with their garments, persisted, and were arrogant with great arrogance.'"</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Noah vividly details the intensely childish, hostile, and physical reaction of his society. Whenever he approached them with the offer of God's forgiveness, they physically shoved their fingers into their ears to block out his voice, pulled their heavy cloaks over their heads so they wouldn't even have to look at him, and doubled down on their massive, stubborn pride.</div></div>
-            <div class="insight-box context"><span class="label">Historical Context</span><div class="content">This imagery directly paralleled the exact hostility Prophet Muhammad (ﷺ) faced. The elite of Quraysh would intentionally make loud noises, whistle, cover their faces, and run away when the Prophet recited the Qur'an near the Kaaba, desperately trying to prevent the divine words from penetrating their hearts or the hearts of the pilgrims. God is showing the Prophet ﷺ that the blueprint of arrogance has not changed in thousands of years.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Arrogance</span><span class="tag">Human Nature</span><span class="tag">Prophetic History</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 8</span></div>
-        <div class="arabic">ثُمَّ إِنِّى دَعَوْتُهُمْ جِهَارًۭا</div>
-        <div class="translation">"'Then I invited them publicly.'"</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Undeterred by their physical rejection and humiliation, Noah escalated his strategic approach. He moved from standard preaching to loud, open, and bold public declarations ("Jihara"), establishing the undeniable proof against them so no one in the society could ever claim they hadn't heard the message.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Steadfastness</span><span class="tag">Prophetic History</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 9</span></div>
-        <div class="arabic">ثُمَّ إِنِّىٓ أَعْلَنتُ لَهُمْ وَأَسْرَرْتُ لَهُمْ إِسْرَارًۭا</div>
-        <div class="translation">"'Then I announced to them and [also] confided to them secretly'"</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">He further diversified his methodology. He held massive public rallies ("A'lantu"), and he simultaneously visited individuals in the absolute privacy of their own homes ("Asrartu"), tailoring his approach to fit every possible psychological, social, and political dynamic in a desperate bid to save them.</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Al-Qurtubi)</span><div class="content">Al-Qurtubi extracts the fundamental methodology of Islamic outreach (Da'wah) from this verse. A true caller to God cannot rely on a single method. They must be dynamic—utilizing public platforms to establish general truth and societal norms, while employing private, gentle, and confidential counsel to address personal doubts and specific sins, leaving no strategic stone unturned.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Social Ethics</span><span class="tag">Spiritual Practice</span><span class="tag">Steadfastness</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 10</span></div>
-        <div class="arabic">فَقُلْتُ ٱسْتَغْفِرُوا۟ رَبَّكُمْ إِنَّهُۥ كَانَ غَفَّارًۭا</div>
-        <div class="translation">"'And said, 'Ask forgiveness of your Lord. Indeed, He is ever a Perpetual Forgiver.'"</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Through all of these diverse methods, Noah's core message remained a profound offer of mercy. He urged his people to seek "Istighfar" (active forgiveness). He assured them that God is not just a forgiver, but "Ghaffar"—One who perpetually, continuously, and unconditionally forgives, regardless of the magnitude, frequency, or severity of the sins committed.</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">Ibn Ata'illah teaches that the primary weapon of the devil is convincing the sinner that their crimes are too massive for God to forgive, leading them into despair. Noah counters this satanic trap by emphasizing the Name "Ghaffar." Your sins are finite, restricted by time and space, but His forgiveness is infinite. Never weigh your finite crimes against His infinite mercy.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Forgiveness</span><span class="tag">Mercy</span><span class="tag">Attributes of Allah</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 11</span></div>
-        <div class="arabic">يُرْسِلِ ٱلسَّمَآءَ عَلَيْكُم مِّدْرَارًۭا</div>
-        <div class="translation">"'He will send [rain from] the sky upon you in [continuing] showers'"</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Noah explicitly links spiritual purity to environmental and economic prosperity. If they humble themselves and seek forgiveness, God will end their severe droughts. He will open the skies and send down abundant, continuous, and highly beneficial rain ("Midrara") to revive their dead lands.</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Al-Qurtubi)</span><div class="content">Al-Qurtubi records a famous historical incident regarding this verse. Whenever people came to the great scholar Hasan al-Basri complaining of severe drought, intense poverty, or an inability to have children, his answer to all of them was identical: "Seek forgiveness from Allah (Make Istighfar)." When asked why he gave the same spiritual cure for different physical problems, he simply recited this sequence of verses from Surah Nuh. Istighfar is the master key that unlocks physical sustenance.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Provision</span><span class="tag">Forgiveness</span><span class="tag">Knowledge & Signs</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 12</span></div>
-        <div class="arabic">وَيُمْدِدْكُم بِأَمْوَٰلٍۢ وَبَنِينَ وَيَجْعَل لَّكُمْ جَنَّـٰتٍۢ وَيَجْعَل لَّكُمْ أَنْهَـٰرًۭا</div>
-        <div class="translation">"'And give you increase in wealth and children and provide for you gardens and provide for you rivers.'"</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The worldly incentives for repentance continue. God promises that sincere Istighfar will result in massive economic growth, the blessing of strong lineage and healthy children, and the transformation of their environment into lush, highly productive agricultural gardens sustained by flowing rivers.</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Gilani)</span><div class="content">Sheikh Abdul Qadir al-Gilani notes the profound dynamic of provision. The Dunya (worldly life) is merely the shadow of the Akhirah (Hereafter). When you turn your back on the Creator to desperately chase the shadow (wealth), it constantly outruns you. But when you turn your face toward the Creator in repentance, the shadow of worldly provision has no choice but to naturally follow you from behind.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Wealth</span><span class="tag">Family</span><span class="tag">Provision</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 13</span></div>
-        <div class="arabic">مَّا لَكُمْ لَا تَرْجُونَ لِلَّهِ وَقَارًۭا</div>
-        <div class="translation">"'What is [the matter] with you that you do not attribute to Allah [due] grandeur'"</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">After offering these massive, undeniable incentives, Noah expresses profound bewilderment. He questions the fundamental psychological break within his people. What is wrong with their intellects that they completely fail to recognize the immense majesty, weight, and supreme dignity ("Waqar") of the Creator who is offering them all of this?</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">Imam al-Ghazali teaches that the absolute root of all human sin is the loss of *Waqar* (reverence/awe) for God in the heart. If the heart truly grasped the terrifying majesty and immense grandeur of the King, the physical limbs would be entirely paralyzed and incapable of engaging in rebellion against Him. Sin is a symptom of a heart that thinks God is small.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">Humility</span><span class="tag">Arrogance</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 14</span></div>
-        <div class="arabic">وَقَدْ خَلَقَكُمْ أَطْوَارًا</div>
-        <div class="translation">"'While He has created you in stages?'"</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Noah points to the most intimate, undeniable proof of God's majesty: their own biology. He commands them to reflect on their own physical existence. God did not create them randomly or accidentally; He engineered them through a highly meticulous, multi-stage developmental process in the womb (from a drop of fluid, to a clinging clot, to flesh, to a conscious human).</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Al-Qurtubi)</span><div class="content">Al-Qurtubi observes how Noah uses the miracle of embryology to completely corner their intellect. The One who carefully, flawlessly engineered your complex biological stages in the absolute darkness of your mother's womb—without any human intervention—possesses a grandeur that undeniably proves He is capable of resurrecting you to hold you accountable.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Logic</span><span class="tag">Attributes of Allah</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 15</span></div>
-        <div class="arabic">أَلَمْ تَرَوْا۟ كَيْفَ خَلَقَ ٱللَّهُ سَبْعَ سَمَـٰوَٰتٍ طِبَاقًۭا</div>
-        <div class="translation">"Do you not consider how Allah has created seven heavens in layers,"</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">After pointing to the microscopic miracle of human biology in the womb, Noah radically shifts their perspective outward to the macrocosm. He asks them to look up and consider the sheer, incomprehensible scale of the universe, engineered by God into seven vast, perfectly stacked layers or stratospheres ("Tibaqan").</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Al-Qurtubi)</span><div class="content">Imam Al-Qurtubi points out the theological brilliance of Noah's approach. The idolaters worshipped statues of stone and wood that could not even move themselves. Noah directs their vision to the massive, suspended layers of the heavens to demonstrate that the true Creator possesses an infinite, dynamic power that exposes the absolute pathetic weakness of their idols.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Logic</span><span class="tag">Attributes of Allah</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 16</span></div>
-        <div class="arabic">وَجَعَلَ ٱلْقَمَرَ فِيهِنَّ نُورًۭا وَجَعَلَ ٱلشَّمْسَ سِرَاجًۭا</div>
-        <div class="translation">"And made the moon therein a [reflected] light and made the sun a burning lamp?"</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Noah highlights the specific celestial bodies that regulate their daily lives. The Qur'an uses precise language here: the moon is described as "Noor" (a gentle, reflected light that illuminates the dark), while the sun is explicitly termed a "Siraj" (a blazing, self-generating lamp that produces intense heat and energy).</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">Imam al-Ghazali extracts a profound spiritual metaphor from this astronomy. The Sun (Siraj) represents the ultimate, burning truth and majesty of the Creator. The human eye cannot stare directly at the sun without going blind. The Moon (Noor) represents the Prophet; he absorbs the intense light of the Divine and reflects it gently into the darkness of society so the people can navigate without being blinded by the sheer intensity of the Divine Presence.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Truth</span><span class="tag">Logic</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 17</span></div>
-        <div class="arabic">وَٱللَّهُ أَنۢبَتَكُم مِّنَ ٱلْأَرْضِ نَبَاتًۭا</div>
-        <div class="translation">"And Allah has caused you to grow from the earth a [progressive] growth."</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Noah brings the argument back down to earth with a beautifully humbling metaphor. He equates human existence to agriculture. Just as God commands a seed to germinate and grow progressively from the soil, He caused the father of humanity (Adam) to originate from the earth, and sustains all human biology through the nutrients pulled from the soil.</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">Ibn Ata'illah states: "Do not let the branches of your intellect reach arrogantly into the sky when you know that the roots of your existence are planted in the dirt." This verse violently strikes the ego of the arrogant elite; they are merely plants harvested from the mud.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Human Nature</span><span class="tag">Humility</span><span class="tag">Knowledge & Signs</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 18</span></div>
-        <div class="arabic">ثُمَّ يُعِيدُكُمْ فِيهَا وَيُخْرِجُكُمْ إِخْرَاجًۭا</div>
-        <div class="translation">"Then He will return you into it and extract you [another] extraction."</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The agricultural metaphor reaches its logical conclusion. Just as a dead plant wilts and returns to the soil to decompose, the human body will inevitably die and return to the earth. And just as God easily brings forth new plants from dead soil in the spring, He will seamlessly extract humanity from their graves for the Day of Judgment.</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Al-Qurtubi)</span><div class="content">Al-Qurtubi emphasizes that Noah uses the indisputable reality of death (returning to the earth) to prove the disputed reality of resurrection (extraction). Since they cannot deny the first half of the process, it is entirely irrational to deny the Creator's capability to execute the second half.</div></div>
-        </div>
-        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Logic</span><span class="tag">Truth</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 19</span></div>
-        <div class="arabic">وَٱللَّهُ جَعَلَ لَكُمُ ٱلْأَرْضَ بِسَاطًۭا</div>
-        <div class="translation">"And Allah has made for you the earth an expanse"</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Noah highlights another specific mercy from the Creator. Despite the earth being a massive, spherical planet, God engineered its surface to act as a "Bisaat" (a vast, smoothed-out expanse or carpet) relative to the human scale, allowing for comfortable habitation, building, and agriculture.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Provision</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 20</span></div>
-        <div class="arabic">لِّتَسْلُكُوا۟ مِنْهَا سُبُلًۭا فِجَاجًۭا</div>
-        <div class="translation">"That you may follow therein roads of passage.'"</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The purpose of this expanse is highly practical. God designed the valleys and plains specifically so humans could carve out broad roads and highways ("Subulan Fijaja"), enabling travel, exploration, trade, and the exchange of resources between civilizations.</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Gilani)</span><div class="content">Sheikh Abdul Qadir al-Gilani notes the spiritual duality: "God smoothed the physical roads of the earth so your bodies could travel to seek physical provision. But He also sent the Prophets to smooth the spiritual roads so your hearts could travel to seek Divine provision. Do not spend your life traveling the physical roads while ignoring the road to the King."</div></div>
-        </div>
-        <div class="tags"><span class="tag">Provision</span><span class="tag">Knowledge & Signs</span><span class="tag">Logic</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 21</span></div>
-        <div class="arabic">قَالَ نُوحٌۭ رَّبِّ إِنَّهُمْ عَصَوْنِى وَٱتَّبَعُوا۟ مَن لَّمْ يَزِدْهُ مَالُهُۥ وَوَلَدُهُۥٓ إِلَّا خَسَارًۭا</div>
-        <div class="translation">"Noah said, 'My Lord, indeed they have disobeyed me and followed him whose wealth and children will not increase him except in loss.'"</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">After nearly a millennium of presenting these flawless logical, biological, and cosmological proofs, Noah issues his final, exhausted report. The masses completely disobeyed him. Instead of following the Prophet of God, they blindly followed their corrupt, wealthy political leaders—men whose massive wealth and large families only increased their arrogance and ultimate spiritual ruin.</div></div>
-            <div class="insight-box context"><span class="label">Historical Context</span><div class="content">This verse served as a direct mirror for the Prophet Muhammad ﷺ in Mecca. The weak and impoverished masses of Quraysh knew the Prophet was telling the truth, but they were economically terrified of elite oligarchs like Abu Jahl and Al-Walid. They chose to follow the billionaires who signed their paychecks rather than the Prophet who offered them salvation.</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">Ibn Ata'illah states that whenever wealth and power are decoupled from the fear of God, they cease to be blessings and immediately transform into instruments of "Khasar" (absolute loss). The elite thought their money bought them influence; in reality, it only bought them a deeper level of Hellfire.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Social Ethics</span><span class="tag">Wealth</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 22</span></div>
-        <div class="arabic">وَمَكَرُوا۟ مَكْرًۭا كُبَّارًۭا</div>
-        <div class="translation">"'And they planned a massive plan.'"</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The elite leaders did not simply ignore Noah; they actively mobilized against him. They engineered a "Makran Kubbara"—an extremely complex, heavily funded, and highly organized propaganda campaign designed to completely suppress Noah's message and maintain their control over the population.</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Al-Qurtubi)</span><div class="content">Al-Qurtubi emphasizes the Arabic morphology of "Kubbara" (massive/monumental). It is an extreme hyperbole indicating that the leaders utilized every ounce of their political capital, media influence, and physical threats to build a fortress of lies. Yet, against the decree of God, this massive human plot collapsed like a house of cards.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Arrogance</span><span class="tag">Warning</span><span class="tag">Prophetic History</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 23</span></div>
-        <div class="arabic">وَقَالُوا۟ لَا تَذَرُنَّ ءَالِهَتَكُمْ وَلَا تَذَرُنَّ وَدًّۭا وَلَا سُوَاعًۭا وَلَا يَغُوثَ وَيَعُوقَ وَنَسْرًۭا</div>
-        <div class="translation">"'And said, 'Never leave your gods and never leave Wadd or Suwa' or Yaghuth and Ya'uq and Nasr.''"</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The core of their massive propaganda plan is revealed. The elite instructed the masses to be fiercely patriotic and aggressively defend their ancestral religion. They specifically commanded them to never abandon their five primary, named idols: Wadd, Suwa', Yaghuth, Ya'uq, and Nasr.</div></div>
-            <div class="insight-box context"><span class="label">Historical Context</span><div class="content">This verse contains a profound historical revelation regarding the origin of idolatry. Ibn Abbas narrated in Sahih Al-Bukhari: "These were the names of pious, righteous men from the people of Noah. When they died, Satan inspired their people to erect statues in the places where they used to sit, so they could remember their piety. They were not worshipped at first. But when that generation died and the true knowledge was lost, the later generations began worshipping the statues as actual gods." Tragically, centuries later, the Arab tribes of Quraysh, Kalb, and Hawazin adopted these exact same idols and worshipped them in Mecca.</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">Imam al-Ghazali points out the sinister strategy of the Devil (Tadarruj). He rarely commands a person to commit massive sin (like Shirk) on day one. He starts by hijacking a good intention—"Let's honor these righteous men"—and slowly twists it over generations until it becomes the greatest crime in existence.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Arrogance</span><span class="tag">Social Ethics</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 24</span></div>
-        <div class="arabic">وَقَدْ أَضَلُّوا۟ كَثِيرًۭا ۖ وَلَا تَزِدِ ٱلظَّـٰلِمِينَ إِلَّا ضَلَـٰلًۭا</div>
-        <div class="translation">"'And already they have misled many. And, [my Lord], do not increase the wrongdoers except in error.'"</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Noah acknowledges the devastating success of the elite's propaganda: they successfully indoctrinated and brainwashed the vast majority of the population. Seeing that their hearts were irreversibly sealed in arrogance, Noah stops praying for their guidance. He prays that God increases these willful oppressors in their self-chosen error as a form of divine justice.</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Al-Qurtubi)</span><div class="content">Al-Qurtubi clarifies a crucial theological point. A Prophet does not make a prayer against his own people out of personal anger or impatience. Noah only uttered this curse *after* God explicitly revealed to him (as recorded in Surah Hud 11:36): "No one will believe from your people except those who have already believed." Knowing the door of repentance was officially closed by God, Noah aligned his prayer with God's final decree.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Divine Justice</span><span class="tag">Prophetic History</span><span class="tag">Warning</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 25</span></div>
-        <div class="arabic">مِّمَّا خَطِيٓـَٔـٰتِهِمْ أُغْرِقُوا۟ فَأُدْخِلُوا۟ نَارًۭا فَلَمْ يَجِدُوا۟ لَهُم مِّن دُونِ ٱللَّهِ أَنصَارًۭا</div>
-        <div class="translation">"Because of their sins they were drowned and put into the Fire, and they found not for themselves besides Allah [any] helpers."</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God interrupts Noah's quote to state the immediate, catastrophic result. Because of their deeply ingrained sins and idolatry, the global flood was unleashed. They were violently drowned in water, and instantly transitioned into the burning Fire of the grave (Barzakh). None of their wealth, political leaders, or five massive idols stepped forward to save them from the water or the flame.</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Al-Qurtubi)</span><div class="content">Al-Qurtubi draws attention to the subtle but terrifying use of the Arabic letter "Fa" (then/immediately) in "Fa'udkhilu" (Then they were put into...). It indicates that there was absolutely no gap, delay, or resting period between their physical death by drowning and their spiritual entry into the Fire of the Barzakh. The water of the Dunya transitioned seamlessly into the fire of the Akhirah.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Divine Justice</span><span class="tag">Hell</span><span class="tag">Warning</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 26</span></div>
-        <div class="arabic">وَقَالَ نُوحٌۭ رَّبِّ لَا تَذَرْ عَلَى ٱلْأَرْضِ مِنَ ٱلْكَـٰفِرِينَ دَيَّارًا</div>
-        <div class="translation">"And Noah said, 'My Lord, do not leave upon the earth from among the disbelievers an inhabitant."</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">This is the specific, earth-shattering prayer that triggered the flood. Noah, having exhausted every possible avenue of outreach for nearly a millennium, formally requests the total, global eradication of the disbelievers, asking God not to leave a single corrupt inhabitant alive on the planet.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Divine Justice</span><span class="tag">Warning</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 27</span></div>
-        <div class="arabic">إِنَّكَ إِن تَذَرْهُمْ يُضِلُّوا۟ عِبَادَكَ وَلَا يَلِدُوٓا۟ إِلَّا فَاجِرًۭا كَفَّارًۭا</div>
-        <div class="translation">"'Indeed, if You leave them, they will mislead Your servants and not beget except [every] wicked one and [confirmed] disbeliever.'"</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Noah justifies his severe request. He explains that the society has become entirely toxic and genetically/culturally necrotic. If left alive, they will aggressively hunt down and murder the few remaining believers. Furthermore, their society is so deeply entrenched in systematic corruption that any child born into it will inevitably be brainwashed into becoming a wicked, hardened disbeliever.</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">Imam al-Ghazali provides a medical analogy for this terrifying decree. A merciful surgeon must amputate a limb that has been completely consumed by gangrene to save the rest of the body. Noah realized that the civilization was entirely gangrenous; there was no healthy tissue left to save. Saving the future of humanity required the complete amputation of that specific generation.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Social Ethics</span><span class="tag">Divine Justice</span><span class="tag">Prophetic History</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 28 ۩</span></div>
-        <div class="arabic">رَّبِّ ٱغْفِرْ لِى وَلِوَٰلِدَىَّ وَلِمَن دَخَلَ بَيْتِىَ مُؤْمِنًۭا وَلِلْمُؤْمِنِينَ وَٱلْمُؤْمِنَـٰتِ وَلَا تَزِدِ ٱلظَّـٰلِمِينَ إِلَّا تَبَارًۢا</div>
-        <div class="translation">"'My Lord, forgive me and my parents and whoever enters my house a believer and the believing men and believing women. And do not increase the wrongdoers except in destruction.'"</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The Surah concludes with Noah's beautiful, comprehensive closing prayer. Before praying for the believers or against the oppressors, he humbly begs God to forgive his own shortcomings, then extends his prayer to his parents, his physical household, and finally to all believing men and women until the end of time. He finalizes the curse, asking God to guarantee the absolute destruction of the oppressors.</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Gilani)</span><div class="content">Sheikh Abdul Qadir al-Gilani highlights the absolute, staggering humility of the Prophets. After 950 years of brutal, exhausting service, torture, and unwavering loyalty to God, Noah does not stand before God demanding a VIP reward. His very first words are: "My Lord, forgive me." He views his 950 years of flawless effort as inadequate, seeking only the mercy of his Master.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Forgiveness</span><span class="tag">Spiritual Practice</span><span class="tag">Prophetic History</span></div>
-    </div>
-
+<div class="verse-card">
+<div class="verse-header"><span class="verse-number">Verse 5</span></div>
+<div class="arabic">قَالَ رَبِّ إِنِّي دَعَوْتُ قَوْمِي لَيْلًا وَنَهَارًا</div>
+<div class="translation">"He cried, “My Lord! I have surely called my people day and night,"</div>
+<div class="insights">
+<div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Noah turns to his Lord not in anger, but in the intimate vulnerability of a tired servant. He expresses the exhaustion of a continuous, relentless effort fueled by profound care for his community.</div></div>
+<div class="insight-box sufi"><span class="label">Purification of the Self</span><div class="content">This is a profound lesson in anchoring our hearts to the effort, not the outcome. The believer's duty is to call and to serve with sincerity; the results belong entirely to the Divine. Noah’s peace comes from knowing he fulfilled his covenant of love, regardless of the response.</div></div>
+</div>
+<div class="tags"><span class="tag">Perseverance</span><span class="tag">Sincerity</span><span class="tag">Vulnerability</span></div>
 </div>
 
+<div class="verse-card">
+    <div class="verse-header"><span class="verse-number">Verse 6</span></div>
+    <div class="arabic">فَلَمْ يَزِدْهُمْ دُعَائِي إِلَّا فِرَارًا</div>
+    <div class="translation">"but my calls only made them run farther away."</div>
+    <div class="insights">
+       <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">It is a painful human reality that sometimes, the closer we bring the light, the more fiercely those in darkness shut their eyes. Noah acknowledges this heartbreaking psychological resistance without letting it extinguish his own faith.</div></div>
+    </div>
+   <div class="tags"><span class="tag">Human Psychology</span><span class="tag">Spiritual Blindness</span><span class="tag">Endurance</span></div>
+</div>
+
+<div class="verse-card">
+    <div class="verse-header"><span class="verse-number">Verse 7</span></div>
+    <div class="arabic">وَإِنِّي كُلَّمَا دَعَوْتُهُمْ لِتَغْفِرَ لَهُمْ جَعَلُوا أَصَابِعَهُمْ فِي آذَانِهِمْ وَاسْتَغْشَوْا ثِيَابَهُمْ وَأَصَرُّوا وَاسْتَكْبَرُوا اسْتِكْبَارًا</div>
+    <div class="translation">"And whenever I invite them to be forgiven by You, they press their fingers into their ears, cover themselves with their clothes, persist ˹in denial˺, and act very arrogantly."</div>
+    <div class="insights">
+       <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The physical act of blocking their ears and hiding under garments vividly illustrates the psychology of willful ignorance. It is an active, desperate attempt to avoid the discomfort of facing one's own need for healing and accountability.</div></div>
+       <div class="insight-box sufi"><span class="label">Purification of the Self</span><div class="content">The ego's greatest fear is surrendering its illusion of self-sufficiency. Arrogance here is not merely pride; it is a fortress built to keep Divine forgiveness out, because accepting forgiveness requires the painful, humbling admission of our own brokenness.</div></div>
+    </div>
+   <div class="tags"><span class="tag">Arrogance</span><span class="tag">Ego</span><span class="tag">The Veil of Sin</span></div>
+</div>
+
+<div class="verse-card">
+    <div class="verse-header"><span class="verse-number">Verse 8</span></div>
+    <div class="arabic">ثُمَّ إِنِّي دَعَوْتُهُمْ جِهَارًا</div>
+    <div class="translation">"Then I certainly called them openly,"</div>
+    <div class="insights">
+       <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Unfazed by their rejection, Noah shifts his approach. True pastoral care is dynamic and resilient, seeking every possible avenue to reach a heart in need, refusing to give up on the community.</div></div>
+    </div>
+   <div class="tags"><span class="tag">Prophetic Method</span><span class="tag">Courage</span></div>
+</div>
+
+<div class="verse-card">
+    <div class="verse-header"><span class="verse-number">Verse 9</span></div>
+    <div class="arabic">ثُمَّ إِنِّي أَعْلَنتُ لَهُمْ وَأَسْرَرْتُ لَهُمْ إِسْرَارًا</div>
+    <div class="translation">"then I surely preached to them publicly and privately,"</div>
+    <div class="insights">
+       <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">He meets them where they are—in the bustling public squares and in the quiet intimacy of one-on-one conversations. This demonstrates profound empathy, trying to find the exact key that might gently unlock their specific, individual resistance.</div></div>
+    </div>
+   <div class="tags"><span class="tag">Empathy</span><span class="tag">Wisdom in Dawah</span></div>
+</div>
+
+<div class="verse-card">
+    <div class="verse-header"><span class="verse-number">Verse 10</span></div>
+    <div class="arabic">فَقُلْتُ اسْتَغْفِرُوا رَبَّكُمْ إِنَّهُ كَانَ غَفَّارًا</div>
+    <div class="translation">"saying, ‘Seek your Lord’s forgiveness, ˹for˺ He is truly Most Forgiving."</div>
+    <div class="insights">
+       <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The core of his message is incredibly gentle. He does not threaten them with wrath here; he extends an invitation to an ocean of mercy. The name 'Ghaffar' signifies One who forgives perpetually, no matter how many times we return broken.</div></div>
+       <div class="insight-box hikam"><span class="label">Divine Wisdom [Al-Ghazali]</span><div class="content">Imam Al-Ghazali profoundly noted that the Divine name Al-Ghaffar implies the One who makes the beautiful manifest and conceals the ugly. Noah is asking his people to simply step into that veil of grace, allowing God to hide their flaws and nurture their innate goodness.</div></div>
+    </div>
+   <div class="tags"><span class="tag">Istighfar</span><span class="tag">Al-Ghaffar</span><span class="tag">Infinite Mercy</span></div>
+</div>
+
+<div class="verse-card">
+    <div class="verse-header"><span class="verse-number">Verse 11</span></div>
+    <div class="arabic">يُرْسِلِ السَّمَاءَ عَلَيْكُم مِّدْرَارًا</div>
+    <div class="translation">"He will shower you with abundant rain,"</div>
+    <div class="insights">
+       <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Spiritual health and physical sustenance are intimately connected. Returning to the Divine does not just heal the soul; it brings harmony to our worldly existence, unlocking blessings and relief that a parched earth desperately needs.</div></div>
+    </div>
+   <div class="tags"><span class="tag">Divine Provision</span><span class="tag">Barakah (Blessing)</span></div>
+</div>
+
+<div class="verse-card">
+    <div class="verse-header"><span class="verse-number">Verse 12</span></div>
+    <div class="arabic">وَيُمْدِدْكُم بِأَمْوَالٍ وَبَنِينَ وَيَجْعَل لَّكُمْ جَنَّاتٍ وَيَجْعَل لَّكُمْ أَنْهَارًا</div>
+    <div class="translation">"supply you with wealth and children, and give you gardens as well as rivers."</div>
+    <div class="insights">
+       <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God gently appeals to human nature. He knows we desire stability, family, and beauty, and He promises that true, lasting abundance in these very worldly desires flows naturally from a heart aligned with its Creator.</div></div>
+       <div class="insight-box sufi"><span class="label">Purification of the Self</span><div class="content">While these are literal promises, the "rain," "wealth," and "gardens" also serve as profound metaphors for our spiritual state. Seeking forgiveness waters the barren soil of the heart, allowing the lush fruits of inner peace, wisdom, and tranquility to flourish.</div></div>
+    </div>
+   <div class="tags"><span class="tag">Abundance</span><span class="tag">Inner Peace</span><span class="tag">The Fruits of Repentance</span></div>
+</div>
+
+<div class="verse-card">
+    <div class="verse-header"><span class="verse-number">Verse 13</span></div>
+    <div class="arabic">مَّا لَكُمْ لَا تَرْجُونَ لِلَّهِ وَقَارًا</div>
+    <div class="translation">"What is the matter with you that you are not in awe of the Majesty of Allah,"</div>
+    <div class="insights">
+       <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">This is a question filled with sorrow, not just reprimand. How can we look at the breathtaking design of the universe, and the intimacy of our own existence, yet fail to feel reverence and awe for the One who holds it all together?</div></div>
+    </div>
+   <div class="tags"><span class="tag">Awe (Khushu)</span><span class="tag">Majesty</span><span class="tag">Reflection</span></div>
+</div>
+
+<div class="verse-card">
+    <div class="verse-header"><span class="verse-number">Verse 14</span></div>
+    <div class="arabic">وَقَدْ خَلَقَكُمْ أَطْوَارًا</div>
+    <div class="translation">"when He truly created you in stages ˹of development˺?"</div>
+    <div class="insights">
+       <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">We did not appear instantly. We grew from a microscopic drop to an embryo, to a breathing infant, to a conscious adult. Reflecting on our own delicate, step-by-step formation is the most immediate way to recognize the careful, loving attention of our Maker.</div></div>
+       <div class="insight-box hikam"><span class="label">Divine Wisdom</span><div class="content">The God who patiently guided your physical form through stages of darkness into the light of the world is the same God patiently guiding your soul through its stages of spiritual maturity. You are a masterpiece of His gradual, deliberate care.</div></div>
+    </div>
+   <div class="tags"><span class="tag">Creation</span><span class="tag">Divine Care</span><span class="tag">Human Development</span></div>
+</div>
+<div class="verse-card">
+<div class="verse-header"><span class="verse-number">Verse 15</span></div>
+<div class="arabic">أَلَمْ تَرَوْا كَيْفَ خَلَقَ اللَّهُ سَبْعَ سَمَاوَاتٍ طِبَاقًا</div>
+<div class="translation">"Do you not see how Allah created seven heavens, one above the other,"</div>
+<div class="insights">
+<div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">This is a gentle invitation to simply look up. The vastness of the cosmos, layered in perfect, incomprehensible harmony, is meant to expand our minds beyond our immediate, earthly anxieties and ground us in awe.</div></div>
+</div>
+<div class="tags"><span class="tag">Cosmology</span><span class="tag">Divine Majesty</span><span class="tag">Reflection</span></div>
+</div>
+
+<div class="verse-card">
+    <div class="verse-header"><span class="verse-number">Verse 16</span></div>
+    <div class="arabic">وَجَعَلَ الْقَمَرَ فِيهِنَّ نُورًا وَجَعَلَ الشَّمْسَ سِرَاجًا</div>
+    <div class="translation">"placing the moon within them as a ˹reflected˺ light, and the sun as a ˹radiant˺ lamp?"</div>
+    <div class="insights">
+       <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The Quran makes a beautiful distinction between the sun's self-generating heat and the moon's cool, reflected glow. It is a reminder that the universe is not just functionally vast, but intricately tailored to sustain and comfort human life.</div></div>
+       <div class="insight-box hikam"><span class="label">Divine Wisdom</span><div class="content">Just as the moon possesses no light of its own but reflects the brilliance of the sun, the human heart has no inherent light except what it reflects from the Divine. Our spiritual journey is about polishing the mirror of the heart to reflect His grace beautifully to the world.</div></div>
+    </div>
+   <div class="tags"><span class="tag">Signs of Creation</span><span class="tag">Light</span><span class="tag">Divine Design</span></div>
+</div>
+
+<div class="verse-card">
+    <div class="verse-header"><span class="verse-number">Verse 17</span></div>
+    <div class="arabic">وَاللَّهُ أَنبَتَكُم مِّنَ الْأَرْضِ نَبَاتًا</div>
+    <div class="translation">"Allah ˹alone˺ caused you[1240] to grow from the earth like a plant."</div>
+    <div class="insights">
+       <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">We are intimately tied to the earth beneath our feet. Comparing our growth to a plant is profoundly humbling; it reminds us of our organic, fragile nature and our absolute dependence on the nourishment provided by our Creator.</div></div>
+       <div class="insight-box sufi"><span class="label">Purification of the Self</span><div class="content">A seed must be buried in the dark soil, breaking apart entirely before it can sprout and reach for the light. Spiritual growth similarly requires the breaking of the ego and embracing humility in our darkest moments before we can truly blossom.</div></div>
+    </div>
+   <div class="tags"><span class="tag">Humility</span><span class="tag">Human Origins</span><span class="tag">Spiritual Growth</span></div>
+</div>
+
+<div class="verse-card">
+    <div class="verse-header"><span class="verse-number">Verse 18</span></div>
+    <div class="arabic">ثُمَّ يُعِيدُكُمْ فِيهَا وَيُخْرِجُكُمْ إِخْرَاجًا</div>
+    <div class="translation">"Then He will return you to it, and then simply bring you forth ˹again˺."</div>
+    <div class="insights">
+       <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The cycle of life, death, and resurrection is presented as naturally as the changing of the seasons. Returning to the earth is not a terrifying end, but a resting phase before a profound awakening. It offers the ultimate comfort: our story does not end in the grave.</div></div>
+       <div class="insight-box context"><span class="label">Historical Context (Ibn Kathir)</span><div class="content">Classical exegetes explain that this verse encapsulates the three stages of human physical existence as decreed by Allah: the initial creation of our father Adam from dust, our inevitable return to dust at death, and the final extraction from the earth on the Day of Resurrection, demonstrating the supreme ease of Divine power.</div></div>
+    </div>
+   <div class="tags"><span class="tag">Resurrection</span><span class="tag">The Hereafter</span><span class="tag">Cycle of Life</span></div>
+</div>
+
+<div class="verse-card">
+    <div class="verse-header"><span class="verse-number">Verse 19</span></div>
+    <div class="arabic">وَاللَّهُ جَعَلَ لَكُمُ الْأَرْضَ بِسَاطًا</div>
+    <div class="translation">"And Allah ˹alone˺ spread out the earth for you"</div>
+    <div class="insights">
+       <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The earth could have been a harsh, jagged, unlivable terrain. Instead, it was laid out as a vast, accommodating expanse—a gentle cradle designed for humanity to dwell, travel, and seek their livelihoods in comfort.</div></div>
+    </div>
+   <div class="tags"><span class="tag">Divine Grace</span><span class="tag">The Earth</span><span class="tag">Provision</span></div>
+</div>
+
+<div class="verse-card">
+    <div class="verse-header"><span class="verse-number">Verse 20</span></div>
+    <div class="arabic">لِّتَسْلُكُوا مِنْهَا سُبُلًا فِجَاجًا</div>
+    <div class="translation">"to walk along its spacious pathways.’”"</div>
+    <div class="insights">
+       <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">We are meant to move, explore, and connect. The spacious pathways are not just physical roads; they are an invitation to witness the diversity of creation and to actively journey through life seeking purpose, provision, and meaning.</div></div>
+       <div class="insight-box hikam"><span class="label">Divine Wisdom</span><div class="content">While physical pathways take us across the earth, the truest path is the one that leads inward and upward toward the Divine. The wide earth reflects the vastness of God's mercy—no matter where you travel or how far you feel you have wandered, a path back to Him is always open.</div></div>
+    </div>
+   <div class="tags"><span class="tag">Journey</span><span class="tag">Purpose</span><span class="tag">Reflection</span></div>
+</div>
+<div class="verse-card">
+<div class="verse-header"><span class="verse-number">Verse 21</span></div>
+<div class="arabic">قَالَ نُوحٌ رَّبِّ إِنَّهُمْ عَصَوْنِي وَاتَّبَعُوا مَن لَّمْ يَزِدْهُ مَالُهُ وَوَلَدُهُ إِلَّا خَسَارًا</div>
+<div class="translation">"˹Eventually,˺ Noah cried, “My Lord! They have certainly persisted in disobeying me, and followed ˹instead˺ those ˹elite˺ whose ˹abundant˺ wealth and children only increase them in loss,"</div>
+<div class="insights">
+<div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">After centuries of patient calling, Noah reports the heartbreaking reality to his Lord. The people chose to follow the wealthy and powerful elite, tragically mistaking material abundance for divine approval, which ironically only deepened their spiritual bankruptcy.</div></div>
+<div class="insight-box sufi"><span class="label">Purification of the Self</span><div class="content">Worldly blessings like wealth and children are inherently neutral; they only become a source of "loss" when they inflate the ego and create an illusion of self-sufficiency. True wealth is a heart utterly dependent on God, while true poverty is having everything in the world but Him.</div></div>
+</div>
+<div class="tags"><span class="tag">Materialism</span><span class="tag">Delusion</span><span class="tag">Prophetic Struggle</span></div>
+</div>
+
+<div class="verse-card">
+    <div class="verse-header"><span class="verse-number">Verse 22</span></div>
+    <div class="arabic">وَمَكَرُوا مَكْرًا كُبَّارًا</div>
+    <div class="translation">"and who have devised a tremendous plot,"</div>
+    <div class="insights">
+       <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The elite did not just passively reject the truth; they actively strategized and mobilized their resources to suppress the message. They used their societal influence to keep the masses in spiritual darkness, engineering systems to mock and sideline Noah.</div></div>
+    </div>
+   <div class="tags"><span class="tag">Deception</span><span class="tag">Elite Corruption</span><span class="tag">Opposition to Truth</span></div>
+</div>
+
+<div class="verse-card">
+    <div class="verse-header"><span class="verse-number">Verse 23</span></div>
+    <div class="arabic">وَقَالُوا لَا تَذَرُنَّ آلِهَتَكُمْ وَلَا تَذَرُنَّ وَدًّا وَلَا سُوَاعًا وَلَا يَغُوثَ وَيَعُوقَ وَنَسْرًا</div>
+    <div class="translation">"urging ˹their followers˺, ‘Do not abandon your idols—especially Wadd, Suwâ’, Yaghûth, Ya’ûq, and Nasr.’[1241]"</div>
+    <div class="insights">
+       <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The elite weaponized the comforting familiarity of ancestral traditions to manipulate the masses. It is a timeless tactic: using cultural nostalgia and loyalty to block the uncomfortable, transformative light of truth.</div></div>
+       <div class="insight-box context"><span class="label">Historical Context (Ibn Kathir / Sahih Al-Bukhari)</span><div class="content">Authentically recorded from Ibn Abbas, these five names originally belonged to righteous, pious men who lived between the time of Adam and Noah. When they died, Satan inspired their people to erect statues to honor their memory. Over generations, the original commemorative intent was forgotten, and they were gradually worshiped as gods—demonstrating how easily misdirected reverence can slowly curdle into outright idolatry.</div></div>
+    </div>
+   <div class="tags"><span class="tag">Idolatry</span><span class="tag">Tradition</span><span class="tag">Shirk</span><span class="tag">Manipulation</span></div>
+</div>
+
+<div class="verse-card">
+    <div class="verse-header"><span class="verse-number">Verse 24</span></div>
+    <div class="arabic">وَقَدْ أَضَلُّوا كَثِيرًا ۖ وَلَا تَزِدِ الظَّالِمِينَ إِلَّا ضَلَالًا</div>
+    <div class="translation">"Those ˹elite˺ have already led many astray. So ˹O Lord˺, only allow the wrongdoers to stray farther away.”"</div>
+    <div class="insights">
+       <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">This is not a vindictive curse, but a profound surrender to reality by a deeply exhausted prophet. Noah recognizes that their hearts have permanently calcified. He is asking God to allow the natural consequences of their stubborn choices to unfold, as they have irrevocably committed to their destructive path.</div></div>
+       <div class="insight-box hikam"><span class="label">Divine Wisdom</span><div class="content">God does not forcefully drag a seeking soul astray; rather, when a soul persistently and aggressively chooses darkness despite centuries of light, the Divine veil is left in place as a consequence of their own free will. The deepest tragedy is simply being left to one's own devices.</div></div>
+    </div>
+   <div class="tags"><span class="tag">Divine Justice</span><span class="tag">Free Will</span><span class="tag">Spiritual Blindness</span></div>
+</div>
+
+<div class="verse-card">
+    <div class="verse-header"><span class="verse-number">Verse 25</span></div>
+    <div class="arabic">مِّمَّا خَطِيئَاتِهِمْ أُغْرِقُوا فَأُدْخِلُوا نَارًا فَلَمْ يَجِدُوا لَهُم مِّن دُونِ اللَّهِ أَنصَارًا</div>
+    <div class="translation">"So because of their sins, they were drowned, then admitted into the Fire. And they found none to help them against Allah."</div>
+    <div class="insights">
+       <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The transition from the drowning floodwaters immediately into the fire of the afterlife is abrupt and absolute, illustrating that worldly destruction is only a shadow of spiritual ruin. Despite all their elite status, alliances, and accumulated wealth, they found themselves completely defenseless when the reality of their choices caught up with them.</div></div>
+    </div>
+   <div class="tags"><span class="tag">Consequences</span><span class="tag">The Flood</span><span class="tag">The Hereafter</span></div>
+</div>
+<div class="verse-card">
+<div class="verse-header"><span class="verse-number">Verse 26</span></div>
+<div class="arabic">وَقَالَ نُوحٌ رَّبِّ لَا تَذَرْ عَلَى الْأَرْضِ مِنَ الْكَافِرِينَ دَيَّارًا</div>
+<div class="translation">"Noah had prayed, “My Lord! Do not leave a single disbeliever on earth."</div>
+<div class="insights">
+<div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">This seemingly absolute and harsh prayer is born not of sudden anger, but of exhaustive, 950-year-long pastoral experience. It is a profound, diagnostic conclusion: the society has become completely incurable, and the environment itself is entirely toxic to the survival of any future faith.</div></div>
+<div class="insight-box hikam"><span class="label">Divine Wisdom</span><div class="content">Sometimes, radical purification is necessary for new life to grow. The flood was not merely an act of wrath, but a necessary, albeit terrifying, divine surgery to save the future of humanity from a terminal spiritual cancer. True mercy sometimes requires closing the door on irreversible corruption.</div></div>
+</div>
+<div class="tags"><span class="tag">Divine Decree</span><span class="tag">Prophetic Prayer</span><span class="tag">Purification</span></div>
+</div>
+
+<div class="verse-card">
+    <div class="verse-header"><span class="verse-number">Verse 27</span></div>
+    <div class="arabic">إِنَّكَ إِن تَذَرْهُمْ يُضِلُّوا عِبَادَكَ وَلَا يَلِدُوا إِلَّا فَاجِرًا كَفَّارًا</div>
+    <div class="translation">"For if You spare ˹any of˺ them, they will certainly mislead Your servants, and give birth only to ˹wicked˺ sinners, staunch disbelievers."</div>
+    <div class="insights">
+       <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Noah anchors his plea in protective love for future generations. The environment of corruption had become so entrenched and aggressive that any child born into it would be inevitably suffocated by disbelief before they even had a chance to choose the light.</div></div>
+       <div class="insight-box context"><span class="label">Historical Context (Ibn Kathir)</span><div class="content">Classical exegetes highlight that Noah did not utter this prayer based on mere frustration, but upon direct divine revelation. As detailed in Surah Hud (11:36), Allah had explicitly informed Noah that absolutely no one else from his people would ever believe. Only with this divine guarantee that their spiritual lineage was permanently dead did Noah ask for their removal.</div></div>
+    </div>
+   <div class="tags"><span class="tag">Spiritual Environment</span><span class="tag">Generational Impact</span><span class="tag">Divine Knowledge</span></div>
+</div>
+
+<div class="verse-card">
+    <div class="verse-header"><span class="verse-number">Verse 28</span></div>
+    <div class="arabic">رَّبِّ اغْفِرْ لِي وَلِوَالِدَيَّ وَلِمَن دَخَلَ بَيْتِيَ مُؤْمِنًا وَلِلْمُؤْمِنِينَ وَالْمُؤْمِنَاتِ وَلَا تَزِدِ الظَّالِمِينَ إِلَّا تَبَارًا</div>
+    <div class="translation">"My Lord! Forgive me, my parents, and whoever enters my house in faith, and ˹all˺ believing men and women. And increase the wrongdoers only in destruction.”"</div>
+    <div class="insights">
+       <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">At the very end of his grueling mission, facing the catastrophic end of his world, Noah’s first instinct is to ask for personal forgiveness. He beautifully extends this prayer outward in concentric circles of love: starting with his parents, then his household guests, and finally embracing the entire community of believing men and women across all of time.</div></div>
+       <div class="insight-box sufi"><span class="label">Purification of the Self</span><div class="content">Witness the breathtaking humility of a major Prophet. After nearly a millennium of unimaginable suffering and sacrifice for God, he does not demand a reward or parade his righteousness; he simply bows his head and begs for forgiveness. True spiritual elevation always results in recognizing one's own profound need for divine grace.</div></div>
+    </div>
+   <div class="tags"><span class="tag">Dua (Supplication)</span><span class="tag">Humility</span><span class="tag">Love for Believers</span><span class="tag">Divine Justice</span></div>
+</div>
+</div> 
 </body>
 </html>
