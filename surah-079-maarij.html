@@ -12,36 +12,38 @@
             --context-color: #d69e2e; --sufi-color: #38a169; --wisdom-color: #805ad5; --plain-color: #718096; 
         }
         body { font-family: 'Inter', sans-serif; background: var(--bg-color); color: var(--text-color); margin: 0; padding: 0; line-height: 1.6; }
-        .nav-bar { padding: 1rem 2rem; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; background: white; z-index: 100; box-shadow: 0 2px 4px rgba(0,0,0,0.05); flex-wrap: wrap; gap: 1rem;}
-        .nav-controls { display: flex; gap: 1.5rem; align-items: center; }
-        .nav-link { text-decoration: none; color: var(--primary-accent); font-weight: 600; display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem;}
-        .nav-link:hover { text-decoration: underline; }
-        .home-btn { background: var(--primary-accent); color: white; padding: 0.5rem 1rem; border-radius: 6px; }
-        .home-btn:hover { background: #2c5282; color: white; text-decoration: none; }
+        
+       .nav-bar { padding: 1rem 2rem; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; background: white; z-index: 100; box-shadow: 0 2px 4px rgba(0,0,0,0.05); flex-wrap: wrap; gap: 1rem;}
+       .nav-controls { display: flex; gap: 1.5rem; align-items: center; }
+       .nav-link { text-decoration: none; color: var(--primary-accent); font-weight: 600; display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem;}
+       .nav-link:hover { text-decoration: underline; }
+       .home-btn { background: var(--primary-accent); color: white; padding: 0.5rem 1rem; border-radius: 6px; }
+       .home-btn:hover { background: #2c5282; color: white; text-decoration: none; }
+
         header { text-align: center; padding: 3rem 1rem 2rem; background: linear-gradient(180deg, #f7fafc 0%, #ffffff 100%); }
         h1 { font-family: 'Merriweather', serif; font-size: 2.8rem; margin: 0; color: #1a202c; }
-        .meta { color: #718096; text-transform: uppercase; letter-spacing: 2px; font-size: 0.85rem; margin-top: 1rem; font-weight: 700; }
-        .intro-text { max-width: 650px; margin: 1.5rem auto 0; font-style: italic; color: #4a5568; }
-        .container { max-width: 900px; margin: 0 auto; padding: 0 1rem 4rem; }
-        .verse-card { background: white; border: 1px solid var(--border-color); border-radius: 12px; padding: 2rem; margin-bottom: 2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.02); }
-        .verse-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; border-bottom: 1px solid #edf2f7; padding-bottom: 0.8rem; }
-        .verse-number { background: var(--primary-accent); color: white; padding: 0.2rem 0.8rem; border-radius: 20px; font-size: 0.85rem; font-weight: 700; }
-        .arabic { font-family: 'Amiri', serif; font-size: 2.4rem; text-align: right; color: #2d3748; margin-bottom: 1.5rem; line-height: 2.2; }
-        .translation { font-family: 'Merriweather', serif; font-size: 1.2rem; color: #1a202c; margin-bottom: 2rem; border-left: 4px solid var(--primary-accent); padding-left: 1rem; }
-        .insights { display: grid; grid-template-columns: 1fr; gap: 1rem; }
-        .insight-box { background: #fff; padding: 1.2rem; border-radius: 8px; border: 1px solid #e2e8f0; border-left-width: 4px; }
-        .insight-box.plain { border-left-color: var(--plain-color); background: #f7fafc; }
-        .insight-box.context { border-left-color: var(--context-color); }
-        .insight-box.sufi { border-left-color: var(--sufi-color); }
-        .insight-box.hikam { border-left-color: var(--wisdom-color); }
-        .label { display: block; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1.2px; font-weight: 700; margin-bottom: 0.5rem; }
-        .plain .label { color: var(--plain-color); }
-        .context .label { color: var(--context-color); }
-        .sufi .label { color: var(--sufi-color); }
-        .hikam .label { color: var(--wisdom-color); }
-        .content { font-size: 0.95rem; color: #4a5568; }
-        .tags { margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; padding-top: 1rem; border-top: 1px solid #edf2f7; }
-        .tag { background: var(--tag-bg); color: var(--tag-text); padding: 0.2rem 0.7rem; border-radius: 99px; font-size: 0.75rem; font-weight: 600; }
+       .meta { color: #718096; text-transform: uppercase; letter-spacing: 2px; font-size: 0.85rem; margin-top: 1rem; font-weight: 700; }
+       .intro-text { max-width: 650px; margin: 1.5rem auto 0; font-style: italic; color: #4a5568; }
+       .container { max-width: 900px; margin: 0 auto; padding: 0 1rem 4rem; }
+       .verse-card { background: white; border: 1px solid var(--border-color); border-radius: 12px; padding: 2rem; margin-bottom: 2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.02); }
+       .verse-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; border-bottom: 1px solid #edf2f7; padding-bottom: 0.8rem; }
+       .verse-number { background: var(--primary-accent); color: white; padding: 0.2rem 0.8rem; border-radius: 20px; font-size: 0.85rem; font-weight: 700; }
+       .arabic { font-family: 'Amiri', serif; font-size: 2.4rem; text-align: right; color: #2d3748; margin-bottom: 1.5rem; line-height: 2.2; }
+       .translation { font-family: 'Merriweather', serif; font-size: 1.2rem; color: #1a202c; margin-bottom: 2rem; border-left: 4px solid var(--primary-accent); padding-left: 1rem; }
+       .insights { display: grid; grid-template-columns: 1fr; gap: 1rem; }
+       .insight-box { background: #fff; padding: 1.2rem; border-radius: 8px; border: 1px solid #e2e8f0; border-left-width: 4px; }
+       .insight-box.plain { border-left-color: var(--plain-color); background: #f7fafc; }
+       .insight-box.context { border-left-color: var(--context-color); }
+       .insight-box.sufi { border-left-color: var(--sufi-color); }
+       .insight-box.hikam { border-left-color: var(--wisdom-color); }
+       .label { display: block; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1.2px; font-weight: 700; margin-bottom: 0.5rem; }
+       .plain .label  { color: var(--plain-color); }
+       .context .label { color: var(--context-color); }
+       .sufi .label    { color: var(--sufi-color); }
+       .hikam .label   { color: var(--wisdom-color); }
+       .content { font-size: 0.95rem; color: #4a5568; }
+       .tags { margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; padding-top: 1rem; border-top: 1px solid #edf2f7; }
+       .tag { background: var(--tag-bg); color: var(--tag-text); padding: 0.2rem 0.7rem; border-radius: 99px; font-size: 0.75rem; font-weight: 600; }
     </style>
 </head>
 <body>
@@ -49,7 +51,7 @@
 <div class="nav-bar">
     <div class="nav-controls">
         <a href="index.html" class="nav-link home-btn">⌂ Dashboard</a>
-        <a href="surah-078-haqqah.html" class="nav-link">← Prev</a>
+       <a href="surah-078-haqqah.html" class="nav-link">← Prev</a>
         <a href="surah-080-naba.html" class="nav-link">Next →</a>
     </div>
     <span style="font-weight: 600; color: #718096; font-size: 0.9rem;">Mushaf: #70 | Chronological: #79</span>
@@ -57,9 +59,9 @@
 
 <header>
     <h1>Surah Al-Ma'arij</h1>
-    <div class="meta">The Ascending Stairways • Makkah • 44 Verses</div>
+   <div class="meta">The Ascending Stairways • Makkah • 44 Verses</div>
     <div class="intro-text">
-        A profound Makkan Surah detailing the relativity of Divine time, the terrifying selfishness of the human ego on the Day of Judgment, and the specific psychological anxieties that plague humanity in the worldly life.
+        he Architecture of Divine Justice. Revealed when the Makkan elite mocked the delay of reckoning. It shifts our gaze from the anxiety of immediate results to the majesty of Allah’s timeline, teaching us to endure the world's harshness with beautiful, uncomplaining grace.
     </div>
 </header>
 
@@ -68,585 +70,459 @@
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 1</span></div>
         <div class="arabic">سَأَلَ سَآئِلٌۢ بِعَذَابٍۢ وَاقِعٍۢ</div>
-        <div class="translation">"A supplicant asked for a punishment bound to happen"</div>
+        <div class="translation">"A challenger has demanded a punishment bound to come"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The Surah opens with a shocking report. Instead of asking God for guidance, mercy, or clarity, a specific individual arrogantly and sarcastically prayed for God's severe punishment to strike him immediately. God confirms that the punishment he requested is indeed guaranteed to happen.</div></div>
-            <div class="insight-box context"><span class="label">Historical Context</span><div class="content">Classical exegetes, including Ibn Abbas, identify this "supplicant" as An-Nadr ibn al-Harith (or Abu Jahl). Frustrated by the Prophet's ﷺ warnings, he openly stood before the Kaaba and issued a mocking challenge recorded elsewhere in the Qur'an (Anfal: 32): "O Allah, if this is indeed the truth from You, then rain down upon us stones from the sky or bring us a painful punishment!" He was subsequently killed at the Battle of Badr.</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Al-Qurtubi)</span><div class="content">Imam Al-Qurtubi highlights the profound psychological sickness of the Makkan elite. Their hatred for the Prophet ﷺ was so intense that they preferred total physical annihilation over the humiliation of admitting they were wrong and submitting to the truth. Arrogance blinds the intellect to the point of self-destruction.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">A moment of profound human arrogance meets divine certainty. When we feel overwhelmed by those who mock the truth, we are reminded that God's justice does not rush to meet human impatience.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context (Ibn Kathir)</span><div class="content">Classical exegetes, including Ibn Abbas, note this refers to Nadr bin Al-Harith, a wealthy Makkan chieftain who arrogantly and mockingly prayed, "O Allah, if this is indeed the truth from You, then rain down upon us stones from the sky." The verse captures this supreme hubris.</div></div>
         </div>
-        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Arrogance</span><span class="tag">Warning</span></div>
+       <div class="tags"><span class="tag">Divine Justice</span><span class="tag">Arrogance</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 2</span></div>
-        <div class="arabic">لِّلْكَـٰفِرِينَ لَيْسَ لَهُۥ دَافِعٌۭ</div>
-        <div class="translation">"To the disbelievers; of it there is no preventer."</div>
+        <div class="arabic">لِّلْكَٰفِرِينَ لَيْسَ لَهُۥ دَافِعٌۭ</div>
+        <div class="translation">"for the disbelievers—to be averted by none—"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God clarifies that this impending punishment is strictly reserved for those who actively deny the truth. When the divine decree is issued to execute this punishment, absolutely no earthly or cosmic force can repel, delay, or prevent it.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">There is a comforting finality here for the oppressed heart: absolutely no wealth, status, or earthly fortress can build a wall against the ultimate, perfectly balanced scales of God.</div></div>
         </div>
-        <div class="tags"><span class="tag">Divine Justice</span><span class="tag">The Unseen</span><span class="tag">Accountability</span></div>
+       <div class="tags"><span class="tag">Divine Justice</span><span class="tag">Inevitability</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 3</span></div>
         <div class="arabic">مِّنَ ٱللَّهِ ذِى ٱلْمَعَارِجِ</div>
-        <div class="translation">"[It is] from Allah, owner of the ways of ascent."</div>
+        <div class="translation">"from Allah, Lord of pathways of ˹heavenly˺ ascent,"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The punishment originates directly from Allah, who introduces Himself with a unique title: "Dhi Al-Ma'arij" (The Owner of the Ascending Stairways/Pathways). This refers to the massive, structured spiritual and physical pathways through which angels, decrees, and human deeds ascend to the heavens.</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Gilani)</span><div class="content">Sheikh Abdul Qadir al-Gilani interprets the "Ma'arij" on a spiritual level. The journey to the Divine Presence is not a horizontal walk; it is a vertical, strenuous climb. To ascend these spiritual stairways, the believer must continuously drop the heavy weights of worldly attachments and ego at each progressive step. You cannot ascend while carrying the Dunya.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God is not distant, but elevated. The "pathways of ascent" warmly remind us that every tear, every sincere prayer, and every act of silent endurance is steadily making its way up to the highest of courts.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom</span><div class="content">Do not despair of your Lord's mercy when you feel trapped in the lowliness of the material world. He is the Lord of Ascents, and the pathways back to Him are always open for those who choose to rise through humility and repentance.</div></div>
         </div>
-        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">The Unseen</span><span class="tag">Spiritual Practice</span></div>
+       <div class="tags"><span class="tag">Divine Majesty</span><span class="tag">Spiritual Ascent</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 4</span></div>
-        <div class="arabic">تَعْرُجُ ٱلْمَلَـٰٓئِكَةُ وَٱلرُّوحُ إِلَيْهِ فِى يَوْمٍۢ كَانَ مِقْدَارُهُۥ خَمْسِينَ أَلْفَ سَنَةٍۢ</div>
-        <div class="translation">"The angels and the Spirit will ascend to Him during a Day the extent of which is fifty thousand years."</div>
+        <div class="arabic">تَعْرُجُ ٱلْمَلَٰٓئِكَةُ وَٱلرُّوحُ إِلَيْهِ فِى يَوْمٍۢ كَانَ مِقْدَارُهُۥ خَمْسِينَ أَلْفَ سَنَةٍۢ</div>
+        <div class="translation">"˹through which˺ the angels and the ˹holy˺ spirit will ascend to Him on a Day fifty thousand years in length."</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God defines the relativistic scale of divine time and space. The angels, led by the "Spirit" (the Archangel Gabriel), traverse these cosmic stairways. The Day of Judgment is described as having a duration equivalent to 50,000 earthly years, emphasizing the agonizing, seemingly endless waiting period the disbelievers will endure while standing for judgment.</div></div>
-            <div class="insight-box context"><span class="label">Historical Context</span><div class="content">When this verse was revealed, the companions were terrified by the sheer length of a 50,000-year day standing under the sun. The Prophet ﷺ comforted them, stating: "By Him in whose hand is my soul, it will be lightened for the believer until it becomes lighter than the time it takes to perform an obligatory prayer in the worldly life." (Musnad Ahmad). Time on that Day is subjective and entirely dependent on one's spiritual state.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The sheer scale of the cosmos shatters our anxious, human timelines. When we are exhausted waiting for relief or justice, this verse expands our hearts to recognize we are operating within a much grander, eternal reality.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self [Ibn Ata'illah]</span><div class="content">"He delayed the reward of His servants to the Hereafter because this world is too small to contain what He wishes to give them." The vastness of eternity is not a threat to the believer, but the vast canvas upon which God's ultimate generosity will be painted.</div></div>
         </div>
-        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Accountability</span><span class="tag">Prophetic History</span></div>
+       <div class="tags"><span class="tag">Eternal Timeline</span><span class="tag">Angels</span><span class="tag">Divine Majesty</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 5</span></div>
         <div class="arabic">فَٱصْبِرْ صَبْرًۭا جَمِيلًا</div>
-        <div class="translation">"So be patient with gracious patience."</div>
+        <div class="translation">"So endure ˹this denial, O Prophet,˺ with beautiful patience."</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">In response to the arrogant mockeries of the elite and the terrifying reality of the impending Judgment, God commands the Prophet ﷺ to adopt "Sabr Jameel" (Beautiful, Gracious Patience). He is instructed not to rush their punishment or act out of frustration.</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">Imam al-Ghazali defines "Sabr Jameel." Standard patience is enduring a hardship while complaining about it to others. "Beautiful Patience" is swallowing the bitter pill of hardship with such grace and dignity that people looking at you think you are in a state of absolute blessing. You complain of your grief to God alone.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"Beautiful patience" (Sabr Jameel) is not passive suffering. It is a highly dignified, active endurance where the heart complains only to God, maintaining an inward sanctuary of peace despite the outward chaos of the world.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context</span><div class="content">This pastoral command was given directly to the Prophet ﷺ during the deeply isolating and abusive years in Makkah. It established the emotional baseline for believers: you cannot control the mockery of others, but you can control the beauty of your response.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self [Al-Ghazali]</span><div class="content">Imam Al-Ghazali teaches that beautiful patience is achieved when the one experiencing hardship is physically and emotionally indistinguishable from the one experiencing ease, because both rely entirely on their trust in the One who sent the condition.</div></div>
         </div>
-        <div class="tags"><span class="tag">Steadfastness</span><span class="tag">Commands</span><span class="tag">Social Ethics</span></div>
+       <div class="tags"><span class="tag">Sabr (Patience)</span><span class="tag">Dignity</span><span class="tag">Prophetic Character</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 6</span></div>
         <div class="arabic">إِنَّهُمْ يَرَوْنَهُۥ بَعِيدًۭا</div>
-        <div class="translation">"Indeed, they see it [as] distant,"</div>
+        <div class="translation">"They truly see this ˹Day˺ as impossible,"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God explains the mindset of the disbelievers. The reason they mockingly ask for the punishment is because they genuinely perceive the Day of Judgment as a distant, theoretical, or entirely impossible fairy tale that has no bearing on their current reality.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">It is the nature of the distracted ego to view consequence as a distant, abstract myth. The intoxicating illusion of the immediate, physical world makes eternal, spiritual truths feel unreachable.</div></div>
         </div>
-        <div class="tags"><span class="tag">Warning</span><span class="tag">Human Nature</span></div>
+       <div class="tags"><span class="tag">Illusion of Dunya</span><span class="tag">Spiritual Blindness</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 7</span></div>
         <div class="arabic">وَنَرَىٰهُ قَرِيبًۭا</div>
-        <div class="translation">"But We see it [as] near."</div>
+        <div class="translation">"but We see it as inevitable."</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God contrasts their limited human perception with Divine reality. While the human ego thinks it has endless time, the Creator—who is not bound by time—views the Day of Judgment as an imminent, rapidly approaching certainty.</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Al-Qurtubi)</span><div class="content">Al-Qurtubi states a fundamental theological rule: "Everything that is coming is near." Even if the Day of Judgment is millions of years away in human calculations, because it is an absolute guarantee backed by the decree of God, it is considered closer to a person than their own death.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The divine vision pierces through the illusion of time. What feels like an impossibly long lifetime of struggle to us is but a fleeting dawn or dusk in the sight of God. Relief, reckoning, and reunion are intimately close.</div></div>
+            <div class="insight-box hikam"><span class="label">Divine Wisdom</span><div class="content">"What is coming is near, and only what has passed is far." The veil separating us from the reality of the Next Life is incredibly thin, and God’s promise is already standing at the threshold of our existence.</div></div>
         </div>
-        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Truth</span><span class="tag">Attributes of Allah</span></div>
+       <div class="tags"><span class="tag">Divine Vision</span><span class="tag">Certainty</span><span class="tag">Hope</span></div>
     </div>
-
-    <div class="verse-card">
+<div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 8</span></div>
         <div class="arabic">يَوْمَ تَكُونُ ٱلسَّمَآءُ كَٱلْمُهْلِ</div>
-        <div class="translation">"On the Day the heaven will be like murky oil,"</div>
+        <div class="translation">"On that Day the sky will be like molten brass"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God describes the physical breakdown of the cosmos on that Day. The sky, which appears to us now as a solid, perfectly engineered blue canopy, will structurally fail. It will melt and liquefy, taking on the grotesque appearance and texture of "Muhl"—boiling, murky oil dregs or molten metal.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The vast, unshakable canopy of the sky, which we trust and live beneath every day, will lose its form. It is a humbling reminder that the physical laws and structures we rely upon are merely temporary permissions from the Creator, holding their shape only as long as He commands.</div></div>
         </div>
-        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Knowledge & Signs</span><span class="tag">Warning</span></div>
+       <div class="tags"><span class="tag">Day of Judgment</span><span class="tag">Illusion of Permanence</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 9</span></div>
         <div class="arabic">وَتَكُونُ ٱلْجِبَالُ كَٱلْعِهْنِ</div>
-        <div class="translation">"And the mountains will be like wool,"</div>
+        <div class="translation">"and the mountains like ˹tufts of˺ wool."</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The catastrophe extends to the earth. The massive, unyielding mountains, which serve as the anchors of the planet's geology, will entirely lose their mass and density. They will become as light and weightless as tufts of dyed wool scattered and blown apart by the wind.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Mountains, the very symbols of majestic permanence and earthly stability, will be scattered like weightless, dyed wool. What we perceive as heavy and immovable in this life is incredibly fragile before the absolute power of God.</div></div>
+           <div class="insight-box hikam"><span class="label">Divine Wisdom</span><div class="content">Do not lean on what can be shaken. When we anchor our hearts entirely to worldly structures—wealth, status, or institutions—we anchor ourselves to future dust. True stability is found only in the Eternal.</div></div>
         </div>
-        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Knowledge & Signs</span></div>
+       <div class="tags"><span class="tag">Day of Judgment</span><span class="tag">Humility</span><span class="tag">Divine Majesty</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 10</span></div>
         <div class="arabic">وَلَا يَسْـَٔلُ حَمِيمٌ حَمِيمًۭا</div>
-        <div class="translation">"And no devoted friend will ask [anything of] a devoted friend,"</div>
+        <div class="translation">"And no close friend will ask ˹about˺ their friends,"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The sheer terror of this cosmic collapse will entirely erase all human bonds. A "Hameem" is a fiercely loyal, intimate friend who would normally sacrifice everything to help you in the worldly life. On this Day, they will walk right past each other, too paralyzed by their own terror to even ask how the other is doing.</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">Imam al-Ghazali issues a profound warning. In the Dunya, people constantly compromise their religion, lie, and commit sins to please their friends, bosses, or social circles. Yet, on the Day of Judgment, those exact same friends will completely ignore them. Do not sacrifice the Eternal Friend (God) for temporary friends who will abandon you when you need them most.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">In moments of ultimate, soul-baring truth, the distractions of human social dynamics completely dissolve. The soul is left in profound solitude, intensely focused on its own standing before its Lord, unable to even inquire about the well-being of its dearest earthly companions.</div></div>
         </div>
-        <div class="tags"><span class="tag">Accountability</span><span class="tag">Social Ethics</span><span class="tag">Human Nature</span></div>
+       <div class="tags"><span class="tag">Accountability</span><span class="tag">Solitude</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 11</span></div>
         <div class="arabic">يُبَصَّرُونَهُمْ ۚ يَوَدُّ ٱلْمُجْرِمُ لَوْ يَفْتَدِى مِنْ عَذَابِ يَوْمِئِذٍۭ بِبَنِيهِ</div>
-        <div class="translation">"They will be shown each other. The criminal will wish that he could be ransomed from the punishment of that Day by his children"</div>
+        <div class="translation">"˹although˺ they will be made to see each other. The wicked will wish to ransom themselves from the punishment of that Day by their children,"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The horror is amplified. It is not that they cannot find their friends or family in the crowd; God ensures they are placed directly in each other's line of sight ("Yubassarunahum"). Yet, they intentionally look away. The terror of Hell is so absolute that a guilty person would gladly take their own beloved children and throw them into the Fire if it meant buying their own escape.</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">Ibn Ata'illah exposes the dark reality of the disconnected ego (Nafs). When stripped of societal norms and exposed to divine terror, the ego proves that it worshipped nothing but itself all along. It loved its children in the Dunya only for the emotional comfort and legacy they provided, not out of true, selfless love. In the Akhirah, the mask falls off.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">A moment of profound emotional gravity. People will see their loved ones, yet the sheer terror of accountability will paralyze their ability to help. In an act of ultimate desperation, the unchecked human ego will attempt to sacrifice even the purest of earthly loves—one's own children—to save itself.</div></div>
+           <div class="insight-box sufi"><span class="label">Purification of the Self</span><div class="content">Observe the hidden depths of the unpurified ego. If the soul is not trained to sacrifice for others in this life through love and charity, it will instinctively seek to sacrifice others for itself in the Next Life.</div></div>
         </div>
-        <div class="tags"><span class="tag">Accountability</span><span class="tag">Family</span><span class="tag">Human Nature</span></div>
+       <div class="tags"><span class="tag">The Ego</span><span class="tag">Accountability</span><span class="tag">Family Bonds</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 12</span></div>
-        <div class="arabic">وَصَـٰحِبَتِهِۦ وَأَخِيهِ</div>
-        <div class="translation">"And his wife and his brother"</div>
+        <div class="arabic">وَصَٰحِبَتِهِۦ وَأَخِيهِ</div>
+        <div class="translation">"their spouses, their siblings,"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The desperation of the criminal deepens. After offering their children as a ransom, they proceed to offer their life partner (their spouse) and their own flesh and blood (their brother) to the flames to save their own skin.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The foundational bonds of marriage and kinship—the relationships we build our entire earthly lives around and rely upon for comfort—will evaporate under the crushing weight of individual spiritual accountability.</div></div>
         </div>
-        <div class="tags"><span class="tag">Family</span><span class="tag">Accountability</span><span class="tag">Warning</span></div>
+       <div class="tags"><span class="tag">Accountability</span><span class="tag">Attachments</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 13</span></div>
         <div class="arabic">وَفَصِيلَتِهِ ٱلَّتِى تُـْٔوِيهِ</div>
-        <div class="translation">"And his nearest kindred who shelter him"</div>
+        <div class="translation">"their clan that sheltered them,"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The betrayal expands further outward. They offer up their entire extended family, their tribe, and their clan—the very people who provided them with identity, financial backing, shelter, and protection in the worldly life.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Humanity naturally seeks shelter in groups, tribes, and nations. Here, the illusion that collective earthly power or social belonging can offer any refuge in the hereafter is completely shattered.</div></div>
+           <div class="insight-box context"><span class="label">Historical Context (Ibn Kathir)</span><div class="content">For the Makkan audience, an individual's safety, honor, and very survival were guaranteed almost entirely by their clan. The Quran directly addresses and dismantles their deepest source of worldly reliance, shifting their dependence entirely to God.</div></div>
         </div>
-        <div class="tags"><span class="tag">Family</span><span class="tag">Social Ethics</span><span class="tag">Warning</span></div>
+       <div class="tags"><span class="tag">Tribalism</span><span class="tag">Divine Protection</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 14</span></div>
         <div class="arabic">وَمَن فِى ٱلْأَرْضِ جَمِيعًۭا ثُمَّ يُنجِيهِ</div>
-        <div class="translation">"And whoever is on earth entirely [so] then it could save him."</div>
+        <div class="translation">"and everyone on earth altogether, just to save themselves."</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The ego reaches its absolute peak of selfishness. Finding that sacrificing their family is not enough, the criminal desires to take the entire global population—billions of innocent human beings—and feed them all into the roaring fires of Hell, if it guaranteed their personal salvation.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The instinct for self-preservation reaches its most tragic peak. When we live selfishly in this world, that isolation becomes absolute in the Next Life, culminating in a willingness to trade the entire population of the earth for personal salvation.</div></div>
         </div>
-        <div class="tags"><span class="tag">Human Nature</span><span class="tag">Accountability</span><span class="tag">Warning</span></div>
+       <div class="tags"><span class="tag">Selfishness</span><span class="tag">The Ego</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 15</span></div>
         <div class="arabic">كَلَّآ ۖ إِنَّهَا لَظَىٰ</div>
-        <div class="translation">"No! Indeed, it is the Flame [of Hell],"</div>
+        <div class="translation">"But no! There will certainly be a raging Flame"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God violently rejects this horrific, selfish fantasy with a single word: "Kalla!" (Absolutely Not!). No ransom of human souls, wealth, or family will be accepted. The inescapable, objective reality awaiting them is "Ladha"—the fiercely blazing, roaring flame of Hell.</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Al-Qurtubi)</span><div class="content">Al-Qurtubi points out that "Ladha" is one of the specific names and levels of Hellfire. It implies a flame that is purely destructive, possessing no light, only intense, searing heat. The rejection "Kalla" shuts the door on all negotiation; Divine justice cannot be bribed.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">A definitive, sobering halt to these desperate illusions. True safety cannot be bought, bartered, or negotiated at the final hour. Spiritual sanctuary must be sincerely cultivated in this life through faith and good works.</div></div>
         </div>
-        <div class="tags"><span class="tag">Hell</span><span class="tag">Divine Justice</span><span class="tag">Warning</span></div>
+       <div class="tags"><span class="tag">Divine Justice</span><span class="tag">Reality</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 16</span></div>
         <div class="arabic">نَزَّاعَةًۭ لِّلشَّوَىٰ</div>
-        <div class="translation">"A remover of exteriors."</div>
+        <div class="translation">"ripping off scalps."</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The terrifying physical property of this specific fire is described. "Shawa" refers to the scalp, the skin, or the extremities. The heat is so overwhelmingly intense that upon contact, it instantly strips away and melts the exterior skin and flesh of the criminal.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">A stark metaphor for the absolute removal of all worldly facades, ego, and superficial layers we construct to protect our image. In the ultimate reckoning, we will stand completely exposed in our truest, most undefended spiritual state.</div></div>
         </div>
-        <div class="tags"><span class="tag">Hell</span><span class="tag">Warning</span><span class="tag">Divine Justice</span></div>
+       <div class="tags"><span class="tag">Consequences</span><span class="tag">Truth</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 17</span></div>
         <div class="arabic">تَدْعُوا۟ مَنْ أَدْبَرَ وَتَوَلَّىٰ</div>
-        <div class="translation">"It invites he who turned his back [on truth] and went away [from obedience]"</div>
+        <div class="translation">"It will summon whoever turned their backs ˹on Allah˺ and turned away ˹from the truth˺,"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The Fire is personified as an intelligent entity that actively calls out to and claims its rightful inhabitants. It specifically targets those who committed the theological crime of intentionally turning their backs on the message of the Prophets and walking away from their religious obligations.</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Al-Qurtubi)</span><div class="content">Al-Qurtubi notes the poetic justice of this mechanism. The fire "invites" them because, during their lives in the Dunya, they spent their time "inviting" people to sin, corruption, and disbelief. Because they arrogantly turned their backs on the merciful invitation of the Prophets, they are now forced to answer the terrifying invitation of Hellfire.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The divine reckoning is not random; it possesses a profound, exacting justice. It specifically calls out those who actively and consciously turned their hearts, minds, and bodies away from compassion, truth, and the divine presence.</div></div>
+           <div class="insight-box sufi"><span class="label">Purification of the Self [Al-Ghazali]</span><div class="content">Imam Al-Ghazali teaches that human actions in this world create an affinity for their corresponding realities in the Next. He who consistently turns his back on the Source of Light will naturally find himself drawn into the consuming darkness of his own shadow.</div></div>
         </div>
-        <div class="tags"><span class="tag">Hell</span><span class="tag">Accountability</span><span class="tag">Warning</span></div>
+       <div class="tags"><span class="tag">Spiritual Blindness</span><span class="tag">Rejection</span><span class="tag">Divine Justice</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 18</span></div>
         <div class="arabic">وَجَمَعَ فَأَوْعَىٰ</div>
-        <div class="translation">"And collected [wealth] and hoarded."</div>
+        <div class="translation">"and gathered and hoarded ˹wealth˺."</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The second specific crime that guarantees entry into this Fire is ethical and financial. Alongside their rejection of the truth, this person obsessively gathered wealth, locked it securely away in a container or vault ("Aw'a"), and selfishly refused to spend it on the poor, effectively hoarding the provisions God intended for society.</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">Imam al-Ghazali states that hoarding wealth is a physical manifestation of a severe theological failure: the lack of trust in God (Tawakkul). The one who hoards secretly believes that their vault of money, rather than the Creator, is what sustains their life. The fire explicitly punishes this subtle form of idolatry.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Hoarding wealth is ultimately an act of spiritual fear and a failure to trust God's continuous provision. When we tightly grasp our possessions instead of allowing them to flow as charity, we heavily chain our souls to the very things we will be forced to leave behind.</div></div>
+           <div class="insight-box hikam"><span class="label">Divine Wisdom [Ibn Ata'illah]</span><div class="content">"Nothing pleads for you like extreme need, and nothing brings gifts to you quicker than lowliness and want." The act of hoarding creates a dangerous illusion of self-sufficiency in the heart, blocking the flow of humility required to receive divine mercy.</div></div>
         </div>
-        <div class="tags"><span class="tag">Wealth</span><span class="tag">Social Ethics</span><span class="tag">Accountability</span></div>
+       <div class="tags"><span class="tag">Wealth</span><span class="tag">Generosity</span><span class="tag">Illusion of Dunya</span></div>
     </div>
-
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 19</span></div>
-        <div class="arabic">إِنَّ ٱلْإِنسَـٰنَ خُلِقَ هَلُوعًا</div>
-        <div class="translation">"Indeed, mankind was created anxious:"</div>
+        <div class="arabic">إِنَّ ٱلْإِنسَٰنَ خُلِقَ هَلُوعًا</div>
+        <div class="translation">"Indeed, humankind was created impatient:"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God provides a direct psychological diagnosis of the human condition. The default, biological state of the human ego is "Halu'a"—a profound, inherent sense of fretfulness, instability, and chronic anxiety.</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Al-Qurtubi)</span><div class="content">Imam Al-Qurtubi explains that the term "Halu'a" cannot be translated with a single word. It is a specific psychological complex combining two extreme reactions: absolute panic during times of hardship, and absolute stinginess during times of ease. God embedded this vulnerability in human nature so that man could never find absolute independence or peace within himself, forcing him to seek the Creator.</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Ibn Ata'illah)</span><div class="content">Ibn Ata'illah notes the mercy in this design: "If He had created you completely self-sufficient and at peace in the Dunya, you would have forgotten Him. The anxiety woven into your chest is the very rope God uses to pull you back to His door."</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">We are gently reminded of our inherent human frailty. Acknowledging our natural disposition toward anxiety and restlessness is the very first step toward seeking divine tranquility.</div></div>
+           <div class="insight-box hikam"><span class="label">Divine Wisdom</span><div class="content">Our internal restlessness is not a flaw to be despised, but a spiritual homing beacon. It is the soul's innate homesickness, designed to keep us searching, yearning, and dissatisfied until we finally find our rest in God alone.</div></div>
         </div>
-        <div class="tags"><span class="tag">Human Nature</span><span class="tag">Knowledge & Signs</span></div>
+       <div class="tags"><span class="tag">Human Nature</span><span class="tag">Restlessness</span><span class="tag">Self-Awareness</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 20</span></div>
-        <div class="arabic">إِذَا مَسَّهُ ٱلشَّرُّ جَزُوعًۭا</div>
-        <div class="translation">"When evil touches him, impatient,"</div>
+        <div class="arabic">إِذَا مَسَّهُ ٱلشَّرُّ جَزُوعًا</div>
+        <div class="translation">"distressed when touched with evil,"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The first symptom of this inherent anxiety is described. When a human being is merely "touched" by hardship (such as illness, poverty, or loss), they immediately fall into "Jazu'a"—a state of paralyzing despair, loud complaining, and a complete loss of patience and perspective.</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">Imam al-Ghazali highlights the ego's dramatic lack of vision. The verse specifically says when evil *touches* him. A mere touch of discomfort causes the unpurified ego to act as if the entire world is ending. It completely forgets the decades of health and provision it enjoyed prior to that single touch of hardship.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">When hardship strikes, our immediate, unrefined instinct is panic and despair. This verse validates our emotional vulnerability, recognizing just how deeply we are affected by the sudden trials of this world.</div></div>
         </div>
-        <div class="tags"><span class="tag">Human Nature</span><span class="tag">Warning</span></div>
+       <div class="tags"><span class="tag">Trials and Tribulations</span><span class="tag">Emotional Vulnerability</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 21</span></div>
         <div class="arabic">وَإِذَا مَسَّهُ ٱلْخَيْرُ مَنُوعًا</div>
-        <div class="translation">"And when good touches him, withholding [of it],"</div>
+        <div class="translation">"and withholding when touched with good—"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The second symptom of this anxiety is greed. When the human is touched by good (wealth, health, power, or success), they become "Manu'a"—intensely protective, hoarding the blessing, and fiercely withholding it from others out of a deep-seated fear of losing it.</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Gilani)</span><div class="content">Sheikh Abdul Qadir al-Gilani points out the spiritual contradiction. Stinginess is the physical manifestation of a lack of *Tawakkul* (Trust in God). The person hoards the wealth because their heart secretly believes that their bank account, not the Creator, is their ultimate sustainer. They withhold out of a terrifying illusion of scarcity.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Conversely, when blessed with ease or wealth, we often contract into fear, holding tightly to what we have been given. The ego attempts to secure its own survival by denying generosity to others.</div></div>
+           <div class="insight-box hikam"><span class="label">Divine Wisdom [Ibn Ata'illah]</span><div class="content">"He gives to you so that He may make Himself known to you." To receive a blessing and selfishly withhold it is to completely ignore the Giver standing behind the gift.</div></div>
         </div>
-        <div class="tags"><span class="tag">Human Nature</span><span class="tag">Wealth</span><span class="tag">Arrogance</span></div>
+       <div class="tags"><span class="tag">Generosity</span><span class="tag">Wealth</span><span class="tag">The Ego</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 22</span></div>
         <div class="arabic">إِلَّا ٱلْمُصَلِّينَ</div>
-        <div class="translation">"Except the observers of prayer -"</div>
+        <div class="translation">"except those who pray,"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God provides the absolute, exclusive cure to this crippling human condition. The only individuals who are immune to this violent pendulum of panic and greed are "Al-Musallin" (those who actively and consciously establish the formal prayer).</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Al-Qurtubi)</span><div class="content">Imam Al-Qurtubi emphasizes the grammar of the exception ("Illa"). It definitively proves that secular philosophy, wealth accumulation, and worldly therapy cannot permanently cure the soul's deepest neurosis. Only direct, formalized submission to the Creator can override the biological programming of 'Halu'a'.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Here is the divine cure for our innate anxiety and selfishness: the profound anchor of prayer. True, sincere connection with God interrupts our worldly panic and opens our tightly clenched fists.</div></div>
         </div>
-        <div class="tags"><span class="tag">Spiritual Practice</span><span class="tag">Mercy</span><span class="tag">Commands</span></div>
+       <div class="tags"><span class="tag">Salah (Prayer)</span><span class="tag">Healing</span><span class="tag">Divine Connection</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 23</span></div>
         <div class="arabic">ٱلَّذِينَ هُمْ عَلَىٰ صَلَاتِهِمْ دَآئِمُونَ</div>
-        <div class="translation">"Those who are constant in their prayer,"</div>
+        <div class="translation">"consistently performing their prayers;"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God qualifies what type of prayer cures anxiety. It is not the occasional, desperate prayer of someone in trouble, but a prayer that is "Da'imun" (constant, continuous, and firmly established as a permanent habit regardless of life's circumstances).</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">Imam al-Ghazali explains that spiritual medicine is like physical medicine; it only cures the disease if taken on a strict, continuous schedule. Dropping the prayer when times are good and picking it up when times are bad is a symptom of the ego, not the behavior of a true servant. Constancy (*Mudawamah*) builds the fortress that protects the heart from panic.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Transformation requires more than sporadic moments of devotion; it requires a steadfast rhythm. Consistency in prayer builds a resilient fortress around the heart, protecting it from the extreme emotional highs and lows of life.</div></div>
+           <div class="insight-box sufi"><span class="label">Purification of the Self [Al-Ghazali]</span><div class="content">"The heart is like a mirror, and prayer is the polish." A mirror left unpolished will naturally gather the dust of worldly anxieties, but continuous remembrance keeps the soul capable of reflecting divine light.</div></div>
         </div>
-        <div class="tags"><span class="tag">Spiritual Practice</span><span class="tag">Steadfastness</span></div>
+       <div class="tags"><span class="tag">Steadfastness</span><span class="tag">Discipline</span><span class="tag">Spiritual Routine</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 24</span></div>
         <div class="arabic">وَٱلَّذِينَ فِىٓ أَمْوَٰلِهِمْ حَقٌّۭ مَّعْلُومٌۭ</div>
-        <div class="translation">"And those within whose wealth is a known right"</div>
+        <div class="translation">"and who give the rightful share of their wealth"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">To cure the specific symptom of greed, the believer must adopt a radical shift in their perspective on ownership. They recognize that a specifically calculated percentage of their wealth (Zakah and obligatory charity) is a "known right" that literally does not belong to them.</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Al-Qurtubi)</span><div class="content">Al-Qurtubi points out the profound psychological framing of the phrase "a known right." When you give charity, you are not doing the poor person a favor; you are merely handing over what God already designated as *their* property. Recognizing this completely annihilates the ego's arrogance when giving wealth.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The believer views their wealth not as a personal conquest, but as a sacred trust. Recognizing that a defined portion of what we hold rightfully belongs to others fundamentally cures the sickness of greed.</div></div>
         </div>
-        <div class="tags"><span class="tag">Wealth</span><span class="tag">Social Ethics</span><span class="tag">Spiritual Practice</span></div>
+       <div class="tags"><span class="tag">Zakat</span><span class="tag">Charity</span><span class="tag">Divine Trust</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 25</span></div>
         <div class="arabic">لِّلسَّآئِلِ وَٱلْمَحْرُومِ</div>
-        <div class="translation">"For the petitioner and the deprived -"</div>
+        <div class="translation">"to the beggar and the poor;"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">This known right is distributed to two categories of people: the "Sa'il" (the one who actively asks or begs for help because of their desperate need) and the "Mahrum" (the deprived person who is deeply impoverished but maintains such personal dignity that they refuse to ask others for help).</div></div>
-            <div class="insight-box context"><span class="label">Historical Context</span><div class="content">The Prophet ﷺ actively trained his companions to hunt for the "Mahrum." He stated in an authentic Hadith: "The poor person is not the one who goes round the people and is dismissed with one or two morsels. The poor person is the one who does not have enough to satisfy him, but he is not recognized so that alms may be given to him, and he does not stand up to beg." (Sahih Bukhari). This verse commands the believer to actively investigate their community to find those silently suffering.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">True generosity sees the dignity in every human being. We are called to support both those who are forced by circumstance to ask for help, and those whose quiet dignity keeps their desperate need hidden from the world.</div></div>
         </div>
-        <div class="tags"><span class="tag">Social Ethics</span><span class="tag">Wealth</span><span class="tag">Commands</span></div>
+       <div class="tags"><span class="tag">Compassion</span><span class="tag">Social Justice</span><span class="tag">Empathy</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 26</span></div>
         <div class="arabic">وَٱلَّذِينَ يُصَدِّقُونَ بِيَوْمِ ٱلدِّينِ</div>
-        <div class="translation">"And those who believe in the Day of Recompense"</div>
+        <div class="translation">"and who ˹firmly˺ believe in the Day of Judgment;"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The core theological anchor is established. They live their lives actively confirming and validating ("Yusaddiqun") the absolute reality of the Day of Judgment. This belief is the psychological engine that drives all their good deeds and restrains them from oppression.</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">Ibn Ata'illah states that true *Tasdeeq* (confirmation) is not proven by the tongue; it is proven by behavior. If you truly believed that tomorrow your entire life's record would be scrutinized by the King, your actions today would radically shift. You only disobey God to the degree that your certainty in the Day of Recompense wavers.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">A heart that genuinely anticipates the final meeting with its Lord lives differently. This core belief serves as the ultimate moral compass, aligning our daily, private choices with eternal consequences.</div></div>
         </div>
-        <div class="tags"><span class="tag">Accountability</span><span class="tag">Truth</span><span class="tag">Spiritual Practice</span></div>
+       <div class="tags"><span class="tag">The Hereafter</span><span class="tag">Certainty</span><span class="tag">Accountability</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 27</span></div>
         <div class="arabic">وَٱلَّذِينَ هُم مِّنْ عَذَابِ رَبِّهِم مُّشْفِقُونَ</div>
-        <div class="translation">"And those who are fearful of the punishment of their Lord -"</div>
+        <div class="translation">"and those who fear the punishment of their Lord—"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Despite their constant prayers, their charity, and their firm faith, they do not become arrogant or complacent. They maintain "Shafaqah" (a cautious, tender, and protective fear) regarding God's judgment, constantly worried that their deeds might not be sincere enough to be accepted.</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">Imam al-Ghazali explains that *Shafaqah* is not a paralyzing terror that drives a person away from God; it is a profound reverence combined with love—like a mother's intense fear when her child walks too close to a fire. It is a protective fear that actively drives the believer closer to God's sanctuary.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">This is not a paralyzing, despairing terror, but a profound, reverent awe (Taqwa). It is the careful, conscientious awe of a lover who dreads doing anything that would sever their connection with the Beloved.</div></div>
         </div>
-        <div class="tags"><span class="tag">Humility</span><span class="tag">Spiritual Practice</span><span class="tag">Accountability</span></div>
+       <div class="tags"><span class="tag">Taqwa</span><span class="tag">Reverence</span><span class="tag">Awe of God</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 28</span></div>
         <div class="arabic">إِنَّ عَذَابَ رَبِّهِمْ غَيْرُ مَأْمُونٍۢ</div>
-        <div class="translation">"Indeed, the punishment of their Lord is not that from which one is safe -"</div>
+        <div class="translation">"˹knowing that˺ none should feel secure from their Lord’s punishment—"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God confirms the validity of their fear. No human being, regardless of their piety, knowledge, or status, is guaranteed absolute immunity or safety from God's justice until they have successfully crossed the bridge over Hellfire in the Hereafter.</div></div>
-            <div class="insight-box context"><span class="label">Historical Context</span><div class="content">This reality was deeply internalized by the greatest companions. Umar ibn al-Khattab famously stated: "If a voice from heaven announced that all of mankind would enter Paradise except for one man, I would fear that I am that man." The absolute greatest generations never felt "safe" (Ma'mun) from their own potential to slip. Feeling guaranteed Paradise is the ultimate trap of arrogance.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Spiritual arrogance is the silent destroyer of faith. No matter how righteous our deeds appear, the true believer remains humble, relying entirely on God's mercy rather than their own perceived perfection.</div></div>
+           <div class="insight-box hikam"><span class="label">Divine Wisdom [Ibn Ata'illah]</span><div class="content">"A disobedience that bequeaths humiliation and extreme need is better than an obedience that bequeaths self-infatuation and arrogance." Feeling eternally secure in one's own deeds is the height of spiritual delusion.</div></div>
         </div>
-        <div class="tags"><span class="tag">Warning</span><span class="tag">Humility</span><span class="tag">Divine Justice</span></div>
+       <div class="tags"><span class="tag">Humility</span><span class="tag">Spiritual Vigilance</span><span class="tag">Divine Mercy</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 29</span></div>
-        <div class="arabic">وَٱلَّذِينَ هُمْ لِفُرُوجِهِمْ حَـٰفِظُونَ</div>
-        <div class="translation">"And those who guard their private parts"</div>
+        <div class="arabic">وَٱلَّذِينَ هُمْ لِفُرُوجِهِمْ حَٰفِظُونَ</div>
+        <div class="translation">"and those who guard their chastity[1232]"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The profile of the successful believer moves to personal morality and physical discipline. They are strict guardians of their chastity, controlling their physical desires and resisting the immense biological pull of illicit sexual temptation.</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Gilani)</span><div class="content">Sheikh Abdul Qadir al-Gilani notes that physically guarding the private parts is the final step of a deeper spiritual process. You cannot guard your physical chastity until you have first guarded your eyes from forbidden sights, and guarded your heart from entertaining forbidden thoughts. Purity is a fortress built from the inside out.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">To guard one's chastity is to honor the profound sacredness of the human body and soul. It is an act of deep self-respect, reserving our most intimate vulnerabilities for spaces blessed and protected by divine permission.</div></div>
         </div>
-        <div class="tags"><span class="tag">Spiritual Practice</span><span class="tag">Social Ethics</span></div>
+       <div class="tags"><span class="tag">Chastity</span><span class="tag">Modesty</span><span class="tag">Sacred Boundaries</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 30</span></div>
-        <div class="arabic">إِلَّا عَلَىٰٓ أَزْوَٰجِهِمْ أَوْ مَا مَلَكَتْ أَيْمَـٰنُهُمْ فَإِنَّهُمْ غَيْرُ مَلُومِينَ</div>
-        <div class="translation">"Except from their wives or those their right hands possess, for indeed, they are not to be blamed -"</div>
+        <div class="arabic">إِلَّا عَلَىٰٓ أَزْوَٰجِهِمْ أَوْ مَا مَلَكَتْ أَيْمَٰنُهُمْ فَإِنَّهُمْ غَيْرُ مَلُومِينَ</div>
+        <div class="translation">"except with their wives or those ˹bondwomen˺ in their possession,[1233] for then they are free from blame,"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God clarifies the healthy, lawful boundaries of intimacy. Within the divinely ordained structures of marriage (and what was legally permissible in the societal structures of that historical era), sexual fulfillment is completely pure, protected, and free from any spiritual blame or sin.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God does not ask us to extinguish our natural human desires, but to thoughtfully channel them into relationships of commitment, responsibility, and mutual care that He has sanctioned. Within these bounds, intimacy is not a sin, but a beautiful and rewarding act.</div></div>
         </div>
-        <div class="tags"><span class="tag">Family</span><span class="tag">Social Ethics</span></div>
+       <div class="tags"><span class="tag">Marriage</span><span class="tag">Halal Intimacy</span><span class="tag">Divine Limits</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 31</span></div>
-        <div class="arabic">فَمَنِ ٱبْتَغَىٰ وَرَآءَ ذَٰلِكَ فَأُو۟لَـٰٓئِكَ هُمُ ٱلْعَادُونَ</div>
-        <div class="translation">"But whoever seeks beyond that, then they are the transgressors -"</div>
+        <div class="arabic">فَمَنِ ٱبْتَغَىٰ وَرَآءَ ذَٰلِكَ فَأُو۟لَٰٓئِكَ هُمُ ٱلْعَادُونَ</div>
+        <div class="translation">"but whoever seeks beyond that are the transgressors."</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">A strict red line is drawn. Anyone who attempts to fulfill their sexual desires outside of the lawful bounds established by God has broken the Divine law. They are categorized as "Al-'Aadun" (hostile transgressors who cross limits).</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Al-Qurtubi)</span><div class="content">Al-Qurtubi draws a linguistic connection. The word "'Aadun" shares the same root as the destroyed tribe of "'Aad" mentioned in the previous Surah. Transgressing God's boundaries in personal, private ethics leads to the exact same spiritual ruin as the arrogant transgression of the ancient empires. The destruction of the individual begins with the violation of the boundary.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Stepping beyond the loving boundaries set by the Creator ultimately harms the soul before it harms anyone else. Transgression is a betrayal of our own spiritual potential and the peace that comes from living in harmony with God's design.</div></div>
         </div>
-        <div class="tags"><span class="tag">Warning</span><span class="tag">Commands</span><span class="tag">Divine Justice</span></div>
+       <div class="tags"><span class="tag">Transgression</span><span class="tag">Spiritual Discipline</span><span class="tag">Boundaries</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 32</span></div>
-        <div class="arabic">وَٱلَّذِينَ هُمْ لِأَمَـٰنَـٰتِهِمْ وَعَهْدِهِمْ رَٰعُونَ</div>
-        <div class="translation">"And those who are to their trusts and promises attentive"</div>
+        <div class="arabic">وَٱلَّذِينَ هُمْ لِأَمَٰنَٰتِهِمْ وَعَهْدِهِمْ رَٰعُونَ</div>
+        <div class="translation">"˹The faithful are˺ also those who are true to their trusts and covenants;"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The profile shifts to societal integrity. The successful believer is fiercely protective of "Amanah" (anything entrusted to them, whether it is physical property, a secret, or a leadership position) and they never break their "Ahd" (contracts and promises).</div></div>
-            <div class="insight-box context"><span class="label">Historical Context</span><div class="content">The Prophet ﷺ was known throughout Arabia as "Al-Amin" (The Trustworthy) long before his prophethood. He explicitly linked keeping trusts to the core of faith, stating: "The signs of a hypocrite are three: whenever he speaks, he tells a lie; whenever he promises, he always breaks it; and whenever he is trusted, he betrays that trust." (Sahih Bukhari). True faith is impossible without societal reliability.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Integrity is the very fabric of true faith. Whether it is a solemn promise made to God, a sensitive secret confided by a friend, or a daily professional obligation, fulfilling our trusts proves the sincerity of our internal belief.</div></div>
         </div>
-        <div class="tags"><span class="tag">Social Ethics</span><span class="tag">Spiritual Practice</span><span class="tag">Prophetic History</span></div>
+       <div class="tags"><span class="tag">Integrity</span><span class="tag">Trustworthiness</span><span class="tag">Covenants</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 33</span></div>
-        <div class="arabic">وَٱلَّذِينَ هُم بِشَهَـٰدَٰتِهِمْ قَآئِمُونَ</div>
-        <div class="translation">"And those who are in their testimonies upright"</div>
+        <div class="arabic">وَٱلَّذِينَ هُم بِشَهَٰدَٰتِهِمْ قَآئِمُونَ</div>
+        <div class="translation">"and who are honest in their testimony;"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">They are individuals of absolute, uncompromising justice. When called upon to give testimony or act as a witness, they stand firmly ("Qa'imun") on the truth, refusing to lie, conceal facts, or alter their testimony—even if the truth harms themselves, their wealth, or their close relatives.</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">Imam al-Ghazali highlights that standing upright in testimony requires immense spiritual courage. It means the believer's fear of God has successfully overpowered their fear of human beings, political pressure, and financial loss. The tongue that speaks the pure truth in a hostile environment is a tongue truly connected to the Divine.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Standing up for the truth, even when it is incredibly difficult, unpopular, or against one's own self-interest, requires immense spiritual courage. Truthfulness stabilizes society and deeply purifies the individual heart.</div></div>
         </div>
-        <div class="tags"><span class="tag">Social Ethics</span><span class="tag">Truth</span><span class="tag">Steadfastness</span></div>
+       <div class="tags"><span class="tag">Truthfulness</span><span class="tag">Justice</span><span class="tag">Courage</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 34</span></div>
         <div class="arabic">وَٱلَّذِينَ هُمْ عَلَىٰ صَلَاتِهِمْ يُحَافِظُونَ</div>
-        <div class="translation">"And those who [carefully] maintain their prayer:"</div>
+        <div class="translation">"and who are ˹properly˺ observant of their prayers."</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The extensive list of traits circles perfectly back to where it began: the prayer. But here, the focus shifts. They don't just pray constantly; they strictly "maintain" and guard (Yuhafidhun) their prayers, ensuring they are performed at the correct times, with the correct physical conditions, and with deep internal focus (Khushu').</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Al-Qurtubi)</span><div class="content">Al-Qurtubi points out the brilliant symmetry. The description of the successful believer begins in Verse 23 with *Da'imun* (consistency in the act) and ends here in Verse 34 with *Yuhafidhun* (guarding its quality and conditions). True spiritual success is the fusion of both volume (showing up every time) and quality (being deeply present).</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">This passage beautifully returns to prayer, framing it as both the foundation and the crowning achievement of a righteous life. To be observant is to guard the prayer's focus, its timing, and its transformative presence in our daily lives.</div></div>
         </div>
-        <div class="tags"><span class="tag">Spiritual Practice</span><span class="tag">Steadfastness</span></div>
+       <div class="tags"><span class="tag">Salah (Prayer)</span><span class="tag">Mindfulness</span><span class="tag">Devotion</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 35</span></div>
-        <div class="arabic">أُو۟لَـٰٓئِكَ فِى جَنَّـٰتٍۢ مُّكْرَمُونَ</div>
-        <div class="translation">"Those will be in gardens, honored."</div>
+        <div class="arabic">أُو۟لَٰٓئِكَ فِى جَنَّٰتٍۢ مُّكْرَمُونَ</div>
+        <div class="translation">"These will be in Gardens, held in honor."</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God states the ultimate, guaranteed result for those who construct their character using this divine formula. They will be granted eternal Gardens of Paradise, and more importantly, they will be given the status of "Mukramun" (highly honored and deeply respected by the Creator and the angels).</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">Ibn Ata'illah draws the final distinction: the reward is not just the physical Garden, but the spiritual reality of being "Honored" (Mukram). To sit in a beautiful garden is a bodily pleasure; to be personally honored and welcomed by the King of Kings is the ultimate pleasure of the soul, far transcending the physical delights of Paradise itself.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The ultimate, beautiful conclusion to a life of patient struggle, generosity, and devotion. God does not merely grant entry into Paradise; He promises a reception of profound honor, dignity, and eternal hospitality for the weary soul.</div></div>
+           <div class="insight-box sufi"><span class="label">Purification of the Self</span><div class="content">The true Garden is not just a place of physical delight, but the realm of eternal proximity to the Beloved. The ultimate honor bestowed upon the believer is the complete removal of all veils between the servant and their Lord.</div></div>
         </div>
-        <div class="tags"><span class="tag">Jannah</span><span class="tag">Hope</span><span class="tag">Mercy</span></div>
+       <div class="tags"><span class="tag">Jannah (Paradise)</span><span class="tag">Divine Reward</span><span class="tag">Honor</span></div>
     </div>
-
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 36</span></div>
         <div class="arabic">فَمَالِ ٱلَّذِينَ كَفَرُوا۟ قِبَلَكَ مُهْطِعِينَ</div>
-        <div class="translation">"So what is [the matter] with those who disbelieve, hastening [from] before you,"</div>
+        <div class="translation">"So what is the matter with the disbelievers that they rush ˹head-long˺ towards you ˹O Prophet˺,"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God addresses the Prophet ﷺ, questioning the bizarre and arrogant behavior of the Makkan disbelievers. Instead of avoiding him, they would rapidly gather around him, stretching their necks forward ("Muhti'een"), not to listen or learn, but to mock, stare, and scoff at the revelation.</div></div>
-            <div class="insight-box context"><span class="label">Historical Context</span><div class="content">The elite leaders of Quraysh would sit in the precincts of the Kaaba. When the Prophet ﷺ recited the Qur'an or spoke of Paradise, they would rush towards him with outstretched necks to mock him. They arrogantly claimed that if the impoverished, "low-class" Muslims were going to inherit Paradise, then they—the rich, powerful elite—would certainly get there first and be given even more.</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Al-Qurtubi)</span><div class="content">Imam Al-Qurtubi notes the profound irony of their physical posture. "Muhti'een" implies rushing with the neck outstretched—a posture of intense, desperate focus. They exerted immense physical and mental energy to gather around the absolute Truth, only to weaponize that proximity to increase their own spiritual ruin through mockery.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">It is deeply disorienting when those who reject the truth actively organize to intimidate and mock. This verse captures the frantic, almost absurd energy of those who feel deeply threatened by quiet, unshakeable spiritual conviction.</div></div>
+           <div class="insight-box context"><span class="label">Historical Context (Ibn Kathir)</span><div class="content">Classical exegetes note that the disbelievers in Makkah would gather around the Prophet ﷺ in tight circles. They rushed toward him not to listen to his guidance with an open heart, but to aggressively jeer, mock, and boast about their own worldly superiority.</div></div>
         </div>
-        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Arrogance</span><span class="tag">Human Nature</span></div>
+       <div class="tags"><span class="tag">Mockery</span><span class="tag">Prophetic Struggle</span><span class="tag">Arrogance</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 37</span></div>
         <div class="arabic">عَنِ ٱلْيَمِينِ وَعَنِ ٱلشِّمَالِ عِزِينَ</div>
-        <div class="translation">"On the right and on the left, in separate groups?"</div>
+        <div class="translation">"from the right and the left, in groups ˹to mock you˺?"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God details how they positioned themselves. They sat around the Prophet in fragmented, scattered cliques ("'Izeen") on his right and left. Rather than forming a unified congregation seeking understanding, they formed distinct, whispering factions dedicated to finding flaws and making jokes.</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">Imam al-Ghazali observes that division and cliques are the ultimate hallmark of falsehood. The believers are united in one solid rank (Saff), facing one direction in prayer with one heart. The disbelievers, however, driven by competing egos and worldly desires, naturally fracture into scattered, competing groups even when they are temporarily united by a common hatred of the truth.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The tactic of the arrogant ego is often to swarm and overwhelm. The vivid physical description of them coming from all sides highlights the intense psychological and social pressure the Prophet ﷺ endured with steadfast grace.</div></div>
         </div>
-        <div class="tags"><span class="tag">Social Ethics</span><span class="tag">Arrogance</span><span class="tag">Prophetic History</span></div>
+       <div class="tags"><span class="tag">Peer Pressure</span><span class="tag">Steadfastness</span><span class="tag">Social Intimidation</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 38</span></div>
-        <div class="arabic">أَيَطْمَعُ كُلُّ ٱمْرِئٍ مِّنْهُمْ أَن يُدْخَلَ جَنَّةَ نَعِيمٍۢ</div>
-        <div class="translation">"Does every person among them aspire to enter a garden of pleasure?"</div>
+        <div class="arabic">أَيَطْمَعُ كُلُّ ٱمْرِئٍۢ مِّنْهُمْ أَن يُدْخَلَ جَنَّةَ نَعِيمٍۢ</div>
+        <div class="translation">"Does every one of them expect to be admitted into a Garden of Bliss?"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God rhetorically exposes their delusional arrogance. Do these individuals, who actively mock the Messenger and fiercely reject the Divine law, genuinely believe they are entitled to enter the eternal Gardens of Bliss simply because they possess wealth, tribal status, and power in the worldly life?</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">Ibn Ata'illah warns against the "hope of the fool." True hope (Raja') in God's mercy is always accompanied by righteous action and sincere obedience. Hoping for Paradise while actively engaging in rebellion, mockery, and sin is not hope; it is "Tama'" (delusional, unjustified greed) and a severe mockery of God's perfect justice.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Entitlement is a spiritual disease. We are gently warned against the dangerous assumption that worldly privilege, wealth, or tribal affiliation guarantees divine favor without the difficult, quiet work of internal purification.</div></div>
+           <div class="insight-box hikam"><span class="label">Divine Wisdom [Ibn Ata'illah]</span><div class="content">"Hope is what is accompanied by action; otherwise, it is merely a wish." To expect the Garden while actively mocking the very path that leads to it is the ultimate delusion of the soul.</div></div>
         </div>
-        <div class="tags"><span class="tag">Logic</span><span class="tag">Arrogance</span><span class="tag">Jannah</span></div>
+       <div class="tags"><span class="tag">Entitlement</span><span class="tag">Delusion</span><span class="tag">Spiritual Effort</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 39</span></div>
-        <div class="arabic">كَلَّآ ۖ إِنَّا خَلَقْنَـٰهُم مِّمَّا يَعْلَمُونَ</div>
-        <div class="translation">"No! Indeed, We have created them from that which they know."</div>
+        <div class="arabic">كَلَّآ ۖ إِنَّا خَلَقْنَٰهُم مِّمَّا يَعْلَمُونَ</div>
+        <div class="translation">"But no! Indeed, they ˹already˺ know what We created them from."</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God vehemently rejects their arrogant assumption ("Kalla!"). He instantly crushes their massive egos by reminding them of their biological origin. How can they be so arrogant and demand VIP treatment in Heaven when they know very well they were created from a lowly, emitted drop of seminal fluid?</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Al-Qurtubi)</span><div class="content">Al-Qurtubi explains the dual theological strike in this verse. First, it shatters their tribal pride by pointing to the universally humble origin of all humans. Second, it serves as a logical proof for Resurrection: if God easily engineered a complex, arrogant human being from a microscopic drop of fluid, He is certainly capable of recreating them from dust to face Judgment.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">A profound leveling of human arrogance. When the ego swells with self-importance, God lovingly reminds us of our most humble, biological beginnings. We are crafted from fragile origins; our only true, lasting worth comes from the divine breath within us.</div></div>
         </div>
-        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Humility</span><span class="tag">Human Nature</span></div>
+       <div class="tags"><span class="tag">Humility</span><span class="tag">Human Origins</span><span class="tag">The Ego</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 40</span></div>
-        <div class="arabic">فَلَآ أُقْسِمُ بِرَبِّ ٱلْمَشَـٰرِقِ وَٱلْمَغَـٰرِبِ إِنَّا لَقَـٰدِرُونَ</div>
-        <div class="translation">"So I swear by the Lord of [all] sunrises and sunsets that We are able"</div>
+        <div class="arabic">فَلَآ أُقْسِمُ بِرَبِّ ٱلْمَشَٰرِقِ وَٱلْمَغَٰرِبِ إِنَّا لَقَٰدِرُونَ</div>
+        <div class="translation">"So, I do swear by the Lord of ˹all˺ the points of sunrise and sunset that We are truly capable"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God issues a majestic cosmic oath, swearing by Himself as the Lord who controls every single sunrise and sunset across the globe, affirming His absolute, limitless capability to execute His will.</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">Imam al-Ghazali reflects on the majesty of this specific oath. The use of the plural (Mashariq and Magharib) aligns perfectly with the reality that the sun rises and sets at a slightly different coordinate on the horizon every single day of the year, dictating the seasons, the climate, and the survival of the earth. The One who meticulously manages this massive, shifting cosmic clockwork without a single error is undeniably capable of managing the resurrection of a human being.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The shifting majesty of sunrises and sunsets across the globe testifies to a Master of absolute, dynamic control. The God who flawlessly orchestrates the grand rotation of the heavens does not need our belief; we desperately need His light.</div></div>
         </div>
-        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">Knowledge & Signs</span><span class="tag">Truth</span></div>
+       <div class="tags"><span class="tag">Divine Majesty</span><span class="tag">Nature as Signs</span><span class="tag">Omnipotence</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 41</span></div>
-        <div class="arabic">عَلَىٰٓ أَن نُّبَدِّلَ خَيْرًا مِّنْهُمْ وَمَا نَحْنُ بِمَسْبُوقِينَ</div>
-        <div class="translation">"To replace them with better than them; and We are not to be outdone."</div>
+        <div class="arabic">عَلَىٰٓ أَن نُّبَدِّلَ خَيْرًۭا مِّنْهُمْ وَمَا نَحْنُ بِمَسْبُوقِينَ</div>
+        <div class="translation">"of replacing them with ˹others˺ better than them, and We cannot be prevented ˹from doing so˺."</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The conclusion of the majestic oath. God is entirely capable of wiping out these arrogant deniers and replacing them with a completely new generation or species that is far superior, more obedient, and more righteous. If God decrees their destruction, no one can outrun, outmaneuver, or defeat Him.</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Gilani)</span><div class="content">Sheikh Abdul Qadir al-Gilani notes a terrifying spiritual reality: God does not *need* any specific group of people, tribe, or nation to establish His religion. If a community becomes too arrogant to carry the banner of truth, God simply removes them and honors another people with it. The believer must never feel indispensable to God; rather, they must realize how desperately they need Him.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">A sobering reality check for any group or individual who feels indispensable. God's truth will flourish with or without us. It is a profound privilege to be chosen to carry the light of faith, not a right we can take for granted.</div></div>
         </div>
-        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">Warning</span><span class="tag">Divine Justice</span></div>
+       <div class="tags"><span class="tag">Divine Independence</span><span class="tag">Humility</span><span class="tag">Gratitude</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 42</span></div>
-        <div class="arabic">فَذَرْهُمْ يَخُوضُوا۟ وَيَلْعَبُوا۟ حَتَّىٰ يُلَـٰقُوا۟ يَوْمَهُمُ ٱلَّذِى يُوعَدُونَ</div>
-        <div class="translation">"So leave them to converse vainly and amuse themselves until they meet their Day which they are promised -"</div>
+        <div class="arabic">فَذَرْهُمْ يَخُوضُوا۟ وَيَلْعَبُوا۟ حَتَّىٰ يُلَٰقُوا۟ يَوْمَهُمُ ٱلَّذِى يُوعَدُونَ</div>
+        <div class="translation">"So let them indulge ˹in falsehood˺ and amuse ˹themselves˺ until they face their Day, which they have been threatened with—"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God issues a command of dignified detachment to the Prophet ﷺ. Having established the absolute truth and the proofs of the cosmos, he is instructed to leave them to their empty arguments, their cliques, and their worldly games. Their time is running out, and they will inevitably collide head-on with the Day they were explicitly promised.</div></div>
-            <div class="insight-box context"><span class="label">Historical Context</span><div class="content">This command provided immense psychological relief to the early Muslims facing daily psychological warfare in Mecca. It established the boundary of their responsibility: their job was strictly transmission of the message, not the forced conversion of hearts. When the debate turns into a mockery, the believer's duty is to disengage gracefully and let Divine Justice take its course.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">There is a chilling finality when divine intervention simply steps back and allows people to entirely consume themselves in their own distractions. This teaches the believer not to envy the temporary, unchecked amusement of those who have lost their moral and spiritual compass.</div></div>
         </div>
-        <div class="tags"><span class="tag">Steadfastness</span><span class="tag">Social Ethics</span><span class="tag">Warning</span></div>
+       <div class="tags"><span class="tag">Distraction</span><span class="tag">Illusion of Dunya</span><span class="tag">Divine Restpite</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 43</span></div>
-        <div class="arabic">يَوْمَ يَخْرُجُونَ مِنَ ٱلْأَجْدَاثِ سِرَاعًا كَأَنَّهُمْ إِلَىٰ نُصُبٍ يُوفِضُونَ</div>
-        <div class="translation">"The Day they will emerge from the graves rapidly as if they were, toward an erected idol, hastening."</div>
+        <div class="arabic">يَوْمَ يَخْرُجُونَ مِنَ ٱلْأَجْدَاثِ سِرَاعًۭا كَأَنَّهُمْ إِلَىٰ نُصُبٍۢ يُوفِضُونَ</div>
+        <div class="translation">"the Day they will come forth from the graves swiftly, as if racing to an idol ˹for a blessing˺,"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God provides a terrifying and highly ironic visual of the Resurrection. On that Day, the dead will burst out of their graves and sprint rapidly toward the call of the Angel. God compares their frantic running to the exact way they used to excitedly rush and sprint toward their stone idols ("Nusub") during their pagan festivals on earth.</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Al-Qurtubi)</span><div class="content">Al-Qurtubi points out the bitter poetic justice of this imagery. In the Dunya, they enthusiastically and blindly rushed to worship lifeless stones that could neither hear, harm, nor benefit them. In the Akhirah, they are forced to rush blindly in sheer terror toward the absolute, terrifying reality of the True Creator whom they ignored. The physical motion is identical, but the psychological state is entirely reversed from joy to sheer horror.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The tragic irony of the Day of Judgment. The exact same frantic, blind energy they once used to rush toward false idols, wealth, and worldly distractions will now propel them, helplessly, toward their terrifying reality.</div></div>
+           <div class="insight-box context"><span class="label">Historical Context (Ibn Kathir)</span><div class="content">The imagery here directly mirrors their worldly behavior in Makkah, where they would literally race eagerly to their stone altars (Nusub) during festivals. The Quran flips this familiar, festive scene into a haunting portrait of the resurrection.</div></div>
         </div>
-        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Accountability</span><span class="tag">Prophetic History</span></div>
+       <div class="tags"><span class="tag">Resurrection</span><span class="tag">Idolatry</span><span class="tag">Day of Judgment</span></div>
     </div>
 
     <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 44 ۩</span></div>
-        <div class="arabic">خَـٰشِعَةً أَبْصَـٰرُهُمْ تَرْهَقُهُمْ ذِلَّةٌ ۚ ذَٰلِكَ ٱلْيَوْمُ ٱلَّذِى كَانُوا۟ يُوعَدُونَ</div>
-        <div class="translation">"Their eyes humbled, ruin will cover them. That is the Day which they had been promised."</div>
+        <div class="verse-header"><span class="verse-number">Verse 44</span></div>
+        <div class="arabic">خَٰشِعَةً أَبْصَٰرُهُمْ تَرْهَقُهُمْ ذِلَّةٌۭ ۚ ذَٰلِكَ ٱلْيَوْمُ ٱلَّذِى كَانُوا۟ يُوعَدُونَ</div>
+        <div class="translation">"with eyes downcast, utterly covered with disgrace. That is the Day they have ˹always˺ been warned of."</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The Surah concludes with the final, tragic state of the arrogant. Their eyes, which used to look at the Prophet and the vulnerable believers with intense pride, mockery, and condescension, are now cast down in absolute, paralyzing humiliation. A dark, suffocating disgrace completely covers their faces. This is the precise, unavoidable reality they arrogantly begged for in the very first verse.</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">Ibn Ata'illah reflects on the law of spiritual gravity: "Whoever does not humble their gaze voluntarily before the majesty of God in the Dunya, will have their gaze humbled by force through the terror of God in the Akhirah." The Surah begins with them arrogantly demanding the punishment, and ends with them utterly, permanently crushed by its arrival.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The ultimate collapse of the arrogant facade. The eyes that once rolled in mockery and looked down upon the vulnerable will be forcefully fixed downward, crushed under the absolute, undeniable weight of truth.</div></div>
+           <div class="insight-box sufi"><span class="label">Purification of the Self [Al-Ghazali]</span><div class="content">Imam Al-Ghazali teaches that the disgrace experienced in the Hereafter is simply the unveiling of the soul's true, inward state from this world. The shame was always there, cleverly hidden behind wealth and status; the Day of Judgment merely makes the invisible reality visible.</div></div>
         </div>
-        <div class="tags"><span class="tag">Divine Justice</span><span class="tag">Warning</span><span class="tag">Accountability</span></div>
+       <div class="tags"><span class="tag">Humiliation</span><span class="tag">Ultimate Truth</span><span class="tag">Accountability</span></div>
     </div>
-
-</div>
-
-</body>
-</html><div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 36</span></div>
-        <div class="arabic">فَمَالِ ٱلَّذِينَ كَفَرُوا۟ قِبَلَكَ مُهْطِعِينَ</div>
-        <div class="translation">"So what is [the matter] with those who disbelieve, hastening [from] before you,"</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God addresses the Prophet ﷺ, questioning the bizarre and arrogant behavior of the Makkan disbelievers. Instead of avoiding him, they would rapidly gather around him, stretching their necks forward ("Muhti'een"), not to listen or learn, but to mock, stare, and scoff at the revelation.</div></div>
-            <div class="insight-box context"><span class="label">Historical Context</span><div class="content">The elite leaders of Quraysh would sit in the precincts of the Kaaba. When the Prophet ﷺ recited the Qur'an or spoke of Paradise, they would rush towards him with outstretched necks to mock him. They arrogantly claimed that if the impoverished, "low-class" Muslims were going to inherit Paradise, then they—the rich, powerful elite—would certainly get there first and be given even more.</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Al-Qurtubi)</span><div class="content">Imam Al-Qurtubi notes the profound irony of their physical posture. "Muhti'een" implies rushing with the neck outstretched—a posture of intense, desperate focus. They exerted immense physical and mental energy to gather around the absolute Truth, only to weaponize that proximity to increase their own spiritual ruin through mockery.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Prophetic History</span><span class="tag">Arrogance</span><span class="tag">Human Nature</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 37</span></div>
-        <div class="arabic">عَنِ ٱلْيَمِينِ وَعَنِ ٱلشِّمَالِ عِزِينَ</div>
-        <div class="translation">"On the right and on the left, in separate groups?"</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God details how they positioned themselves. They sat around the Prophet in fragmented, scattered cliques ("'Izeen") on his right and left. Rather than forming a unified congregation seeking understanding, they formed distinct, whispering factions dedicated to finding flaws and making jokes.</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">Imam al-Ghazali observes that division and cliques are the ultimate hallmark of falsehood. The believers are united in one solid rank (Saff), facing one direction in prayer with one heart. The disbelievers, however, driven by competing egos and worldly desires, naturally fracture into scattered, competing groups even when they are temporarily united by a common hatred of the truth.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Social Ethics</span><span class="tag">Arrogance</span><span class="tag">Prophetic History</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 38</span></div>
-        <div class="arabic">أَيَطْمَعُ كُلُّ ٱمْرِئٍ مِّنْهُمْ أَن يُدْخَلَ جَنَّةَ نَعِيمٍۢ</div>
-        <div class="translation">"Does every person among them aspire to enter a garden of pleasure?"</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God rhetorically exposes their delusional arrogance. Do these individuals, who actively mock the Messenger and fiercely reject the Divine law, genuinely believe they are entitled to enter the eternal Gardens of Bliss simply because they possess wealth, tribal status, and power in the worldly life?</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">Ibn Ata'illah warns against the "hope of the fool." True hope (Raja') in God's mercy is always accompanied by righteous action and sincere obedience. Hoping for Paradise while actively engaging in rebellion, mockery, and sin is not hope; it is "Tama'" (delusional, unjustified greed) and a severe mockery of God's perfect justice.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Logic</span><span class="tag">Arrogance</span><span class="tag">Jannah</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 39</span></div>
-        <div class="arabic">كَلَّآ ۖ إِنَّا خَلَقْنَـٰهُم مِّمَّا يَعْلَمُونَ</div>
-        <div class="translation">"No! Indeed, We have created them from that which they know."</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God vehemently rejects their arrogant assumption ("Kalla!"). He instantly crushes their massive egos by reminding them of their biological origin. How can they be so arrogant and demand VIP treatment in Heaven when they know very well they were created from a lowly, emitted drop of seminal fluid?</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Al-Qurtubi)</span><div class="content">Al-Qurtubi explains the dual theological strike in this verse. First, it shatters their tribal pride by pointing to the universally humble origin of all humans. Second, it serves as a logical proof for Resurrection: if God easily engineered a complex, arrogant human being from a microscopic drop of fluid, He is certainly capable of recreating them from dust to face Judgment.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Humility</span><span class="tag">Human Nature</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 40</span></div>
-        <div class="arabic">فَلَآ أُقْسِمُ بِرَبِّ ٱلْمَشَـٰرِقِ وَٱلْمَغَـٰرِبِ إِنَّا لَقَـٰدِرُونَ</div>
-        <div class="translation">"So I swear by the Lord of [all] sunrises and sunsets that We are able"</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God issues a majestic cosmic oath, swearing by Himself as the Lord who controls every single sunrise and sunset across the globe, affirming His absolute, limitless capability to execute His will.</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">Imam al-Ghazali reflects on the majesty of this specific oath. The use of the plural (Mashariq and Magharib) aligns perfectly with the reality that the sun rises and sets at a slightly different coordinate on the horizon every single day of the year, dictating the seasons, the climate, and the survival of the earth. The One who meticulously manages this massive, shifting cosmic clockwork without a single error is undeniably capable of managing the resurrection of a human being.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">Knowledge & Signs</span><span class="tag">Truth</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 41</span></div>
-        <div class="arabic">عَلَىٰٓ أَن نُّبَدِّلَ خَيْرًا مِّنْهُمْ وَمَا نَحْنُ بِمَسْبُوقِينَ</div>
-        <div class="translation">"To replace them with better than them; and We are not to be outdone."</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The conclusion of the majestic oath. God is entirely capable of wiping out these arrogant deniers and replacing them with a completely new generation or species that is far superior, more obedient, and more righteous. If God decrees their destruction, no one can outrun, outmaneuver, or defeat Him.</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Gilani)</span><div class="content">Sheikh Abdul Qadir al-Gilani notes a terrifying spiritual reality: God does not *need* any specific group of people, tribe, or nation to establish His religion. If a community becomes too arrogant to carry the banner of truth, God simply removes them and honors another people with it. The believer must never feel indispensable to God; rather, they must realize how desperately they need Him.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">Warning</span><span class="tag">Divine Justice</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 42</span></div>
-        <div class="arabic">فَذَرْهُمْ يَخُوضُوا۟ وَيَلْعَبُوا۟ حَتَّىٰ يُلَـٰقُوا۟ يَوْمَهُمُ ٱلَّذِى يُوعَدُونَ</div>
-        <div class="translation">"So leave them to converse vainly and amuse themselves until they meet their Day which they are promised -"</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God issues a command of dignified detachment to the Prophet ﷺ. Having established the absolute truth and the proofs of the cosmos, he is instructed to leave them to their empty arguments, their cliques, and their worldly games. Their time is running out, and they will inevitably collide head-on with the Day they were explicitly promised.</div></div>
-            <div class="insight-box context"><span class="label">Historical Context</span><div class="content">This command provided immense psychological relief to the early Muslims facing daily psychological warfare in Mecca. It established the boundary of their responsibility: their job was strictly transmission of the message, not the forced conversion of hearts. When the debate turns into a mockery, the believer's duty is to disengage gracefully and let Divine Justice take its course.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Steadfastness</span><span class="tag">Social Ethics</span><span class="tag">Warning</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 43</span></div>
-        <div class="arabic">يَوْمَ يَخْرُجُونَ مِنَ ٱلْأَجْدَاثِ سِرَاعًا كَأَنَّهُمْ إِلَىٰ نُصُبٍ يُوفِضُونَ</div>
-        <div class="translation">"The Day they will emerge from the graves rapidly as if they were, toward an erected idol, hastening."</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God provides a terrifying and highly ironic visual of the Resurrection. On that Day, the dead will burst out of their graves and sprint rapidly toward the call of the Angel. God compares their frantic running to the exact way they used to excitedly rush and sprint toward their stone idols ("Nusub") during their pagan festivals on earth.</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Al-Qurtubi)</span><div class="content">Al-Qurtubi points out the bitter poetic justice of this imagery. In the Dunya, they enthusiastically and blindly rushed to worship lifeless stones that could neither hear, harm, nor benefit them. In the Akhirah, they are forced to rush blindly in sheer terror toward the absolute, terrifying reality of the True Creator whom they ignored. The physical motion is identical, but the psychological state is entirely reversed from joy to sheer horror.</div></div>
-        </div>
-        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Accountability</span><span class="tag">Prophetic History</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 44 ۩</span></div>
-        <div class="arabic">خَـٰشِعَةً أَبْصَـٰرُهُمْ تَرْهَقُهُمْ ذِلَّةٌ ۚ ذَٰلِكَ ٱلْيَوْمُ ٱلَّذِى كَانُوا۟ يُوعَدُونَ</div>
-        <div class="translation">"Their eyes humbled, ruin will cover them. That is the Day which they had been promised."</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The Surah concludes with the final, tragic state of the arrogant. Their eyes, which used to look at the Prophet and the vulnerable believers with intense pride, mockery, and condescension, are now cast down in absolute, paralyzing humiliation. A dark, suffocating disgrace completely covers their faces. This is the precise, unavoidable reality they arrogantly begged for in the very first verse.</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">Ibn Ata'illah reflects on the law of spiritual gravity: "Whoever does not humble their gaze voluntarily before the majesty of God in the Dunya, will have their gaze humbled by force through the terror of God in the Akhirah." The Surah begins with them arrogantly demanding the punishment, and ends with them utterly, permanently crushed by its arrival.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Divine Justice</span><span class="tag">Warning</span><span class="tag">Accountability</span></div>
-    </div>
-
-</div>
-
+</div> 
 </body>
 </html>
