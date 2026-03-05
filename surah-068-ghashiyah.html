@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Surah Al-Ghashiyah | The Overwhelming Event</title>
+    <title>Surah Al-Ghashiyah | The Overwhelming</title>
     <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@300;400;600&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -12,36 +12,38 @@
             --context-color: #d69e2e; --sufi-color: #38a169; --wisdom-color: #805ad5; --plain-color: #718096; 
         }
         body { font-family: 'Inter', sans-serif; background: var(--bg-color); color: var(--text-color); margin: 0; padding: 0; line-height: 1.6; }
-        .nav-bar { padding: 1rem 2rem; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; background: white; z-index: 100; box-shadow: 0 2px 4px rgba(0,0,0,0.05); flex-wrap: wrap; gap: 1rem;}
-        .nav-controls { display: flex; gap: 1.5rem; align-items: center; }
-        .nav-link { text-decoration: none; color: var(--primary-accent); font-weight: 600; display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem;}
-        .nav-link:hover { text-decoration: underline; }
-        .home-btn { background: var(--primary-accent); color: white; padding: 0.5rem 1rem; border-radius: 6px; }
-        .home-btn:hover { background: #2c5282; color: white; text-decoration: none; }
+        
+       .nav-bar { padding: 1rem 2rem; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; background: white; z-index: 100; box-shadow: 0 2px 4px rgba(0,0,0,0.05); flex-wrap: wrap; gap: 1rem;}
+       .nav-controls { display: flex; gap: 1.5rem; align-items: center; }
+       .nav-link { text-decoration: none; color: var(--primary-accent); font-weight: 600; display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem;}
+       .nav-link:hover { text-decoration: underline; }
+       .home-btn { background: var(--primary-accent); color: white; padding: 0.5rem 1rem; border-radius: 6px; }
+       .home-btn:hover { background: #2c5282; color: white; text-decoration: none; }
+
         header { text-align: center; padding: 3rem 1rem 2rem; background: linear-gradient(180deg, #f7fafc 0%, #ffffff 100%); }
         h1 { font-family: 'Merriweather', serif; font-size: 2.8rem; margin: 0; color: #1a202c; }
-        .meta { color: #718096; text-transform: uppercase; letter-spacing: 2px; font-size: 0.85rem; margin-top: 1rem; font-weight: 700; }
-        .intro-text { max-width: 650px; margin: 1.5rem auto 0; font-style: italic; color: #4a5568; }
-        .container { max-width: 900px; margin: 0 auto; padding: 0 1rem 4rem; }
-        .verse-card { background: white; border: 1px solid var(--border-color); border-radius: 12px; padding: 2rem; margin-bottom: 2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.02); }
-        .verse-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; border-bottom: 1px solid #edf2f7; padding-bottom: 0.8rem; }
-        .verse-number { background: var(--primary-accent); color: white; padding: 0.2rem 0.8rem; border-radius: 20px; font-size: 0.85rem; font-weight: 700; }
-        .arabic { font-family: 'Amiri', serif; font-size: 2.4rem; text-align: right; color: #2d3748; margin-bottom: 1.5rem; line-height: 2.2; }
-        .translation { font-family: 'Merriweather', serif; font-size: 1.2rem; color: #1a202c; margin-bottom: 2rem; border-left: 4px solid var(--primary-accent); padding-left: 1rem; }
-        .insights { display: grid; grid-template-columns: 1fr; gap: 1rem; }
-        .insight-box { background: #fff; padding: 1.2rem; border-radius: 8px; border: 1px solid #e2e8f0; border-left-width: 4px; }
-        .insight-box.plain { border-left-color: var(--plain-color); background: #f7fafc; }
-        .insight-box.context { border-left-color: var(--context-color); }
-        .insight-box.sufi { border-left-color: var(--sufi-color); }
-        .insight-box.hikam { border-left-color: var(--wisdom-color); }
-        .label { display: block; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1.2px; font-weight: 700; margin-bottom: 0.5rem; }
-        .plain .label { color: var(--plain-color); }
-        .context .label { color: var(--context-color); }
-        .sufi .label { color: var(--sufi-color); }
-        .hikam .label { color: var(--wisdom-color); }
-        .content { font-size: 0.95rem; color: #4a5568; }
-        .tags { margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; padding-top: 1rem; border-top: 1px solid #edf2f7; }
-        .tag { background: var(--tag-bg); color: var(--tag-text); padding: 0.2rem 0.7rem; border-radius: 99px; font-size: 0.75rem; font-weight: 600; }
+       .meta { color: #718096; text-transform: uppercase; letter-spacing: 2px; font-size: 0.85rem; margin-top: 1rem; font-weight: 700; }
+       .intro-text { max-width: 650px; margin: 1.5rem auto 0; font-style: italic; color: #4a5568; }
+       .container { max-width: 900px; margin: 0 auto; padding: 0 1rem 4rem; }
+       .verse-card { background: white; border: 1px solid var(--border-color); border-radius: 12px; padding: 2rem; margin-bottom: 2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.02); }
+       .verse-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; border-bottom: 1px solid #edf2f7; padding-bottom: 0.8rem; }
+       .verse-number { background: var(--primary-accent); color: white; padding: 0.2rem 0.8rem; border-radius: 20px; font-size: 0.85rem; font-weight: 700; }
+       .arabic { font-family: 'Amiri', serif; font-size: 2.4rem; text-align: right; color: #2d3748; margin-bottom: 1.5rem; line-height: 2.2; }
+       .translation { font-family: 'Merriweather', serif; font-size: 1.2rem; color: #1a202c; margin-bottom: 2rem; border-left: 4px solid var(--primary-accent); padding-left: 1rem; }
+       .insights { display: grid; grid-template-columns: 1fr; gap: 1rem; }
+       .insight-box { background: #fff; padding: 1.2rem; border-radius: 8px; border: 1px solid #e2e8f0; border-left-width: 4px; }
+       .insight-box.plain { border-left-color: var(--plain-color); background: #f7fafc; }
+       .insight-box.context { border-left-color: var(--context-color); }
+       .insight-box.sufi { border-left-color: var(--sufi-color); }
+       .insight-box.hikam { border-left-color: var(--wisdom-color); }
+       .label { display: block; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1.2px; font-weight: 700; margin-bottom: 0.5rem; }
+       .plain .label  { color: var(--plain-color); }
+       .context .label { color: var(--context-color); }
+       .sufi .label    { color: var(--sufi-color); }
+       .hikam .label   { color: var(--wisdom-color); }
+       .content { font-size: 0.95rem; color: #4a5568; }
+       .tags { margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; padding-top: 1rem; border-top: 1px solid #edf2f7; }
+       .tag { background: var(--tag-bg); color: var(--tag-text); padding: 0.2rem 0.7rem; border-radius: 99px; font-size: 0.75rem; font-weight: 600; }
     </style>
 </head>
 <body>
@@ -57,9 +59,9 @@
 
 <header>
     <h1>Surah Al-Ghashiyah</h1>
-    <div class="meta">The Overwhelming Event • Makkah • 26 Verses</div>
+   <div class="meta">The Overwhelming • Makkah • 26 Verses</div>
     <div class="intro-text">
-        A terrifying and visually intense wake-up call. It describes the absolute exhaustion of the corrupt in Hell, immediately followed by the supreme peace of the believers in Paradise, before demanding humanity to look at the undeniable engineering of the desert around them.
+        <strong>The Great Awakening.</strong> Revealed during the difficult early Makkan period, this Surah recalibrates the believer's perspective. It offers profound spiritual comfort to a persecuted minority by contrasting the exhausting pursuit of worldly illusion with the peaceful reality of ultimate divine justice.
     </div>
 </header>
 
@@ -67,267 +69,144 @@
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 1</span></div>
-        <div class="arabic">هَلْ أَتَىٰكَ حَدِيثُ ٱلْغَـٰشِيَةِ</div>
-        <div class="translation">"Has there miraculously reached you the terrifying report of the Overwhelming Event?!"</div>
+        <div class="arabic">هَلْ أَتَاكَ حَدِيثُ الْغَاشِيَةِ</div>
+        <div class="translation">"Has the news of the Overwhelming Event reached you ˹O Prophet˺?"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God opens with a gripping question to grab the listener's attention! "Al-Ghashiyah" literally means that which completely covers, envelops, and overwhelms. It refers to the Day of Judgment, which will sweep over the earth like a massive, inescapable blanket, completely overwhelming human consciousness with sheer terror and awe.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">A gentle, yet startling opening question. It asks us to pause our daily routines and consider a reality so vast and certain that it will completely envelop and overwhelm all of creation, leaving no room for denial or distraction.</div></div>
+           <div class="insight-box context"><span class="label">Historical Context (Ibn Kathir)</span><div class="content">The Prophet ﷺ would frequently recite this Surah, along with Surah Al-A'la, during Friday congregational prayers and Eid prayers. This consistent repetition was designed to regularly reawaken the community's awareness of the eternal reality amidst their worldly affairs.</div></div>
         </div>
-        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Warning</span></div>
+       <div class="tags"><span class="tag">Day of Judgment</span><span class="tag">Awakening</span></div>
     </div>
 
     <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 2</span></div>
-        <div class="arabic">وُجُوهٌۭ يَوْمَئِذٍ خَـٰشِعَةٌ</div>
-        <div class="translation">"Some faces, that terrifying Day, will be violently humbled in sheer terror,"</div>
+        <div class="verse-header"><span class="verse-number">Verses 2-5</span></div>
+        <div class="arabic">وُجُوهٌ يَوْمَئِذٍ خَاشِعَةٌ • عَامِلَةٌ نَّاصِبَةٌ • تَصْلَىٰ نَارًا حَامِيَةً • تُسْقَىٰ مِنْ عَيْنٍ آنِيَةٍ</div>
+        <div class="translation">"On that Day ˹some˺ faces will be downcast, ˹totally˺ overburdened, exhausted, burning in a scorching Fire, left to drink from a scalding spring."</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The camera zooms in on the crowd. On earth, these faces were arrogant; they sneered at the believers and held their chins up high. Now, the absolute gravity of God's courtroom forces those exact same faces to look down at the dirt, paralyzed by "Khushu'" (a paralyzing, humiliating terror and submission).</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">These verses paint a sorrowful picture of those who spent their lives striving endlessly for worldly gain or false ideals. In the end, their tremendous efforts yielded only humiliation, spiritual exhaustion, and severe consequence, as they labored for everything except the Divine.</div></div>
+           <div class="insight-box hikam"><span class="label">Divine Wisdom</span><div class="content">Not all effort is beneficial. A life lived in a state of constant hustle, entirely disconnected from a higher spiritual purpose, is the ultimate tragedy. It is possible to work oneself to the point of utter exhaustion in this world, only to arrive empty-handed in the next.</div></div>
         </div>
-        <div class="tags"><span class="tag">Accountability</span><span class="tag">Divine Justice</span><span class="tag">Warning</span></div>
+       <div class="tags"><span class="tag">Spiritual Exhaustion</span><span class="tag">Misplaced Effort</span><span class="tag">Consequences</span></div>
     </div>
 
     <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 3</span></div>
-        <div class="arabic">عَامِلَةٌۭ نَّاصِبَةٌۭ</div>
-        <div class="translation">"Laboring exhaustively, completely worn out!"</div>
+        <div class="verse-header"><span class="verse-number">Verses 6-7</span></div>
+        <div class="arabic">لَّيْسَ لَهُمْ طَعَامٌ إِلَّا مِن ضَرِيعٍ • لَّا يُسْمِنُ وَلَا يُغْنِي مِن جُوعٍ</div>
+        <div class="translation">"They will have no food except a foul, thorny shrub, neither nourishing nor satisfying hunger."</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">A horrifying reality of Hellfire! People think of Hell only as burning, but God reveals it is also a place of agonizing physical labor. The inmates will be forced to drag massive chains, climb mountains of fire, and toil relentlessly. They will be utterly exhausted ("Nasibah"), but they will never be allowed to sleep or rest.</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"Aamilatun nasibah" (Laboring, exhausted). Some scholars apply this verse to the Dunya as well! There are people who exhaust their entire lives laboring for money, chasing toxic desires, or even inventing extreme religious rituals that God never authorized. They work themselves to the bone, only to die and realize their entire life's work was completely rejected, throwing them directly into the fire. Effort without truth is just exhausting yourself for Hell.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">This describes a state of ultimate deprivation. It symbolizes the logical endpoint of consuming the "empty calories" of purely materialistic living: feeding the ego with things that appear to satisfy but ultimately provide no spiritual nourishment or lasting peace.</div></div>
+           <div class="insight-box sufi"><span class="label">Purification of the Self</span><div class="content">When the soul is starved of the remembrance of God (Dhikr) in this life, it seeks to feed on worldly attachments—status, wealth, and praise. Like the thorny shrub, these attachments may occupy the heart, but they can never truly satisfy its deep, innate hunger for the Divine presence.</div></div>
         </div>
-        <div class="tags"><span class="tag">Hell</span><span class="tag">Accountability</span><span class="tag">Human Nature</span></div>
+       <div class="tags"><span class="tag">Spiritual Malnutrition</span><span class="tag">Illusion of Dunya</span></div>
     </div>
 
     <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 4</span></div>
-        <div class="arabic">تَصْلَىٰ نَارًا حَامِيَةًۭ</div>
-        <div class="translation">"They will violently enter to burn in an intensely blazing Fire,"</div>
+        <div class="verse-header"><span class="verse-number">Verses 8-11</span></div>
+        <div class="arabic">وُجُوهٌ يَوْمَئِذٍ نَّاعِمَةٌ • لِّسَعْيِهَا رَاضِيَةٌ • فِي جَنَّةٍ عَالِيَةٍ • لَّا تَسْمَعُ فِيهَا لَاغِيَةً</div>
+        <div class="translation">"On that Day ˹other˺ faces will be glowing with bliss, ˹fully˺ pleased with their striving, in an elevated Garden, where no idle talk will be heard."</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">This isn't a normal campfire; "Hamiyah" means it is super-heated, brought to the absolute maximum boiling point of heat and pressure.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">In beautiful contrast, these verses highlight the serenity of those who anchored their lives in faith and righteous action. Their faces radiate a profound peace, knowing their worldly struggles were not in vain. They are granted an elevated sanctuary completely free from negativity, gossip, and hollow distractions.</div></div>
+           <div class="insight-box sufi"><span class="label">Purification of the Self [Al-Ghazali]</span><div class="content">Imam Al-Ghazali notes that the peace of the Hereafter is often a reflection of the peace cultivated within the heart during this life. A heart that learns to detach from the "idle talk" and chaotic noise of the world begins to experience a glimpse of this elevated Garden even before leaving the physical body.</div></div>
         </div>
-        <div class="tags"><span class="tag">Hell</span><span class="tag">Divine Justice</span></div>
+       <div class="tags"><span class="tag">Tranquility</span><span class="tag">Reward of Righteousness</span><span class="tag">Silence and Peace</span></div>
     </div>
 
     <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 5</span></div>
-        <div class="arabic">تُسْقَىٰ مِنْ عَيْنٍ ءَانِيَةٍۢ</div>
-        <div class="translation">"They will be forcefully given to drink from a fiercely boiling spring."</div>
+        <div class="verse-header"><span class="verse-number">Verses 12-16</span></div>
+        <div class="arabic">فِيهَا عَيْنٌ جَارِيَةٌ • فِيهَا سُرُرٌ مَّرْفُوعَةٌ • وَأَكْوَابٌ مَّوْضُوعَةٌ • وَنَمَارِقُ مَصْفُوفَةٌ • وَزَرَابِيُّ مَبْثُوثَةٌ</div>
+        <div class="translation">"In it will be a running spring, along with thrones raised high, and cups set at hand, and ˹fine˺ cushions lined up, and ˹splendid˺ carpets spread out."</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">When they are screaming from thirst due to the exhausting labor and the fire, they run to a spring of water. But the water is "Aaniyah" (so incredibly hot that it has reached the ultimate limit of boiling). Instead of quenching their thirst, it destroys their insides.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The imagery here describes an environment of ultimate comfort, honor, and meticulously prepared hospitality. Every detail—the flowing water, the elevated seating, the ready provision—speaks to a Divine Host who honors His guests with perfect, undisturbed grace.</div></div>
+           <div class="insight-box hikam"><span class="label">Divine Wisdom</span><div class="content">The exquisite order and beauty of Paradise serves as a reminder that the Creator is the source of all majesty. The believer's longing for these perfect surroundings is, in its essence, a deep, intrinsic longing to return home to the proximity and care of their Lord.</div></div>
         </div>
-        <div class="tags"><span class="tag">Hell</span><span class="tag">Accountability</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 6</span></div>
-        <div class="arabic">لَّيْسَ لَهُمْ طَعَامٌ إِلَّا مِن ضَرِيعٍۢ</div>
-        <div class="translation">"There is absolutely no food for them except from a violently poisonous, thorny plant,"</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The ultimate torment of starvation! Their only diet is "Dhari'"—a dry, bitter, violently thorny plant from the desert that is so toxic that even camels refuse to eat it. In Hell, it becomes a fiery, choking torture to swallow.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Hell</span><span class="tag">Warning</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 7</span></div>
-        <div class="arabic">لَّا يُسْمِنُ وَلَا يُغْنِى مِن جُوعٍۢ</div>
-        <div class="translation">"Which neither nourishes nor avails in the absolute slightest against hunger."</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The food in Hell provides zero calories and zero relief. They eat it out of desperate, animalistic instinct, but it doesn't give them any energy ("Yusmin") and it doesn't stop the excruciating pain of hunger ("Yughni"). It is purely a mechanism of punishment.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Hell</span><span class="tag">Accountability</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 8</span></div>
-        <div class="arabic">وُجُوهٌۭ يَوْمَئِذٍ نَّاعِمَةٌۭ</div>
-        <div class="translation">"Other faces, that Day, will be radiantly joyful and completely peaceful,"</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The screen splits! God pulls us out of the nightmare and shows us the believers. Their faces are "Na'imah." They aren't looking down in terror; their faces are physically glowing with absolute peace, softness, and overwhelming relief. The anxiety of the Dunya has completely left their bodies.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Jannah</span><span class="tag">Hope</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 9</span></div>
-        <div class="arabic">لِّسَعْيِهَا رَاضِيَةٌۭ</div>
-        <div class="translation">"With their earthly effort completely satisfied,"</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">On earth, the believer woke up for Fajr while tired, gave charity when money was tight, and swallowed their anger when insulted. It was hard work ("Sa'y"). But the exact second they step into Jannah and see their massive palaces, they look back at all that hard work and say, "It was completely worth it! I am 100% satisfied with my investment!"</div></div>
-        </div>
-        <div class="tags"><span class="tag">Jannah</span><span class="tag">Spiritual Practice</span><span class="tag">Hope</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 10</span></div>
-        <div class="arabic">فِى جَنَّةٍ عَالِيَةٍۢ</div>
-        <div class="translation">"In a supremely elevated, magnificent Garden,"</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">They are not in a dark pit. They are placed in an "'Aaliyah" (High/Elevated) Garden. They have sweeping, breathtaking views of Paradise from their lofty balconies, physically and spiritually exalted above all danger.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Jannah</span><span class="tag">Hope</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 11</span></div>
-        <div class="arabic">لَّا تَسْمَعُ فِيهَا لَـٰغِيَةًۭ</div>
-        <div class="translation">"Wherein they will absolutely never hear any vain, toxic speech."</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">One of the greatest psychological blessings of Paradise! In the Dunya, our peace is constantly shattered by toxic people, gossip, screaming politicians, insults, and useless arguments ("Laghiyah"). In Jannah, the environment is perfectly curated. You will never hear a single lie, an insult, or a stressful notification ever again. Pure acoustic peace.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Jannah</span><span class="tag">Social Ethics</span><span class="tag">Hope</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 12</span></div>
-        <div class="arabic">فِيهَا عَيْنٌۭ جَارِيَةٌۭ</div>
-        <div class="translation">"Within it is a constantly flowing, beautiful spring."</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Unlike the boiling, stagnant spring of Hell, Jannah contains crystal-clear, cool, aggressively flowing waterfalls and rivers that you can drink from and relax beside.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Jannah</span><span class="tag">Hope</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 13</span></div>
-        <div class="arabic">فِيهَا سُرُرٌۭ مَّرْفُوعَةٌۭ</div>
-        <div class="translation">"Within it are luxurious couches raised magnificently high,"</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Instead of dragging chains in the fire, they are reclining on thick, luxurious, elevated thrones ("Surur") like kings and queens, overlooking their massive estates.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Jannah</span><span class="tag">Hope</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 14</span></div>
-        <div class="arabic">وَأَكْوَابٌۭ مَّوْضُوعَةٌۭ</div>
-        <div class="translation">"And stunning cups perfectly put in place,"</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The service is flawless. Gorgeous, golden and crystal goblets are already set out beside the flowing springs, constantly refilled with pure, delicious drinks, ready the exact second you want them.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Jannah</span><span class="tag">Hope</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 15</span></div>
-        <div class="arabic">وَنَمَارِقُ مَصْفُوفَةٌۭ</div>
-        <div class="translation">"And silken cushions meticulously lined up,"</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"Namariq" are incredibly soft, comfortable pillows and cushions, arranged in perfect aesthetic order ("Masfoofah") for them to lean on while they socialize with their loved ones.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Jannah</span><span class="tag">Hope</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 16</span></div>
-        <div class="arabic">وَزَرَابِىُّ مَبْثُوثَةٌ</div>
-        <div class="translation">"And gorgeous carpets lavishly spread around."</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"Zarabiy" are thick, rich, exquisitely designed carpets spread everywhere. They don't walk on hot coals; they walk on the softest, most beautiful tapestries imaginable. Every detail of their environment screams luxury, rest, and absolute safety.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Jannah</span><span class="tag">Hope</span></div>
+       <div class="tags"><span class="tag">Divine Hospitality</span><span class="tag">Grace</span><span class="tag">Eternal Home</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 17</span></div>
-        <div class="arabic">أَفَلَا يَنظُرُونَ إِلَى ٱلْإِبِلِ كَيْفَ خُلِقَتْ</div>
-        <div class="translation">"Then do they absolutely not look at the camels - how exactly they are flawlessly engineered?!"</div>
+        <div class="arabic">أَفَلَا يَنظُرُونَ إِلَى الْإِبِلِ كَيْفَ خُلِقَتْ</div>
+        <div class="translation">"Do they not ever reflect on camels—how they were ˹masterfully˺ created;"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">God meets the Arabs exactly where they are! Before asking them to understand the physics of the cosmos, He points to their primary mode of survival: the camel. The camel is a biological masterpiece engineered specifically for the desert. It has double rows of eyelashes to block sandstorms, lips tough enough to eat the thorny Zaqqum-like plants of the desert, knees with leathery pads to kneel on burning sand, and a hump that stores fat to convert into water! God says: "You don't need a telescope to see My power; just look at the animal parked outside your tent!"</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The Quran suddenly pivots from the unseen realities of the Hereafter to the incredibly familiar, tangible world of the Arab audience. It asks them to look at the camel—an absolute lifeline in the desert—and recognize the sheer biological genius and bespoke design that allows it to thrive in such a harsh environment.</div></div>
+           <div class="insight-box hikam"><span class="label">Divine Wisdom [Ibn Ata'illah]</span><div class="content">"The cosmos is entirely darkness. It is illuminated only by the manifestation of the Real in it." The physical universe is a book of signs. Looking at the masterful creation of even a single animal should instantly pivot the mind of the observer from the created object to the brilliance of the Creator.</div></div>
         </div>
-        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Logic</span><span class="tag">Attributes of Allah</span></div>
+       <div class="tags"><span class="tag">Reflection (Tafakkur)</span><span class="tag">Signs in Nature</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 18</span></div>
-        <div class="arabic">وَإِلَى ٱلسَّمَآءِ كَيْفَ رُفِعَتْ</div>
-        <div class="translation">"And at the sky - how it is magnificently raised high?"</div>
+        <div class="arabic">وَإِلَى السَّمَاءِ كَيْفَ رُفِعَتْ</div>
+        <div class="translation">"and the sky—how it was raised ˹high˺;"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The camera pans up! Look at the massive, protective canopy of the atmosphere and the stars. It is suspended infinitely high above your head without a single physical pillar holding it up. Who sustains this gravity?</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">We are invited to lift our gaze. The vast, pillarless canopy of the sky, sheltering the earth with perfect balance and immense beauty, is a daily, visible testament to a power far greater than our own anxieties and limitations.</div></div>
         </div>
-        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">The Unseen</span></div>
+       <div class="tags"><span class="tag">Majesty of God</span><span class="tag">Perspective</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 19</span></div>
-        <div class="arabic">وَإِلَى ٱلْجِبَالِ كَيْفَ نُصِبَتْ</div>
-        <div class="translation">"And at the mountains - how they are firmly erected [and anchored]?"</div>
+        <div class="arabic">وَإِلَى الْجِبَالِ كَيْفَ نُصِبَتْ</div>
+        <div class="translation">"and the mountains—how they were firmly set up;"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The camera pans to the horizon! Look at the massive, towering mountains. They aren't just sitting on top of the earth; they are "Nusibat" (driven down and firmly planted like massive pegs or anchors) to stabilize the tectonic plates so the earth doesn't constantly violently shake beneath your feet.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The mountains, acting as stabilizing pegs for the earth, represent strength, permanence, and grounding. Just as they anchor the physical world, recognizing the Creator who designed them anchors the human heart amidst the turbulent storms of life.</div></div>
         </div>
-        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Logic</span></div>
+       <div class="tags"><span class="tag">Stability</span><span class="tag">Divine Power</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 20</span></div>
-        <div class="arabic">وَإِلَى ٱلْأَرْضِ كَيْفَ سُطِحَتْ</div>
-        <div class="translation">"And at the earth - how it is perfectly spread out [for habitation]?"</div>
+        <div class="arabic">وَإِلَى الْأَرْضِ كَيْفَ سُطِحَتْ</div>
+        <div class="translation">"and the earth—how it was levelled out?"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The camera pans down to your feet! God took a spherical, spinning, molten rock flying through the vacuum of space, and He perfectly smoothed out its crust, layering it with soil and valleys so that you could comfortably walk, build houses, and farm. Everything around you is perfectly calculated for your survival.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The earth was made accessible, habitable, and yielding for humanity. This smooth unfolding is a manifestation of divine gentleness—facilitating life, travel, and agriculture so that humanity might find ease and reasons to be grateful.</div></div>
+           <div class="insight-box sufi"><span class="label">Purification of the Self</span><div class="content">Just as the earth is spread out and made humble to support all forms of life, the spiritual heart must cultivate deep humility. A heart that is softened, leveled of arrogance, and smoothed out becomes the fertile ground where the seeds of faith and wisdom can take root and grow.</div></div>
         </div>
-        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Attributes of Allah</span></div>
+       <div class="tags"><span class="tag">Humility</span><span class="tag">Divine Provision</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 21</span></div>
-        <div class="arabic">فَذَكِّرْ إِنَّمَآ أَنتَ مُذَكِّرٌۭ</div>
-        <div class="translation">"So fiercely remind, [O Muhammad]; indeed, you are strictly nothing but a reminder!"</div>
+        <div class="arabic">فَذَكِّرْ إِنَّمَا أَنتَ مُذَكِّرٌ</div>
+        <div class="translation">"So, ˹continue to˺ remind ˹all, O Prophet˺, for your duty is only to remind."</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">After presenting all this massive logical and biological evidence, God gives the Prophet ﷺ his ultimate job description: "Thakkir!" (Remind them!). You are a messenger, a warner, a teacher. Deliver the data flawlessly. If they choose to ignore the camel, the sky, and the mountains, that is their problem. Your only job is to ring the alarm bell.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">A tremendously comforting directive to the Prophet ﷺ, and by extension, to all who invite others to goodness. You are responsible for delivering the message with clarity, sincerity, and love. You are entirely absolved from the burden of the outcome.</div></div>
+           <div class="insight-box sufi"><span class="label">Purification of the Self</span><div class="content">The term "remind" (dhakkir) implies that the truth of God already exists within the innate nature (fitrah) of every human being. The role of the spiritual teacher or the loving friend is not to force alien concepts into someone's mind, but to gently wipe the dust off the mirror of their heart so they can recognize what they already know deep within.</div></div>
         </div>
-        <div class="tags"><span class="tag">Commands</span><span class="tag">Steadfastness</span><span class="tag">Prophetic History</span></div>
+       <div class="tags"><span class="tag">Sincerity</span><span class="tag">Relinquishing Control</span><span class="tag">Dawah</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 22</span></div>
         <div class="arabic">لَّسْتَ عَلَيْهِم بِمُصَيْطِرٍ</div>
-        <div class="translation">"You are absolutely not over them a controller [or a dictator]."</div>
+        <div class="translation">"You are not ˹there˺ to compel them ˹to believe˺."</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">This verse completely destroys the concept of religious coercion! "Musaytir" is a dictator, a warden, someone who violently forces people to obey. God explicitly commands the Prophet ﷺ: "You do not have the authority to force anyone to believe! You cannot put a sword to their neck and make them submit. Faith must be a voluntary choice of the heart. You present the evidence; you do not control their free will."</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"Lasta 'alayhim bimusaytir" (You are not a controller over them). The ego desires to control outcomes. When we give advice to a loved one and they reject it, we get angry because we want to play the role of "Musaytir" (the Controller). God frees the Prophet—and all believers—from the agonizing anxiety of trying to force guidance into the hearts of others. Detach from the result; attach only to the sincere delivery of the message.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">True faith requires free will. God makes it explicitly clear that religious belief cannot and must not be forced, coerced, or aggressively managed. The human heart can only surrender to love and truth willingly.</div></div>
+           <div class="insight-box hikam"><span class="label">Divine Wisdom</span><div class="content">If God, the Almighty, did not grant His most beloved Messenger the authority to force belief upon people's hearts, then surely no individual has the right to coerce or aggressively police the spirituality of another. Guidance is an intimate matter strictly between the soul and its Creator.</div></div>
         </div>
-        <div class="tags"><span class="tag">Free Will</span><span class="tag">Social Ethics</span><span class="tag">Humility</span></div>
+       <div class="tags"><span class="tag">Free Will</span><span class="tag">Spiritual Boundaries</span><span class="tag">No Compulsion</span></div>
     </div>
 
     <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 23</span></div>
-        <div class="arabic">إِلَّا مَن تَوَلَّىٰ وَكَفَرَ</div>
-        <div class="translation">"However, whoever violently turns away and completely disbelieves -"</div>
+        <div class="verse-header"><span class="verse-number">Verses 23-24</span></div>
+        <div class="arabic">إِلَّا مَن تَوَلَّىٰ وَكَفَرَ • فَيُعَذِّبُهُ اللَّهُ الْعَذَابَ الْأَكْبَرَ</div>
+        <div class="translation">"But whoever turns away, persisting in disbelief, then Allah will inflict upon them the major punishment."</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"If they use their free will to physically turn their backs on the truth and aggressively cover up the signs of God..."</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">This establishes the reality of divine justice. While the Prophet's duty is only to remind and never to compel, those who stubbornly reject the truth and actively choose spiritual blindness will ultimately face the natural, profound consequences of severing themselves from the Source of all light.</div></div>
         </div>
-        <div class="tags"><span class="tag">Arrogance</span><span class="tag">Free Will</span></div>
+       <div class="tags"><span class="tag">Divine Justice</span><span class="tag">Consequences of Rejection</span></div>
     </div>
 
     <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 24</span></div>
-        <div class="arabic">فَيُعَذِّبُهُ ٱللَّهُ ٱلْعَذَابَ ٱلْأَكْبَرَ</div>
-        <div class="translation">"Then Allah will violently punish him with the absolute greatest, most massive punishment!"</div>
+        <div class="verse-header"><span class="verse-number">Verses 25-26</span></div>
+        <div class="arabic">إِنَّ إِلَيْنَا إِيَابَهُمْ • ثُمَّ إِنَّ عَلَيْنَا حِسَابَهُم</div>
+        <div class="translation">"Surely to Us is their return, then surely with Us is their reckoning."</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"You (Muhammad) do not punish them. I DO!" If they abuse their free will to oppress others and mock the Creator, they won't face a human jail; they will face the "Adhab al-Akbar" (The Greatest Punishment)—the boiling, exhausting Fire described at the beginning of the Surah.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">A definitive, stabilizing conclusion. Every soul's journey eventually curves back to its Origin. The final accounting of justice, fairness, and truth is solely in the hands of God. We are asked to surrender our anxieties about ultimate fairness and focus solely on preparing our own hearts for that inevitable, deeply personal meeting.</div></div>
+           <div class="insight-box sufi"><span class="label">Purification of the Self [Al-Hasan al-Basri]</span><div class="content">"O Son of Adam, you are nothing but a number of days. Whenever a day passes, a part of you passes away." The awareness of this inevitable return is not meant to paralyze us with fear, but to cure us of procrastination. It is the ultimate motivation to live intentionally, sincerely, and beautifully today.</div></div>
         </div>
-        <div class="tags"><span class="tag">Divine Justice</span><span class="tag">Warning</span><span class="tag">Hell</span></div>
+       <div class="tags"><span class="tag">The Return</span><span class="tag">Accountability</span><span class="tag">Surrender</span></div>
     </div>
 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 25</span></div>
-        <div class="arabic">إِنَّ إِلَيْنَآ إِيَابَهُمْ</div>
-        <div class="translation">"Indeed, strictly to Us is their inevitable, ultimate return."</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The atheists claimed that they would just rot in the dirt and escape justice. God seals the trap: "There is nowhere to run. The physics of the universe dictate that every single soul will be forcefully pulled back to My Throne. The return trip is inevitable."</div></div>
-        </div>
-        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Accountability</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 26 ۩</span></div>
-        <div class="arabic">ثُمَّ إِنَّ عَلَيْنَا حِسَابَهُم</div>
-        <div class="translation">"Then indeed, entirely upon Us is their ultimate, absolute reckoning!"</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The Surah slams shut with the ultimate promise of accountability! "Hisab" is a terrifyingly precise, mathematical accounting. God says: "I will open their ledgers. I will tally every stolen penny, every arrogant sneer, and every broken heart they caused. The math will be flawless, and the invoice will be paid in full."</div></div>
-        </div>
-        <div class="tags"><span class="tag">Accountability</span><span class="tag">Divine Justice</span><span class="tag">Warning</span></div>
-    </div>
-
-</div>
-
+</div> 
 </body>
 </html>
