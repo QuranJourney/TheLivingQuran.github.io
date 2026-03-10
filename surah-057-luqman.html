@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Surah Luqman | The Sage</title>
+    <title>Surah Luqman | The Wise</title>
     <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@300;400;600&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -12,36 +12,38 @@
             --context-color: #d69e2e; --sufi-color: #38a169; --wisdom-color: #805ad5; --plain-color: #718096; 
         }
         body { font-family: 'Inter', sans-serif; background: var(--bg-color); color: var(--text-color); margin: 0; padding: 0; line-height: 1.6; }
-        .nav-bar { padding: 1rem 2rem; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; background: white; z-index: 100; box-shadow: 0 2px 4px rgba(0,0,0,0.05); flex-wrap: wrap; gap: 1rem;}
-        .nav-controls { display: flex; gap: 1.5rem; align-items: center; }
-        .nav-link { text-decoration: none; color: var(--primary-accent); font-weight: 600; display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem;}
-        .nav-link:hover { text-decoration: underline; }
-        .home-btn { background: var(--primary-accent); color: white; padding: 0.5rem 1rem; border-radius: 6px; }
-        .home-btn:hover { background: #2c5282; color: white; text-decoration: none; }
+        
+       .nav-bar { padding: 1rem 2rem; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; background: white; z-index: 100; box-shadow: 0 2px 4px rgba(0,0,0,0.05); flex-wrap: wrap; gap: 1rem;}
+       .nav-controls { display: flex; gap: 1.5rem; align-items: center; }
+       .nav-link { text-decoration: none; color: var(--primary-accent); font-weight: 600; display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem;}
+       .nav-link:hover { text-decoration: underline; }
+       .home-btn { background: var(--primary-accent); color: white; padding: 0.5rem 1rem; border-radius: 6px; }
+       .home-btn:hover { background: #2c5282; color: white; text-decoration: none; }
+
         header { text-align: center; padding: 3rem 1rem 2rem; background: linear-gradient(180deg, #f7fafc 0%, #ffffff 100%); }
         h1 { font-family: 'Merriweather', serif; font-size: 2.8rem; margin: 0; color: #1a202c; }
-        .meta { color: #718096; text-transform: uppercase; letter-spacing: 2px; font-size: 0.85rem; margin-top: 1rem; font-weight: 700; }
-        .intro-text { max-width: 650px; margin: 1.5rem auto 0; font-style: italic; color: #4a5568; }
-        .container { max-width: 900px; margin: 0 auto; padding: 0 1rem 4rem; }
-        .verse-card { background: white; border: 1px solid var(--border-color); border-radius: 12px; padding: 2rem; margin-bottom: 2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.02); }
-        .verse-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; border-bottom: 1px solid #edf2f7; padding-bottom: 0.8rem; }
-        .verse-number { background: var(--primary-accent); color: white; padding: 0.2rem 0.8rem; border-radius: 20px; font-size: 0.85rem; font-weight: 700; }
-        .arabic { font-family: 'Amiri', serif; font-size: 2.4rem; text-align: right; color: #2d3748; margin-bottom: 1.5rem; line-height: 2.2; }
-        .translation { font-family: 'Merriweather', serif; font-size: 1.2rem; color: #1a202c; margin-bottom: 2rem; border-left: 4px solid var(--primary-accent); padding-left: 1rem; }
-        .insights { display: grid; grid-template-columns: 1fr; gap: 1rem; }
-        .insight-box { background: #fff; padding: 1.2rem; border-radius: 8px; border: 1px solid #e2e8f0; border-left-width: 4px; }
-        .insight-box.plain { border-left-color: var(--plain-color); background: #f7fafc; }
-        .insight-box.context { border-left-color: var(--context-color); }
-        .insight-box.sufi { border-left-color: var(--sufi-color); }
-        .insight-box.hikam { border-left-color: var(--wisdom-color); }
-        .label { display: block; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1.2px; font-weight: 700; margin-bottom: 0.5rem; }
-        .plain .label { color: var(--plain-color); }
-        .context .label { color: var(--context-color); }
-        .sufi .label { color: var(--sufi-color); }
-        .hikam .label { color: var(--wisdom-color); }
-        .content { font-size: 0.95rem; color: #4a5568; }
-        .tags { margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; padding-top: 1rem; border-top: 1px solid #edf2f7; }
-        .tag { background: var(--tag-bg); color: var(--tag-text); padding: 0.2rem 0.7rem; border-radius: 99px; font-size: 0.75rem; font-weight: 600; }
+       .meta { color: #718096; text-transform: uppercase; letter-spacing: 2px; font-size: 0.85rem; margin-top: 1rem; font-weight: 700; }
+       .intro-text { max-width: 650px; margin: 1.5rem auto 0; font-style: italic; color: #4a5568; }
+       .container { max-width: 900px; margin: 0 auto; padding: 0 1rem 4rem; }
+       .verse-card { background: white; border: 1px solid var(--border-color); border-radius: 12px; padding: 2rem; margin-bottom: 2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.02); }
+       .verse-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; border-bottom: 1px solid #edf2f7; padding-bottom: 0.8rem; }
+       .verse-number { background: var(--primary-accent); color: white; padding: 0.2rem 0.8rem; border-radius: 20px; font-size: 0.85rem; font-weight: 700; }
+       .arabic { font-family: 'Amiri', serif; font-size: 2.4rem; text-align: right; color: #2d3748; margin-bottom: 1.5rem; line-height: 2.2; }
+       .translation { font-family: 'Merriweather', serif; font-size: 1.2rem; color: #1a202c; margin-bottom: 2rem; border-left: 4px solid var(--primary-accent); padding-left: 1rem; }
+       .insights { display: grid; grid-template-columns: 1fr; gap: 1rem; }
+       .insight-box { background: #fff; padding: 1.2rem; border-radius: 8px; border: 1px solid #e2e8f0; border-left-width: 4px; }
+       .insight-box.plain { border-left-color: var(--plain-color); background: #f7fafc; }
+       .insight-box.context { border-left-color: var(--context-color); }
+       .insight-box.sufi { border-left-color: var(--sufi-color); }
+       .insight-box.hikam { border-left-color: var(--wisdom-color); }
+       .label { display: block; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1.2px; font-weight: 700; margin-bottom: 0.5rem; }
+       .plain .label  { color: var(--plain-color); }
+       .context .label { color: var(--context-color); }
+       .sufi .label    { color: var(--sufi-color); }
+       .hikam .label   { color: var(--wisdom-color); }
+       .content { font-size: 0.95rem; color: #4a5568; }
+       .tags { margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; padding-top: 1rem; border-top: 1px solid #edf2f7; }
+       .tag { background: var(--tag-bg); color: var(--tag-text); padding: 0.2rem 0.7rem; border-radius: 99px; font-size: 0.75rem; font-weight: 600; }
     </style>
 </head>
 <body>
@@ -49,7 +51,7 @@
 <div class="nav-bar">
     <div class="nav-controls">
         <a href="index.html" class="nav-link home-btn">⌂ Dashboard</a>
-        <a href="surah-056-saffat" class="nav-link">← Prev</a>
+            <a href="surah-056-saffat" class="nav-link">← Prev</a>
         <a href="surah-058-saba" class="nav-link">Next →</a>
     </div>
     <span style="font-weight: 600; color: #718096; font-size: 0.9rem;">Mushaf: #31 | Chronological: #57</span>
@@ -57,9 +59,9 @@
 
 <header>
     <h1>Surah Luqman</h1>
-    <div class="meta">The Sage • Makkah • 34 Verses</div>
+   <div class="meta">The Wise • Makkah • 34 Verses</div>
     <div class="intro-text">
-        The Book of Wisdom. Contrasting the profound, heavy guidance of the Creator with the cheap, distracting entertainment of the world, serving as the perfect foundation for the immortal advice of Luqman the Sage to his son.
+        The Anchor of True Wisdom. Revealed amidst the clamor of Makkan opposition, when the Quraysh actively funded worldly distractions to drown out revelation. This Surah cuts through the noise, anchoring the believer's heart in eternal, lived wisdom rather than fleeting entertainment.
     </div>
 </header>
 
@@ -67,378 +69,389 @@
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 1</span></div>
-        <div class="arabic">الٓمٓ</div>
-        <div class="translation">"Alif, Lam, Meem."</div>
+        <div class="arabic">الم</div>
+        <div class="translation">"Alif-Lãm-Mĩm."</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The Surah begins with these disconnected Arabic letters. It is a profound reminder that the Qur'an is built from the exact same letters that humans speak every day, yet no human can ever replicate its absolute perfection and majesty.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The Quran opens not with immediate instructions, but with a profound assertion of our own limitations. These disconnected letters are a humbling reminder that true knowledge begins by admitting what we do not know.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self</span><div class="content">The human ego seeks to master, define, and categorize everything it touches. By placing an unreadable mystery at the very entrance of revelation, the Divine disarms the arrogant intellect, requiring us to enter the text not as conquerors of knowledge, but as seekers with surrendered hearts.</div></div>
         </div>
-        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">The Unseen</span></div>
+       <div class="tags"><span class="tag">Divine Mystery</span><span class="tag">Humility</span><span class="tag">Limits of Intellect</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 2</span></div>
-        <div class="arabic">تِلْكَ ءَايَـٰتُ ٱلْكِتَـٰبِ ٱلْحَكِيمِ</div>
-        <div class="translation">"These are the verses of the wise Book."</div>
+        <div class="arabic">تِلْكَ آيَاتُ الْكِتَابِ الْحَكِيمِ</div>
+        <div class="translation">"These are the verses of the Book, rich in wisdom."</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"These words you are hearing are the brilliant, undeniable verses of the Book that is entirely filled with deep, perfect wisdom."</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"Al-Kitab al-Hakeem" (The wise Book). The Qur'an is described not merely as a container of wisdom, but as an entity that *is* wise. It acts as a living doctor for the heart, prescribing exactly the right spiritual medicine, at the right dosage, for whatever disease the soul of the reader is currently battling.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">This is not merely a compendium of legal rulings, but a living wellspring of wisdom (Hakim). It addresses not just what we must do, but provides the profound, healing 'why' behind our very existence.</div></div>
+           <div class="insight-box hikam"><span class="label">Divine Wisdom</span><div class="content">Wisdom (Hikmah) fundamentally means placing things in their exact, rightful, and divine order. When your heart aligns with the rhythm of this Book, the chaotic fragments of your daily life suddenly find their intended symmetry and peace.</div></div>
         </div>
-        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Attributes of Allah</span></div>
+       <div class="tags"><span class="tag">Divine Wisdom</span><span class="tag">Guidance</span><span class="tag">Inner Order</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 3</span></div>
-        <div class="arabic">هُدًۭى وَرَحْمَةًۭ لِّلْمُحْسِنِينَ</div>
-        <div class="translation">"As guidance and mercy for the doers of good."</div>
+        <div class="arabic">هُدًى وَرَحْمَةً لِلْمُحْسِنِينَ</div>
+        <div class="translation">"˹It is˺ a guide and mercy for the good-doers—"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"This Book serves as an illuminated map to guide people, and a massive mercy from God, specifically designed for those who actively strive to do good with excellence."</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">"Lil-Muhsineen" (for the people of Ihsan/excellence). The Qur'an is an open broadcast to all humanity, but its actual transformative guidance is unlocked exclusively by the "Muhsinun." Ihsan is the state of worshiping God as if you see Him. If you approach the Qur'an with a pure, sincere, and excellent heart, the text unlocks its deepest oceans of mercy for you.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Guidance shows you the path, but mercy is the gentle hand that holds you as you walk it. This Book opens its deepest, most transformative treasures specifically to those who actively strive to bring beauty and excellence (Ihsan) into the world.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self</span><div class="content">The 'Muhsin' (good-doer) is not someone who is flawlessly perfect, but someone who operates in a constant state of loving awareness of God. Because they recognize their deep need for the Divine in every action, the Book ceases to be text and becomes a living mercy reflecting God's love back into their soul.</div></div>
         </div>
-        <div class="tags"><span class="tag">Spiritual Practice</span><span class="tag">Hope</span><span class="tag">Knowledge & Signs</span></div>
+       <div class="tags"><span class="tag">Mercy</span><span class="tag">Ihsan (Excellence)</span><span class="tag">Spiritual Vision</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 4</span></div>
-        <div class="arabic">ٱلَّذِينَ يُقِيمُونَ ٱلصَّلَوٰةَ وَيُؤْتُونَ ٱلزَّكَوٰةَ وَهُم بِٱلْـَٔاخِرَةِ هُمْ يُوقِنُونَ</div>
-        <div class="translation">"Those who establish prayer and give Zakah, and they, of the Hereafter, are certain [in faith]."</div>
+        <div class="arabic">الَّذِينَ يُقِيمُونَ الصَّلَاةَ وَيُؤْتُونَ الزَّكَاةَ وَهُمْ بِالْآخِرَةِ هُمْ يُوقِنُونَ</div>
+        <div class="translation">"those who establish prayer, pay alms-tax, and have sure faith in the Hereafter."</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"Who are these doers of good? They are the people who constantly guard their daily prayers, who happily give their required charity to the poor, and who possess an absolute, unshakable certainty that the Hereafter is real."</div></div>
-            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The three pillars of a stable spiritual architecture. "Salah" (Prayer) connects the creation to the Creator. "Zakah" (Charity) connects the creation to the rest of creation in empathy. "Yooqinoon" (Certainty in the Hereafter) is the psychological anchor that sustains the first two. Without certainty in the final audit, prayer becomes a chore and charity feels like a financial loss.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Spiritual excellence is never purely abstract; it requires motion and sacrifice. We anchor our souls to the divine through daily prayer, we purify our wealth by giving to the vulnerable, and we anchor our vision to a reality far beyond this temporary world.</div></div>
+           <div class="insight-box sufi"><span class="label">Purification of the Self</span><div class="content">Prayer is the intimate, private ascension of the soul, while charity is the merciful, outward descent of the ego. Together, when grounded by absolute certainty (Yaqeen) in the unseen, they cure the human heart of its two greatest sicknesses: spiritual deadness and worldly greed.</div></div>
         </div>
-        <div class="tags"><span class="tag">Spiritual Practice</span><span class="tag">Wealth</span><span class="tag">The Unseen</span></div>
+       <div class="tags"><span class="tag">Prayer</span><span class="tag">Charity</span><span class="tag">Yaqeen (Certainty)</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 5</span></div>
-        <div class="arabic">أُو۟لَـٰٓئِكَ عَلَىٰ هُدًۭى مِّن رَّبِّهِمْ ۖ وَأُو۟لَـٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ</div>
-        <div class="translation">"Those are upon [true] guidance from their Lord, and it is those who are the successful."</div>
+        <div class="arabic">أُولَئِكَ عَلَى هُدًى مِنْ رَبِّهِمْ وَأُولَئِكَ هُمُ الْمُفْلِحُونَ</div>
+        <div class="translation">"It is they who are ˹truly˺ guided by their Lord, and it is they who will be successful."</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"These specific people are standing firmly upon the perfect path of light provided by their Master. And make no mistake, they are the only ones who will achieve true, eternal success."</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"'Ala hudan" (upon guidance). The preposition "'ala" implies being elevated and physically resting upon something stable. The believer does not just "have" guidance; they are mounted upon it like a rider on a strong horse, safely carrying them over the chaos of the Dunya straight into the gates of absolute success ("Muflihoon").</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">True success (Falah) in the Quran is rarely tied to material accumulation, fame, or ease. It is defined as the deep, unshakable peace of knowing you are walking the path laid out by your Creator, safe under His guidance.</div></div>
+           <div class="insight-box hikam"><span class="label">Divine Wisdom</span><div class="content">The Arabic word for success here, *Falah*, shares its root with the word for a farmer ploughing a field (*Fallah*). Success in the divine paradigm is not a sudden, unearned windfall. It is the natural, inevitable harvest of a soul that has patiently and diligently cultivated its inner soil with faith, prayer, and charity over a lifetime.</div></div>
         </div>
-        <div class="tags"><span class="tag">Hope</span><span class="tag">Jannah</span><span class="tag">Steadfastness</span></div>
+       <div class="tags"><span class="tag">True Success</span><span class="tag">Inner Peace</span><span class="tag">Divine Care</span></div>
     </div>
-
+    
     <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 6</span></div>
-        <div class="arabic">وَمِنَ ٱلنَّاسِ مَن يَشْتَرِى لَهْوَ ٱلْحَدِيثِ لِيُضِلَّ عَن سَبِيلِ ٱللَّهِ بِغَيْرِ عِلْمٍۢ وَيَتَّخِذَهَا هُزُوًا ۚ أُو۟لَـٰٓئِكَ لَهُمْ عَذَابٌۭ مُّهِينٌۭ</div>
-        <div class="translation">"And of the people is he who buys the amusement of speech to mislead [others] from the way of Allah without knowledge and who takes it in ridicule. Those will have a humiliating punishment."</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"On the total opposite side, there are people who literally pay money to buy cheap, distracting entertainment and useless stories. Why? Just to distract themselves and mislead others away from God's path out of pure ignorance, making a joke out of religion. Because they mocked God, a deeply humiliating punishment is waiting for them."</div></div>
-            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">"Lahw al-Hadeeth" (amusement of speech / distracting tales). Historically, this verse references Nadhr bin al-Harith, a wealthy Meccan who traveled to Persia to buy books containing the legends of ancient kings. He brought them back to Mecca and hired singing girls to distract people whenever the Prophet ﷺ was reciting the Qur'an. It establishes the timeless reality of the "attention economy"—utilizing empty, addictive entertainment to deliberately drown out the frequency of Divine Revelation.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Warning</span><span class="tag">Arrogance</span><span class="tag">Human Nature</span></div>
+<div class="verse-header"><span class="verse-number">Verse 6</span></div>
+<div class="arabic">وَمِنَ النَّاسِ مَن يَشْتَرِي لَهْوَ الْحَدِيثِ لِيُضِلَّ عَن سَبِيلِ اللَّهِ بِغَيْرِ عِلْمٍ وَيَتَّخِذَهَا هُزُوًا ۚ أُولَٰئِكَ لَهُمْ عَذَابٌ مُّهِينٌ</div>
+<div class="translation">"But there are some who employ theatrics, only to lead others away from Allah’s Way—without any knowledge—and to make a mockery of it. They will suffer a humiliating punishment."</div>
+<div class="insights">
+<div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">While divine wisdom offers deep healing and clarity, the human ego often prefers the numbing comfort of endless distraction. It is a profound tragedy when we invest our time and energy into empty noise simply to avoid the quiet, transformative work of facing the truth.</div></div>
+<div class="insight-box context"><span class="label">Historical Context [Ibn Kathir]</span><div class="content">Classical exegetes, including Ibn Kathir, note this verse was revealed concerning Makkan elites like Al-Nadr ibn al-Harith. He famously traveled to Persia to purchase captivating foreign tales and hired singers specifically to host elaborate performances. His explicit goal was to distract the people of Makkah and drown out the Prophet ﷺ whenever he began reciting the Quran.</div></div>
+<div class="insight-box sufi"><span class="label">Purification of the Self</span><div class="content">The soul is inherently designed to seek meaning and connection. When we refuse to nourish it with divine remembrance, we desperately try to fill that aching void with worldly entertainment and trivialities. Yet, no amount of external amusement can ever cure an internal spiritual famine.</div></div>
+</div>
+<div class="tags"><span class="tag">Distraction</span><span class="tag">Empty Pursuits</span><span class="tag">Spiritual Evasion</span></div>
+</div>
+
+<div class="verse-card">
+    <div class="verse-header"><span class="verse-number">Verse 7</span></div>
+    <div class="arabic">وَإِذَا تُتْلَىٰ عَلَيْهِ آيَاتُنَا وَلَّىٰ مُسْتَكْبِرًا كَأَن لَّمْ يَسْمَعْهَا كَأَنَّ فِي أُذُنَيْهِ وَقْرًا ۖ فَبَشِّرْهُ بِعَذَابٍ أَلِيمٍ</div>
+    <div class="translation">"Whenever Our revelations are recited to them, they turn away in arrogance as if they did not hear them, as if there is deafness in their ears. So give them good news ˹O Prophet˺ of a painful punishment."</div>
+    <div class="insights">
+       <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">There is a heavy irony in choosing to ignore the very words meant to save and elevate us. Pride creates a thick veil; it allows a person to physically hear the recitation while remaining completely deaf to its meaning and mercy.</div></div>
+       <div class="insight-box hikam"><span class="label">Divine Wisdom</span><div class="content">Arrogance is the ultimate barrier to spiritual growth. The moment a heart believes it already knows enough, or feels superior to the message, it tightly bolts its doors against divine light. The "deafness" described here is not a failure of the physical ear, but the tragedy of an ego that refuses to be humbled or healed.</div></div>
     </div>
+   <div class="tags"><span class="tag">Arrogance</span><span class="tag">Spiritual Deafness</span><span class="tag">Pride</span></div>
+</div>
 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 7</span></div>
-        <div class="arabic">وَإِذَا تُتْلَىٰ عَلَيْهِ ءَايَـٰتُنَا وَلَّىٰ مُسْتَكْبِرًۭا كَأَن لَّمْ يَسْمَعْهَا كَأَنَّ فِىٓ أُذُنَيْهِ وَقْرًۭا ۖ فَبَشِّرْهُ بِعَذَابٍ أَلِيمٍۢ</div>
-        <div class="translation">"And when our verses are recited to him, he turns away arrogantly as if he had not heard them, as if there was in his ears a heaviness. So give him tidings of a painful punishment."</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"And whenever the beautiful verses of God are recited to this kind of person, he just turns his back and walks away with pure arrogance. He acts completely deaf, as if his ears are plugged with heavy lead. So, promise him that an agonizing, painful punishment is coming for him."</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The anatomy of deliberate spiritual deafness. "Mustakbiran" (acting arrogantly). His inability to hear the Qur'an is not a biological ear problem; it is an ego problem. When the heart is gorged on the cheap sugar of "Lahw" (distracting entertainment), it loses its appetite for the heavy, nutritious meat of Divine Wisdom. The "heaviness in his ears" is actually the accumulated wax of his own worldly desires blocking the Light.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Arrogance</span><span class="tag">Punishment</span><span class="tag">Sin</span></div>
-    </div>
-
-    <div class="verse-card">
+<div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 8</span></div>
-        <div class="arabic">إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ لَهُمْ جَنَّـٰتُ ٱلنَّعِيمِ</div>
-        <div class="translation">"Indeed, those who believe and do righteous deeds - for them are the Gardens of Pleasure."</div>
+        <div class="arabic">إِنَّ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ لَهُمْ جَنَّاتُ النَّعِيمِ</div>
+        <div class="translation">"Surely those who believe and do good will have the Gardens of Bliss,"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"But definitely, those who hold onto their faith and constantly back it up with good, righteous actions—God has prepared for them breathtaking, magnificent Gardens overflowing with eternal pleasure."</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">The juxtaposition of true versus fake pleasure. The disbeliever in Verse 6 purchased "Lahw" (cheap, fake, temporary amusement) and ended up with humiliating pain. The believer purchased the "Kitab al-Hakeem" (heavy, profound Wisdom) with their patience, and ends up inheriting "Jannat an-Na'eem" (Gardens of absolute, pure, and eternal bliss). The Divine trade is always mathematically superior.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">True faith is never stagnant; it naturally overflows into beautiful, restorative actions. The reward for this gentle and deliberate living is a state of absolute, unadulterated peace that the soul deeply craves.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self</span><div class="content">The 'Gardens of Bliss' are not merely a future destination, but a state of being that begins right now. When a heart is purified of worldly anxieties and anchored in the remembrance of the Divine, it enters a spiritual garden in this life, tasting a profound tranquility that prepares it for the eternal Garden to come.</div></div>
         </div>
-        <div class="tags"><span class="tag">Jannah</span><span class="tag">Hope</span><span class="tag">Spiritual Practice</span></div>
+       <div class="tags"><span class="tag">Faith & Action</span><span class="tag">Eternal Bliss</span><span class="tag">Spiritual Tranquility</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 9</span></div>
-        <div class="arabic">خَـٰلِدِينَ فِيهَا ۖ وَعْدَ ٱللَّهِ حَقًّۭا ۚ وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ</div>
-        <div class="translation">"Abiding therein eternally. The promise of Allah is truth. And He is the Exalted in Might, the Wise."</div>
+        <div class="arabic">خَالِدِينَ فِيهَا ۖ وَعْدَ اللَّهِ حَقًّا ۚ وَهُوَ الْعَزِيزُ الْحَكِيمُ</div>
+        <div class="translation">"staying there forever. Allah’s promise is true. And He is the Almighty, All-Wise."</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"They will live inside those beautiful Gardens forever without end. This is the absolute, unbreakable promise of God! And He alone is the All-Powerful, the All-Wise."</div></div>
-            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">"Wa'da Allahi Haqqan" (The promise of Allah is truth). Human promises in the Dunya are fragile because humans can either lose their wealth (unable to pay) or die (unable to deliver). God guarantees the permanence of Paradise by anchoring it to His own Attributes: He is "Al-'Aziz" (He possesses infinite power to deliver the reward) and "Al-Hakeem" (He is perfectly wise, so He will never break a covenant).</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">A fundamental human ache is the anxiety that everything beautiful must eventually end. Here, God tenderly heals that specific pain by guaranteeing an eternity of safety and joy, assuring us that His promise is the ultimate, unbreakable reality.</div></div>
+           <div class="insight-box hikam"><span class="label">Divine Wisdom</span><div class="content">The verse elegantly concludes with two Divine Names: The Almighty (Al-Aziz) and The All-Wise (Al-Hakim). God is 'Al-Aziz', possessing the invincible, unyielding power to fulfill this unimaginably grand promise. And He is 'Al-Hakim', ensuring that His bestowal of this eternal grace is an act of perfect, exacting wisdom and cosmic balance.</div></div>
         </div>
-        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">Hope</span><span class="tag">Jannah</span></div>
+       <div class="tags"><span class="tag">Eternity</span><span class="tag">Divine Promise</span><span class="tag">Al-Aziz</span><span class="tag">Al-Hakim</span></div>
     </div>
-
+    
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 10</span></div>
-        <div class="arabic">خَلَقَ ٱلسَّمَـٰوَٰتِ بِغَيْرِ عَمَدٍۢ تَرَوْنَهَا ۖ وَأَلْقَىٰ فِى ٱلْأَرْضِ رَوَٰسِىَ أَن تَمِيدَ بِكُمْ وَبَثَّ فِيهَا مِن كُلِّ دَآبَّةٍۢ ۚ وَأَنزَلْنَا مِنَ ٱلسَّمَآءِ مَآءًۭ فَأَنۢبَتْنَا فِيهَا مِن كُلِّ زَوْجٍۢ كَرِيمٍ</div>
-        <div class="translation">"He created the heavens without pillars that you see and has cast into the earth firmly set mountains, lest it should shift with you, and dispersed therein from every creature. And We sent down rain from the sky and made grow therein [plants] of every noble kind."</div>
+        <div class="arabic">خَلَقَ السَّمَاوَاتِ بِغَيْرِ عَمَدٍ تَرَوْنَهَا ۖ وَأَلْقَىٰ فِي الْأَرْضِ رَوَاسِيَ أَنْ تَمِيدَ بِكُمْ وَبَثَّ فِيهَا مِنْ كُلِّ دَابَّةٍ ۚ وَأَنْزَلْنَا مِنَ السَّمَاءِ مَاءً فَأَنْبَتْنَا فِيهَا مِنْ كُلِّ زَوْجٍ كَرِيمٍ</div>
+        <div class="translation">"He created the heavens without pillars—as you can see—and placed firm mountains upon the earth so it does not shake with you, and scattered throughout it all types of creatures. And We send down rain from the sky, causing every type of fine plant to grow on earth."</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"Look at God's majestic power! He created the massive, heavy sky above you without using any visible pillars to hold it up. He dropped massive mountains onto the earth like heavy anchors so the ground wouldn't constantly shake beneath your feet. He scattered millions of amazing animals across the globe. And He sends down the sweet rain from the sky to grow every single beautiful, noble type of plant."</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The architecture of Divine Majesty. God challenges the arrogant man from Verse 6 (who bought cheap stories) to compare his "art" with the Art of the Creator. "Bighayri 'amadin tarawnaha" (without pillars you can see) implies the invisible pillars of gravity and astrophysics holding the cosmos in perfect suspension. To ignore this flawless, massive engineering and worship a carved piece of wood instead is the peak of intellectual blindness.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Look upward at the vast, unsupported sky, and downward at the deep-rooted mountains that steady the ground beneath your feet. Every single element of the natural world, from the life-giving rain to the wondrous variety of living creatures, is a deliberate, loving masterpiece of divine engineering designed to shelter and sustain you.</div></div>
+           <div class="insight-box hikam"><span class="label">Divine Wisdom</span><div class="content">When your mind feels turbulent and your life feels adrift, look to the mountains and the rain. The exact same Creator who anchors the shifting earth with massive peaks and sends down water to revive dead, barren soil is more than capable of steadying your trembling heart and bringing new life to your most desolate seasons.</div></div>
         </div>
-        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Attributes of Allah</span><span class="tag">The Unseen</span></div>
+       <div class="tags"><span class="tag">Divine Majesty</span><span class="tag">Reflection</span><span class="tag">Sustenance</span><span class="tag">Nature</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 11</span></div>
-        <div class="arabic">هَـٰذَا خَلْقُ ٱللَّهِ فَأَرُونِى مَاذَا خَلَقَ ٱلَّذِينَ مِن دُونِهِۦ ۚ بَلِ ٱلظَّـٰلِمُونَ فِى ضَلَـٰلٍۢ مُّبِينٍۢ</div>
-        <div class="translation">"This is the creation of Allah. So show Me what those other than Him have created. Rather, the wrongdoers are in clear error."</div>
+        <div class="arabic">هَٰذَا خَلْقُ اللَّهِ فَأَرُونِي مَاذَا خَلَقَ الَّذِينَ مِنْ دُونِهِ ۚ بَلِ الظَّالِمُونَ فِي ضَلَالٍ مُبِينٍ</div>
+        <div class="translation">"This is Allah’s creation. Now show Me what those ˹gods˺ other than Him have created. In fact, the wrongdoers are clearly astray."</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"God points to the entire universe and says: 'This is My creation. Now, I challenge you: show Me exactly what these fake idols and false gods of yours have ever created!' They have created absolutely nothing. Therefore, these unjust people who worship them are completely and obviously lost."</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">The ultimate theological checkmate. "Arunee" (Show Me!). God issues an aggressive, unanswerable challenge. If your idol, your wealth, or your societal power deserves to be worshipped, point to a single atom, a single blade of grass, or a single fly that it has created from scratch. Since the ledger of creation for everything "other than Him" is mathematically zero, redirecting your worship to them is "Dalalin Mubeen" (obvious, glaring error).</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">After presenting the awe-inspiring reality of the cosmos, a gentle but undeniable question is posed to human logic: Can any worldly power, status, or idol you chase create even a fraction of this? To attach your ultimate hope, fear, and reliance to anything other than the Source of all existence is a profound spiritual miscalculation.</div></div>
+           <div class="insight-box sufi"><span class="label">Purification of the Self</span><div class="content">Idolatry is not merely bowing to statues of stone; the subtler, more dangerous idolatry is assigning ultimate power to our careers, our wealth, or the opinions of other people. When we desperately seek validation, security, or sustenance from fragile creations that cannot even sustain themselves, we willingly walk into the wilderness of illusion. True freedom is found only in depending entirely on the Creator of all.</div></div>
         </div>
-        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Arrogance</span><span class="tag">Divine Justice</span></div>
+       <div class="tags"><span class="tag">Tawhid (Oneness)</span><span class="tag">Illusion of Dunya</span><span class="tag">True Reliance</span><span class="tag">Clarity</span></div>
     </div>
-
+    
     <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 12</span></div>
-        <div class="arabic">وَلَقَدْ ءَاتَيْنَا لُقْمَـٰنَ ٱلْحِكْمَةَ أَنِ ٱشْكُرْ لِلَّهِ ۚ وَمَن يَشْكُرْ فَإِنَّمَا يَشْكُرُ لِنَفْسِهِۦ ۖ وَمَن كَفَرَ فَإِنَّ ٱللَّهَ غَنِىٌّ حَمِيدٌۭ</div>
-        <div class="translation">"And We certainly granted wisdom to Luqman, saying, 'Be grateful to God.' And whoever is grateful is grateful only for the benefit of his own soul. And whoever is ungrateful - then indeed, God is completely free of need and worthy of all praise."</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"We gave Luqman deep, profound wisdom, and the very foundation of that wisdom was simple: 'Be thankful to God.' When you show gratitude, you aren't doing God a favor; you are entirely helping yourself. If someone chooses to be ungrateful, it doesn't harm God at all, because He is infinitely rich and completely independent of us."</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"Al-Hikmah" (Wisdom) is mathematically equated with "Shukr" (Gratitude). You cannot be wise and ungrateful simultaneously. True wisdom is recognizing the Source of all blessings. God establishes the psychological boundary of worship: "yashkuru linafsihi" (grateful for himself). Our prayers and our thanks do not increase the Kingdom of God by a single atom; they simply expand the capacity of our own hearts to receive more Light.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Spiritual Practice</span><span class="tag">Attributes of Allah</span></div>
+<div class="verse-header"><span class="verse-number">Verse 12</span></div>
+<div class="arabic">وَلَقَدْ آتَيْنَا لُقْمَانَ الْحِكْمَةَ أَنِ اشْكُرْ لِلَّهِ ۚ وَمَنْ يَشْكُرْ فَإِنَّمَا يَشْكُرُ لِنَفْسِهِ ۖ وَمَنْ كَفَرَ فَإِنَّ اللَّهَ غَنِيٌّ حَمِيدٌ</div>
+<div class="translation">"Indeed, We blessed Luqmân with wisdom, ˹saying˺, “Be grateful to Allah, for whoever is grateful, it is only for their own good. And whoever is ungrateful, then surely Allah is Self-Sufficient, Praiseworthy.”"</div>
+<div class="insights">
+<div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The foundation of all true wisdom is gratitude. When you pause to thank God for the quiet blessings in your life, you are not adding to His majesty—He is entirely self-sufficient and without need. Rather, you are expanding the capacity of your own heart to receive peace, healing, and joy.</div></div>
+<div class="insight-box context"><span class="label">Historical Context [Ibn Kathir]</span><div class="content">Classical exegetes note that Luqman was not a prophet, but an incredibly devout man—often described in early traditions as an enslaved carpenter or shepherd of African descent. His story powerfully demonstrates that divine wisdom is not restricted by wealth, lineage, or social status; it is a gift granted to those whose hearts are purified through sincere gratitude.</div></div>
+<div class="insight-box hikam"><span class="label">Divine Wisdom</span><div class="content">To be ungrateful is a form of spiritual amnesia. It is the illusion that your intellect, your wealth, or even the breath in your lungs belongs entirely to you. Gratitude reorients your reality, pulling you out of the exhausting anxiety of self-reliance and placing you safely back into the care of the Provider.</div></div>
+</div>
+<div class="tags"><span class="tag">True Wisdom</span><span class="tag">Gratitude</span><span class="tag">Divine Independence</span></div>
+</div>
+
+<div class="verse-card">
+    <div class="verse-header"><span class="verse-number">Verse 13</span></div>
+    <div class="arabic">وَإِذْ قَالَ لُقْمَانُ لِابْنِهِ وَهُوَ يَعِظُهُ يَا بُنَيَّ لَا تُشْرِكْ بِاللَّهِ ۖ إِنَّ الشِّرْكَ لَظُلْمٌ عَظِيمٌ</div>
+    <div class="translation">"And ˹remember˺ when Luqmân said to his son, while advising him, “O my dear son! Never associate ˹anything˺ with Allah ˹in worship˺, for associating ˹others with Him˺ is truly the worst of all wrongs.”"</div>
+    <div class="insights">
+       <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The highest wisdom a parent can pass to a child is to protect their spiritual integrity. Luqman speaks with gentle, protective tenderness—"O my dear son"—warning him against the deepest injustice: giving the love, fear, and ultimate reliance that belongs exclusively to God to anything else.</div></div>
+       <div class="insight-box sufi"><span class="label">Purification of the Self</span><div class="content">Inwardly, 'associating partners' with God extends far beyond bowing to physical idols. It happens quietly in the heart whenever we allow the fear of poverty, the craving for human approval, or the dictates of our own ego to govern our choices instead of divine guidance. To attach your ultimate hope to finite, breaking things is a profound violence against your own soul.</div></div>
     </div>
+   <div class="tags"><span class="tag">Parental Love</span><span class="tag">Tawhid (Oneness)</span><span class="tag">Spiritual Integrity</span></div>
+</div>
 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 13</span></div>
-        <div class="arabic">وَإِذْ قَالَ لُقْمَـٰنُ لِٱبْنِهِۦ وَهُوَ يَعِظُهُۥ يَـٰبُنَىَّ لَا تُشْرِكْ بِٱللَّهِ ۖ إِنَّ ٱلشِّرْكَ لَظُلْمٌ عَظِيمٌۭ</div>
-        <div class="translation">"And remember when Luqman said to his son while advising him, 'O my dear son, never associate partners with God. Truly, associating partners is a massive injustice.'"</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"Remember the beautiful advice Luqman gave his son: 'My beloved son, never worship anything other than God, and never treat wealth or power as equal to Him. Giving God's rights to fake idols is the ultimate, most terrible form of oppression and injustice.'"</div></div>
-            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">"Ya bunayya" (O my dear, little son). Luqman does not lecture his son with harshness; he uses a deeply affectionate, tender Arabic diminutive. The absolute first lesson of parenting is establishing Tawheed (the Oneness of God). He diagnoses "Shirk" (polytheism) not just as a mistake, but as "Dhulm 'Adheem" (a massive injustice), because injustice is defined as placing something where it does not belong. Giving the rights of the Creator to a created object is the highest cosmic treason.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Social Ethics</span><span class="tag">Spiritual Practice</span><span class="tag">Warning</span></div>
+<div class="verse-card">
+<div class="verse-header"><span class="verse-number">Verse 14</span></div>
+<div class="arabic">وَوَصَّيْنَا ٱلْإِنسَـٰنَ بِوَٰلِدَيْهِ حَمَلَتْهُ أُمُّهُۥ وَهْنًا عَلَىٰ وَهْنٍ وَفِصَـٰلُهُۥ فِى عَامَيْنِ أَنِ ٱشْكُرْ لِى وَلِوَٰلِدَيْكَ إِلَىَّ ٱلْمَصِيرُ</div>
+<div class="translation">"And We have commanded people to ˹honor˺ their parents. Their mothers bore them through hardship upon hardship, and their weaning takes two years. So be grateful to Me and your parents. To Me is the final return."</div>
+<div class="insights">
+<div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">A beautiful, grounding reminder of the immense physical and emotional sacrifices of our parents, placing a special, tender emphasis on the mother. The Creator elevates gratitude to our parents to sit immediately alongside gratitude to Him, inextricably linking earthly compassion with spiritual devotion.</div></div>
+<div class="insight-box sufi"><span class="label">Purification of the Self</span><div class="content">A mother's sacrifice—giving continuously from her own body, strength, and sleep so another might flourish—is a profound worldly reflection of Divine nurturing and unconditional mercy. To remain ungrateful to the earthly vessel through which you were given life is to remain stubbornly blind to the Source of life itself.</div></div>
+</div>
+<div class="tags"><span class="tag">Honoring Parents</span><span class="tag">Mother's Sacrifice</span><span class="tag">Gratitude</span></div>
+</div>
+
+<div class="verse-card">
+    <div class="verse-header"><span class="verse-number">Verse 15</span></div>
+    <div class="arabic">وَإِن جَـٰهَدَاكَ عَلَىٰٓ أَن تُشْرِكَ بِى مَا لَيْسَ لَكَ بِهِۦ عِلْمٌ فَلَا تُطِعْهُمَا ۖ وَصَاحِبْهُمَا فِى ٱلدُّنْيَا مَعْرُوفًا ۖ وَٱتَّبِعْ سَبِيلَ مَنْ أَنَابَ إِلَىَّ ۚ ثُمَّ إِلَىَّ مَرْجِعُكُمْ فَأُنَبِّئُكُم بِمَا كُنتُمْ تَعْمَلُونَ</div>
+    <div class="translation">"But if they pressure you to associate with Me what you have no knowledge of, do not obey them. Still keep their company in this world courteously, and follow the way of those who turn to Me ˹in devotion˺. Then to Me you will ˹all˺ return, and then I will inform you of what you used to do."</div>
+    <div class="insights">
+       <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">While honoring parents is paramount, it has one absolute boundary: it cannot supersede your devotion to the Creator. Yet, even when we must draw a firm line to protect our faith, we are strictly commanded to remain gentle, helpful, and unconditionally kind to them in our everyday lives.</div></div>
+        <div class="insight-box context"><span class="label">Historical Context [Tafsir Ibn Kathir]</span><div class="content">Classical exegetes record that these verses were revealed regarding the young companion Sa'd ibn Abi Waqqas. Upon his conversion to Islam, his mother famously vowed to starve herself to death unless he abandoned his new faith. Despite his immense love for her, Sa'd gently but firmly refused to leave Islam, establishing the ultimate template for balancing unyielding faith with respectful worldly companionship.</div></div>
+       <div class="insight-box hikam"><span class="label">Divine Wisdom</span><div class="content">Notice the exquisite moral precision of the Divine instruction: "do not obey them" is instantly coupled with "keep their company in this world courteously." Disagreement in matters of truth must never become an excuse for cruelty or arrogance in character. The true believer embodies firm boundaries wrapped in unwavering mercy.</div></div>
     </div>
+   <div class="tags"><span class="tag">Spiritual Boundaries</span><span class="tag">Courtesy</span><span class="tag">Devotion to God</span></div>
+</div>
 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 14</span></div>
-        <div class="arabic">وَوَصَّيْنَا ٱلْإِنسَـٰنَ بِوَٰلِدَيْهِ حَمَلَتْهُ أُمُّهُۥ وَهْنًا عَلَىٰ وَهْنٍۢ وَفِصَـٰلُهُۥ فِى عَامَيْنِ أَنِ ٱشْكُرْ لِى وَلِوَٰلِدَيْكَ إِلَىَّ ٱلْمَصِيرُ</div>
-        <div class="translation">"And We have commanded the human being to deeply care for his parents. His mother carried him through hardship upon hardship, and his weaning is in two years. 'Be profoundly grateful to Me and to your parents; to Me is the final destination.'"</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"God steps in to add His own command: We absolutely require humans to treat their parents with excellence. Think of your mother! She carried you in her womb, suffering exhaustion upon exhaustion, and spent two years nursing you. You must be deeply grateful to Me first, and then to your parents. Never forget that you will ultimately return to Me for judgment."</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">"Wahnan 'ala wahn" (weakness upon weakness). God specifically highlights the biological sacrifice of the mother, elevating her status immensely. The spiritual hierarchy of gratitude is established here: you cannot claim to be grateful to the invisible Creator if you are violently ungrateful to the visible parents who physically constructed your body. Honoring the mother is a direct prerequisite to honoring God.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Social Ethics</span><span class="tag">Commands</span><span class="tag">Spiritual Practice</span></div>
-    </div>
-
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 15</span></div>
-        <div class="arabic">وَإِن جَـٰهَدَاكَ عَلَىٰٓ أَن تُشْرِكَ بِى مَا لَيْسَ لَكَ بِهِۦ عِلْمٌۭ فَلَا تُطِعْهُمَا ۖ وَصَاحِبْهُمَا فِى ٱلدُّنْيَا مَعْرُوفًۭا ۖ وَٱتَّبِعْ سَبِيلَ مَنْ أَنَابَ إِلَىَّ ۚ ثُمَّ إِلَىَّ مَرْجِعُكُمْ فَأُنَبِّئُكُم بِمَا كُنتُمْ تَعْمَلُونَ</div>
-        <div class="translation">"But if they fiercely pressure you to associate with Me that of which you have no knowledge, do not obey them. However, still accompany them in this worldly life with beautiful kindness, and follow the path of those who constantly turn back to Me. Ultimately, to Me is your return, and I will inform you of everything you used to do."</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"But there is a limit! If your parents try to force you to abandon your faith or worship false gods, you must respectfully disobey them. However, even if they fight your religion, you must still treat them with absolute kindness, respect, and financial care in this world. Follow the path of the sincere believers, and remember that everyone will return to God to be judged."</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">The perfection of Islamic boundaries. The Creator outranks the parent. But God does not allow theological disagreement to become an excuse for bad character. "Sahibhuma fil-dunya ma'roofan" (accompany them in this world with kindness). Even if a mother is an idolater actively trying to destroy your faith, you are still legally required to speak to her gently, care for her in old age, and provide for her. You disobey her theology, but you strictly honor her biology.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Social Ethics</span><span class="tag">Test</span><span class="tag">Accountability</span></div>
-    </div>
-
-    <div class="verse-card">
+<div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 16</span></div>
-        <div class="arabic">يَـٰبُنَىَّ إِنَّهَآ إِن تَكُ مِثْقَالَ حَبَّةٍۢ مِّنْ خَرْدَلٍۢ فَتَكُن فِى صَخْرَةٍ أَوْ فِى ٱلسَّمَـٰوَٰتِ أَوْ فِى ٱلْأَرْضِ يَأْتِ بِهَا ٱللَّهُ ۚ إِنَّ ٱللَّهَ لَطِيفٌ خَبِيرٌۭ</div>
-        <div class="translation">"'O my dear son, even if a deed is the weight of a tiny mustard seed and is hidden deep inside a solid rock, or scattered anywhere in the heavens or in the earth, God will bring it forth. Indeed, God is Most Subtle, Perfectly Acquainted.'"</div>
+        <div class="arabic">يَـٰبُنَىَّ إِنَّهَآ إِن تَكُ مِثْقَالَ حَبَّةٍ مِّنْ خَرْدَلٍ فَتَكُن فِى صَخْرَةٍ أَوْ فِى ٱلسَّمَـٰوَٰتِ أَوْ فِى ٱلْأَرْضِ يَأْتِ بِهَا ٱللَّهُ ۚ إِنَّ ٱللَّهَ لَطِيفٌ خَبِيرٌ</div>
+        <div class="translation">"˹Luqmân added,˺ 'O my dear son! ˹Even˺ if a deed were the weight of a mustard seed—be it ˹hidden˺ in a rock or in the heavens or the earth—Allah will bring it forth. Surely Allah is Most Subtle, All-Aware.'"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"Luqman continues: 'My son, never think your actions don't matter! Even if you do a good or bad deed as tiny and weightless as a mustard seed, and you hide it deep inside a hollow rock, or at the edge of the galaxy, God will effortlessly find it and bring it forward on Judgment Day. God sees all hidden things and knows every microscopic detail.'"</div></div>
-            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">Luqman is instilling "Muraqabah" (Divine Surveillance) into the psychology of his son. Before teaching him how to act in public, he teaches him that he is never truly in private. "Mithqala habbatin min khardal" (the weight of a mustard seed). If the All-Subtle ("Al-Lateef") can locate a microscopic seed buried in the darkness of a granite rock in outer space, He can certainly see the hidden intentions and silent whispers buried within your chest.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">When you feel unseen or unappreciated, remember this profoundly comforting truth: not a single ounce of your hidden struggles, quiet tears, or silent acts of kindness escapes the loving gaze of the Divine.</div></div>
+           <div class="insight-box hikam"><span class="label">Divine Wisdom</span><div class="content">The Divine names anchoring this verse are <em>Al-Latif</em> (The Most Subtle) and <em>Al-Khabir</em> (The All-Aware). God's knowledge does not just penetrate physical barriers like impenetrable rock; it penetrates the subtle, unseen veils of our hearts, witnessing and valuing the silent, fleeting sincerity within a single mustard seed of effort.</div></div>
         </div>
-        <div class="tags"><span class="tag">Accountability</span><span class="tag">The Unseen</span><span class="tag">Attributes of Allah</span></div>
+       <div class="tags"><span class="tag">Divine Awareness</span><span class="tag">Sincerity</span><span class="tag">Comfort</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 17</span></div>
         <div class="arabic">يَـٰبُنَىَّ أَقِمِ ٱلصَّلَوٰةَ وَأْمُرْ بِٱلْمَعْرُوفِ وَٱنْهَ عَنِ ٱلْمُنكَرِ وَٱصْبِرْ عَلَىٰ مَآ أَصَابَكَ ۖ إِنَّ ذَٰلِكَ مِنْ عَزْمِ ٱلْأُمُورِ</div>
-        <div class="translation">"'O my dear son, perfectly establish the prayer, encourage people to do what is right, gently forbid what is wrong, and be unshakably patient over whatever hardship hits you. Truly, these are the matters that require absolute determination and strength.'"</div>
+        <div class="translation">"'O my dear son! Establish prayer, encourage what is good and forbid what is evil, and endure patiently whatever befalls you. Surely this is a resolve to aspire to.'"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"'My son, build these powerful habits: Protect your daily prayers. Always encourage others to do good, and bravely speak out against evil. And because people will inevitably attack you for standing up for the truth, you must be incredibly patient through all the pain. Doing these things requires the highest level of human strength and resolve.'"</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">The transition from private theology to public sociology. Luqman warns his son: the moment you transition from "Aqim as-salah" (private prayer) to "Amr bil-ma'roof" (publicly commanding good), you will face massive societal resistance. The ego of society hates being corrected. Therefore, "Sabr" (Patience) is immediately attached as the necessary armor. To try and fix the world without the emotional armor of patience is spiritual suicide.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Luqman provides a beautifully holistic framework for a meaningful life: anchor your soul through private prayer, take courageous responsibility for your community, and build the inner resilience to withstand the inevitable pushback from the world.</div></div>
+           <div class="insight-box sufi"><span class="label">Purification of the Self</span><div class="content">Notice the divine sequence of this profound advice. One cannot safely step into the arena of correcting society or enduring heartbreak without first fortifying the inner citadel of the heart through the establishment of prayer. Action without spiritual grounding inevitably leads to burnout, bitterness, or the inflation of the ego.</div></div>
         </div>
-        <div class="tags"><span class="tag">Spiritual Practice</span><span class="tag">Social Ethics</span><span class="tag">Commands</span><span class="tag">Steadfastness</span></div>
+       <div class="tags"><span class="tag">Resilience</span><span class="tag">Spiritual Sequence</span><span class="tag">Prayer</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 18</span></div>
-        <div class="arabic">وَلَا تُصَعِّرْ خَدَّكَ لِلنَّاسِ وَلَا تَمْشِ فِى ٱلْأَرْضِ مَرَحًا ۖ إِنَّ ٱللَّهَ لَا يُحِبُّ كُلَّ مُخْتَالٍۢ فَخُورٍۢ</div>
-        <div class="translation">"'And do not turn your cheek away from people in arrogance, nor walk across the earth exultantly. Indeed, God does not love anyone who is self-deluded and boastful.'"</div>
+        <div class="arabic">وَلَا تُصَعِّرْ خَدَّكَ لِلنَّاسِ وَلَا تَمْشِ فِى ٱلْأَرْضِ مَرَحًا ۖ إِنَّ ٱللَّهَ لَا يُحِبُّ كُلَّ مُخْتَالٍ فَخُورٍ</div>
+        <div class="translation">"'And do not turn your nose up to people, nor walk pridefully upon the earth. Surely Allah does not like whoever is arrogant, boastful.'"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"'My son, never look down on anyone! Do not turn your face away from the poor or the weak out of arrogance, and do not strut around the earth acting like you are better than everyone else. God absolutely despises people who are drunk on their own egos and constantly brag about themselves.'"</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The micro-expressions of arrogance. "La tusa'ir khaddaka" refers to a specific disease in camels that causes their necks to twist stiffly to the side. Luqman equates a human turning their face away from someone they deem "inferior" to an animalistic sickness. "Mukhtal" is the one whose internal self-delusion alters their external physical posture (strutting). True strength is carried with deep physical humility.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Our physical posture often betrays our inner spiritual sickness. True dignity and self-worth never require the belittling of others or the inflation of our own worldly importance.</div></div>
+           <div class="insight-box sufi"><span class="label">Purification of the Self</span><div class="content">Arrogance fundamentally stems from the delusion of self-ownership. When we truly recognize that every breath, talent, and provision is an unearned loan from the Creator, the desire to walk boastfully dissolves. Humility is simply living in alignment with reality.</div></div>
         </div>
-        <div class="tags"><span class="tag">Social Ethics</span><span class="tag">Arrogance</span><span class="tag">Humility</span></div>
+       <div class="tags"><span class="tag">Humility</span><span class="tag">Ego</span><span class="tag">Brotherhood</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 19</span></div>
         <div class="arabic">وَٱقْصِدْ فِى مَشْيِكَ وَٱغْضُضْ مِن صَوْتِكَ ۚ إِنَّ أَنكَرَ ٱلْأَصْوَٰتِ لَصَوْتُ ٱلْحَمِيرِ</div>
-        <div class="translation">"'And be moderate and balanced in your walking pace, and lower your voice. Truly, the most disagreeable of all sounds is the braying of donkeys.'"</div>
+        <div class="translation">"'Be moderate in your pace. And lower your voice, for the ugliest of all voices is certainly the braying of donkeys.'"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"'Instead, walk with a calm, balanced, and confident pace—not too slow and lazy, and not too fast and frantic. And lower your voice when you speak. There is no need to shout to prove your point; the loudest, most obnoxious sound in the world is the screaming of a donkey!'"</div></div>
-            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The perfection of Adab (Manners). Luqman concludes his advice by regulating the physical volume of the human being. "Waqsid" means taking the middle, balanced path. A believer's walk should exude quiet dignity. "Waghdud min sawtik" (lower your voice). Truth does not require excessive volume to be effective. Yelling and aggressively talking over others is compared to the braying of a donkey—loud, abrasive, and entirely devoid of intellect.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Emotional regulation and physical composure are deeply spiritual acts. We are asked to walk with grounded purpose—neither sluggishly nor frantically—and to speak with a gentleness that invites listening rather than dominating the room.</div></div>
+           <div class="insight-box hikam"><span class="label">Divine Wisdom</span><div class="content">A loud, aggressive voice often attempts to compensate for a lack of internal substance; the loudest vessel is frequently the emptiest. True spiritual authority requires no volume. It resonates through the quiet, unmistakable weight of sincerity, calm restraint, and genuine care for others.</div></div>
         </div>
-        <div class="tags"><span class="tag">Social Ethics</span><span class="tag">Humility</span><span class="tag">Commands</span></div>
+       <div class="tags"><span class="tag">Moderation</span><span class="tag">Composure</span><span class="tag">Dignity</span></div>
     </div>
-
+    
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 20</span></div>
-        <div class="arabic">أَلَمْ تَرَوْا۟ أَنَّ ٱللَّهَ سَخَّرَ لَكُم مَّا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ وَأَسْبَغَ عَلَيْكُمْ نِعَمَهُۥ ظَـٰهِرَةًۭ وَبَاطِنَةًۭ ۗ وَمِنَ ٱلنَّاسِ مَن يُجَـٰدِلُ فِى ٱللَّهِ بِغَيْرِ عِلْمٍۢ وَلَا هُدًۭى وَلَا كِتَـٰبٍۢ مُّنِيرٍۢ</div>
-        <div class="translation">"Do you not clearly see that Allah has subjected to your service whatever is in the heavens and whatever is in the earth, and He has showered upon you His immense blessings, both visible and hidden? Yet among the people is he who argues about Allah without any knowledge, without guidance, and without an illuminating Book."</div>
+        <div class="arabic">أَلَمْ تَرَوْا أَنَّ اللَّهَ سَخَّرَ لَكُم مَّا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ وَأَسْبَغَ عَلَيْكُمْ نِعَمَهُ ظَاهِرَةً وَبَاطِنَةً ۗ وَمِنَ النَّاسِ مَن يُجَادِلُ فِي اللَّهِ بِغَيْرِ عِلْمٍ وَلَا هُدًى وَلَا كِتَابٍ مُّنِيرٍ</div>
+        <div class="translation">"Have you not seen that Allah has subjected for you whatever is in the heavens and whatever is on the earth, and has lavished His favours upon you, both seen and unseen? ˹Still˺ there are some who dispute about Allah without knowledge, or guidance, or an enlightening scripture."</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"Open your eyes! Don't you see that God forced the entire universe—the sun, the rain, the oceans, the animals—to serve you and keep you alive? He has drowned you in blessings, both the ones you can see (like food) and the ones you can't (like oxygen and faith). Yet, despite all this, arrogant people still dare to argue about God without possessing a shred of real knowledge or a holy book to back them up!"</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"Asbagha 'alaykum" (He poured/showered upon you). The universe is not a chaotic void; it is a meticulously engineered delivery system designed entirely to sustain human life ("Sakhkhara lakum"). The tragedy of the intellect is arguing against the Provider while simultaneously consuming His provisions. The ego demands proof of God while actively breathing the oxygen He just created.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Pause and look around: the sun, the rain, the soil, and the very air you breathe have been designed to sustain you. Despite being enveloped in both obvious physical blessings and hidden spiritual protections, human beings can sometimes become so disconnected that they argue against the very Source of their existence.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self [Ibn Ata'illah]</span><div class="content">The classical master Ibn Ata'illah beautifully observed that God's hidden favors often manifest in His concealment of our flaws. The "unseen" blessings are not just spiritual states, but the profound mercy that your inward struggles and secret mistakes are veiled from the world, allowing you to walk with dignity while you heal and seek His forgiveness.</div></div>
+           <div class="insight-box hikam"><span class="label">Divine Wisdom</span><div class="content">To recognize the 'unseen' favors requires the eyes of the heart. When a person is deprived of this inner vision, they demand physical, empirical proof of the Divine while standing entirely immersed in an ocean of His miracles. The tragedy of the arrogant intellect is arguing over the existence of the water while actively drowning in it.</div></div>
         </div>
-        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Arrogance</span><span class="tag">Attributes of Allah</span></div>
+       <div class="tags"><span class="tag">Divine Blessings</span><span class="tag">Hidden Favors</span><span class="tag">Gratitude</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 21</span></div>
-        <div class="arabic">وَإِذَا قِيلَ لَهُمُ ٱتَّبِعُوا۟ مَآ أَنزَلَ ٱللَّهُ قَالُوا۟ بَلْ نَتَّبِعُ مَا وَجَدْنَا عَلَيْهِ ءَابَآءَنَآ ۚ أَوَلَوْ كَانَ ٱلشَّيْطَـٰنُ يَدْعُوهُمْ إِلَىٰ عَذَابِ ٱلسَّعِيرِ</div>
-        <div class="translation">"And when it is said to them, 'Follow what Allah has revealed,' they say, 'No, rather, we will blindly follow that upon which we found our fathers.' Even if Satan was inviting them to the punishment of the Blazing Fire?"</div>
+        <div class="arabic">وَإِذَا قِيلَ لَهُمُ اتَّبِعُوا مَا أَنزَلَ اللَّهُ قَالُوا بَلْ نَتَّبِعُ مَا وَجَدْنَا عَلَيْهِ آبَاءَنَا ۚ أَوَلَوْ كَانَ الشَّيْطَانُ يَدْعُوهُمْ إِلَىٰ عَذَابِ السَّعِيرِ</div>
+        <div class="translation">"When it is said to them, “Follow what Allah has revealed,” they reply, “No! We ˹only˺ follow what we found our forefathers practicing.” ˹Would they still do so˺ even if Satan is inviting them to the torment of the Blaze?"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"And when you tell these people, 'Drop your fake idols and follow the pure truth God just sent down!' they stubbornly reply, 'Absolutely not! We will only follow the traditions and religion of our ancestors.' God asks: Are they insane? Would they still blindly follow their ancestors if Satan was literally using those traditions to drag them into the Hellfire?"</div></div>
-            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The danger of blind conformity ("Taqlid"). The Meccan elite possessed no intellectual argument against the Qur'an. Their only defense was ancestral nostalgia. God exposes this as the ultimate intellectual laziness. Tradition is not a substitute for truth. If your grandfather was walking toward a cliff, loyalty does not require you to jump off it with him.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">There is a deep human tendency to find comfort in the familiar, even if the familiar is harmful. When presented with the clear, healing truth of revelation, some choose to cling to inherited cultural biases and generational habits, unknowingly letting those blind traditions lead them toward spiritual ruin.</div></div>
+           <div class="insight-box hikam"><span class="label">Divine Wisdom</span><div class="content">True spiritual awakening requires the profound courage to question the cultural waters we swim in. The ego prefers the warmth of the crowd and the safety of "how things have always been done." Breaking free from the gravitational pull of societal expectations and ancestral habit is often the first, most difficult step toward walking the path of authentic, lived faith.</div></div>
         </div>
-        <div class="tags"><span class="tag">Arrogance</span><span class="tag">Warning</span><span class="tag">Human Nature</span></div>
+       <div class="tags"><span class="tag">Cultural Inertia</span><span class="tag">Courage</span><span class="tag">Seeking Truth</span></div>
     </div>
-
+    
     <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 22</span></div>
-        <div class="arabic">وَمَن يُسْلِمْ وَجْهَهُۥٓ إِلَى ٱللَّهِ وَهُوَ مُحْسِنٌۭ فَقَدِ ٱسْتَمْسَكَ بِٱلْعُرْوَةِ ٱلْوُثْقَىٰ ۗ وَإِلَى ٱللَّهِ عَـٰقِبَةُ ٱلْأُمُورِ</div>
-        <div class="translation">"And whoever submits his face entirely to Allah while being a doer of ultimate good - then he has grasped the most trustworthy, unbreakable handhold. And to Allah belongs the final outcome of all matters."</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"But whoever completely surrenders their heart and focus entirely to God, while actively doing beautiful deeds—they have successfully grabbed onto an unbreakable, massive safety rope! In the end, every single situation will return to God for the final judgment."</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">"Al-'Urwah al-Wuthqa" (the most trustworthy handhold). In a chaotic Dunya filled with snapping ropes (loss of wealth, death of family, political collapse), the soul desperately needs a tether that cannot break. Surrendering your ego to the Eternal ("yuslim wajhahu") is the only way to anchor yourself to a reality that does not die. If your rope is tied to the Throne, the storms of the earth cannot sink you.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Spiritual Practice</span><span class="tag">Hope</span><span class="tag">Steadfastness</span></div>
+<div class="verse-header"><span class="verse-number">Verse 22</span></div>
+<div class="arabic">وَمَنْ يُسْلِمْ وَجْهَهُ إِلَى اللَّهِ وَهُوَ مُحْسِنٌ فَقَدِ اسْتَمْسَكَ بِالْعُرْوَةِ الْوُثْقَىٰ ۗ وَإِلَى اللَّهِ عَاقِبَةُ الْأُمُورِ</div>
+<div class="translation">"Whoever fully submits themselves to Allah and is a good-doer, they have certainly grasped the firmest hand-hold. And with Allah rests the outcome of ˹all˺ affairs."</div>
+<div class="insights">
+<div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Submitting one's whole self—represented beautifully here by turning one's 'face' toward the Divine—while actively striving to do good, anchors you to something unbreakable. When you surrender your need for control to God, you no longer have to be consumed by anxiety over the future, because the ultimate outcome rests safely in His hands.</div></div>
+<div class="insight-box sufi"><span class="label">Purification of the Self</span><div class="content">The phrase "submits his face" implies a complete reorientation of your entire being, attention, and ego. It is the conscious decision to stop looking to creation for validation, safety, or worth, and to gaze only upon the Creator. The "firmest hand-hold" is the resulting state of deep trust (Tawakkul), where the heart finds profound rest amidst the turbulence of life because it knows the anchor is held by the Eternal.</div></div>
+<div class="insight-box hikam"><span class="label">Divine Wisdom [Ibn 'Ata'illah al-Iskandari]</span><div class="content">"Relieve yourself of worry after you have planned; do not concern yourself with what He has undertaken on your behalf." When this verse declares that "with Allah rests the outcome," it is a direct, merciful invitation to lay down the exhausting, heavy burden of trying to micromanage the universe.</div></div>
+</div>
+<div class="tags"><span class="tag">Surrender</span><span class="tag">Tawakkul (Trust)</span><span class="tag">Inner Peace</span></div>
+</div>
+
+<div class="verse-card">
+    <div class="verse-header"><span class="verse-number">Verse 23</span></div>
+    <div class="arabic">وَمَنْ كَفَرَ فَلَا يَحْزُنْكَ كُفْرُهُ ۚ إِلَيْنَا مَرْجِعُهُمْ فَنُنَبِّئُهُمْ بِمَا عَمِلُوا ۚ إِنَّ اللَّهَ عَلِيمٌ بِذَاتِ الصُّدُورِ</div>
+    <div class="translation">"But whoever disbelieves, do not let their disbelief grieve you ˹O Prophet˺. To Us is their return, and We will inform them of all they did. Surely Allah knows best what is ˹hidden˺ in the heart."</div>
+    <div class="insights">
+       <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">It is deeply human to feel sorrow when people we care about turn away from the truth or cause harm. Yet, God comforts the Prophet ﷺ, and by extension all of us, reminding us that we are not responsible for carrying the crushing weight of other people's choices. Their ultimate reality is known and held by God alone.</div></div>
+       <div class="insight-box sufi"><span class="label">Purification of the Self</span><div class="content">Spiritual grief and burnout often arise from a misplaced sense of ownership over the spiritual states of others. True emotional liberation comes from recognizing that hearts are turned entirely by God's fingers, not our own efforts. When we release our anxiety over those who reject the light, we preserve our own spiritual energy to focus on the One who perfectly knows the hidden depths of the breast.</div></div>
     </div>
+   <div class="tags"><span class="tag">Emotional Boundaries</span><span class="tag">Divine Knowledge</span><span class="tag">Healing</span></div>
+</div>
 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 23</span></div>
-        <div class="arabic">وَمَن كَفَرَ فَلَا يَحْزُنكَ كُفْرُهُۥٓ ۚ إِلَيْنَا مَرْجِعُهُمْ فَنُنَبِّئُهُم بِمَا عَمِلُوٓا۟ ۚ إِنَّ ٱللَّهَ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ</div>
-        <div class="translation">"And whoever chooses to disbelieve - do not let his disbelief grieve you, [O Muhammad]. To Us is their inevitable return, and We will inform them of exactly what they did. Indeed, Allah is completely Knowing of what is locked within the breasts."</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"O Prophet, do not let it break your heart when arrogant people refuse to believe. Their rejection does not harm you or God. They will all be dragged back to Us eventually, and We will confront them with every single evil deed they committed. God knows exactly what dark secrets are hiding in their chests."</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"Fala yahzunka" (do not let it grieve you). The Prophet ﷺ possessed such immense empathy that the stubbornness of the Meccans physically exhausted him with grief. God intervenes to protect his emotional boundaries. You are a messenger, not an enforcer. You cannot save someone who insists on drowning. Transfer their file to the Divine Court and protect your own peace.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Steadfastness</span><span class="tag">Accountability</span><span class="tag">Prophetic History</span></div>
+<div class="verse-card">
+    <div class="verse-header"><span class="verse-number">Verse 24</span></div>
+    <div class="arabic">نُمَتِّعُهُمْ قَلِيلًا ثُمَّ نَضْطَرُّهُمْ إِلَىٰ عَذَابٍ غَلِيظٍ</div>
+    <div class="translation">"We allow them enjoyment for a little while, then ˹in time˺ We will force them into a harsh torment."</div>
+    <div class="insights">
+       <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Worldly comfort can sometimes be a test rather than a sign of divine pleasure. The fleeting luxuries enjoyed by those who oppress others or arrogantly turn away from God are entirely temporary, and do not reflect their ultimate, impoverished standing in the Hereafter.</div></div>
+       <div class="insight-box hikam"><span class="label">Divine Wisdom</span><div class="content">The great illusion of this worldly life (Dunya) is that its immediate pleasures feel so overwhelmingly permanent, while its spiritual consequences feel safely distant. Yet, true wisdom is viewing the present moment through the clarifying lens of eternity. What appears as "enjoyment" is often the very rope with which the ego binds itself, tightening until the soul is suffocated by its own attachments.</div></div>
     </div>
+   <div class="tags"><span class="tag">Illusion of Dunya</span><span class="tag">Spiritual Reckoning</span><span class="tag">Divine Justice</span></div>
+</div>
 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 24</span></div>
-        <div class="arabic">نُمَتِّعُهُمْ قَلِيلًۭا ثُمَّ نَضْطَرُّهُمْ إِلَىٰ عَذَابٍ غَلِيظٍۢ</div>
-        <div class="translation">"We grant them temporary enjoyment for a little while; then We will forcefully drive them into a massive, severe punishment."</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"Let them enjoy their expensive clothes and fancy lives for a few short years on earth. Because very soon, We will violently force them into a heavy, crushing, and inescapable punishment."</div></div>
-            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">"Numatti'uhum qaleelan" (We grant them enjoyment a little). The worldly success of the tyrant is a deliberate illusion. God does not immediately strike them down; He extends their rope, allowing them to accumulate wealth and power. This makes their eventual fall infinitely more devastating. "Nadtarruhum" implies they will be dragged against their will, stripped of all the power they enjoyed moments before.</div></div>
-        </div>
-        <div class="tags"><span class="tag">Warning</span><span class="tag">Divine Justice</span><span class="tag">Hell</span></div>
+<div class="verse-card">
+    <div class="verse-header"><span class="verse-number">Verse 25</span></div>
+    <div class="arabic">وَلَئِنْ سَأَلْتَهُمْ مَنْ خَلَقَ السَّمَاوَاتِ وَالْأَرْضَ لَيَقُولُنَّ اللَّهُ ۚ قُلِ الْحَمْدُ لِلَّهِ ۚ بَلْ أَكْثَرُهُمْ لَا يَعْلَمُونَ</div>
+    <div class="translation">"And if you ask them who created the heavens and the earth, they will definitely say, “Allah!” Say, “Praise be to Allah!” In fact, most of them do not know."</div>
+    <div class="insights">
+       <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Many people cognitively acknowledge that a Supreme Creator fashioned the universe, yet this surface-level belief fails to penetrate their daily lives or soften their character. Acknowledging the Creator is merely the first step; true knowledge means letting that profound reality transform how you live, love, and worship.</div></div>
+        <div class="insight-box context"><span class="label">Historical Context</span><div class="content">In Makkan society, the polytheists rarely denied that Allah was the Supreme Creator of the cosmos; their foundational error was in associating partners with Him in worship and seeking intercession through idols. The Quran frequently points to their own underlying belief to highlight the logical inconsistency of worshipping anything or anyone else.</div></div>
+       <div class="insight-box sufi"><span class="label">Purification of the Self</span><div class="content">There is a vast, echoing distance between knowing <em>about</em> God and truly <em>knowing</em> God. To declare "Allah created the heavens" with the tongue while the heart remains frantically attached to wealth, status, or the approval of others is a fragmented, contradictory existence. True spiritual knowledge harmonizes the tongue's confession with the heart's absolute reliance on the Creator alone.</div></div>
     </div>
+   <div class="tags"><span class="tag">Sincerity</span><span class="tag">Tawhid (Oneness)</span><span class="tag">True Knowledge</span></div>
+</div>
 
-    <div class="verse-card">
-        <div class="verse-header"><span class="verse-number">Verse 25</span></div>
-        <div class="arabic">وَلَئِن سَأَلْتَهُم مَّنْ خَلَقَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ لَيَقُولُنَّ ٱللَّهُ ۚ قُلِ ٱلْحَمْدُ لِلَّهِ ۚ بَلْ أَكْثَرُهُمْ لَا يَعْلَمُونَ</div>
-        <div class="translation">"And if you were to ask them, 'Who created the heavens and the earth?' they would surely say, 'Allah.' Say, 'All praise belongs to Allah.' But the vast majority of them do not know."</div>
-        <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"If you ask these idol worshippers, 'Who actually built the massive universe?' they will admit, 'God built it!' So tell them: 'Then all praise belongs to God alone!' Sadly, most of them are too ignorant to realize that if God built the universe, He is the only one who deserves to be worshipped."</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The cognitive dissonance of the polytheist. They admit the Creator is Allah, but they direct their gratitude (praise/worship) to the creation (idols/wealth). The command "Say: Alhamdulillah" is an act of realigning reality. If the Architect is One, the gratitude must be One. To thank the painting instead of the Painter is the definition of profound ignorance ("la ya'lamoon").</div></div>
-        </div>
-        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Arrogance</span><span class="tag">Attributes of Allah</span></div>
-    </div>
-
-    <div class="verse-card">
+<div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 26</span></div>
-        <div class="arabic">لِلَّهِ مَا فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۚ إِنَّ ٱللَّهَ هُوَ ٱلْغَنِىُّ ٱلْحَمِيدُ</div>
-        <div class="translation">"To Allah exclusively belongs whatever is in the heavens and the earth. Indeed, Allah is the Free of need, the Praiseworthy."</div>
+        <div class="arabic">لِلَّهِ مَا فِي السَّمَاوَاتِ وَالْأَرْضِ ۚ إِنَّ اللَّهَ هُوَ الْغَنِيُّ الْحَمِيدُ</div>
+        <div class="translation">"To Allah belongs whatever is in the heavens and the earth. Allah is truly the Self-Sufficient, Praiseworthy."</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"Every single atom in the skies and on the earth is entirely owned by God. He doesn't need your worship or your money. He is completely rich, independent, and perfectly worthy of all praise, whether you praise Him or not."</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"Al-Ghaniyy" (The Rich/Free of Need). God shatters the human delusion that our obedience is a transaction that benefits Him. An owner of the entire cosmos does not require the taxes of a microscopic human. He demands your worship not to fill a void in His Kingdom, but to fill the void in your soul.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Every resource we rely upon, the oxygen we breathe, and the ground we walk upon is ultimately on loan to us. The Divine does not require our worship or our offerings; rather, He is entirely free of need, yet overflowing in praiseworthy grace toward us.</div></div>
+           <div class="insight-box hikam"><span class="label">Divine Wisdom</span><div class="content">Notice the beautiful pairing of God’s names here: <em>Al-Ghani</em> (The Absolutely Independent/Self-Sufficient) and <em>Al-Hamid</em> (The Praiseworthy). In the human realm, those who become entirely self-sufficient often become arrogant, detached, or cruel. Yet, God’s absolute independence is perfectly united with His merciful, loving, and praiseworthy nature. He needs absolutely nothing from you, yet He still chooses to care for you.</div></div>
+           <div class="insight-box sufi"><span class="label">Purification of the Self</span><div class="content">The human heart experiences deep anxiety when it attempts to possess and control what is inherently fleeting. True spiritual relief arrives the moment you relinquish the illusion of ownership. When you internalize that your wealth, your health, and even your loved ones belong solely to Him, you transition from an anxious owner to a peaceful steward.</div></div>
         </div>
-        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">The Unseen</span><span class="tag">Humility</span></div>
+       <div class="tags"><span class="tag">Divine Independence</span><span class="tag">Stewardship</span><span class="tag">Inner Peace</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 27</span></div>
-        <div class="arabic">وَلَوْ أَنَّمَا فِى ٱلْأَرْضِ مِن شَجَرَةٍ أَقْلَـٰمٌۭ وَٱلْبَحْرُ يَمُدُّهُۥ مِنۢ بَعْدِهِۦ سَبْعَةُ أَبْحُرٍۢ مَّا نَفِدَتْ كَلِمَـٰتُ ٱللَّهِ ۗ إِنَّ ٱللَّهَ عَزِيزٌ حَكِيمٌۭ</div>
-        <div class="translation">"And if whatever trees upon the earth were turned into pens, and the sea [was ink], replenished thereafter by seven more seas, the magnificent words of Allah would still not be exhausted. Indeed, Allah is Exalted in Might and Wise."</div>
+        <div class="arabic">وَلَوْ أَنَّمَا فِي الْأَرْضِ مِنْ شَجَرَةٍ أَقْلَامٌ وَالْبَحْرُ يَمُدُّهُ مِنْ بَعْدِهِ سَبْعَةُ أَبْحُرٍ مَا نَفِدَتْ كَلِمَاتُ اللَّهِ ۗ إِنَّ اللَّهَ عَزِيزٌ حَكِيمٌ</div>
+        <div class="translation">"If all the trees on earth were pens and the ocean ˹were ink˺, refilled by seven other oceans, the Words of Allah would not be exhausted. Surely Allah is Almighty, All-Wise."</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"Imagine if every single tree on planet Earth was carved into a wooden pen, and all the oceans of the world were turned into ink—and then you added seven more oceans of ink to it! Even if you used all those pens and all that ink to write down the knowledge and majesty of God, the oceans would dry up before you finished! Truly, God is infinitely powerful and perfectly wise."</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The absolute, breathtaking infinity of the Divine Mind. Human knowledge is finite; it can be contained in libraries and hard drives. God's knowledge ("Kalimat Allah") is unquantifiable. If the entire biomass of the earth and the total volume of the hydrosphere were exhausted simply trying to record His attributes, they would fail. This verse forces the human ego into a state of total, paralyzed awe.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Through a breathtaking visual metaphor, this verse shatters the boundaries of human imagination. It reminds us that our intellect is finite, while the Creator’s knowledge, creative commands, and eternal wisdom are a vast, inexhaustible ocean.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context [Ibn Kathir]</span><div class="content">Classical exegetes, including Ibn Kathir, note that this revelation served to humble those who grew arrogant about their earthly knowledge. When some among the Jewish scholars in Medina boasted of the vast knowledge they had been given in the Torah, this verse descended to realign their perspective. It established that even if the entire planet were converted into writing instruments, the sheer magnitude of God's wisdom and decrees could never be fully captured.</div></div>
+           <div class="insight-box sufi"><span class="label">Purification of the Self</span><div class="content">When the complexities of life overwhelm you, and the "why" behind your suffering seems unanswerable by human logic, rest in the vastness of this verse. You are not required to figure everything out. You are simply invited to surrender your small, fragile understanding to the One whose wisdom is deeper than seven oceans. In His infinite words, your specific pain and purpose have already been profoundly accounted for.</div></div>
         </div>
-        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Attributes of Allah</span><span class="tag">The Unseen</span></div>
+       <div class="tags"><span class="tag">Infinite Knowledge</span><span class="tag">Humility</span><span class="tag">Divine Grandeur</span></div>
     </div>
-
+    
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 28</span></div>
-        <div class="arabic">مَّا خَلْقُكُمْ وَلَا بَعْثُكُمْ إِلَّا كَنَفْسٍۢ وَٰحِدَةٍ ۗ إِنَّ ٱللَّهَ سَمِيعٌۢ بَصِيرٌ</div>
-        <div class="translation">"Your creation and your resurrection will not be but exactly as that of a single soul. Indeed, Allah is Hearing and Seeing."</div>
+        <div class="arabic">مَّا خَلْقُكُمْ وَلَا بَعْثُكُمْ إِلَّا كَنَفْسٍ وَاحِدَةٍ ۗ إِنَّ اللَّهَ سَمِيعٌ بَصِيرٌ</div>
+        <div class="translation">"The creation and resurrection of you ˹all˺ is as simple ˹for Him˺ as that of a single soul. Surely Allah is All-Hearing, All-Seeing."</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"Do not think resurrecting billions of dead humans is difficult for God. To Him, creating and resurrecting the entire human race from the beginning of time is as incredibly easy as resurrecting just one single person! He perfectly hears and sees everything simultaneously."</div></div>
-            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The Meccans argued: "How can God track the scattered, microscopic dust of billions of dead bodies across thousands of years?" God destroys the logic of human bandwidth. A human CPU crashes when processing too much data. God's Power is infinite; therefore, generating one atom requires the exact same lack of effort as generating a billion galaxies. Quantity is a human problem, not a Divine one.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">A comforting and awe-inspiring reminder of God's limitless power. To the Divine, the magnitude of humanity—billions of souls across time—requires no more effort to create, sustain, or resurrect than a single, solitary individual.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context [Ibn Kathir]</span><div class="content">Classical exegetes, including Ibn Kathir, note that this verse addresses the skepticism of the Makkan elite, who argued that while God might have created the first humans, resurrecting countless generations simultaneously from dust was a logical impossibility. Revelation arrived to shatter their mortal framework of calculating effort.</div></div>
+           <div class="insight-box hikam"><span class="label">Divine Wisdom</span><div class="content">Human beings naturally project our own limitations of energy, fatigue, and scale onto God. We calculate effort based on size and numbers, but for the Infinite, scale simply does not exist. The divine command "Be" applies to the entirety of creation as effortlessly as it applies to a single grain of sand.</div></div>
         </div>
-        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">The Unseen</span><span class="tag">Accountability</span></div>
+       <div class="tags"><span class="tag">Divine Power</span><span class="tag">Resurrection</span><span class="tag">Infinity</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 29</span></div>
-        <div class="arabic">أَلَمْ تَرَ أَنَّ ٱللَّهَ يُولِجُ ٱلَّيْلَ فِى ٱلنَّهَارِ وَيُولِجُ ٱلنَّهَارَ فِى ٱلَّيْلِ وَسَخَّرَ ٱلشَّمْسَ وَٱلْقَمَرَ كُلٌّۭ يَجْرِىٓ إِلَىٰٓ أَجَلٍۢ مُّسَمًّۭى وَأَنَّ ٱللَّهَ بِمَا تَعْمَلُونَ خَبِيرٌۭ</div>
-        <div class="translation">"Do you not see that Allah smoothly transitions the night into the day and transitions the day into the night, and He has subjected the sun and the moon, each running its course for a specifically scheduled term, and that Allah is perfectly Acquainted with whatever you do?"</div>
+        <div class="arabic">أَلَمْ تَرَ أَنَّ اللَّهَ يُولِجُ اللَّيْلَ فِي النَّهَارِ وَيُولِجُ النَّهَارَ فِي اللَّيْلِ وَسَخَّرَ الشَّمْسَ وَالْقَمَرَ كُلٌّ يَجْرِي إِلَىٰ أَجَلٍ مُّسَمًّى وَأَنَّ اللَّهَ بِمَا تَعْمَلُونَ خَبِيرٌ</div>
+        <div class="translation">"Do you not see that Allah causes the night to merge into the day and the day into the night, and has subjected the sun and the moon, each orbiting for an appointed term, and that Allah is All-Aware of what you do?"</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"Look at the sky! Don't you see how perfectly God merges the dark night into the bright day, and the day into the night? He controls the massive sun and moon, forcing them to orbit exactly on schedule until the Day of Judgment. If He flawlessly manages the solar system, rest assured He is perfectly aware of every single thing you do."</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">"Yooliju" (smoothly entering/merging). God points to the seamless, flawless transition of the Earth's rotation. There is no violent crash when the day takes over the night; it is a perfectly engineered gradient of light. The same God who meticulously manages the massive astrophysics of the orbit ("running for a scheduled term") is also "Khabeer" (intimately acquainted) with the microscopic intentions of your daily actions.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Look up at the seamless transition of time and the precise orbits of celestial bodies. The exact same Creator who meticulously governs the vast, terrifying majesty of the cosmos with perfect control is equally, intimately aware of the smallest actions and quietest struggles of your daily life.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self</span><div class="content">The merging of day and night reflects the spiritual cycles of the human heart. There are seasons of expansion and light (day), and seasons of contraction, heaviness, and darkness (night). Both are deliberately subjected by God for your spiritual maturation, teaching you total reliance in the dark and deep gratitude in the light. No inner 'night' lasts forever; it is always merged into a dawn at an appointed term.</div></div>
         </div>
-        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Attributes of Allah</span><span class="tag">Accountability</span></div>
+       <div class="tags"><span class="tag">Cosmic Signs</span><span class="tag">Divine Awareness</span><span class="tag">Seasons of the Heart</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 30</span></div>
-        <div class="arabic">ذَٰلِكَ بِأَنَّ ٱللَّهَ هُوَ ٱلْحَقُّ وَأَنَّ مَا يَدْعُونَ مِن دُونِهِ ٱلْبَـٰطِلُ وَأَنَّ ٱللَّهَ هُوَ ٱلْعَلِىُّ ٱلْكَبِيرُ</div>
-        <div class="translation">"That is entirely because Allah is the absolute Truth, and that what they call upon other than Him is total falsehood, and because Allah is the Most High, the Grand."</div>
+        <div class="arabic">ذَٰلِكَ بِأَنَّ اللَّهَ هُوَ الْحَقُّ وَأَنَّ مَا يَدْعُونَ مِن دُونِهِ الْبَاطِلُ وَأَنَّ اللَّهَ هُوَ الْعَلِيُّ الْكَبِيرُ</div>
+        <div class="translation">"That is because Allah ˹alone˺ is the Truth and what they invoke besides Him is falsehood, and ˹because˺ Allah ˹alone˺ is the Most High, All-Great."</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"All of this massive power proves one thing: Allah is the only Absolute Truth. Any statue, person, or wealth they pray to instead of Him is completely fake and useless. Allah alone is the Highest, the Greatest."</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">"Al-Haqq" vs. "Al-Batil". The universe operates perfectly because it is sustained by the "Haqq" (The True Reality). Conversely, "Batil" (falsehood) is defined as anything that possesses no intrinsic reality and must inevitably collapse. To attach your heart to the Dunya is to attach yourself to a vapor that will vanish. To attach yourself to Allah is to attach yourself to the "Al-Kabeer" (The Grand) reality that never fades.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">The ultimate conclusion drawn from observing the perfection of the universe: it all points to the singular Reality of the Creator. Anything else we worship, chase, or rely upon for our ultimate salvation and security is fundamentally an illusion.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self</span><div class="content">The Divine name <em>Al-Haqq</em> (The Truth, The Real) indicates that God is the only permanent, enduring reality. Our deepest anxieties stem from clinging to the <em>Batil</em> (falsehood or illusion)—the passing wealth, status, and attachments of this world that are destined to fade. Enduring peace is found only by anchoring your fragile heart to the Real.</div></div>
         </div>
-        <div class="tags"><span class="tag">Attributes of Allah</span><span class="tag">Knowledge & Signs</span><span class="tag">The Unseen</span></div>
+       <div class="tags"><span class="tag">Al-Haqq (The Truth)</span><span class="tag">Illusion of Dunya</span><span class="tag">Tawhid</span></div>
     </div>
-
+    
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 31</span></div>
         <div class="arabic">أَلَمْ تَرَ أَنَّ ٱلْفُلْكَ تَجْرِى فِى ٱلْبَحْرِ بِنِعْمَتِ ٱللَّهِ لِيُرِيَكُم مِّنْ ءَايَـٰتِهِۦٓ ۚ إِنَّ فِى ذَٰلِكَ لَـَٔايَـٰتٍۢ لِّكُلِّ صَبَّارٍۢ شَكُورٍۢ</div>
-        <div class="translation">"Do you not clearly see that ships sail smoothly through the sea by the favor of Allah that He may show you of His brilliant signs? Indeed in that are clear signs for everyone who is intensely patient and deeply grateful."</div>
+        <div class="translation">"Do you not see that the ships sail ˹smoothly˺ through the sea by the grace of Allah so that He may show you some of His signs? Surely in this are signs for whoever is steadfast, grateful."</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"Have you not noticed how massive, heavy ships float and sail through the ocean? That is not just physics; that is a direct blessing from God to show you His power! Truly, this is a massive proof for anyone who is incredibly patient during hard times and deeply thankful during good times."</div></div>
-            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The miracle of buoyancy. A massive wooden ship carrying tons of cargo should logically sink to the bottom of the ocean. The fact that water density supports the ship ("bini'matillah" - by the favor of Allah) is a daily, working miracle that drives the global economy. But recognizing this miracle requires two specific lenses: "Sabbar" (immense patience to observe) and "Shakoor" (immense gratitude to acknowledge).</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">A gentle invitation to observe the world around us with awakened eyes. The massive ships floating on the water aren't merely feats of human engineering; they are daily, moving manifestations of Divine grace, designed to inspire awe within a patient and observant heart.</div></div>
+           <div class="insight-box hikam"><span class="label">Divine Wisdom</span><div class="content">The spiritual journey requires two wings to fly, beautifully captured here as immense patience (ṣabbār) and immense gratitude (shakūr). To safely navigate the unpredictable ocean of this world, the heart must remain anchored in both, recognizing that both the calm waters and the pushing winds are signs from the Beloved.</div></div>
         </div>
-        <div class="tags"><span class="tag">Knowledge & Signs</span><span class="tag">Hope</span><span class="tag">Spiritual Practice</span></div>
+       <div class="tags"><span class="tag">Divine Grace</span><span class="tag">Patience</span><span class="tag">Gratitude</span><span class="tag">Reflection</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 32</span></div>
         <div class="arabic">وَإِذَا غَشِيَهُم مَّوْجٌۭ كَٱلظُّلَلِ دَعَوُا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ فَلَمَّا نَجَّىٰهُمْ إِلَى ٱلْبَرِّ فَمِنْهُم مُّقْتَصِدٌۭ ۚ وَمَا يَجْحَدُ بِـَٔايَـٰتِنَآ إِلَّا كُلُّ خَتَّارٍۢ كَفُورٍۢ</div>
-        <div class="translation">"And when massive waves come over them like dark canopies, they supplicate Allah, entirely sincere to Him in religion. But when He delivers them safely to the land, only some of them remain moderate [in faith]. And none rejects Our signs except everyone who is a treacherous ingrate."</div>
+        <div class="translation">"And as soon as they are overwhelmed by waves like mountains, they cry out to Allah ˹alone˺ in sincere devotion. But when He delivers them ˹safely˺ to shore, only some become relatively grateful. And none rejects Our signs except whoever is deceitful, ungrateful."</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"But look at their hypocrisy: when a terrifying hurricane hits the ship and massive, dark waves crash over them, they panic, forget their fake idols, and scream to Allah with pure, desperate sincerity! But the second God saves them and brings them to the beach, only a few stay faithful, while the rest go right back to their sins. Only truly treacherous, ungrateful people could reject God after He just saved their lives."</div></div>
-            <div class="insight-box hikam"><span class="label">Divine Wisdom (Ibn Ata’illah)</span><div class="content">The unmasking of the ego during a crisis. "Mawjun kadh-dhulal" (waves like dark mountains/canopies) block out all worldly hope. The absolute terror strips away the illusion of the idols, forcing the soul into "Ikhlas" (pure monotheism). The tragedy is the amnesia of the shore. "Khattar" means a traitor who breaks a solemn covenant. The moment they step onto dry land, they betray the very God they wept to 10 minutes prior.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Human nature is laid bare during a crisis. When the terrifying storms of life hit and our illusions of control shatter, our souls instinctively cry out to God with absolute sincerity. Yet, the tragedy is how quickly we forget that desperation and promise once we are back on comfortable, safe shores.</div></div>
+           <div class="insight-box sufi"><span class="label">Purification of the Self</span><div class="content">Comfort often breeds spiritual amnesia. When the 'waves' of crisis crash over us, the ego is temporarily drowned, and the heart achieves a fleeting, beautiful state of pure sincerity (Ikhlas). The true spiritual master is one who can maintain the humble desperation of the storm even while resting safely on the shore, never mistaking the illusion of worldly safety for true independence from God.</div></div>
         </div>
-        <div class="tags"><span class="tag">Human Nature</span><span class="tag">Arrogance</span><span class="tag">Test</span></div>
+       <div class="tags"><span class="tag">Sincerity</span><span class="tag">Human Nature</span><span class="tag">Illusion of Control</span><span class="tag">Spiritual Amnesia</span></div>
     </div>
-
+    
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 33</span></div>
-        <div class="arabic">يَـٰٓأَيُّهَا ٱلنَّاسُ ٱتَّقُوا۟ رَبَّكُمْ وَٱخْشَوْا۟ يَوْمًۭا لَّا يَجْزِى وَالِدٌ عَن وَلَدِهِۦ وَلَا مَوْلُودٌ هُوَ جَازٍ عَن وَالِدِهِۦ شَيْـًٔا ۚ إِنَّ وَعْدَ ٱللَّهِ حَقٌّۭ ۖ فَلَا تَغُرَّنَّكُمُ ٱلْحَيَوٰةُ ٱلدُّنْيَا وَلَا يَغُرَّنَّكُم بِٱللَّهِ ٱلْغَرُورُ</div>
-        <div class="translation">"O mankind, fear your Lord and fear a Day when absolutely no father will avail his son, nor will a son avail his father at all. Indeed, the promise of Allah is truth, so let not the worldly life delude you and be not deceived about Allah by the Deceiver [Satan]."</div>
+        <div class="arabic">يَا أَيُّهَا النَّاسُ اتَّقُوا رَبَّكُمْ وَاخْشَوْا يَوْمًا لَّا يَجْزِي وَالِدٌ عَن وَلَدِهِ وَلَا مَوْلُودٌ هُوَ جَازٍ عَن وَالِدِهِ شَيْئًا ۚ إِنَّ وَعْدَ اللَّهِ حَقٌّ ۖ فَلَا تَغُرَّنَّكُمُ الْحَيَاةُ الدُّنْيَا وَلَا يَغُرَّنَّكُم بِاللَّهِ الْغَرُورُ</div>
+        <div class="translation">"O humanity! Be mindful of your Lord, and beware of a Day when no parent will be of any benefit to their child, nor will a child be of any benefit to their parent. Surely Allah’s promise is true. So do not let the life of this world deceive you, nor let the Chief Deceiver deceive you about Allah."</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"O humanity! Protect yourselves from the anger of your Lord, and deeply fear that terrifying Day of Judgment where no father can save his son, and no son can take the punishment for his father. Everyone is completely alone! God's promise is coming. Do not let the glitter of this fake world trick you, and never let Satan fool you into thinking God will not punish you."</div></div>
-            <div class="insight-box sufi"><span class="label">Purification of the Self (Al-Ghazali)</span><div class="content">The total collapse of biological nepotism. In the Dunya, a powerful father can bribe a judge to save his criminal son. In the Akhirah, the terror is so absolute that the strongest biological bond in existence (parent and child) instantly evaporates. "La yajzee walidun" (no father will avail). You will stand entirely alone. Therefore, letting the "Gharoor" (the Deceiver/Satan) convince you to sacrifice your Akhirah for the sake of your family's Dunya is the ultimate scam.</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">A sobering and universal call to focus on our ultimate accountability. Despite the fierce, protective love we hold for our families, the Day of Judgment is an entirely individual reckoning where human attachments cannot save us; only our spiritual sincerity will matter in the end.</div></div>
+            <div class="insight-box sufi"><span class="label">Purification of the Self</span><div class="content">The deception of this world is subtle. It convinces us that our roles—as parents, children, or professionals—are our absolute identity. But beneath these temporary titles, you are simply a soul returning to its Creator. Shed the illusion of permanence before it is forcefully stripped away from you.</div></div>
+           <div class="insight-box hikam"><span class="label">Divine Wisdom</span><div class="content">The "Chief Deceiver" often traps us not by making us despair, but by fostering a false sense of security. He whispers that we can delay repentance because God is endlessly forgiving, turning the very mercy of the Divine into an excuse for our spiritual laziness. True mindfulness means balancing the beautiful hope of His forgiveness with a profound awe of His justice.</div></div>
         </div>
-        <div class="tags"><span class="tag">Accountability</span><span class="tag">Warning</span><span class="tag">The Unseen</span><span class="tag">Social Ethics</span></div>
+       <div class="tags"><span class="tag">Accountability</span><span class="tag">Illusion of Dunya</span><span class="tag">Family Ties</span><span class="tag">Taqwa</span></div>
     </div>
 
     <div class="verse-card">
         <div class="verse-header"><span class="verse-number">Verse 34</span></div>
-        <div class="arabic">إِنَّ ٱللَّهَ عِندَهُۥ عِلْمُ ٱلسَّاعَةِ وَيُنَزِّلُ ٱلْغَيْثَ وَيَعْلَمُ مَا فِى ٱلْأَرْحَامِ ۖ وَمَا تَدْرِى نَفْسٌۭ مَّاذَا تَكْسِبُ غَدًۭا ۖ وَمَا تَدْرِى نَفْسٌۢ بِأَىِّ أَرْضٍۢ تَمُوتُ ۚ إِنَّ ٱللَّهَ عَلِيمٌ خَبِيرٌۢ</div>
-        <div class="translation">"Indeed, Allah [alone] has the exact knowledge of the Hour and sends down the rain and knows precisely what is in the wombs. And no soul perceives what it will earn tomorrow, and no soul perceives in what land it will die. Indeed, Allah is Knowing and deeply Acquainted."</div>
+        <div class="arabic">إِنَّ اللَّهَ عِندَهُ عِلْمُ السَّاعَةِ وَيُنَزِّلُ الْغَيْثَ وَيَعْلَمُ مَا فِي الْأَرْحَامِ ۖ وَمَا تَدْرِي نَفْسٌ مَّاذَا تَكْسِبُ غَدًا ۖ وَمَا تَدْرِي نَفْسٌ بِأَيِّ أَرْضٍ تَمُوتُ ۚ إِنَّ اللَّهَ عَلِيمٌ خَبِيرٌ</div>
+        <div class="translation">"Indeed, Allah ˹alone˺ has the knowledge of the Hour. He sends down the rain, and knows what is in the wombs. No soul knows what it will earn for tomorrow, and no soul knows in what land it will die. Surely Allah is All-Knowing, All-Aware."</div>
         <div class="insights">
-            <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">"There are five ultimate secrets that belong only to God: 1) He alone knows exactly when the world will end. 2) He alone decides exactly when and where the rain will fall. 3) He alone knows the true destiny and nature of the baby growing inside the womb. 4) No human being has any idea what they will actually earn or achieve tomorrow. 5) And absolutely no one knows what city or country they are going to die in. Truly, God is the only One who possesses total, perfect knowledge of everything."</div></div>
-            <div class="insight-box context"><span class="label">Historical Context (Al-Qurtubi)</span><div class="content">The Five Keys of the Unseen (Mafatih al-Ghayb). This majestic conclusion forever shatters the arrogance of the human intellect. Despite all our technology, we cannot accurately predict a stock market crash tomorrow ("what it will earn"), nor can we predict the GPS coordinates of our own death. Because the future is a locked vault to which only Allah holds the keys, the only logical way to live is in a state of continuous, humble surrender (Islam) to the "Khabeer" (The All-Acquainted).</div></div>
+           <div class="insight-box plain"><span class="label">Plain Understanding</span><div class="content">Five domains of absolute knowledge belong entirely to God, establishing a beautiful boundary between human effort and divine decree. We are gently reminded to surrender our anxiety about the future, trusting that the One who orchestrates the life-giving rain is already taking care of our unseen tomorrows.</div></div>
+            <div class="insight-box context"><span class="label">Historical Context [Ibn Kathir]</span><div class="content">Classical exegetes record that a man named Harith bin 'Amr came to the Prophet ﷺ asking specific, anxious questions: When will the Hour occur? When will it rain in our barren land? What will my pregnant wife deliver? What will I earn tomorrow? And where will I die? This verse was revealed as a definitive response, shifting his focus away from predicting the unknown and toward preparing his heart for the One who knows all.</div></div>
+           <div class="insight-box hikam"><span class="label">Divine Wisdom</span><div class="content">Notice the profound progression of these five mysteries: from the cosmic (the Hour), to the environmental (rain), to the deeply personal (the womb), to the practical (tomorrow's earnings), and finally to the ultimate end (where we take our last breath). We are surrounded on all sides by the Unseen, enveloped in a state of beautiful dependence on the All-Knowing. To accept this is to find true peace.</div></div>
         </div>
-        <div class="tags"><span class="tag">The Unseen</span><span class="tag">Attributes of Allah</span><span class="tag">Knowledge & Signs</span><span class="tag">Accountability</span></div>
+       <div class="tags"><span class="tag">The Unseen</span><span class="tag">Surrender</span><span class="tag">Divine Knowledge</span><span class="tag">Trust in God</span></div>
     </div>
-
-</div>
-
+    
+</div> 
 </body>
 </html>
